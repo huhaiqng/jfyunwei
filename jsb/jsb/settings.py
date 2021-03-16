@@ -11,9 +11,14 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os.path
+import environ
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+env = environ.Env()
+env_file = env.str('ENV_FILE')
+env.read_env(env_file)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -80,11 +85,16 @@ WSGI_APPLICATION = 'jsb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yunwei',
-        'USER': 'root',
-        'PASSWORD': 'MySQL5.7',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'NAME': env('MYSQL_DBNAME'),
+        'USER': env('MYSQL_USER'),
+        'PASSWORD': env('MYSQL_PASSWORD'),
+        'HOST': env('MYSQL_HOST'),
+        'PORT': env('MYSQL_PORT'),
+        # 'NAME': 'yunwei',
+        # 'USER': 'root',
+        # 'PASSWORD': 'MySQL5.7',
+        # 'HOST': '127.0.0.1',
+        # 'PORT': '3306',
         'OPTIONS': {
             "init_command": "SET foreign_key_checks = 0;",
         }

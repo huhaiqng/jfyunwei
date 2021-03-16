@@ -431,3 +431,50 @@ INFO 2021-03-15 15:02:33,898 autoreload 10768 2840 Watching for file changes wit
 INFO 2021-03-15 15:02:48,507 autoreload 1664 10760 Watching for file changes with StatReloader
 INFO 2021-03-15 16:17:22,860 autoreload 532 408 Watching for file changes with StatReloader
 INFO 2021-03-15 16:32:11,726 autoreload 10840 10496 Watching for file changes with StatReloader
+INFO 2021-03-16 15:38:00,377 autoreload 7572 6936 Watching for file changes with StatReloader
+WARNING 2021-03-16 15:38:09,644 log 7572 1380 Not Found: /
+WARNING 2021-03-16 15:38:09,645 basehttp 7572 1380 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-16 15:38:09,677 log 7572 1380 Not Found: /
+WARNING 2021-03-16 15:38:09,677 basehttp 7572 1380 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-16 15:38:09,814 log 7572 1380 Not Found: /favicon.ico
+WARNING 2021-03-16 15:38:09,815 basehttp 7572 1380 "GET /favicon.ico HTTP/1.1" 404 2390
+INFO 2021-03-16 15:38:13,729 basehttp 7572 1380 "GET /admin HTTP/1.1" 301 0
+INFO 2021-03-16 15:38:13,799 basehttp 7572 1380 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-03-16 15:38:14,028 basehttp 7572 1380 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-03-16 15:38:14,104 basehttp 7572 7052 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2021-03-16 15:38:14,105 basehttp 7572 10912 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2021-03-16 15:38:14,106 basehttp 7572 1380 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2021-03-16 15:38:14,112 basehttp 7572 1380 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-03-16 15:38:14,139 basehttp 7572 10912 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-03-16 15:38:14,140 basehttp 7572 1380 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-03-16 15:38:15,908 basehttp 7572 1380 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-03-16 15:38:15,942 basehttp 7572 1380 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-16 15:38:15,967 basehttp 7572 1380 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2021-03-16 15:38:15,982 basehttp 7572 10912 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-03-16 15:38:15,983 basehttp 7572 1380 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-03-16 15:38:15,985 basehttp 7572 7052 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-03-16 15:38:15,990 basehttp 7572 7052 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-03-16 15:38:21,852 basehttp 7572 7052 "GET /admin/project/host/ HTTP/1.1" 200 4365
+INFO 2021-03-16 15:38:21,885 basehttp 7572 7052 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2021-03-16 15:38:21,893 basehttp 7572 1380 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-16 15:38:21,898 basehttp 7572 7052 "GET /djstatic/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 2021-03-16 15:38:21,900 basehttp 7572 10912 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+INFO 2021-03-16 15:38:21,908 basehttp 7572 10748 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2021-03-16 15:38:21,917 basehttp 7572 7052 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2021-03-16 15:38:21,917 basehttp 7572 3356 "GET /djstatic/admin/js/core.js HTTP/1.1" 200 7099
+INFO 2021-03-16 15:38:21,918 basehttp 7572 9088 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2021-03-16 15:38:21,921 basehttp 7572 1380 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 2021-03-16 15:38:21,922 basehttp 7572 10912 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2021-03-16 15:38:21,956 basehttp 7572 10912 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-03-16 15:38:47,126 autoreload 11596 5708 Watching for file changes with StatReloader
+INFO 2021-03-16 15:38:51,073 basehttp 11596 8804 "GET /admin/project/host/ HTTP/1.1" 200 5495
+INFO 2021-03-16 15:38:51,112 basehttp 11596 8804 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-16 15:38:54,210 basehttp 11596 8804 "GET /admin/ HTTP/1.1" 200 15104
+INFO 2021-03-16 15:38:55,719 basehttp 11596 8804 "GET /admin/address/project/ HTTP/1.1" 200 8500
+INFO 2021-03-16 15:38:55,755 basehttp 11596 8804 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-16 15:39:45,918 autoreload 10284 10888 Watching for file changes with StatReloader
+INFO 2021-03-16 15:39:53,940 basehttp 10284 12016 "GET /admin/address/ HTTP/1.1" 200 3783
+INFO 2021-03-16 15:39:55,801 basehttp 10284 12016 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-16 15:39:58,546 basehttp 10284 12016 "GET /admin/project/host/ HTTP/1.1" 200 4365
+INFO 2021-03-16 15:39:58,579 basehttp 10284 12016 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-16 15:45:06,808 autoreload 11928 11832 Watching for file changes with StatReloader

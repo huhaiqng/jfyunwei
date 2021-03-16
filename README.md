@@ -58,9 +58,23 @@ server {
 pip install gunicorn
 ```
 
-启动
+重启脚本 restart.sh
 
-```
-nohup gunicorn jsb.wsgi --bind=0.0.0.0:8000 --log-file logs/INFO.log >/dev/null 2>&1 &
+> 启动前设置环境变量
+>
+> 开发环境: ENV_FILE=jsb/.dev
+>
+> 生产环境: ENV_FILE=jsb/.prod
+
+```shell
+#!/bin/bash
+cd /jsb
+kill -9 `ps -ef | grep gunicorn | grep -v grep | awk '{print $2}'`
+ENV_FILE=jsb/.prod
+nohup gunicorn jsb.wsgi \
+--bind=0.0.0.0:8000 \
+--log-file logs/INFO.log \
+--workers 8 \
+>/dev/null 2>&1 &
 ```
 
