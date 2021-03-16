@@ -478,3 +478,5 @@ INFO 2021-03-16 15:39:55,801 basehttp 10284 12016 "GET /admin/ HTTP/1.1" 200 151
 INFO 2021-03-16 15:39:58,546 basehttp 10284 12016 "GET /admin/project/host/ HTTP/1.1" 200 4365
 INFO 2021-03-16 15:39:58,579 basehttp 10284 12016 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
 INFO 2021-03-16 15:45:06,808 autoreload 11928 11832 Watching for file changes with StatReloader
+INFO 2021-03-16 15:45:58,920 basehttp 11928 11180 "GET /admin/project/ HTTP/1.1" 200 2435
+INFO 2021-03-16 15:45:59,536 basehttp 11928 11180 "GET /admin/ HTTP/1.1" 200 15171
