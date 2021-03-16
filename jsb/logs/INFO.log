@@ -1,0 +1,433 @@
+Watching for file changes with StatReloader
+Added job 'my_job'.
+Added weekly job: 'delete_old_job_executions'.
+Starting scheduler...
+E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-03-12 10:23:08,301 autoreload 9740 6852 Watching for file changes with StatReloader
+Stopping scheduler...
+Scheduler shut down successfully!
+INFO 2021-03-12 10:23:38,324 runapscheduler 6848 9960 Added job 'my_job'.
+INFO 2021-03-12 10:23:38,325 runapscheduler 6848 9960 Added weekly job: 'delete_old_job_executions'.
+INFO 2021-03-12 10:23:38,325 runapscheduler 6848 9960 Starting scheduler...
+INFO 2021-03-12 10:24:50,026 runapscheduler 6848 9960 Stopping scheduler...
+INFO 2021-03-12 10:24:50,026 runapscheduler 6848 9960 Scheduler shut down successfully!
+INFO 2021-03-12 10:29:03,228 runapscheduler 4528 8508 Added job 'my_job'.
+INFO 2021-03-12 10:29:03,229 runapscheduler 4528 8508 Added weekly job: 'delete_old_job_executions'.
+INFO 2021-03-12 10:29:03,229 runapscheduler 4528 8508 Starting scheduler...
+INFO 2021-03-12 10:32:02,490 autoreload 9496 9676 Watching for file changes with StatReloader
+INFO 2021-03-12 10:39:22,566 autoreload 9564 8216 Watching for file changes with StatReloader
+WARNING 2021-03-12 10:39:26,186 log 9564 8188 Not Found: /
+WARNING 2021-03-12 10:39:26,187 basehttp 9564 8188 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-12 10:39:39,333 basehttp 9564 8188 "GET /admin/ HTTP/1.1" 200 15170
+INFO 2021-03-12 10:39:39,366 basehttp 9564 8188 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,366 basehttp 9564 9256 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,367 basehttp 9564 2252 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,373 basehttp 9564 9256 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,389 basehttp 9564 9256 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,389 basehttp 9564 8188 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,396 basehttp 9564 8188 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,457 basehttp 9564 8188 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,464 basehttp 9564 9256 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-12 10:39:39,466 basehttp 9564 2252 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-12 10:41:38,914 basehttp 9564 2252 "GET /admin/logout/ HTTP/1.1" 200 1200
+INFO 2021-03-12 10:41:40,164 basehttp 9564 2252 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-03-12 10:41:40,184 basehttp 9564 2252 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-03-12 10:41:44,528 basehttp 9564 2252 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1959
+INFO 2021-03-12 10:42:01,740 basehttp 9564 2252 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1958
+INFO 2021-03-12 10:42:13,230 basehttp 9564 2252 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-03-12 10:42:13,254 basehttp 9564 2252 "GET /admin/ HTTP/1.1" 200 15170
+INFO 2021-03-12 10:44:53,034 basehttp 9564 2252 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6056
+INFO 2021-03-12 10:44:53,064 basehttp 9564 2252 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,077 basehttp 9564 2252 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,087 basehttp 9564 7700 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,087 basehttp 9564 2252 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,088 basehttp 9564 9776 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 10:44:53,093 basehttp 9564 2252 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,094 basehttp 9564 9808 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,094 basehttp 9564 7700 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,094 basehttp 9564 10224 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,094 basehttp 9564 10048 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,102 basehttp 9564 10048 "GET /djstatic/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2021-03-12 10:44:53,134 basehttp 9564 10048 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-03-12 10:46:38,408 autoreload 9564 8216 E:\jfyunwei\jsb\jsb\urls.py changed, reloading.
+INFO 2021-03-12 10:46:39,609 autoreload 7500 2928 Watching for file changes with StatReloader
+INFO 2021-03-12 10:46:52,990 autoreload 9240 10196 Watching for file changes with StatReloader
+INFO 2021-03-12 10:46:53,072 runapscheduler 9240 10196 Added job 'my_job'.
+INFO 2021-03-12 10:46:53,073 runapscheduler 9240 10196 Added weekly job: 'delete_old_job_executions'.
+INFO 2021-03-12 10:46:53,073 runapscheduler 9240 10196 Starting scheduler...
+INFO 2021-03-12 10:47:00,006 runapscheduler 9240 3972 ok
+INFO 2021-03-12 10:47:10,025 runapscheduler 9240 3972 ok
+INFO 2021-03-12 10:47:20,042 runapscheduler 9240 9820 ok
+INFO 2021-03-12 10:47:30,025 runapscheduler 9240 3972 ok
+INFO 2021-03-12 10:47:40,043 runapscheduler 9240 9820 ok
+INFO 2021-03-12 10:47:50,039 runapscheduler 9240 10076 ok
+INFO 2021-03-12 10:48:00,020 runapscheduler 9240 8144 ok
+INFO 2021-03-12 10:48:10,031 runapscheduler 9240 9820 ok
+INFO 2021-03-12 10:48:20,021 runapscheduler 9240 10204 ok
+INFO 2021-03-12 10:55:11,662 autoreload 9496 10224 Watching for file changes with StatReloader
+INFO 2021-03-12 10:55:11,746 runapscheduler 9496 10224 Starting scheduler...
+INFO 2021-03-12 10:55:39,904 autoreload 10220 7984 Watching for file changes with StatReloader
+INFO 2021-03-12 10:55:39,981 runapscheduler 10220 7984 Starting scheduler...
+INFO 2021-03-12 10:56:18,349 autoreload 10220 7984 E:\jfyunwei\jsb\project\management\commands\runapscheduler.py changed, reloading.
+INFO 2021-03-12 10:56:19,241 autoreload 7132 9260 Watching for file changes with StatReloader
+INFO 2021-03-12 10:56:19,327 runapscheduler 7132 9260 Starting scheduler...
+INFO 2021-03-12 10:56:30,016 runapscheduler 7132 6388 # 解恒涛还有 9 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:33,028 runapscheduler 7132 6388 # 李鹏还有 38 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:36,031 runapscheduler 7132 6388 # 李刚还有 3 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:39,034 runapscheduler 7132 6388 # 蒋顺还有 33 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:42,036 runapscheduler 7132 6388 # 吴亚云还有 5 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:45,039 runapscheduler 7132 6388 # 高小虎还有 30 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:48,041 runapscheduler 7132 6388 # 罗发立还有 9 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:51,043 runapscheduler 7132 6388 # 喻凯旋还有 3 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:54,045 runapscheduler 7132 6388 # 吴坤书还有 6 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:56:57,047 runapscheduler 7132 6388 # 戴丽还有 1 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:57:00,049 runapscheduler 7132 6388 # 张延麟还有 10 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:57:03,052 runapscheduler 7132 6388 # 陈良炜还有 10 个 bug 未关闭 
+------
+
+INFO 2021-03-12 10:57:06,054 runapscheduler 7132 6388 # 张亿操还有 3 个 bug 未关闭 
+------
+
+INFO 2021-03-12 11:01:48,284 autoreload 9412 9568 Watching for file changes with StatReloader
+INFO 2021-03-12 11:01:48,421 runapscheduler 9412 9568 Starting scheduler...
+INFO 2021-03-12 11:02:33,714 autoreload 9412 9568 E:\jfyunwei\jsb\project\management\commands\runapscheduler.py changed, reloading.
+INFO 2021-03-12 11:02:34,611 autoreload 10140 4988 Watching for file changes with StatReloader
+INFO 2021-03-12 11:02:34,761 runapscheduler 10140 4988 Starting scheduler...
+INFO 2021-03-12 11:03:36,844 autoreload 10140 4988 E:\jfyunwei\jsb\project\management\commands\runapscheduler.py changed, reloading.
+INFO 2021-03-12 11:03:37,810 autoreload 10004 10216 Watching for file changes with StatReloader
+INFO 2021-03-12 11:03:37,979 runapscheduler 10004 10216 Starting scheduler...
+INFO 2021-03-12 11:04:48,133 autoreload 9688 9480 Watching for file changes with StatReloader
+INFO 2021-03-12 11:04:48,270 runapscheduler 9688 9480 Starting scheduler...
+INFO 2021-03-12 11:04:57,747 basehttp 9688 9336 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6060
+INFO 2021-03-12 11:04:57,784 basehttp 9688 9336 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 11:05:03,539 basehttp 9688 9336 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 4447
+INFO 2021-03-12 11:05:03,566 basehttp 9688 9336 "GET /djstatic/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2021-03-12 11:05:04,846 basehttp 9688 9336 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 302 0
+INFO 2021-03-12 11:05:04,872 basehttp 9688 9336 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3718
+INFO 2021-03-12 11:05:04,907 basehttp 9688 9336 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 11:05:04,926 basehttp 9688 9336 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-03-12 11:05:12,025 autoreload 4820 8740 Watching for file changes with StatReloader
+INFO 2021-03-12 11:05:12,162 runapscheduler 4820 8740 Starting scheduler...
+INFO 2021-03-12 11:05:15,168 basehttp 4820 8480 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 5703
+INFO 2021-03-12 11:05:15,194 basehttp 4820 8480 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 11:06:29,396 autoreload 4820 8740 E:\jfyunwei\jsb\project\apps.py changed, reloading.
+INFO 2021-03-12 11:06:30,324 autoreload 8260 8924 Watching for file changes with StatReloader
+INFO 2021-03-12 11:06:30,460 runapscheduler 8260 8924 Starting scheduler...
+INFO 2021-03-12 11:13:51,545 autoreload 9404 1032 Watching for file changes with StatReloader
+INFO 2021-03-12 11:13:51,689 runapscheduler 9404 1032 Starting scheduler...
+WARNING 2021-03-12 11:13:55,956 log 9404 9608 Not Found: /
+WARNING 2021-03-12 11:13:55,957 basehttp 9404 9608 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-12 11:13:55,988 log 9404 9608 Not Found: /
+WARNING 2021-03-12 11:13:55,989 basehttp 9404 9608 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-12 11:17:01,690 autoreload 7520 2900 Watching for file changes with StatReloader
+INFO 2021-03-12 11:17:01,829 runapscheduler 7520 2900 Starting scheduler...
+WARNING 2021-03-12 11:17:06,828 log 7520 7592 Not Found: /
+WARNING 2021-03-12 11:17:06,828 basehttp 7520 7592 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-12 11:17:06,841 log 7520 7592 Not Found: /
+WARNING 2021-03-12 11:17:06,841 basehttp 7520 7592 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-12 11:51:06,764 autoreload 8368 11572 Watching for file changes with StatReloader
+INFO 2021-03-12 11:51:06,918 runapscheduler 8368 11572 Starting scheduler...
+INFO 2021-03-12 16:26:08,591 basehttp 8368 2852 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:35:41,829 basehttp 8368 11248 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:38:01,840 basehttp 8368 11696 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-12 16:38:01,892 basehttp 8368 10056 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-12 16:38:01,961 basehttp 8368 10868 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:38:01,968 basehttp 8368 2348 "GET /api/getL1Menu/ HTTP/1.1" 200 781
+INFO 2021-03-12 16:38:02,026 basehttp 8368 10604 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 501
+INFO 2021-03-12 16:38:20,931 basehttp 8368 10204 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 16:38:26,426 basehttp 8368 7028 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 16:38:33,398 basehttp 8368 10788 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4776
+INFO 2021-03-12 16:38:33,436 basehttp 8368 10456 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 12606
+INFO 2021-03-12 16:38:36,303 basehttp 8368 11064 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-12 16:39:07,685 basehttp 8368 1444 "GET /api/getL1Menu/ HTTP/1.1" 200 781
+INFO 2021-03-12 16:39:07,778 basehttp 8368 9464 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 501
+INFO 2021-03-12 16:39:08,195 basehttp 8368 11424 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-12 16:40:56,494 autoreload 7320 9864 Watching for file changes with StatReloader
+INFO 2021-03-12 16:40:57,315 runapscheduler 7320 9864 Starting scheduler...
+INFO 2021-03-12 16:41:28,562 autoreload 10704 9820 Watching for file changes with StatReloader
+WARNING 2021-03-12 16:41:30,670 log 10704 6676 Not Found: /
+WARNING 2021-03-12 16:41:30,670 basehttp 10704 6676 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-12 16:41:30,683 log 10704 6676 Not Found: /
+WARNING 2021-03-12 16:41:30,684 basehttp 10704 6676 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-12 16:41:36,506 basehttp 10704 6676 "GET /admin/ HTTP/1.1" 200 15158
+INFO 2021-03-12 16:41:38,644 basehttp 10704 6676 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 5703
+INFO 2021-03-12 16:41:38,699 basehttp 10704 6676 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:42:02,379 basehttp 10704 6676 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3760
+INFO 2021-03-12 16:42:03,985 basehttp 10704 6676 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 302 0
+INFO 2021-03-12 16:42:04,014 basehttp 10704 6676 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3718
+INFO 2021-03-12 16:42:04,051 basehttp 10704 6676 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:42:06,700 basehttp 10704 6676 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-12 16:42:14,822 basehttp 10704 6676 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-12 16:42:14,865 basehttp 10704 6676 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:42:17,454 basehttp 10704 6676 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-12 16:42:18,581 basehttp 10704 6676 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 4691
+INFO 2021-03-12 16:42:18,620 basehttp 10704 6676 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:42:35,015 autoreload 12056 9484 Watching for file changes with StatReloader
+INFO 2021-03-12 16:42:38,635 basehttp 12056 10268 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 4691
+INFO 2021-03-12 16:42:38,665 basehttp 12056 10268 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:42:41,221 basehttp 12056 10268 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-12 16:42:42,206 basehttp 12056 10268 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-12 16:42:42,245 basehttp 12056 10268 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:42:43,568 basehttp 12056 10268 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-12 16:42:44,393 basehttp 12056 10268 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 4691
+INFO 2021-03-12 16:42:44,430 basehttp 12056 10268 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:42:45,761 basehttp 12056 10268 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-12 16:42:50,458 basehttp 12056 10268 "GET /admin/ HTTP/1.1" 200 15163
+INFO 2021-03-12 16:44:20,299 basehttp 12056 10268 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 4683
+INFO 2021-03-12 16:44:20,339 basehttp 12056 10268 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:44:21,907 basehttp 12056 10268 "GET /admin/auth_permission/l1menu/add/ HTTP/1.1" 200 6827
+INFO 2021-03-12 16:44:21,948 basehttp 12056 7976 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:44:21,966 basehttp 12056 10268 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-03-12 16:44:21,966 basehttp 12056 7176 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-03-12 16:44:21,967 basehttp 12056 8428 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-03-12 16:44:21,984 basehttp 12056 8428 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-03-12 16:45:33,473 basehttp 12056 8428 "POST /admin/auth_permission/l1menu/add/ HTTP/1.1" 302 0
+INFO 2021-03-12 16:45:33,511 basehttp 12056 8428 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 5106
+INFO 2021-03-12 16:45:33,553 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:45:38,397 basehttp 12056 8428 "GET /admin/auth_permission/ HTTP/1.1" 200 4424
+INFO 2021-03-12 16:45:39,338 basehttp 12056 8428 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 5495
+INFO 2021-03-12 16:45:39,368 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:45:41,279 basehttp 12056 8428 "GET /admin/auth_permission/l2menu/add/ HTTP/1.1" 200 8454
+INFO 2021-03-12 16:45:41,312 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:46:24,301 basehttp 12056 8428 "POST /admin/auth_permission/l2menu/add/ HTTP/1.1" 302 0
+INFO 2021-03-12 16:46:24,345 basehttp 12056 8428 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 5952
+INFO 2021-03-12 16:46:24,375 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:46:28,753 basehttp 12056 8968 "GET /api/getL1Menu/ HTTP/1.1" 200 1040
+INFO 2021-03-12 16:46:28,814 basehttp 12056 11960 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 624
+INFO 2021-03-12 16:46:29,198 basehttp 12056 4340 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-12 16:46:36,582 basehttp 12056 10184 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-12 16:46:48,301 basehttp 12056 8428 "GET /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 200 8830
+INFO 2021-03-12 16:46:48,334 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:47:00,334 basehttp 12056 8428 "POST /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 302 0
+INFO 2021-03-12 16:47:00,375 basehttp 12056 8428 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 5966
+INFO 2021-03-12 16:47:00,417 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:47:09,287 basehttp 12056 8428 "GET /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 200 8844
+INFO 2021-03-12 16:47:12,095 basehttp 12056 8428 "GET /admin/auth_permission/ HTTP/1.1" 200 4424
+INFO 2021-03-12 16:47:13,297 basehttp 12056 8428 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 4918
+INFO 2021-03-12 16:47:13,331 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:47:14,856 basehttp 12056 8428 "GET /admin/auth_permission/l1menu/3/change/ HTTP/1.1" 200 7127
+INFO 2021-03-12 16:47:14,893 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:47:28,071 basehttp 12056 8428 "POST /admin/auth_permission/l1menu/3/change/ HTTP/1.1" 302 0
+INFO 2021-03-12 16:47:28,111 basehttp 12056 8428 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 5092
+INFO 2021-03-12 16:47:28,150 basehttp 12056 8428 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-12 16:47:30,250 basehttp 12056 7816 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 16:47:30,304 basehttp 12056 11428 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 16:47:30,676 basehttp 12056 11996 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-12 16:48:15,683 basehttp 12056 9464 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-12 16:51:53,400 basehttp 12056 9108 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 16:51:53,458 basehttp 12056 9356 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 16:53:14,061 basehttp 12056 12148 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 16:53:14,205 basehttp 12056 11624 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 16:54:12,301 basehttp 12056 7680 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 16:54:12,421 basehttp 12056 4244 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 16:55:41,930 basehttp 12056 7992 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:56:25,525 basehttp 12056 9408 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:56:27,969 basehttp 12056 9164 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:56:32,702 basehttp 12056 9288 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:56:41,988 basehttp 12056 11516 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-12 16:56:42,022 basehttp 12056 11300 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-12 16:56:42,116 basehttp 12056 1920 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:56:42,117 basehttp 12056 3532 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 16:56:42,144 basehttp 12056 6388 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 16:57:13,449 basehttp 12056 10912 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 16:57:13,777 basehttp 12056 9644 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 16:57:22,535 basehttp 12056 9428 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:57:34,974 basehttp 12056 11656 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:58:00,105 basehttp 12056 7188 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:58:04,133 basehttp 12056 7360 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-12 16:58:04,167 basehttp 12056 7244 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-12 16:58:04,282 basehttp 12056 11020 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-12 16:58:04,283 basehttp 12056 12276 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 16:58:04,522 basehttp 12056 10088 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 16:58:14,897 basehttp 12056 11376 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 16:58:14,949 basehttp 12056 11412 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 16:58:47,000 basehttp 12056 10148 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:00:03,655 basehttp 12056 3492 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:00:30,810 basehttp 12056 10156 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:02:36,018 basehttp 12056 11468 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:03:59,899 basehttp 12056 10160 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:04:08,716 basehttp 12056 7520 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:04:10,703 basehttp 12056 8228 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:05:09,412 basehttp 12056 11412 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:05:09,592 basehttp 12056 800 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:05:15,648 basehttp 12056 11448 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:09:43,083 basehttp 12056 9804 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:09:43,217 basehttp 12056 7180 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:09:54,516 basehttp 12056 12160 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-12 17:10:24,579 basehttp 12056 9344 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:10:24,657 basehttp 12056 12024 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:27:10,793 basehttp 12056 12160 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:27:10,916 basehttp 12056 10168 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:30:05,414 basehttp 12056 10044 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:30:05,480 basehttp 12056 11824 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:36:50,156 basehttp 12056 12092 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:36:50,283 basehttp 12056 8216 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:39:10,564 basehttp 12056 11288 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:39:10,703 basehttp 12056 8728 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:40:05,826 basehttp 12056 8908 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:40:05,993 basehttp 12056 9828 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:40:30,864 basehttp 12056 11824 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:40:31,029 basehttp 12056 10436 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:40:47,073 basehttp 12056 1936 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:40:47,147 basehttp 12056 10992 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:47:11,264 basehttp 12056 10536 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:47:11,419 basehttp 12056 10744 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:53:03,091 basehttp 12056 12148 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:53:03,146 basehttp 12056 11424 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 17:54:12,272 basehttp 12056 9244 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 17:54:12,346 basehttp 12056 11064 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 18:05:18,907 basehttp 12056 11068 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 18:05:19,012 basehttp 12056 11632 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 18:06:51,226 basehttp 12056 8824 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 18:06:51,357 basehttp 12056 10388 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 18:15:33,310 basehttp 12056 11824 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 18:15:33,384 basehttp 12056 12100 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 18:17:19,724 basehttp 12056 11748 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-12 18:17:19,781 basehttp 12056 9172 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-12 18:25:17,093 basehttp 12056 4792 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-15 10:37:30,126 autoreload 6764 1888 Watching for file changes with StatReloader
+INFO 2021-03-15 10:37:39,690 autoreload 4024 4916 Watching for file changes with StatReloader
+INFO 2021-03-15 10:42:27,705 autoreload 6876 8764 Watching for file changes with StatReloader
+WARNING 2021-03-15 10:42:30,067 log 6876 5620 Not Found: /
+WARNING 2021-03-15 10:42:30,068 basehttp 6876 5620 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 10:42:30,076 log 6876 5620 Not Found: /
+WARNING 2021-03-15 10:42:30,077 basehttp 6876 5620 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 10:42:30,230 log 6876 5620 Not Found: /favicon.ico
+WARNING 2021-03-15 10:42:30,230 basehttp 6876 5620 "GET /favicon.ico HTTP/1.1" 404 2390
+INFO 2021-03-15 10:42:44,275 basehttp 6876 5620 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-03-15 10:42:44,538 basehttp 6876 5620 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-03-15 10:42:44,577 basehttp 6876 5620 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-03-15 10:42:44,578 basehttp 6876 2812 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-03-15 10:42:44,579 basehttp 6876 2304 "GET /djstatic/admin/css/login.css HTTP/1.1" 304 0
+INFO 2021-03-15 10:42:44,596 basehttp 6876 2304 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-03-15 10:42:44,633 basehttp 6876 2304 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-15 10:42:44,636 basehttp 6876 2812 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-15 10:46:30,882 autoreload 9532 7588 Watching for file changes with StatReloader
+WARNING 2021-03-15 10:48:08,323 log 9532 5152 Not Found: /
+WARNING 2021-03-15 10:48:08,398 basehttp 9532 5152 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-15 10:48:17,031 basehttp 9532 5152 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-03-15 10:48:47,219 basehttp 9532 5152 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-03-15 10:48:54,225 autoreload 9684 648 Watching for file changes with StatReloader
+INFO 2021-03-15 10:48:57,815 basehttp 9684 7080 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-03-15 10:48:58,032 basehttp 9684 7080 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-15 10:48:58,089 basehttp 9684 7080 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-03-15 10:48:58,091 basehttp 9684 5936 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-03-15 10:48:58,098 basehttp 9684 5264 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-15 10:48:58,099 basehttp 9684 1040 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2021-03-15 10:48:58,100 basehttp 9684 9440 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-03-15 10:51:11,023 basehttp 9684 9440 "GET /admin/logout/ HTTP/1.1" 200 1200
+INFO 2021-03-15 10:51:12,619 basehttp 9684 9440 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2021-03-15 10:51:12,622 basehttp 9684 9440 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-03-15 10:51:12,638 basehttp 9684 9440 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-03-15 10:51:15,300 basehttp 9684 9440 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-03-15 10:51:28,905 basehttp 9684 9440 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-03-15 10:51:28,930 basehttp 9684 9440 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-15 11:26:00,626 autoreload 9560 10152 Watching for file changes with StatReloader
+INFO 2021-03-15 11:52:59,505 autoreload 8800 3852 Watching for file changes with StatReloader
+WARNING 2021-03-15 11:59:47,609 log 8800 5648 Not Found: /
+WARNING 2021-03-15 11:59:47,609 basehttp 8800 5648 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 11:59:47,623 log 8800 5648 Not Found: /
+WARNING 2021-03-15 11:59:47,625 basehttp 8800 5648 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-15 11:59:51,608 basehttp 8800 5648 "GET /admin/ HTTP/1.1" 200 15171
+WARNING 2021-03-15 12:15:34,533 log 8800 7568 Not Found: /
+WARNING 2021-03-15 12:15:34,534 basehttp 8800 7568 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 12:15:34,600 log 8800 7568 Not Found: /
+WARNING 2021-03-15 12:15:34,600 basehttp 8800 7568 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-15 12:15:38,677 basehttp 8800 7568 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-15 12:15:48,869 basehttp 8800 7568 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-15 12:15:51,019 basehttp 8800 7568 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-15 12:15:52,207 basehttp 8800 7568 "GET /admin/address/projecturl/ HTTP/1.1" 200 41483
+INFO 2021-03-15 12:15:52,236 basehttp 8800 7568 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,248 basehttp 8800 7568 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,252 basehttp 8800 10316 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,253 basehttp 8800 7568 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,254 basehttp 8800 10332 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,255 basehttp 8800 10320 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,255 basehttp 8800 10328 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,256 basehttp 8800 10316 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,263 basehttp 8800 10300 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-15 12:15:52,264 basehttp 8800 7568 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,312 basehttp 8800 7568 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2021-03-15 12:15:52,312 basehttp 8800 10300 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-03-15 12:16:00,364 autoreload 10560 10564 Watching for file changes with StatReloader
+INFO 2021-03-15 12:16:04,084 basehttp 10560 10676 "GET /admin/address/projecturl/38/change/ HTTP/1.1" 200 8933
+INFO 2021-03-15 12:16:04,142 basehttp 10560 10676 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-03-15 12:16:04,152 basehttp 10560 10680 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-15 12:16:04,155 basehttp 10560 10676 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-03-15 12:16:04,158 basehttp 10560 10684 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-03-15 12:16:04,160 basehttp 10560 10676 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-03-15 13:33:23,955 autoreload 1632 4064 Watching for file changes with StatReloader
+INFO 2021-03-15 14:11:54,925 basehttp 1632 6844 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-03-15 14:11:54,961 basehttp 1632 6844 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2021-03-15 14:11:54,970 basehttp 1632 6844 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-03-15 14:11:54,973 basehttp 1632 6780 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2021-03-15 14:11:54,979 basehttp 1632 10864 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2021-03-15 14:11:55,270 basehttp 1632 10864 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-03-15 14:11:55,271 basehttp 1632 6780 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+WARNING 2021-03-15 14:11:55,280 log 1632 10864 Not Found: /favicon.ico
+WARNING 2021-03-15 14:11:55,281 basehttp 1632 10864 "GET /favicon.ico HTTP/1.1" 404 2390
+INFO 2021-03-15 14:16:35,485 autoreload 4916 10360 Watching for file changes with StatReloader
+WARNING 2021-03-15 14:16:37,094 log 4916 11060 Not Found: /
+WARNING 2021-03-15 14:16:37,095 basehttp 4916 11060 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 14:16:37,107 log 4916 11060 Not Found: /
+WARNING 2021-03-15 14:16:37,107 basehttp 4916 11060 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 14:16:43,496 log 4916 11060 Not Found: /
+WARNING 2021-03-15 14:16:43,497 basehttp 4916 11060 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 14:16:43,901 log 4916 11060 Not Found: /
+WARNING 2021-03-15 14:16:43,901 basehttp 4916 11060 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 14:16:44,223 log 4916 11060 Not Found: /
+WARNING 2021-03-15 14:16:44,223 basehttp 4916 11060 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-15 14:16:48,688 log 4916 11060 Not Found: /
+WARNING 2021-03-15 14:16:48,688 basehttp 4916 11060 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-15 14:17:15,467 autoreload 6396 7244 Watching for file changes with StatReloader
+INFO 2021-03-15 14:18:43,471 autoreload 9400 5944 Watching for file changes with StatReloader
+INFO 2021-03-15 14:26:37,265 autoreload 10916 640 Watching for file changes with StatReloader
+INFO 2021-03-15 14:42:41,327 autoreload 9900 340 Watching for file changes with StatReloader
+INFO 2021-03-15 14:54:07,267 autoreload 9900 340 E:\jfyunwei\jsb\project\apps.py changed, reloading.
+INFO 2021-03-15 14:54:08,509 runapscheduler 2496 1796 开始启动 scheduler...
+INFO 2021-03-15 14:54:08,679 autoreload 2496 1796 Watching for file changes with StatReloader
+INFO 2021-03-15 14:55:00,019 runapscheduler 2496 4828 定时器正在运行中...
+INFO 2021-03-15 14:56:00,114 runapscheduler 2496 4828 定时器正在运行中...
+INFO 2021-03-15 14:57:00,043 runapscheduler 2496 120 定时器正在运行中...
+INFO 2021-03-15 14:58:00,028 runapscheduler 2496 4828 定时器正在运行中...
+INFO 2021-03-15 14:59:00,025 runapscheduler 2496 120 定时器正在运行中...
+INFO 2021-03-15 14:59:43,924 runapscheduler 3100 32 开始启动 scheduler...
+INFO 2021-03-15 14:59:44,948 autoreload 9440 6824 Watching for file changes with StatReloader
+INFO 2021-03-15 15:00:00,011 runapscheduler 3100 5524 定时器正在运行中...
+INFO 2021-03-15 15:00:00,011 runapscheduler 3100 5524 3100
+INFO 2021-03-15 15:01:00,043 runapscheduler 3100 5524 定时器正在运行中...
+INFO 2021-03-15 15:01:00,043 runapscheduler 3100 5524 3100
+INFO 2021-03-15 15:02:00,039 runapscheduler 3100 5476 定时器正在运行中...
+INFO 2021-03-15 15:02:00,039 runapscheduler 3100 5476 3100
+INFO 2021-03-15 15:02:32,834 runapscheduler 11024 236 开始启动 scheduler...
+INFO 2021-03-15 15:02:33,743 runapscheduler 10768 2840 开始启动 scheduler...
+INFO 2021-03-15 15:02:33,898 autoreload 10768 2840 Watching for file changes with StatReloader
+INFO 2021-03-15 15:02:48,507 autoreload 1664 10760 Watching for file changes with StatReloader
+INFO 2021-03-15 16:17:22,860 autoreload 532 408 Watching for file changes with StatReloader
+INFO 2021-03-15 16:32:11,726 autoreload 10840 10496 Watching for file changes with StatReloader

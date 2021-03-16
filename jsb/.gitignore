@@ -1,0 +1,16 @@
+.idea/
+__pycache__
+jsb/__pycache__/
+address/__pycache__/
+report/__pycache__/
+version/__pycache__/
+report/__init__*
+db.sqlite3
+log/*
+venv/
+templates/report/__init__.py
+static/report/__init__.py
+address/migrations
+report/migrations
+version/migrations
+upload/*

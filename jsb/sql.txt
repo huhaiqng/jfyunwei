@@ -1,0 +1,16 @@
+# 未执行
+CREATE TABLE `address_project_host` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `project_id` integer NOT NULL, `host_id` integer NOT NULL);
+ALTER TABLE `address_project_host` ADD CONSTRAINT `address_project_host_project_id_4aa2f400_fk_address_project_id` FOREIGN KEY (`project_id`) REFERENCES `address_project` (`id`);
+ALTER TABLE `address_project_host` ADD CONSTRAINT `address_project_host_host_id_5b6fef0f_fk_project_host_id` FOREIGN KEY (`host_id`) REFERENCES `project_host` (`id`);
+ALTER TABLE `address_project_host` ADD CONSTRAINT `address_project_host_project_id_host_id_9a061458_uniq` UNIQUE (`project_id`, `host_id`);
+
+ALTER TABLE `address_project` ADD COLUMN `deploy_dir` varchar(200) DEFAULT '' NOT NULL;
+ALTER TABLE `address_project` ALTER COLUMN `deploy_dir` DROP DEFAULT;
+ALTER TABLE `address_project` ADD COLUMN `log_dir` varchar(200) DEFAULT '' NOT NULL;
+ALTER TABLE `address_project` ALTER COLUMN `log_dir` DROP DEFAULT;
+
+RENAME TABLE `address_project_host` TO `address_project_hosts`;
+ALTER TABLE `address_project_hosts` DROP FOREIGN KEY `address_project_hosts_host_id_babf97b6_fk_project_host_id`;
+ALTER TABLE `address_project_hosts` ADD CONSTRAINT `address_project_hosts_host_id_babf97b6_fk_project_host_id` FOREIGN KEY (`host_id`) REFERENCES `project_host` (`id`);
+ALTER TABLE `address_project_hosts` DROP FOREIGN KEY `address_project_hosts_project_id_a3807feb_fk_address_project_id`;
+ALTER TABLE `address_project_hosts` ADD CONSTRAINT `address_project_hosts_project_id_a3807feb_fk_address_project_id` FOREIGN KEY (`project_id`) REFERENCES `address_project` (`id`);
