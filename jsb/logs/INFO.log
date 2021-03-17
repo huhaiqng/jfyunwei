@@ -671,3 +671,6 @@ INFO 2021-03-17 15:22:21,725 basehttp 11060 10232 "GET /admin/django_apscheduler
 INFO 2021-03-17 15:22:21,763 basehttp 11060 10232 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
 INFO 2021-03-17 15:24:40,995 autoreload 10560 2764 Watching for file changes with StatReloader
 INFO 2021-03-17 15:26:32,740 autoreload 9368 6932 Watching for file changes with StatReloader
+INFO 2021-03-17 15:42:10,577 basehttp 9368 8556 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-17 15:42:35,971 basehttp 9368 4388 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-17 15:42:38,124 basehttp 9368 6636 "GET /api/address/ HTTP/1.1" 200 2066
