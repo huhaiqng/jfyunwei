@@ -537,3 +537,137 @@ WARNING 2021-03-17 09:49:02,667 basehttp 1404 8764 "GET / HTTP/1.1" 404 2339
 WARNING 2021-03-17 09:49:02,683 log 1404 8764 Not Found: /
 WARNING 2021-03-17 09:49:02,684 basehttp 1404 8764 "GET / HTTP/1.1" 404 2339
 INFO 2021-03-17 09:49:09,808 basehttp 1404 8764 "GET /admin/ HTTP/1.1" 200 15178
+INFO 2021-03-17 10:18:48,862 basehttp 1404 2120 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-17 10:18:54,174 basehttp 1404 2996 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-17 10:18:54,209 basehttp 1404 4816 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-17 10:18:54,268 basehttp 1404 7020 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-17 10:18:54,278 basehttp 1404 1004 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 10:18:54,343 basehttp 1404 2088 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 10:28:24,748 basehttp 1404 5348 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 10:28:24,830 basehttp 1404 2500 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 10:28:35,983 basehttp 1404 7392 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 10:28:36,033 basehttp 1404 7468 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 10:44:33,229 basehttp 1404 8668 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 10:44:33,284 basehttp 1404 5172 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 10:49:22,924 basehttp 1404 9260 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 10:49:23,057 basehttp 1404 5516 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 10:50:38,444 basehttp 1404 6948 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 10:50:38,539 basehttp 1404 9704 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 11:13:10,750 basehttp 1404 6080 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 11:13:10,807 basehttp 1404 9628 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 11:13:19,424 basehttp 1404 2004 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 11:13:19,469 basehttp 1404 2256 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 11:14:00,283 basehttp 1404 3616 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 11:14:00,330 basehttp 1404 5764 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 11:21:27,113 basehttp 1404 10008 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 11:21:27,176 basehttp 1404 8016 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 11:21:44,857 basehttp 1404 9244 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 11:21:44,914 basehttp 1404 3664 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 11:26:03,516 basehttp 1404 9408 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 11:26:03,576 basehttp 1404 9008 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 11:40:10,437 basehttp 1404 2744 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 11:40:10,501 basehttp 1404 8544 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+INFO 2021-03-17 11:48:44,036 basehttp 1404 3424 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-17 11:48:47,727 basehttp 1404 6760 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 11:48:47,750 basehttp 1404 9384 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 3
+INFO 2021-03-17 11:48:47,822 basehttp 1404 10028 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-03-17 13:34:30,024 autoreload 10464 10572 Watching for file changes with StatReloader
+INFO 2021-03-17 13:39:56,529 basehttp 10464 10792 "GET /api/getL1Menu/ HTTP/1.1" 200 1039
+INFO 2021-03-17 13:39:56,616 basehttp 10464 9524 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 631
+WARNING 2021-03-17 13:40:25,578 log 10464 10480 Not Found: /
+WARNING 2021-03-17 13:40:25,579 basehttp 10464 10480 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-17 13:40:25,587 log 10464 10480 Not Found: /
+WARNING 2021-03-17 13:40:25,587 basehttp 10464 10480 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-17 13:40:29,676 basehttp 10464 10480 "GET /admin/ HTTP/1.1" 200 15178
+INFO 2021-03-17 13:40:31,986 basehttp 10464 10480 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 5771
+INFO 2021-03-17 13:40:32,033 basehttp 10464 10480 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:40:35,731 basehttp 10464 10480 "GET /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 200 8837
+INFO 2021-03-17 13:40:35,764 basehttp 10464 8672 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:40:35,771 basehttp 10464 10480 "GET /djstatic/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2021-03-17 13:40:35,778 basehttp 10464 10480 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2021-03-17 13:40:35,779 basehttp 10464 8672 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2021-03-17 13:40:35,784 basehttp 10464 8672 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2021-03-17 13:40:52,786 basehttp 10464 8672 "POST /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 200 8986
+INFO 2021-03-17 13:40:52,820 basehttp 10464 8672 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:41:43,652 basehttp 10464 8672 "POST /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 302 0
+INFO 2021-03-17 13:41:43,693 basehttp 10464 8672 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 5959
+INFO 2021-03-17 13:41:43,735 basehttp 10464 8672 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:41:45,931 basehttp 10464 8672 "GET /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 200 8840
+INFO 2021-03-17 13:41:45,958 basehttp 10464 8672 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:41:46,622 basehttp 10464 8672 "GET /admin/auth_permission/ HTTP/1.1" 200 4424
+INFO 2021-03-17 13:41:47,887 basehttp 10464 8672 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 4911
+INFO 2021-03-17 13:41:47,928 basehttp 10464 8672 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:41:49,873 basehttp 10464 8672 "GET /admin/auth_permission/l1menu/3/change/ HTTP/1.1" 200 7112
+INFO 2021-03-17 13:41:49,906 basehttp 10464 8672 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:43:38,749 autoreload 10464 10572 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-03-17 13:43:39,662 autoreload 972 2556 Watching for file changes with StatReloader
+INFO 2021-03-17 13:46:28,559 autoreload 11216 10932 Watching for file changes with StatReloader
+INFO 2021-03-17 13:50:19,811 autoreload 11216 10932 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-03-17 13:50:20,673 autoreload 6944 7644 Watching for file changes with StatReloader
+INFO 2021-03-17 13:51:36,047 autoreload 6944 7644 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-03-17 13:51:36,899 autoreload 9688 7352 Watching for file changes with StatReloader
+INFO 2021-03-17 13:52:38,813 basehttp 9688 10436 "POST /admin/auth_permission/l1menu/3/change/ HTTP/1.1" 302 0
+INFO 2021-03-17 13:52:38,914 basehttp 9688 10436 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 5092
+INFO 2021-03-17 13:52:38,953 basehttp 9688 10436 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:52:40,991 basehttp 9688 10436 "GET /admin/auth_permission/ HTTP/1.1" 200 4424
+INFO 2021-03-17 13:52:42,357 basehttp 9688 10436 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 5771
+INFO 2021-03-17 13:52:42,387 basehttp 9688 10436 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:52:46,960 basehttp 9688 10436 "GET /admin/auth_permission/ HTTP/1.1" 200 4424
+INFO 2021-03-17 13:52:48,280 basehttp 9688 10436 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 5771
+INFO 2021-03-17 13:52:48,311 basehttp 9688 10436 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:52:51,238 basehttp 9688 10436 "GET /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 200 8840
+INFO 2021-03-17 13:52:51,268 basehttp 9688 10436 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:53:02,958 basehttp 9688 10436 "POST /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 302 0
+INFO 2021-03-17 13:53:03,004 basehttp 9688 10436 "GET /admin/auth_permission/l2menu/5/change/ HTTP/1.1" 200 9059
+INFO 2021-03-17 13:53:03,044 basehttp 9688 10436 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 13:53:11,735 basehttp 9688 7380 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-17 13:53:11,856 basehttp 9688 3164 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-17 13:53:11,863 basehttp 9688 8820 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-17 13:53:19,186 basehttp 9688 6752 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-17 13:53:19,234 basehttp 9688 1192 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-17 13:53:29,248 basehttp 9688 2080 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-17 13:53:30,771 basehttp 9688 10036 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4776
+INFO 2021-03-17 13:53:30,823 basehttp 9688 10752 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 12606
+INFO 2021-03-17 13:53:31,877 basehttp 9688 9268 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-03-17 13:58:06,794 basehttp 9688 9044 "GET /admin/auth_permission/ HTTP/1.1" 200 4424
+INFO 2021-03-17 14:42:52,680 autoreload 9688 7352 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-03-17 14:42:53,591 autoreload 10528 9752 Watching for file changes with StatReloader
+WARNING 2021-03-17 14:43:24,737 log 10528 7908 Not Found: /
+WARNING 2021-03-17 14:43:24,738 basehttp 10528 7908 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-17 14:43:24,763 log 10528 7908 Not Found: /
+WARNING 2021-03-17 14:43:24,764 basehttp 10528 7908 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-17 14:43:30,946 basehttp 10528 9456 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-17 14:43:31,045 basehttp 10528 10264 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-17 14:43:31,083 basehttp 10528 10580 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-17 14:43:33,658 basehttp 10528 2280 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-17 14:43:36,929 basehttp 10528 1596 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-17 14:43:36,985 basehttp 10528 3344 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-17 14:43:37,043 basehttp 10528 5992 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-17 14:43:37,043 basehttp 10528 9836 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-17 14:43:37,085 basehttp 10528 7004 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-17 14:44:15,183 autoreload 10004 10684 Watching for file changes with StatReloader
+INFO 2021-03-17 14:49:00,082 autoreload 10004 10684 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-03-17 14:49:00,941 autoreload 5804 9892 Watching for file changes with StatReloader
+INFO 2021-03-17 14:49:30,280 autoreload 8828 10268 Watching for file changes with StatReloader
+INFO 2021-03-17 14:50:44,209 basehttp 8828 9728 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-17 14:50:47,372 basehttp 8828 11000 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-17 14:50:47,430 basehttp 8828 9200 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-17 14:50:47,490 basehttp 8828 10564 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-17 14:50:47,492 basehttp 8828 1772 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-17 14:50:47,530 basehttp 8828 4804 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-17 14:59:58,660 autoreload 8828 10268 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-03-17 14:59:59,527 autoreload 10312 9000 Watching for file changes with StatReloader
+INFO 2021-03-17 15:08:24,777 autoreload 10312 9000 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-03-17 15:08:25,672 autoreload 9340 5948 Watching for file changes with StatReloader
+INFO 2021-03-17 15:09:59,601 autoreload 9340 5948 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-03-17 15:10:00,509 autoreload 10140 9456 Watching for file changes with StatReloader
+INFO 2021-03-17 15:22:07,444 autoreload 11060 11200 Watching for file changes with StatReloader
+WARNING 2021-03-17 15:22:15,621 log 11060 10232 Not Found: /
+WARNING 2021-03-17 15:22:15,629 basehttp 11060 10232 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-17 15:22:15,645 log 11060 10232 Not Found: /
+WARNING 2021-03-17 15:22:15,646 basehttp 11060 10232 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-17 15:22:19,460 basehttp 11060 10232 "GET /admin/ HTTP/1.1" 200 15184
+INFO 2021-03-17 15:22:21,725 basehttp 11060 10232 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-17 15:22:21,763 basehttp 11060 10232 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 15:24:40,995 autoreload 10560 2764 Watching for file changes with StatReloader
+INFO 2021-03-17 15:26:32,740 autoreload 9368 6932 Watching for file changes with StatReloader

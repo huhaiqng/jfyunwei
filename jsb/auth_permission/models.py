@@ -66,7 +66,7 @@ class L2Menu(models.Model):
         blank=True, null=True,
         help_text='绑定模型'
     )
-    path = models.CharField('URI', max_length=255, unique=True, help_text='不需要 /，例如: user')
+    path = models.CharField('URI', max_length=255, help_text='不需要 /，例如: user')
     component = models.CharField('部件', max_length=255, help_text='相对于 /views 的路径, 例如: /resource/host')
     order = models.IntegerField('排序', default=10, help_text='菜单排序，小的排前面')
     is_model = models.BooleanField('是否对应模型', default=True)

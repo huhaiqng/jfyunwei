@@ -81,7 +81,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'jsb.wsgi.application'
 
-# 开发环境
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -90,31 +89,11 @@ DATABASES = {
         'PASSWORD': env('MYSQL_PASSWORD'),
         'HOST': env('MYSQL_HOST'),
         'PORT': env('MYSQL_PORT'),
-        # 'NAME': 'yunwei',
-        # 'USER': 'root',
-        # 'PASSWORD': 'MySQL5.7',
-        # 'HOST': '127.0.0.1',
-        # 'PORT': '3306',
         'OPTIONS': {
             "init_command": "SET foreign_key_checks = 0;",
         }
     }
 }
-
-# 生产环境
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'yunwei',
-#         'USER': 'yunwei',
-#         'PASSWORD': 'L1^pd0tX&Y9P',
-#         'HOST': '192.168.40.185',
-#         'PORT': '3306',
-#         'OPTIONS': {
-#             "init_command": "SET foreign_key_checks = 0;",
-#         }
-#     }
-# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -164,7 +143,8 @@ AUTHENTICATION_BACKENDS = (
 OAUTH2_PROVIDER = {
     # this is the list of available scopes
     'SCOPES': {'read': 'Read scope', 'write': 'Write scope', 'groups': 'Access to your groups'},
-    'ACCESS_TOKEN_EXPIRE_SECONDS': 604800
+    'ACCESS_TOKEN_EXPIRE_SECONDS': 604800,
+    'REFRESH_TOKEN_EXPIRE_SECONDS': 86400
 }
 
 REST_FRAMEWORK = {

@@ -10,6 +10,7 @@ from django_apscheduler.jobstores import DjangoJobStore
 from django_apscheduler.models import DjangoJobExecution
 import mysql.connector
 from dingtalkchatbot.chatbot import DingtalkChatbot
+from django.core.management import call_command
 logger = logging.getLogger('django')
 
 
@@ -72,6 +73,11 @@ def check_schedule():
     logger.info('定时器运行中 ...')
 
 
+def clear_token():
+    logger.info('从数据库中删除过期 token')
+    call_command('cleartokens')
+
+
 def handle_schedule():
     scheduler = BackgroundScheduler(timezone=settings.TIME_ZONE)
     scheduler.add_jobstore(DjangoJobStore(), "default")
@@ -90,8 +96,16 @@ def handle_schedule():
 
     scheduler.add_job(
         delete_old_job_executions,
-        trigger=CronTrigger(day_of_week='mon', hour="00", minute="00"),
+        trigger=CronTrigger(day_of_week='mon', hour="01", minute="00", second="00"),
         id="delete_old_job_executions",
+        max_instances=1,
+        replace_existing=True,
+    )
+
+    scheduler.add_job(
+        clear_token,
+        trigger=CronTrigger(hour="01", minute="30", second="00"),
+        id="clear_token",
         max_instances=1,
         replace_existing=True,
     )

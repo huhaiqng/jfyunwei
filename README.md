@@ -70,7 +70,8 @@ pip install gunicorn
 #!/bin/bash
 cd /jsb
 kill -9 `ps -ef | grep gunicorn | grep -v grep | awk '{print $2}'`
-ENV_FILE=jsb/.prod
+export ENV_FILE=jsb/.prod
+echo ${ENV_FILE}
 nohup gunicorn jsb.wsgi \
 --bind=0.0.0.0:8000 \
 --log-file logs/INFO.log \
