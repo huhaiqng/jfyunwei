@@ -480,3 +480,60 @@ INFO 2021-03-16 15:39:58,579 basehttp 10284 12016 "GET /admin/jsi18n/ HTTP/1.1" 
 INFO 2021-03-16 15:45:06,808 autoreload 11928 11832 Watching for file changes with StatReloader
 INFO 2021-03-16 15:45:58,920 basehttp 11928 11180 "GET /admin/project/ HTTP/1.1" 200 2435
 INFO 2021-03-16 15:45:59,536 basehttp 11928 11180 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-17 09:14:06,323 autoreload 5776 3600 Watching for file changes with StatReloader
+INFO 2021-03-17 09:14:18,628 runapscheduler 1588 1064 开始启动 scheduler...
+INFO 2021-03-17 09:14:19,845 runapscheduler 1108 7756 定时器已经在运行
+INFO 2021-03-17 09:14:20,096 autoreload 1108 7756 Watching for file changes with StatReloader
+INFO 2021-03-17 09:15:27,491 runapscheduler 2700 3704 开始启动 scheduler...
+INFO 2021-03-17 09:15:28,350 runapscheduler 7992 1208 定时器已经在运行
+INFO 2021-03-17 09:15:28,473 autoreload 7992 1208 Watching for file changes with StatReloader
+WARNING 2021-03-17 09:15:30,200 log 7992 4740 Not Found: /
+WARNING 2021-03-17 09:15:30,200 basehttp 7992 4740 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-17 09:15:30,209 log 7992 4740 Not Found: /
+WARNING 2021-03-17 09:15:30,209 basehttp 7992 4740 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-17 09:15:30,411 log 7992 4740 Not Found: /favicon.ico
+WARNING 2021-03-17 09:15:30,412 basehttp 7992 4740 "GET /favicon.ico HTTP/1.1" 404 2390
+WARNING 2021-03-17 09:15:30,422 log 7992 4740 Not Found: /favicon.ico
+WARNING 2021-03-17 09:15:30,427 basehttp 7992 4740 "GET /favicon.ico HTTP/1.1" 404 2390
+INFO 2021-03-17 09:15:33,787 basehttp 7992 4740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-03-17 09:15:34,022 basehttp 7992 4740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-03-17 09:15:35,708 basehttp 7992 4740 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-03-17 09:15:35,738 basehttp 7992 4740 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-17 09:15:37,866 basehttp 7992 4740 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 11583
+INFO 2021-03-17 09:15:37,906 basehttp 7992 4740 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 09:15:39,518 basehttp 7992 4740 "GET /admin/ HTTP/1.1" 200 15171
+INFO 2021-03-17 09:15:41,095 basehttp 7992 4740 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6091
+INFO 2021-03-17 09:15:41,136 basehttp 7992 4740 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 09:15:41,166 basehttp 7992 4740 "GET /djstatic/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-03-17 09:15:45,135 basehttp 7992 4740 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 5515
+INFO 2021-03-17 09:15:45,161 basehttp 7992 4740 "GET /djstatic/admin/js/cancel.js HTTP/1.1" 200 409
+WARNING 2021-03-17 09:15:46,610 log 7992 4740 Not Found: /
+WARNING 2021-03-17 09:15:46,611 basehttp 7992 4740 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-17 09:15:46,872 basehttp 7992 4740 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 302 0
+INFO 2021-03-17 09:15:46,899 basehttp 7992 4740 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3718
+INFO 2021-03-17 09:15:46,930 basehttp 7992 4740 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 09:15:46,949 basehttp 7992 4740 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-03-17 09:16:01,278 runapscheduler 1604 5404 开始启动 scheduler...
+INFO 2021-03-17 09:16:02,160 runapscheduler 4908 952 定时器已经在运行
+INFO 2021-03-17 09:16:02,287 autoreload 4908 952 Watching for file changes with StatReloader
+INFO 2021-03-17 09:16:06,202 basehttp 4908 7204 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6079
+INFO 2021-03-17 09:16:06,233 basehttp 4908 7204 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 09:17:46,542 autoreload 5460 2140 Watching for file changes with StatReloader
+INFO 2021-03-17 09:17:57,159 basehttp 5460 1588 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3995
+INFO 2021-03-17 09:17:58,476 basehttp 5460 1588 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 302 0
+INFO 2021-03-17 09:17:58,507 basehttp 5460 1588 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3718
+INFO 2021-03-17 09:17:58,544 basehttp 5460 1588 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 09:18:00,355 basehttp 5460 1588 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-17 09:18:01,507 basehttp 5460 1588 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 4691
+INFO 2021-03-17 09:18:01,545 basehttp 5460 1588 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-17 09:32:35,136 basehttp 5460 2228 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-17 09:32:36,833 basehttp 5460 2228 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-17 09:32:42,428 autoreload 7828 2744 Watching for file changes with StatReloader
+INFO 2021-03-17 09:38:53,532 autoreload 3332 6900 Watching for file changes with StatReloader
+INFO 2021-03-17 09:42:01,751 autoreload 4076 3704 Watching for file changes with StatReloader
+INFO 2021-03-17 09:48:59,773 autoreload 1404 444 Watching for file changes with StatReloader
+WARNING 2021-03-17 09:49:02,666 log 1404 8764 Not Found: /
+WARNING 2021-03-17 09:49:02,667 basehttp 1404 8764 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-17 09:49:02,683 log 1404 8764 Not Found: /
+WARNING 2021-03-17 09:49:02,684 basehttp 1404 8764 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-17 09:49:09,808 basehttp 1404 8764 "GET /admin/ HTTP/1.1" 200 15178

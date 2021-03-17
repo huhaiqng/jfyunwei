@@ -1,5 +1,6 @@
 import logging
 import time
+import random
 from django.conf import settings
 from django.core.cache import cache
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -29,6 +30,7 @@ def dingding(u, bugs):
 
 
 def notice_bug():
+    logger.info('通知未关闭的bug')
     cnx = mysql.connector.connect(user='root', password='JFwlkj2018!', buffered=True,
                                   host='192.168.40.159', database='zentaopms')
     users = cnx.cursor()
@@ -62,53 +64,61 @@ def notice_bug():
 
 
 def delete_old_job_executions(max_age=604_800):
-    """This job deletes all apscheduler job executions older than `max_age` from the database."""
+    logger.info('清理定时任务执行记录')
     DjangoJobExecution.objects.delete_old_job_executions(max_age)
 
 
 def check_schedule():
-    logger.info('定时器运行中...')
+    logger.info('定时器运行中 ...')
+
+
+def handle_schedule():
+    scheduler = BackgroundScheduler(timezone=settings.TIME_ZONE)
+    scheduler.add_jobstore(DjangoJobStore(), "default")
+
+    logger.info("开始启动定时器 ...")
+    scheduler.start()
+
+    scheduler.add_job(
+        notice_bug,
+        trigger=CronTrigger(day_of_week='mon-fri', hour="18", minute="00", second="00"),
+        id="notice_bug",
+        max_instances=1,
+        # 如果任务已经存在了，就替换
+        replace_existing=True,
+    )
+
+    scheduler.add_job(
+        delete_old_job_executions,
+        trigger=CronTrigger(day_of_week='mon', hour="00", minute="00"),
+        id="delete_old_job_executions",
+        max_instances=1,
+        replace_existing=True,
+    )
+
+    scheduler.add_job(
+        check_schedule,
+        trigger=CronTrigger(minute="*/30"),
+        id="check_schedule",
+        max_instances=1,
+        replace_existing=True,
+    )
 
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-        scheduler = BackgroundScheduler(timezone=settings.TIME_ZONE)
-        scheduler.add_jobstore(DjangoJobStore(), "default")
 
-        scheduler.add_job(
-            notice_bug,
-            trigger=CronTrigger(day_of_week='mon-fri', hour="18", minute="00", second="00"),
-            id="notice_bug",
-            max_instances=1,
-            # 如果任务已经存在了，就替换
-            replace_existing=True,
-        )
+        lock_name = 'scheduler_lock'
+        sleep_time = random.uniform(0, 9)
+        logger.info('等待时间: %f s' % sleep_time)
+        time.sleep(sleep_time)
+        lock = cache.get(lock_name)
 
-        scheduler.add_job(
-            delete_old_job_executions,
-            trigger=CronTrigger(hour="00", minute="00"),
-            id="delete_old_job_executions",
-            max_instances=1,
-            replace_existing=True,
-        )
+        if lock is None:
+            cache.set(lock_name, "lock", timeout=30)
+            handle_schedule()
+        else:
+            logger.info('定时器已经在运行')
 
-        scheduler.add_job(
-            check_schedule,
-            trigger=CronTrigger(minute="*/10"),
-            id="check_schedule",
-            max_instances=1,
-            replace_existing=True,
-        )
 
-        try:
-            lock_name = 'scheduler_lock'
-            lock = cache.get(lock_name)
 
-            if lock is None:
-                cache.set(lock_name, "lock", timeout=30)
-                logger.info("开始启动 scheduler...")
-                scheduler.start()
-        except KeyboardInterrupt:
-            logger.info("Stopping scheduler...")
-            scheduler.shutdown()
-            logger.info("Scheduler shut down successfully!")
