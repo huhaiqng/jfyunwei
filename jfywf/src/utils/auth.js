@@ -1,53 +1,53 @@
-import Cookies from 'js-cookie'
+// import Cookies from 'js-cookie'
 
 // tonken
 export function getToken() {
-  return Cookies.get('access_token')
+  return sessionStorage.getItem('access_token')
 }
 
 export function setToken(token) {
-  return Cookies.set('access_token', token)
+  return sessionStorage.setItem('access_token', token)
 }
 
 export function removeToken() {
-  return Cookies.remove('access_token')
+  return sessionStorage.removeItem('access_token')
 }
 
 // refresh_token
 export function getRefreshToken() {
-  return Cookies.get('refresh_token')
+  return sessionStorage.getItem('refresh_token')
 }
 
 export function setRefreshToken(token) {
-  return Cookies.set('refresh_token', token)
+  return sessionStorage.setItem('refresh_token', token)
 }
 
 export function removeRefreshToken() {
-  return Cookies.remove('refresh_token')
+  return sessionStorage.removeItem('refresh_token')
 }
 
 // userNmae
 export function setUserName(username) {
-  return Cookies.set('FA0zrJIe', username)
+  return sessionStorage.setItem('FA0zrJIe', username)
 }
 
 export function removeUserName() {
-  return Cookies.remove('FA0zrJIe')
+  return sessionStorage.removeItem('FA0zrJIe')
 }
 
 export function getUserName() {
-  return Cookies.get('FA0zrJIe')
+  return sessionStorage.getItem('FA0zrJIe')
 }
 
 // userInfo
 export function setUserInfo(userInfo) {
-  return Cookies.set('userInfo', userInfo)
+  return sessionStorage.setItem('userInfo', JSON.stringify(userInfo))
 }
 
 export function getUserInfo() {
-  return Cookies.get('userInfo')
+  return sessionStorage.getItem('userInfo')
 }
 
-export function removeUserInfo(userInfo) {
-  return Cookies.remove('userInfo')
+export function removeUserInfo() {
+  return sessionStorage.removeItem('userInfo')
 }

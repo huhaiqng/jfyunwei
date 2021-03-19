@@ -1,5 +1,5 @@
 import { login, getUserInfo, refreshToken } from '@/api/user'
-import { getToken, getRefreshToken, setToken, setRefreshToken, setUserName, removeToken, removeUserName, removeUserInfo } from '@/utils/auth'
+import { getToken, getRefreshToken, setToken, setRefreshToken, setUserName, removeToken, removeRefreshToken, removeUserName, removeUserInfo } from '@/utils/auth'
 import { resetRouter } from '@/router'
 
 const getDefaultState = () => {
@@ -74,6 +74,7 @@ const actions = {
       commit('SET_TOKEN', '')
       // commit('SET_USERINFO', null)
       removeToken()
+      removeRefreshToken()
       resetRouter()
       removeUserName()
       removeUserInfo()

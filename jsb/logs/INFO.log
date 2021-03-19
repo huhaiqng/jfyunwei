@@ -674,3 +674,751 @@ INFO 2021-03-17 15:26:32,740 autoreload 9368 6932 Watching for file changes with
 INFO 2021-03-17 15:42:10,577 basehttp 9368 8556 "GET /api/project/ HTTP/1.1" 200 13449
 INFO 2021-03-17 15:42:35,971 basehttp 9368 4388 "GET /api/project/ HTTP/1.1" 200 13449
 INFO 2021-03-17 15:42:38,124 basehttp 9368 6636 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-03-17 18:13:17,579 log 9368 11928 Not Found: /CLodopfuncs.js
+WARNING 2021-03-17 18:13:17,580 basehttp 9368 11928 "GET /CLodopfuncs.js?priority=1 HTTP/1.1" 404 2410
+INFO 2021-03-18 09:32:24,610 runapscheduler 1424 6312 等待时间: 7.359278 s
+INFO 2021-03-18 09:32:32,173 runapscheduler 1424 6312 开始启动定时器 ...
+INFO 2021-03-18 09:32:33,313 runapscheduler 6236 7960 等待时间: 5.878715 s
+INFO 2021-03-18 09:32:39,322 runapscheduler 6236 7960 定时器已经在运行
+INFO 2021-03-18 09:32:39,532 autoreload 6236 7960 Watching for file changes with StatReloader
+INFO 2021-03-18 09:33:00,003 runapscheduler 1424 6044 通知未关闭的bug
+INFO 2021-03-18 09:35:26,284 runapscheduler 7160 2724 等待时间: 7.068997 s
+INFO 2021-03-18 09:35:33,410 runapscheduler 7160 2724 开始启动定时器 ...
+INFO 2021-03-18 09:35:34,272 runapscheduler 1208 4736 等待时间: 2.811735 s
+INFO 2021-03-18 09:35:37,107 runapscheduler 1208 4736 定时器已经在运行
+INFO 2021-03-18 09:35:37,231 autoreload 1208 4736 Watching for file changes with StatReloader
+INFO 2021-03-18 09:36:00,003 runapscheduler 7160 6312 通知未关闭的bug
+INFO 2021-03-18 09:39:21,868 autoreload 1208 4736 E:\jfyunwei\jsb\project\management\commands\runapscheduler.py changed, reloading.
+INFO 2021-03-18 09:39:22,730 autoreload 7688 4336 Watching for file changes with StatReloader
+INFO 2021-03-18 09:43:00,262 runapscheduler 5816 1468 等待时间: 2.939353 s
+INFO 2021-03-18 09:43:03,259 runapscheduler 5816 1468 开始启动定时器 ...
+INFO 2021-03-18 09:43:04,121 runapscheduler 8076 7804 等待时间: 0.146218 s
+INFO 2021-03-18 09:43:04,279 runapscheduler 8076 7804 定时器已经在运行
+INFO 2021-03-18 09:43:04,407 autoreload 8076 7804 Watching for file changes with StatReloader
+INFO 2021-03-18 09:44:00,003 runapscheduler 5816 2800 通知未关闭的bug
+INFO 2021-03-18 09:45:19,596 autoreload 8076 7804 E:\jfyunwei\jsb\project\management\commands\runapscheduler.py changed, reloading.
+INFO 2021-03-18 09:45:20,496 runapscheduler 2724 7828 等待时间: 7.279326 s
+INFO 2021-03-18 09:45:27,833 runapscheduler 2724 7828 开始启动定时器 ...
+INFO 2021-03-18 09:45:28,020 autoreload 2724 7828 Watching for file changes with StatReloader
+INFO 2021-03-18 09:46:23,097 runapscheduler 4224 5084 等待时间: 4.395253 s
+INFO 2021-03-18 09:46:27,550 runapscheduler 4224 5084 开始启动定时器 ...
+INFO 2021-03-18 09:46:28,377 runapscheduler 6644 1468 等待时间: 2.335698 s
+INFO 2021-03-18 09:46:30,737 runapscheduler 6644 1468 定时器已经在运行
+INFO 2021-03-18 09:46:30,861 autoreload 6644 1468 Watching for file changes with StatReloader
+INFO 2021-03-18 09:47:00,017 runapscheduler 4224 8088 通知未关闭的bug
+INFO 2021-03-18 09:49:34,913 runapscheduler 7712 532 等待时间: 4.447314 s
+INFO 2021-03-18 09:49:39,409 runapscheduler 7712 532 开始启动定时器 ...
+INFO 2021-03-18 09:49:40,282 runapscheduler 3020 3808 等待时间: 2.329034 s
+INFO 2021-03-18 09:49:42,635 runapscheduler 3020 3808 定时器已经在运行
+INFO 2021-03-18 09:49:42,768 autoreload 3020 3808 Watching for file changes with StatReloader
+INFO 2021-03-18 09:50:00,016 runapscheduler 7712 5084 通知未关闭的bug
+INFO 2021-03-18 09:53:07,136 autoreload 3020 3808 E:\jfyunwei\jsb\project\management\commands\runapscheduler.py changed, reloading.
+INFO 2021-03-18 09:53:07,906 runapscheduler 5640 1704 等待时间: 3.462180 s
+INFO 2021-03-18 09:53:11,419 runapscheduler 5640 1704 开始启动定时器 ...
+INFO 2021-03-18 09:53:11,586 autoreload 5640 1704 Watching for file changes with StatReloader
+INFO 2021-03-18 09:53:32,554 autoreload 2784 8024 Watching for file changes with StatReloader
+WARNING 2021-03-18 09:53:37,700 log 2784 5640 Not Found: /
+WARNING 2021-03-18 09:53:37,700 basehttp 2784 5640 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-18 09:53:37,710 log 2784 5640 Not Found: /
+WARNING 2021-03-18 09:53:37,710 basehttp 2784 5640 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-18 09:53:37,885 log 2784 5640 Not Found: /favicon.ico
+WARNING 2021-03-18 09:53:37,885 basehttp 2784 5640 "GET /favicon.ico HTTP/1.1" 404 2390
+WARNING 2021-03-18 09:53:37,904 log 2784 5640 Not Found: /favicon.ico
+WARNING 2021-03-18 09:53:37,904 basehttp 2784 5640 "GET /favicon.ico HTTP/1.1" 404 2390
+INFO 2021-03-18 09:53:41,996 basehttp 2784 5640 "GET /admin/ HTTP/1.1" 200 15184
+INFO 2021-03-18 09:53:55,339 basehttp 2784 5640 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6448
+INFO 2021-03-18 09:53:55,386 basehttp 2784 5640 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 09:54:02,464 basehttp 2784 5640 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 4981
+INFO 2021-03-18 09:54:03,669 basehttp 2784 5640 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 302 0
+INFO 2021-03-18 09:54:03,698 basehttp 2784 5640 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3718
+INFO 2021-03-18 09:54:03,736 basehttp 2784 5640 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 09:54:08,402 autoreload 8552 8556 Watching for file changes with StatReloader
+INFO 2021-03-18 09:54:11,628 basehttp 8552 8668 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-18 09:54:11,662 basehttp 8552 8668 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 09:55:58,536 basehttp 8552 8668 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-18 09:55:58,568 basehttp 8552 8668 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2021-03-18 09:56:02,368 log 8552 8668 Not Found: /
+WARNING 2021-03-18 09:56:02,368 basehttp 8552 8668 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-18 10:11:39,732 runapscheduler 9680 9676 等待时间: 2.250663 s
+INFO 2021-03-18 10:11:42,030 runapscheduler 9680 9676 开始启动定时器 ...
+INFO 2021-03-18 10:11:42,887 runapscheduler 9732 9724 等待时间: 0.406230 s
+INFO 2021-03-18 10:11:43,307 runapscheduler 9732 9724 定时器已经在运行
+INFO 2021-03-18 10:11:43,436 autoreload 9732 9724 Watching for file changes with StatReloader
+INFO 2021-03-18 10:12:00,004 runapscheduler 9680 9844 通知未关闭的bug
+INFO 2021-03-18 10:13:43,599 autoreload 9732 9724 E:\jfyunwei\jsb\project\management\commands\runapscheduler.py changed, reloading.
+INFO 2021-03-18 10:13:44,372 runapscheduler 8972 9408 等待时间: 4.206049 s
+INFO 2021-03-18 10:13:48,630 runapscheduler 8972 9408 开始启动定时器 ...
+INFO 2021-03-18 10:13:48,818 autoreload 8972 9408 Watching for file changes with StatReloader
+INFO 2021-03-18 10:30:00,003 runapscheduler 8972 2352 定时器运行中 ...
+INFO 2021-03-18 10:30:00,034 runapscheduler 9680 9844 定时器运行中 ...
+INFO 2021-03-18 16:27:02,108 runapscheduler 11216 9832 等待时间: 6.895911 s
+INFO 2021-03-18 16:27:09,062 runapscheduler 11216 9832 开始启动定时器 ...
+INFO 2021-03-18 16:27:09,935 runapscheduler 11224 8380 等待时间: 8.450347 s
+INFO 2021-03-18 16:27:18,399 runapscheduler 11224 8380 定时器已经在运行
+INFO 2021-03-18 16:27:18,522 autoreload 11224 8380 Watching for file changes with StatReloader
+WARNING 2021-03-18 16:27:21,031 log 11224 10800 Not Found: /
+WARNING 2021-03-18 16:27:23,133 basehttp 11224 10800 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-18 16:27:23,141 log 11224 10800 Not Found: /
+WARNING 2021-03-18 16:27:23,142 basehttp 11224 10800 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-18 16:27:30,266 basehttp 11224 10800 "GET /admin/ HTTP/1.1" 200 15175
+INFO 2021-03-18 16:27:32,733 basehttp 11224 10800 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6459
+INFO 2021-03-18 16:27:32,770 basehttp 11224 10800 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:27:38,379 basehttp 11224 10800 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 4725
+INFO 2021-03-18 16:27:39,525 basehttp 11224 10800 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 302 0
+INFO 2021-03-18 16:27:39,552 basehttp 11224 10800 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3718
+INFO 2021-03-18 16:27:39,585 basehttp 11224 10800 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:27:41,050 basehttp 11224 10800 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-18 16:27:42,206 basehttp 11224 10800 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 4691
+INFO 2021-03-18 16:27:42,247 basehttp 11224 10800 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:28:38,418 runapscheduler 10624 8240 等待时间: 0.015370 s
+INFO 2021-03-18 16:28:38,480 runapscheduler 10624 8240 开始启动定时器 ...
+INFO 2021-03-18 16:28:39,330 runapscheduler 2200 10608 等待时间: 3.715288 s
+INFO 2021-03-18 16:28:43,069 runapscheduler 2200 10608 定时器已经在运行
+INFO 2021-03-18 16:28:43,198 autoreload 2200 10608 Watching for file changes with StatReloader
+INFO 2021-03-18 16:28:47,041 basehttp 2200 8584 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 5083
+INFO 2021-03-18 16:28:47,079 basehttp 2200 8584 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:28:49,415 basehttp 2200 8584 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-18 16:28:50,555 basehttp 2200 8584 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6448
+INFO 2021-03-18 16:28:50,584 basehttp 2200 8584 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:29:00,003 runapscheduler 10624 2220 通知未关闭的bug
+INFO 2021-03-18 16:29:49,139 runapscheduler 9640 9956 等待时间: 2.249521 s
+INFO 2021-03-18 16:29:51,447 runapscheduler 9640 9956 开始启动定时器 ...
+INFO 2021-03-18 16:29:52,278 runapscheduler 9868 10232 等待时间: 8.467242 s
+INFO 2021-03-18 16:30:00,015 runapscheduler 9640 9844 定时器运行中 ...
+INFO 2021-03-18 16:30:00,022 runapscheduler 9640 9996 通知未关闭的bug
+INFO 2021-03-18 16:30:00,768 runapscheduler 9868 10232 定时器已经在运行
+INFO 2021-03-18 16:30:00,891 autoreload 9868 10232 Watching for file changes with StatReloader
+INFO 2021-03-18 16:30:49,048 runapscheduler 2652 9488 等待时间: 0.385574 s
+INFO 2021-03-18 16:30:49,480 runapscheduler 2652 9488 开始启动定时器 ...
+INFO 2021-03-18 16:30:50,312 runapscheduler 1344 10760 等待时间: 5.762924 s
+INFO 2021-03-18 16:30:56,098 runapscheduler 1344 10760 定时器已经在运行
+INFO 2021-03-18 16:30:56,222 autoreload 1344 10760 Watching for file changes with StatReloader
+INFO 2021-03-18 16:31:00,002 runapscheduler 2652 7612 通知未关闭的bug
+INFO 2021-03-18 16:31:20,586 basehttp 1344 9700 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6454
+INFO 2021-03-18 16:31:20,617 basehttp 1344 9700 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:31:23,458 basehttp 1344 9700 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6454
+INFO 2021-03-18 16:31:23,487 basehttp 1344 9700 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:31:51,892 basehttp 1344 9700 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-18 16:31:52,860 basehttp 1344 9700 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 8638
+INFO 2021-03-18 16:31:52,893 basehttp 1344 9700 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:32:46,373 autoreload 5180 4956 Watching for file changes with StatReloader
+INFO 2021-03-18 16:32:51,211 basehttp 5180 9220 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 8638
+INFO 2021-03-18 16:32:51,249 basehttp 5180 9220 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:32:54,870 basehttp 5180 9220 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-18 16:32:55,965 basehttp 5180 9220 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6454
+INFO 2021-03-18 16:32:55,995 basehttp 5180 9220 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:33:03,603 basehttp 5180 9220 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 4867
+INFO 2021-03-18 16:33:04,916 basehttp 5180 9220 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 302 0
+INFO 2021-03-18 16:33:04,943 basehttp 5180 9220 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3718
+INFO 2021-03-18 16:33:04,983 basehttp 5180 9220 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:33:06,803 basehttp 5180 9220 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-18 16:33:07,918 basehttp 5180 9220 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 4691
+INFO 2021-03-18 16:33:07,949 basehttp 5180 9220 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:33:30,127 autoreload 9184 10732 Watching for file changes with StatReloader
+WARNING 2021-03-18 16:33:36,311 log 9184 8304 Not Found: /
+WARNING 2021-03-18 16:33:36,312 basehttp 9184 8304 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-18 16:33:36,328 log 9184 8304 Not Found: /
+WARNING 2021-03-18 16:33:36,330 basehttp 9184 8304 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-18 16:33:40,652 basehttp 9184 8304 "GET /admin/ HTTP/1.1" 200 15159
+INFO 2021-03-18 16:33:43,559 basehttp 9184 8304 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-18 16:33:43,596 basehttp 9184 8304 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:33:45,151 basehttp 9184 8304 "GET /admin/ HTTP/1.1" 200 15159
+INFO 2021-03-18 16:33:46,445 basehttp 9184 8304 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 4691
+INFO 2021-03-18 16:33:46,483 basehttp 9184 8304 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-18 16:33:48,637 basehttp 9184 8304 "GET /admin/ HTTP/1.1" 200 15159
+INFO 2021-03-18 16:34:08,525 autoreload 9728 8208 Watching for file changes with StatReloader
+INFO 2021-03-18 16:34:47,643 autoreload 10860 5380 Watching for file changes with StatReloader
+INFO 2021-03-18 16:37:21,559 basehttp 10860 6692 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-18 16:37:21,613 basehttp 10860 6692 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:41:20,524 runapscheduler 8784 4292 等待时间: 8.906950 s
+INFO 2021-03-19 10:41:29,716 runapscheduler 8784 4292 开始启动定时器 ...
+INFO 2021-03-19 10:41:30,010 runapscheduler 8784 2844 通知未解决的bug
+INFO 2021-03-19 10:41:30,850 runapscheduler 5020 9060 等待时间: 3.311735 s
+INFO 2021-03-19 10:41:34,184 runapscheduler 5020 9060 定时器已经在运行
+INFO 2021-03-19 10:41:34,310 autoreload 5020 9060 Watching for file changes with StatReloader
+INFO 2021-03-19 10:41:53,473 runapscheduler 68 8524 等待时间: 5.429081 s
+INFO 2021-03-19 10:41:58,924 runapscheduler 68 8524 定时器已经在运行
+INFO 2021-03-19 10:41:59,724 runapscheduler 6688 5124 等待时间: 6.821794 s
+INFO 2021-03-19 10:42:06,608 runapscheduler 6688 5124 开始启动定时器 ...
+INFO 2021-03-19 10:42:06,783 autoreload 6688 5124 Watching for file changes with StatReloader
+INFO 2021-03-19 10:42:23,348 runapscheduler 5108 5800 等待时间: 1.762990 s
+INFO 2021-03-19 10:42:25,265 runapscheduler 5108 5800 定时器已经在运行
+INFO 2021-03-19 10:42:26,062 runapscheduler 5292 848 等待时间: 7.139667 s
+INFO 2021-03-19 10:42:33,222 runapscheduler 5292 848 定时器已经在运行
+INFO 2021-03-19 10:42:33,349 autoreload 5292 848 Watching for file changes with StatReloader
+INFO 2021-03-19 10:42:51,008 runapscheduler 8888 4192 等待时间: 7.874202 s
+INFO 2021-03-19 10:42:58,947 runapscheduler 8888 4192 开始启动定时器 ...
+INFO 2021-03-19 10:42:59,839 runapscheduler 1376 9160 等待时间: 0.133135 s
+INFO 2021-03-19 10:42:59,994 runapscheduler 1376 9160 定时器已经在运行
+INFO 2021-03-19 10:43:00,123 autoreload 1376 9160 Watching for file changes with StatReloader
+WARNING 2021-03-19 10:43:13,996 log 1376 8468 Not Found: /
+WARNING 2021-03-19 10:43:13,997 basehttp 1376 8468 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-19 10:43:14,005 log 1376 8468 Not Found: /
+WARNING 2021-03-19 10:43:14,006 basehttp 1376 8468 "GET / HTTP/1.1" 404 2339
+WARNING 2021-03-19 10:43:14,190 log 1376 8468 Not Found: /favicon.ico
+WARNING 2021-03-19 10:43:14,191 basehttp 1376 8468 "GET /favicon.ico HTTP/1.1" 404 2390
+WARNING 2021-03-19 10:43:14,216 log 1376 8468 Not Found: /favicon.ico
+WARNING 2021-03-19 10:43:14,216 basehttp 1376 8468 "GET /favicon.ico HTTP/1.1" 404 2390
+INFO 2021-03-19 10:43:18,968 basehttp 1376 8468 "GET /admin/ HTTP/1.1" 200 15159
+INFO 2021-03-19 10:43:19,022 basehttp 1376 8468 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,023 basehttp 1376 9184 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,024 basehttp 1376 8488 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,029 basehttp 1376 8488 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,041 basehttp 1376 8488 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,041 basehttp 1376 9184 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,045 basehttp 1376 9184 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,103 basehttp 1376 9184 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,104 basehttp 1376 8488 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:19,107 basehttp 1376 8468 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,679 basehttp 1376 8468 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6444
+INFO 2021-03-19 10:43:21,715 basehttp 1376 8468 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,717 basehttp 1376 9184 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,727 basehttp 1376 8468 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,727 basehttp 1376 9184 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,736 basehttp 1376 8488 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:43:21,737 basehttp 1376 8468 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,738 basehttp 1376 9184 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,740 basehttp 1376 8804 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,742 basehttp 1376 5848 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,743 basehttp 1376 2968 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:21,774 basehttp 1376 2968 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-03-19 10:43:25,153 basehttp 1376 2968 "GET /admin/ HTTP/1.1" 200 15159
+INFO 2021-03-19 10:43:26,577 basehttp 1376 2968 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 7130
+INFO 2021-03-19 10:43:26,614 basehttp 1376 2968 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:44:00,004 runapscheduler 8888 4900 通知未解决的bug
+INFO 2021-03-19 10:44:28,833 basehttp 1376 2968 "GET /admin/django_apscheduler/djangojobexecution/ HTTP/1.1" 200 7641
+INFO 2021-03-19 10:44:28,865 basehttp 1376 2968 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:45:30,442 runapscheduler 6484 8472 等待时间: 2.753759 s
+INFO 2021-03-19 10:45:33,255 runapscheduler 6484 8472 开始启动定时器 ...
+INFO 2021-03-19 10:45:34,118 runapscheduler 5880 8224 等待时间: 4.598729 s
+INFO 2021-03-19 10:45:38,739 runapscheduler 5880 8224 定时器已经在运行
+INFO 2021-03-19 10:45:38,866 autoreload 5880 8224 Watching for file changes with StatReloader
+INFO 2021-03-19 10:45:46,304 autoreload 516 5668 Watching for file changes with StatReloader
+INFO 2021-03-19 10:45:56,711 basehttp 516 4384 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-19 10:45:57,746 basehttp 516 4384 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 6448
+INFO 2021-03-19 10:45:57,779 basehttp 516 4384 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:46:03,396 basehttp 516 4384 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 4567
+INFO 2021-03-19 10:46:04,716 basehttp 516 4384 "POST /admin/django_apscheduler/djangojob/ HTTP/1.1" 302 0
+INFO 2021-03-19 10:46:04,747 basehttp 516 4384 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3718
+INFO 2021-03-19 10:46:04,782 basehttp 516 4384 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:46:10,188 basehttp 516 4384 "GET /admin/django_apscheduler/ HTTP/1.1" 200 3119
+INFO 2021-03-19 10:46:11,221 basehttp 516 4384 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-19 10:46:11,247 basehttp 516 4384 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:46:12,676 basehttp 516 4384 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-19 10:46:12,706 basehttp 516 4384 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:46:17,101 autoreload 8972 8772 Watching for file changes with StatReloader
+INFO 2021-03-19 10:46:20,665 basehttp 8972 9016 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-19 10:46:20,696 basehttp 8972 9016 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:46:21,228 basehttp 8972 9016 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-19 10:46:21,256 basehttp 8972 9016 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:46:21,426 basehttp 8972 9016 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-19 10:46:21,454 basehttp 8972 9016 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:46:21,610 basehttp 8972 9016 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-19 10:46:21,640 basehttp 8972 9016 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-19 10:51:16,508 autoreload 4396 7072 Watching for file changes with StatReloader
+INFO 2021-03-19 10:51:21,122 basehttp 4396 8768 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 3593
+INFO 2021-03-19 10:51:21,204 basehttp 4396 8768 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2021-03-19 10:51:23,358 log 4396 8768 Not Found: /
+WARNING 2021-03-19 10:51:23,358 basehttp 4396 8768 "GET / HTTP/1.1" 404 2339
+INFO 2021-03-19 11:58:33,501 autoreload 9132 8420 Watching for file changes with StatReloader
+INFO 2021-03-19 12:00:59,244 basehttp 9132 5236 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 12:01:07,004 basehttp 9132 9892 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 12:01:07,118 basehttp 9132 9168 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 12:01:07,172 basehttp 9132 9784 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 12:01:07,190 basehttp 9132 8684 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 12:01:07,232 basehttp 9132 8224 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 12:01:14,885 basehttp 9132 10172 "GET /api/daily/?task=&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:34:56,903 basehttp 9132 8028 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 13:34:56,933 basehttp 9132 9692 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 13:34:56,987 basehttp 9132 9148 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:34:57,012 basehttp 9132 10068 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:34:57,219 basehttp 9132 9208 "GET /api/daily/?task=&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:35:12,610 basehttp 9132 10920 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:35:12,723 basehttp 9132 4772 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:35:12,974 basehttp 9132 10528 "GET /api/daily/?task=&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:35:15,272 basehttp 9132 11056 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:35:15,402 basehttp 9132 10624 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:35:15,639 basehttp 9132 10984 "GET /api/daily/?task=&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:39:10,818 basehttp 9132 11220 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:39:18,272 basehttp 9132 1608 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 13:39:18,319 basehttp 9132 9164 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 13:39:18,403 basehttp 9132 2656 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:39:18,406 basehttp 9132 1696 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:39:18,546 basehttp 9132 9760 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:39:28,348 basehttp 9132 10076 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:39:30,236 basehttp 9132 5548 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:43:01,461 basehttp 9132 10000 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:43:01,739 basehttp 9132 7792 "GET /api/project/ HTTP/1.1" 200 13449
+ERROR 2021-03-19 13:43:01,759 log 9132 8416 Internal Server Error: /api/getL2Menu/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\auth_permission\views.py", line 39, in list
+    user = UserInfo.objects.get(username=username)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+auth_permission.models.UserInfo.DoesNotExist: UserInfo matching query does not exist.
+ERROR 2021-03-19 13:43:01,762 basehttp 9132 8416 "GET /api/getL2Menu/ HTTP/1.1" 500 19560
+INFO 2021-03-19 13:43:10,607 basehttp 9132 1028 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+ERROR 2021-03-19 13:43:10,883 log 9132 8776 Internal Server Error: /api/getL2Menu/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\auth_permission\views.py", line 39, in list
+    user = UserInfo.objects.get(username=username)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+auth_permission.models.UserInfo.DoesNotExist: UserInfo matching query does not exist.
+ERROR 2021-03-19 13:43:10,892 basehttp 9132 8776 "GET /api/getL2Menu/ HTTP/1.1" 500 19560
+INFO 2021-03-19 13:43:11,039 basehttp 9132 9492 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:43:16,036 basehttp 9132 9060 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+ERROR 2021-03-19 13:43:16,199 log 9132 10192 Internal Server Error: /api/getL2Menu/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\auth_permission\views.py", line 39, in list
+    user = UserInfo.objects.get(username=username)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+auth_permission.models.UserInfo.DoesNotExist: UserInfo matching query does not exist.
+ERROR 2021-03-19 13:43:16,204 basehttp 9132 10192 "GET /api/getL2Menu/ HTTP/1.1" 500 19560
+INFO 2021-03-19 13:43:16,333 basehttp 9132 5912 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:43:33,298 basehttp 9132 2340 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+ERROR 2021-03-19 13:43:33,416 log 9132 2316 Internal Server Error: /api/getL2Menu/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\auth_permission\views.py", line 39, in list
+    user = UserInfo.objects.get(username=username)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+auth_permission.models.UserInfo.DoesNotExist: UserInfo matching query does not exist.
+ERROR 2021-03-19 13:43:33,417 basehttp 9132 2316 "GET /api/getL2Menu/ HTTP/1.1" 500 19560
+INFO 2021-03-19 13:43:33,906 basehttp 9132 8388 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:44:05,524 basehttp 9132 8688 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:44:11,419 basehttp 9132 10668 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 13:44:11,437 basehttp 9132 9624 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 13:44:11,494 basehttp 9132 8068 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:44:11,495 basehttp 9132 8960 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:44:11,536 basehttp 9132 7908 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:44:13,909 basehttp 9132 5884 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:44:15,542 basehttp 9132 7900 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:44:36,059 basehttp 9132 1116 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:44:38,519 basehttp 9132 376 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:44:42,793 basehttp 9132 9212 "GET /api/address/ HTTP/1.1" 200 2066
+ERROR 2021-03-19 13:44:47,288 log 9132 8744 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:44:47,289 basehttp 9132 8744 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:45:11,865 basehttp 9132 4520 "GET /api/getReportDaily/?group=&user=&start_date=2021-03-18T16:00:00.610Z&end_date=2021-03-19T15:59:59.610Z&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:45:11,965 basehttp 9132 11160 "GET /api/getGroups/?page=1&limit=10000&type=report HTTP/1.1" 200 9970
+INFO 2021-03-19 13:45:11,988 basehttp 9132 6112 "GET /api/getUserInfo/?page=1&limit=10000&group=&type=report HTTP/1.1" 200 10753
+ERROR 2021-03-19 13:45:14,312 log 9132 9476 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:45:14,315 basehttp 9132 9476 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:46:58,982 basehttp 9132 8860 "GET /api/getReportDaily/?group=&user=&start_date=2021-03-18T16:00:00.739Z&end_date=2021-03-19T15:59:59.739Z&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:46:59,006 basehttp 9132 376 "GET /api/getGroups/?page=1&limit=10000&type=report HTTP/1.1" 200 9970
+INFO 2021-03-19 13:46:59,035 basehttp 9132 9140 "GET /api/getUserInfo/?page=1&limit=10000&group=&type=report HTTP/1.1" 200 10753
+ERROR 2021-03-19 13:47:00,886 log 9132 3932 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:47:00,887 basehttp 9132 3932 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:47:10,565 basehttp 9132 9404 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:47:10,673 basehttp 9132 10988 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+ERROR 2021-03-19 13:47:10,881 log 9132 10752 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:47:10,882 basehttp 9132 10752 "GET /api/daily/ HTTP/1.1" 500 18111
+ERROR 2021-03-19 13:48:05,887 log 9132 7916 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:48:05,888 basehttp 9132 7916 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:50:11,921 basehttp 9132 10428 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:50:12,060 basehttp 9132 11020 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+ERROR 2021-03-19 13:50:12,217 log 9132 5244 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:50:12,219 basehttp 9132 5244 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:50:21,891 basehttp 9132 1428 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 13:50:21,909 basehttp 9132 10452 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 13:50:21,954 basehttp 9132 10720 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:50:21,974 basehttp 9132 7236 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+ERROR 2021-03-19 13:50:22,096 log 9132 900 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:50:22,099 basehttp 9132 900 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:50:56,802 basehttp 9132 10736 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:50:56,884 basehttp 9132 10152 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+ERROR 2021-03-19 13:50:57,112 log 9132 11108 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:50:57,114 basehttp 9132 11108 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:51:13,747 basehttp 9132 8780 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:51:13,872 basehttp 9132 10744 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+ERROR 2021-03-19 13:51:14,294 log 9132 9008 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:51:14,315 basehttp 9132 9008 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:51:22,134 basehttp 9132 9560 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 13:51:22,156 basehttp 9132 8628 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 13:51:22,213 basehttp 9132 888 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:51:22,233 basehttp 9132 7720 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+ERROR 2021-03-19 13:51:22,355 log 9132 2368 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:51:22,356 basehttp 9132 2368 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:54:01,653 basehttp 9132 9376 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:54:01,708 basehttp 9132 11060 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+ERROR 2021-03-19 13:54:02,152 log 9132 10376 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:54:02,173 basehttp 9132 10376 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:54:14,534 basehttp 9132 600 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:54:14,772 basehttp 9132 6100 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+ERROR 2021-03-19 13:54:14,931 log 9132 10032 Internal Server Error: /api/daily/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\report\views.py", line 18, in list
+    if int(page_size) == 10000:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-03-19 13:54:14,933 basehttp 9132 10032 "GET /api/daily/ HTTP/1.1" 500 18111
+INFO 2021-03-19 13:54:20,494 basehttp 9132 8568 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 13:54:20,513 basehttp 9132 4840 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 13:54:20,557 basehttp 9132 1324 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:54:20,574 basehttp 9132 10948 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:54:20,735 basehttp 9132 9872 "GET /api/daily/?task=&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:54:25,466 basehttp 9132 9696 "GET /api/getReportDaily/?group=&user=&start_date=2021-03-18T16:00:00.313Z&end_date=2021-03-19T15:59:59.313Z&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:54:25,541 basehttp 9132 9836 "GET /api/getGroups/?page=1&limit=10000&type=report HTTP/1.1" 200 9970
+INFO 2021-03-19 13:54:25,563 basehttp 9132 10564 "GET /api/getUserInfo/?page=1&limit=10000&group=&type=report HTTP/1.1" 200 10753
+INFO 2021-03-19 13:54:27,062 basehttp 9132 11152 "GET /api/daily/?task=&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:55:01,375 basehttp 9132 11020 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:55:01,456 basehttp 9132 10880 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:55:01,804 basehttp 9132 1048 "GET /api/daily/?task=&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 13:55:04,771 basehttp 9132 9460 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:55:07,345 basehttp 9132 6996 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:55:09,980 basehttp 9132 10580 "GET /api/project/ HTTP/1.1" 200 13449
+INFO 2021-03-19 13:56:13,749 basehttp 9132 9052 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:57:43,009 basehttp 9132 5328 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:57:47,243 basehttp 9132 9836 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 13:57:47,270 basehttp 9132 6688 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 13:57:47,350 basehttp 9132 8184 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:57:47,352 basehttp 9132 8568 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:57:47,452 basehttp 9132 7876 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:57:50,943 basehttp 9132 11172 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:57:59,695 basehttp 9132 9064 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-03-19 13:57:59,718 basehttp 9132 9060 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-03-19 13:57:59,794 basehttp 9132 10804 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-19 13:57:59,796 basehttp 9132 8720 "GET /api/getL1Menu/ HTTP/1.1" 200 1033
+INFO 2021-03-19 13:57:59,881 basehttp 9132 8800 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 627
+INFO 2021-03-19 13:58:42,010 basehttp 9132 9336 "GET /api/daily/?task=&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-03-19 14:00:28,180 autoreload 9720 10928 Watching for file changes with StatReloader

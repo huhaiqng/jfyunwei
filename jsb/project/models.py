@@ -30,7 +30,7 @@ class Host(models.Model):
     created = models.DateTimeField('创建时间', default=timezone.now)
 
     class Meta:
-        ordering = ['name']
+        ordering = ['env', 'inside_ip']
         verbose_name = '主机'
         verbose_name_plural = '主机'
 
