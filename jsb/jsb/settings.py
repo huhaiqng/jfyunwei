@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os.path
 import environ
+from aliyunsdkcore.client import AcsClient
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -169,7 +170,11 @@ LOGGING = {
         'verbose': {
             'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
             'style': '{',
-        }
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
+        },
     },
     'handlers': {
         'file': {
@@ -178,13 +183,18 @@ LOGGING = {
             'filename': 'logs/INFO.log',
             'formatter': 'verbose'
         },
+        'console': {  # 向终端中输出日志
+            'level': 'DEBUG' if DEBUG else 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose'
+        },
     },
     'loggers': {
         'django': {
-            'handlers': ['file'],
+            'handlers': ['file', "console"],
             'level': 'INFO',
             'propagate': True,
-        },
+        }
     },
 }
 
@@ -201,3 +211,6 @@ CACHES = {
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "default"
+
+ALIAPI_GAINHON666 = AcsClient('AccessKey ID', 'AccessKey Secret', 'cn-shenzhen')
+ALIAPI_LINGFANNAO = AcsClient('AccessKey ID', 'AccessKey Secret', 'cn-shenzhen')

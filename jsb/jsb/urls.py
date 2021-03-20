@@ -23,7 +23,8 @@ from django.core.management import call_command
 urlpatterns = [
     path('api/o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
     path('admin/', admin.site.urls),
-    re_path(r'^api/', include(('report.urls', 'report'))),
-    re_path(r'^api/', include(('address.urls', 'address'))),
-    re_path(r'^api/', include(('auth_permission.urls', 'auth_permission'))),
+    re_path(r'^api/', include('report.urls')),
+    re_path(r'^api/', include('address.urls')),
+    re_path(r'^api/', include('project.urls')),
+    re_path(r'^api/', include('auth_permission.urls')),
 ]
