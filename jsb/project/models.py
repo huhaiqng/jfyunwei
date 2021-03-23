@@ -15,7 +15,8 @@ class Host(models.Model):
     ENV_CHOICES = [('测试环境', '测试环境'), ('测试环境A', '测试环境A'), ('测试环境B', '测试环境B'),
                    ('生产环境', '生产环境')]
 
-    name = models.CharField('名称', max_length=200)
+    name = models.CharField('显示名称名称', max_length=200)
+    hostname = models.CharField('主机名', max_length=200, blank=True)
     inside_ip = models.GenericIPAddressField('内网 IP')
     outside_ip = models.GenericIPAddressField('外网 IP', default='0.0.0.0')
     inside_port = models.IntegerField('内网端口号', default=22)

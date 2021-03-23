@@ -2369,3 +2369,118 @@ Traceback (most recent call last):
     raise exception
 aliyunsdkcore.acs_exception.exceptions.ServerException: HTTP Status: 404 Error:InvalidAccessKeyId Specified access key is not found or invalid. RequestID: A2E70713-2B29-4C2D-9068-88FE09734938
 ERROR 2021-03-20 16:08:22,709 basehttp 10224 7176 "GET /api/getLingfannaoDomain/?per_page=10&page=1 HTTP/1.1" 500 18768
+ERROR 2021-03-20 16:11:12,788 log 10224 1436 Internal Server Error: /api/getGaingon666Domain/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views.py", line 22, in get
+    res = client.do_action_with_exception(req).decode('utf-8')
+  File "E:\PyEnv\jsb\lib\site-packages\aliyunsdkcore\client.py", line 476, in do_action_with_exception
+    raise exception
+aliyunsdkcore.acs_exception.exceptions.ServerException: HTTP Status: 404 Error:InvalidAccessKeyId Specified access key is not found or invalid. RequestID: 9E0650A2-2184-4025-A4B7-7CD0D28B21A0
+ERROR 2021-03-20 16:11:12,789 basehttp 10224 1436 "GET /api/getGaingon666Domain/?per_page=10&page=1 HTTP/1.1" 500 18768
+ERROR 2021-03-20 16:11:15,042 log 10224 12596 Internal Server Error: /api/getLingfannaoDomain/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views.py", line 58, in get
+    res = client.do_action_with_exception(req).decode('utf-8')
+  File "E:\PyEnv\jsb\lib\site-packages\aliyunsdkcore\client.py", line 476, in do_action_with_exception
+    raise exception
+aliyunsdkcore.acs_exception.exceptions.ServerException: HTTP Status: 404 Error:InvalidAccessKeyId Specified access key is not found or invalid. RequestID: 3EF1D79A-B50C-47AE-AD8D-F9E0DF92E438
+ERROR 2021-03-20 16:11:15,043 basehttp 10224 12596 "GET /api/getLingfannaoDomain/?per_page=10&page=1 HTTP/1.1" 500 18768
+INFO 2021-03-23 10:51:09,960 autoreload 11248 8876 Watching for file changes with StatReloader
+INFO 2021-03-23 11:00:15,285 basehttp 11248 8224 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-23 11:00:18,468 basehttp 11248 8932 "GET /api/project/ HTTP/1.1" 200 13463
+INFO 2021-03-23 11:03:40,907 basehttp 11248 11612 "GET /api/project/ HTTP/1.1" 200 13463
+INFO 2021-03-23 11:04:59,507 basehttp 11248 11768 "GET /api/project/ HTTP/1.1" 200 13463
+INFO 2021-03-23 11:06:11,398 basehttp 11248 4428 "GET /api/project/ HTTP/1.1" 200 13463
+INFO 2021-03-23 11:06:57,134 basehttp 11248 9744 "GET /api/project/ HTTP/1.1" 200 13463
+WARNING 2021-03-23 11:07:23,193 log 11248 10264 Not Found: /
+WARNING 2021-03-23 11:07:23,194 basehttp 11248 10264 "GET / HTTP/1.1" 404 2444
+WARNING 2021-03-23 11:07:23,207 log 11248 10264 Not Found: /
+WARNING 2021-03-23 11:07:23,208 basehttp 11248 10264 "GET / HTTP/1.1" 404 2444
+WARNING 2021-03-23 11:07:23,435 log 11248 10264 Not Found: /favicon.ico
+WARNING 2021-03-23 11:07:23,436 basehttp 11248 10264 "GET /favicon.ico HTTP/1.1" 404 2495
+INFO 2021-03-23 11:07:26,980 basehttp 11248 10264 "GET /admin/ HTTP/1.1" 200 15165
+INFO 2021-03-23 11:07:27,037 basehttp 11248 10264 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,037 basehttp 11248 11688 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,037 basehttp 11248 9412 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,044 basehttp 11248 9412 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,056 basehttp 11248 9412 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,056 basehttp 11248 11688 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,058 basehttp 11248 10264 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,117 basehttp 11248 10264 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,125 basehttp 11248 10264 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:27,126 basehttp 11248 11688 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,766 basehttp 11248 11688 "GET /admin/project/host/ HTTP/1.1" 200 4365
+INFO 2021-03-23 11:07:28,804 basehttp 11248 11688 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,806 basehttp 11248 9412 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,813 basehttp 11248 11688 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,814 basehttp 11248 9412 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,818 basehttp 11248 10264 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-23 11:07:28,824 basehttp 11248 11688 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,824 basehttp 11248 9412 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,825 basehttp 11248 7024 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,826 basehttp 11248 12256 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,827 basehttp 11248 11528 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:28,867 basehttp 11248 11528 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:31,028 basehttp 11248 11528 "GET /admin/project/host/1/change/ HTTP/1.1" 200 12090
+INFO 2021-03-23 11:07:31,063 basehttp 11248 7024 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:31,065 basehttp 11248 11688 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:31,065 basehttp 11248 12256 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:31,069 basehttp 11248 9412 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-23 11:07:31,081 basehttp 11248 9412 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:31,081 basehttp 11248 11528 "GET /djstatic/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2021-03-23 11:07:31,083 basehttp 11248 10264 "GET /djstatic/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+INFO 2021-03-23 11:07:31,203 basehttp 11248 11528 "GET /djstatic/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-03-23 11:07:31,206 basehttp 11248 10264 "GET /djstatic/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-03-23 11:07:38,170 basehttp 11248 10264 "POST /admin/project/host/1/change/ HTTP/1.1" 302 0
+INFO 2021-03-23 11:07:38,205 basehttp 11248 10264 "GET /admin/project/host/ HTTP/1.1" 200 4535
+INFO 2021-03-23 11:07:38,239 basehttp 11248 10264 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-03-23 11:07:38,272 basehttp 11248 10264 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-03-23 11:07:47,810 basehttp 11248 10596 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-03-23 11:07:59,980 basehttp 11248 3132 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-23 11:08:05,879 basehttp 11248 10716 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-23 11:09:03,188 basehttp 11248 8264 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-03-23 11:09:39,607 basehttp 11248 9368 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-03-23 11:10:47,856 basehttp 11248 5588 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-03-23 11:11:01,409 basehttp 11248 5116 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-23 14:20:25,522 autoreload 6924 8772 Watching for file changes with StatReloader
+INFO 2021-03-23 14:36:41,622 basehttp 6924 6968 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-03-23 14:36:43,902 basehttp 6924 3888 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-03-23 14:37:13,281 basehttp 6924 6296 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-03-23 14:38:13,713 basehttp 6924 11084 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-03-23 14:38:47,899 basehttp 6924 5624 "GET /api/project/ HTTP/1.1" 200 13474

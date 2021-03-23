@@ -31,9 +31,16 @@
                 <span>{{ project.deploy_dir }}</span>
               </template>
             </el-table-column>
-            <el-table-column label="日志路径">
+            <el-table-column label="日志路径" width="300px">
               <template>
                 <span>{{ project.log_dir }}</span>
+              </template>
+            </el-table-column>
+            <el-table-column label="操作" align="center" width="120px">
+              <template slot-scope="{row}">
+                <el-button type="primary" size="mini">
+                  <a type="primary" :href="row.hostname+project.log_dir" target="_blank">下载日志</a>
+                </el-button>
               </template>
             </el-table-column>
           </el-table>
