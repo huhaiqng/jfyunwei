@@ -3,57 +3,60 @@
     <el-row>
       <el-col :span="20">
         <div v-for="(project, index) in projects" :id="index" :key="project.id" class="tb">
-          <h4>{{ project.name }}</h4>
-          <el-table
-            :key="project.id"
-            :data="project.hosts"
-            border
-            fit
-            highlight-current-row
-          >
-            <el-table-column label="主机名称">
-              <template slot-scope="{row}">
-                <span>{{ row.name }}</span>
-              </template>
-            </el-table-column>
-            <el-table-column label="IP 地址">
-              <template slot-scope="{row}">
-                <span>{{ row.inside_ip }}</span>
-              </template>
-            </el-table-column>
-            <el-table-column label="环境">
-              <template slot-scope="{row}">
-                <span>{{ row.env }}</span>
-              </template>
-            </el-table-column>
-            <el-table-column label="部署路径">
-              <template>
-                <span>{{ project.deploy_dir }}</span>
-              </template>
-            </el-table-column>
-            <el-table-column label="日志路径" width="300px">
-              <template>
-                <span>{{ project.log_dir }}</span>
-              </template>
-            </el-table-column>
-            <el-table-column label="操作" align="center" width="120px">
-              <template slot-scope="{row}">
-                <el-button type="primary" size="mini">
-                  <a type="primary" :href="row.hostname+project.log_dir" target="_blank">下载日志</a>
-                </el-button>
-              </template>
-            </el-table-column>
-          </el-table>
+          <div v-if="project.hosts.length>0">
+            <h4>{{ project.name }}</h4>
+            <el-table
+              :key="project.id"
+              :data="project.hosts"
+              border
+              fit
+              highlight-current-row
+            >
+              <el-table-column label="主机名称">
+                <template slot-scope="{row}">
+                  <span>{{ row.name }}</span>
+                </template>
+              </el-table-column>
+              <el-table-column label="IP 地址">
+                <template slot-scope="{row}">
+                  <span>{{ row.inside_ip }}</span>
+                </template>
+              </el-table-column>
+              <el-table-column label="环境">
+                <template slot-scope="{row}">
+                  <span>{{ row.env }}</span>
+                </template>
+              </el-table-column>
+              <el-table-column label="部署路径">
+                <template>
+                  <span>{{ project.deploy_dir }}</span>
+                </template>
+              </el-table-column>
+              <el-table-column label="日志路径" width="300px">
+                <template>
+                  <span>{{ project.log_dir }}</span>
+                </template>
+              </el-table-column>
+              <el-table-column label="操作" align="center" width="120px">
+                <template slot-scope="{row}">
+                  <el-button type="primary" size="mini" @click="downloadLog(row.hostname+project.log_dir)">下载日志</el-button>
+                </template>
+              </el-table-column>
+            </el-table>
+          </div>
         </div>
       </el-col>
       <el-col :span="4">
         <el-card class="choice">
           <div v-for="(c, index) in projects" :key="c.name" :class="{active: active===index}" style="margin-bottom: 8px;">
-            <el-link :underline="false" @click="goto(index)">{{ c.name }}</el-link>
+            <el-link v-if="c.hosts.length>0" :underline="false" @click="goto(index)">{{ c.name }}</el-link>
           </div>
         </el-card>
       </el-col>
     </el-row>
+    <el-dialog title="下载日志" :visible.sync="dialogVisible">
+      <iframe :src="log_rul" class="log-container" />
+    </el-dialog>
   </div>
 </template>
 
@@ -69,11 +72,12 @@ export default {
       tableKey: 0,
       projects: null,
       filterProjects: null,
-      queryProject: ''
+      dialogVisible: false,
+      log_rul: null
     }
   },
   created() {
-    this.handleFilter()
+    this.getList()
   },
   mounted() {
     // 监听滚动事件
@@ -84,11 +88,15 @@ export default {
     window.removeEventListener('scroll', this.onScroll)
   },
   methods: {
-    handleFilter() {
-      getProject({ 'project': this.queryProject }).then(response => {
+    getList() {
+      getProject().then(response => {
         this.projects = response
         this.filterProjects = response
       })
+    },
+    downloadLog(log_url) {
+      this.dialogVisible = true
+      this.log_rul = log_url
     },
     goto(id) {
       // goAnchor(id)
@@ -131,5 +139,12 @@ export default {
 .tb {
   width: 100%;
   margin-bottom:40px;
+}
+.log-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding-bottom: 16px;
+  border:none;
 }
 </style>

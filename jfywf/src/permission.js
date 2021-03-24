@@ -53,6 +53,6 @@ router.beforeEach(async(to, from, next) => {
 
 router.afterEach(() => {
   // finish progress bar
-  document.querySelector('body').setAttribute('style', 'overflow: auto !important;')
+  // document.querySelector('body').setAttribute('style', 'overflow: auto !important;')
   NProgress.done()
 })

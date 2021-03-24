@@ -2484,3 +2484,4 @@ INFO 2021-03-23 14:36:43,902 basehttp 6924 3888 "GET /api/project/ HTTP/1.1" 200
 INFO 2021-03-23 14:37:13,281 basehttp 6924 6296 "GET /api/project/ HTTP/1.1" 200 13474
 INFO 2021-03-23 14:38:13,713 basehttp 6924 11084 "GET /api/project/ HTTP/1.1" 200 13474
 INFO 2021-03-23 14:38:47,899 basehttp 6924 5624 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-03-24 13:35:40,160 autoreload 732 1932 Watching for file changes with StatReloader
