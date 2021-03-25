@@ -26,7 +26,7 @@
           <span class="link-type"><el-link type="primary" :href="row.web_url" target="_blank">{{ row.web_url }}</el-link></span>
         </template>
       </el-table-column>
-      <el-table-column label="操作" align="center" width="100px">
+      <el-table-column label="操作" align="center" width="120px">
         <template slot-scope="{row}">
           <el-button type="primary" size="mini" @click="showProjects(row.id, row.name)">查看项目</el-button>
         </template>
