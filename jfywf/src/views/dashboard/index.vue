@@ -1,10 +1,10 @@
 <template>
   <div class="app-container">
-    <el-row v-for="(r, i) in rows_num" :key="i" :gutter="10">
+    <el-row v-for="(r, i) in rows_num" :key="i" :gutter="20">
       <el-col v-for="(o, j) in addr_num > (i+1)*12 ? 12 : addr_num - i*12" :key="j" :span="2">
         <a :href="addrs[12*i + j].url" target="_blank">
           <el-card shadow="hover" :body-style="{ padding: '10px' }">
-            <el-image style="width: 100px; height: 100px" :src="addrs[12*i + j].img" fit="cover" />
+            <el-image :src="addrs[12*i + j].img" fit="fill" />
             <div style="padding: 10px;">
               <span style="text-align:center;display:block;"> {{ addrs[12*i + j].name }} </span>
             </div>
