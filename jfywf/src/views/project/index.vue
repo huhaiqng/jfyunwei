@@ -54,6 +54,7 @@
         </el-card>
       </el-col>
     </el-row>
+
     <el-dialog title="下载日志" :visible.sync="dialogVisible">
       <iframe :src="log_rul" class="log-container" />
     </el-dialog>

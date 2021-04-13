@@ -2612,3 +2612,167 @@ INFO 2021-04-09 11:29:42,712 basehttp 10184 8652 "GET /api/address/ HTTP/1.1" 20
 INFO 2021-04-09 11:31:04,987 basehttp 10184 11912 "GET /api/address/ HTTP/1.1" 200 2066
 INFO 2021-04-09 11:31:07,385 basehttp 10184 11928 "GET /api/address/ HTTP/1.1" 200 2066
 INFO 2021-04-09 11:32:25,012 basehttp 10184 11400 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-04-10 14:23:47,108 autoreload 8972 2164 Watching for file changes with StatReloader
+INFO 2021-04-10 14:27:19,575 basehttp 8972 11932 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-04-10 14:27:23,939 basehttp 8972 10132 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-04-10 14:27:24,050 basehttp 8972 6792 "GET /api/user/?username=jsb HTTP/1.1" 200 396
+INFO 2021-04-10 14:27:24,132 basehttp 8972 9324 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-04-10 14:27:24,133 basehttp 8972 10860 "GET /api/getL1Menu/ HTTP/1.1" 200 1428
+INFO 2021-04-10 14:27:24,192 basehttp 8972 4852 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 893
+INFO 2021-04-10 14:27:28,169 basehttp 8972 2320 "GET /api/getReportDaily/?group=&user=&start_date=2021-04-09T16:00:00.953Z&end_date=2021-04-10T15:59:59.953Z&limit=10&page=1 HTTP/1.1" 200 52
+INFO 2021-04-10 14:27:28,199 basehttp 8972 11368 "GET /api/getGroups/?page=1&limit=10000&type=report HTTP/1.1" 200 9970
+INFO 2021-04-10 14:27:28,221 basehttp 8972 10180 "GET /api/getUserInfo/?page=1&limit=10000&group=&type=report HTTP/1.1" 200 10753
+ERROR 2021-04-10 14:27:37,226 log 8972 8484 Internal Server Error: /api/getLingfannaoDomain/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views.py", line 56, in get
+    res = client.do_action_with_exception(req).decode('utf-8')
+  File "E:\PyEnv\jsb\lib\site-packages\aliyunsdkcore\client.py", line 476, in do_action_with_exception
+    raise exception
+aliyunsdkcore.acs_exception.exceptions.ServerException: HTTP Status: 404 Error:InvalidAccessKeyId Specified access key is not found or invalid. RequestID: F51EE6E4-D554-4CA7-BEB2-D6114885AFF0
+ERROR 2021-04-10 14:27:37,227 basehttp 8972 8484 "GET /api/getLingfannaoDomain/?per_page=10&page=1 HTTP/1.1" 500 19028
+ERROR 2021-04-10 14:27:42,581 log 8972 10248 Internal Server Error: /api/getGaingon666Domain/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views.py", line 21, in get
+    res = client.do_action_with_exception(req).decode('utf-8')
+  File "E:\PyEnv\jsb\lib\site-packages\aliyunsdkcore\client.py", line 476, in do_action_with_exception
+    raise exception
+aliyunsdkcore.acs_exception.exceptions.ServerException: HTTP Status: 404 Error:InvalidAccessKeyId Specified access key is not found or invalid. RequestID: 2EA4F7C5-B811-4C57-8B1C-7242E1E496F5
+ERROR 2021-04-10 14:27:42,582 basehttp 8972 10248 "GET /api/getGaingon666Domain/?per_page=10&page=1 HTTP/1.1" 500 19028
+INFO 2021-04-10 14:27:49,232 basehttp 8972 10720 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4776
+INFO 2021-04-10 14:27:49,293 basehttp 8972 10792 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 12606
+INFO 2021-04-10 14:27:52,182 basehttp 8972 11884 "GET /api/getUserInfo/?page=1&limit=10&group=8 HTTP/1.1" 200 1927
+INFO 2021-04-10 14:27:54,627 basehttp 8972 11752 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-04-10 14:27:56,231 basehttp 8972 10864 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4776
+INFO 2021-04-10 14:27:56,291 basehttp 8972 12124 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 12606
+INFO 2021-04-10 14:30:44,437 basehttp 8972 8532 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4776
+INFO 2021-04-10 14:30:44,487 basehttp 8972 10976 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 12606
+INFO 2021-04-10 14:30:50,068 basehttp 8972 5084 "GET /api/getL1Menu/ HTTP/1.1" 200 1428
+INFO 2021-04-10 14:30:50,171 basehttp 8972 11032 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 893
+INFO 2021-04-10 14:30:50,434 basehttp 8972 11248 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4776
+INFO 2021-04-10 14:30:50,509 basehttp 8972 4532 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 12606
+INFO 2021-04-10 14:30:51,608 basehttp 8972 4352 "GET /api/getL1Menu/ HTTP/1.1" 200 1428
+INFO 2021-04-10 14:30:51,656 basehttp 8972 10928 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 893
+INFO 2021-04-10 14:30:51,909 basehttp 8972 11428 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4776
+INFO 2021-04-10 14:30:51,983 basehttp 8972 11004 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 12606
+INFO 2021-04-10 14:30:54,330 basehttp 8972 6768 "GET /api/getUserInfo/?page=1&limit=10&group=8 HTTP/1.1" 200 1927
+INFO 2021-04-10 14:30:56,330 basehttp 8972 9468 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 12656
+INFO 2021-04-10 14:31:03,938 basehttp 8972 6108 "GET /api/getUserInfo/?page=1&limit=10&group=3 HTTP/1.1" 200 3831
+INFO 2021-04-10 14:52:31,908 autoreload 8972 2164 E:\PyEnv\jsb\Lib\site-packages\django\contrib\auth\forms.py changed, reloading.
+INFO 2021-04-10 14:53:35,055 autoreload 9568 11672 Watching for file changes with StatReloader
+INFO 2021-04-10 14:54:26,002 autoreload 9568 11672 E:\PyEnv\jsb\Lib\site-packages\asgiref\current_thread_executor.py changed, reloading.
+INFO 2021-04-10 14:54:27,442 autoreload 6792 9220 Watching for file changes with StatReloader
+INFO 2021-04-10 14:54:43,589 autoreload 8384 9572 Watching for file changes with StatReloader
+INFO 2021-04-10 14:54:55,360 autoreload 10516 10132 Watching for file changes with StatReloader
+INFO 2021-04-10 14:57:45,591 autoreload 1396 7844 Watching for file changes with StatReloader
+WARNING 2021-04-10 14:57:51,377 log 1396 10792 Not Found: /
+WARNING 2021-04-10 14:57:51,378 basehttp 1396 10792 "GET / HTTP/1.1" 404 2467
+WARNING 2021-04-10 14:57:51,577 log 1396 10792 Not Found: /favicon.ico
+WARNING 2021-04-10 14:57:51,577 basehttp 1396 10792 "GET /favicon.ico HTTP/1.1" 404 2518
+INFO 2021-04-10 14:57:55,716 basehttp 1396 10792 "GET /admin HTTP/1.1" 301 0
+INFO 2021-04-10 14:57:55,767 basehttp 1396 10792 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-10 14:57:55,878 basehttp 1396 10792 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2226
+INFO 2021-04-10 14:57:55,909 basehttp 1396 10792 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-04-10 14:57:55,917 basehttp 1396 11828 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-04-10 14:57:55,923 basehttp 1396 8880 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-04-10 14:57:55,930 basehttp 1396 1364 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-04-10 14:57:55,934 basehttp 1396 10792 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-04-10 14:57:55,934 basehttp 1396 12164 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-04-10 14:57:55,977 basehttp 1396 10792 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-04-10 14:57:55,978 basehttp 1396 12164 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-04-10 14:57:58,437 basehttp 1396 12164 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-04-10 14:57:58,476 basehttp 1396 12164 "GET /admin/ HTTP/1.1" 200 15161
+INFO 2021-04-10 14:57:58,500 basehttp 1396 12164 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-04-10 14:57:58,517 basehttp 1396 12164 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-04-10 14:57:58,518 basehttp 1396 10792 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-04-10 14:57:58,520 basehttp 1396 1364 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-04-10 14:57:58,527 basehttp 1396 1364 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-04-10 14:58:01,169 basehttp 1396 1364 "GET /admin/address/projecturl/ HTTP/1.1" 200 48094
+INFO 2021-04-10 14:58:01,206 basehttp 1396 1364 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-04-10 14:58:01,207 basehttp 1396 11828 "GET /djstatic/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-04-10 14:58:01,209 basehttp 1396 8880 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-04-10 14:58:01,214 basehttp 1396 1364 "GET /djstatic/admin/js/actions.js HTTP/1.1" 200 6540
+INFO 2021-04-10 14:58:01,224 basehttp 1396 11828 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-04-10 14:58:01,224 basehttp 1396 10792 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-10 14:58:01,225 basehttp 1396 8880 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-04-10 14:58:01,228 basehttp 1396 3572 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-04-10 14:58:01,231 basehttp 1396 12164 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-04-10 14:58:01,232 basehttp 1396 1364 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-04-10 14:58:01,292 basehttp 1396 1364 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-04-10 14:58:01,293 basehttp 1396 3572 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2021-04-10 14:58:07,699 basehttp 1396 3572 "GET /admin/oauth2_provider/accesstoken/ HTTP/1.1" 200 20339
+INFO 2021-04-10 14:58:07,733 basehttp 1396 3572 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-10 14:58:15,076 basehttp 1396 3572 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 12910
+INFO 2021-04-10 14:58:15,110 basehttp 1396 3572 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-10 14:58:16,747 basehttp 1396 3572 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 14048
+INFO 2021-04-10 14:58:16,774 basehttp 1396 3572 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-10 14:58:21,128 basehttp 1396 3572 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 32869
+INFO 2021-04-10 14:58:21,162 basehttp 1396 1364 "GET /djstatic/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-04-10 14:58:21,163 basehttp 1396 3572 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-10 14:58:21,175 basehttp 1396 3572 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-04-10 14:58:21,176 basehttp 1396 1364 "GET /djstatic/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2021-04-10 14:59:21,830 autoreload 1396 7844 E:\PyEnv\jsb\Lib\site-packages\django\apps\config.py changed, reloading.
+INFO 2021-04-10 14:59:56,146 autoreload 10320 8212 Watching for file changes with StatReloader
+INFO 2021-04-10 15:01:33,577 autoreload 11904 692 Watching for file changes with StatReloader
+INFO 2021-04-10 15:02:06,204 basehttp 11904 10996 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 302 0
+INFO 2021-04-10 15:02:06,269 basehttp 11904 10996 "GET /admin/login/?next=/admin/auth_permission/userinfo/ HTTP/1.1" 200 1877
+INFO 2021-04-10 15:02:06,301 basehttp 11904 10996 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2021-04-10 15:02:06,302 basehttp 11904 5904 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2021-04-10 15:02:06,302 basehttp 11904 12236 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2021-04-10 15:02:06,318 basehttp 11904 12236 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-04-10 15:02:06,340 basehttp 11904 12236 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-04-10 15:02:06,364 basehttp 11904 5904 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-04-10 15:02:08,887 basehttp 11904 5904 "POST /admin/login/?next=/admin/auth_permission/userinfo/ HTTP/1.1" 302 0
+INFO 2021-04-10 15:02:08,974 basehttp 11904 5904 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 25403
+INFO 2021-04-10 15:02:09,007 basehttp 11904 5904 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2021-04-10 15:02:09,021 basehttp 11904 12236 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-04-10 15:02:09,022 basehttp 11904 5904 "GET /djstatic/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 2021-04-10 15:02:09,023 basehttp 11904 10268 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2021-04-10 15:02:09,030 basehttp 11904 10112 "GET /djstatic/admin/js/core.js HTTP/1.1" 200 7099
+INFO 2021-04-10 15:02:09,031 basehttp 11904 12236 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 2021-04-10 15:02:09,033 basehttp 11904 5904 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2021-04-10 15:02:09,033 basehttp 11904 10996 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+INFO 2021-04-10 15:02:09,034 basehttp 11904 11212 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2021-04-10 15:02:09,037 basehttp 11904 10268 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2021-04-10 15:02:09,050 basehttp 11904 11212 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-04-10 15:02:09,050 basehttp 11904 10268 "GET /djstatic/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-04-10 15:02:09,075 basehttp 11904 10268 "GET /djstatic/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2021-04-10 15:02:09,084 basehttp 11904 10268 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-04-10 15:02:09,088 basehttp 11904 11212 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2021-04-10 15:02:09,093 basehttp 11904 11212 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-04-10 15:03:47,343 basehttp 11904 1528 "GET /api/project/ HTTP/1.1" 200 13474

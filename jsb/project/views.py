@@ -7,7 +7,6 @@ from rest_framework.views import APIView
 
 
 class GetGaingon666Domain(APIView):
-
     def get(self, request, format=None):
         client = settings.ALIAPI_GAINHON666
         page = request.GET.get('page')
@@ -43,7 +42,6 @@ class GetGaingon666DomainRecord(APIView):
 
 
 class GetLingfannaoDomain(APIView):
-
     def get(self, request, format=None):
         client = settings.ALIAPI_LINGFANNAO
         page = request.GET.get('page')
