@@ -2,7 +2,6 @@ from __future__ import absolute_import, unicode_literals
 from celery import shared_task
 import logging
 import time
-from django_apscheduler.models import DjangoJobExecution
 import mysql.connector
 from dingtalkchatbot.chatbot import DingtalkChatbot
 from django.core.management import call_command

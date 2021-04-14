@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'oauth2_provider',
     'rest_framework',
-    'django_apscheduler',
     'auth_permission',
     'address',
     'report.apps.ReportConfig',

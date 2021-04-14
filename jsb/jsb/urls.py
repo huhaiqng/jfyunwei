@@ -15,11 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include, re_path
-from django.core.management import call_command
 
 
-# 执行定时任务
-# call_command('runapscheduler')
 urlpatterns = [
     path('api/o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
     path('admin/', admin.site.urls),
