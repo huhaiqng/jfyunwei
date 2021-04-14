@@ -31,7 +31,7 @@ SECRET_KEY = '9#39dgtw1w_-u#%m2h4j=!%^unm2b+p4e9i7j6xam5o5$mee6a'
 # 如果设置 DEBUG = False 无法找到静态文件
 DEBUG = True
 ALLOWED_HOSTS = ['*']
-
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 # Application definition
 
 INSTALLED_APPS = [
@@ -48,7 +48,9 @@ INSTALLED_APPS = [
     'address',
     'report.apps.ReportConfig',
     'guardian',
-    'project'
+    'project',
+    'django_celery_results',
+    'django_celery_beat',
 ]
 
 MIDDLEWARE = [
@@ -124,7 +126,7 @@ LANGUAGE_CODE = 'zh-hans'
 TIME_ZONE = 'Asia/Shanghai'
 USE_I18N = True
 USE_L10N = True
-USE_TZ = True
+USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
@@ -214,3 +216,9 @@ SESSION_CACHE_ALIAS = "default"
 
 ALIAPI_GAINHON666 = AcsClient('AccessKey ID', 'AccessKey Secret', 'cn-shenzhen')
 ALIAPI_LINGFANNAO = AcsClient('AccessKey ID', 'AccessKey Secret', 'cn-shenzhen')
+
+CELERY_RESULT_BACKEND = 'django-db'
+CELERY_BROKER_URL = 'redis://192.168.40.159:6379/3'
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+CELERY_TIMEZONE = 'Asia/Shanghai'
+DJANGO_CELERY_BEAT_TZ_AWARE = False

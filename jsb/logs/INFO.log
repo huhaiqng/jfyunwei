@@ -2776,3 +2776,132 @@ INFO 2021-04-10 15:02:09,084 basehttp 11904 10268 "GET /djstatic/admin/img/toolt
 INFO 2021-04-10 15:02:09,088 basehttp 11904 11212 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
 INFO 2021-04-10 15:02:09,093 basehttp 11904 11212 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
 INFO 2021-04-10 15:03:47,343 basehttp 11904 1528 "GET /api/project/ HTTP/1.1" 200 13474
+INFO 2021-04-14 11:27:13,843 autoreload 11784 10184 Watching for file changes with StatReloader
+WARNING 2021-04-14 11:27:17,856 log 11784 1616 Not Found: /
+WARNING 2021-04-14 11:27:17,856 basehttp 11784 1616 "GET / HTTP/1.1" 404 2444
+WARNING 2021-04-14 11:27:17,895 log 11784 1616 Not Found: /
+WARNING 2021-04-14 11:27:17,895 basehttp 11784 1616 "GET / HTTP/1.1" 404 2444
+WARNING 2021-04-14 11:27:18,038 log 11784 1616 Not Found: /favicon.ico
+WARNING 2021-04-14 11:27:18,039 basehttp 11784 1616 "GET /favicon.ico HTTP/1.1" 404 2495
+INFO 2021-04-14 11:27:22,620 basehttp 11784 1616 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-14 11:27:22,857 basehttp 11784 1616 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-04-14 11:27:22,891 basehttp 11784 1616 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-04-14 11:27:22,893 basehttp 11784 6208 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-04-14 11:27:22,894 basehttp 11784 10116 "GET /djstatic/admin/css/login.css HTTP/1.1" 304 0
+INFO 2021-04-14 11:27:22,920 basehttp 11784 10116 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-04-14 11:27:22,968 basehttp 11784 6208 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-14 11:27:22,971 basehttp 11784 10116 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-14 11:27:30,280 basehttp 11784 10060 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1827
+INFO 2021-04-14 11:27:30,356 basehttp 11784 10060 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2021-04-14 11:27:30,365 basehttp 11784 10060 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-04-14 11:27:30,366 basehttp 11784 11556 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2021-04-14 11:27:30,368 basehttp 11784 11344 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2021-04-14 11:27:30,534 basehttp 11784 11556 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-04-14 11:27:30,536 basehttp 11784 11344 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-04-14 12:23:33,727 autoreload 11784 10184 E:\PyEnv\jsb\Lib\site-packages\django\apps\__init__.py changed, reloading.
+INFO 2021-04-14 12:24:18,671 autoreload 9560 11128 Watching for file changes with StatReloader
+INFO 2021-04-14 12:25:45,713 autoreload 9560 11128 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-04-14 12:25:52,035 autoreload 5884 10400 Watching for file changes with StatReloader
+INFO 2021-04-14 13:40:21,739 autoreload 5884 10400 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-04-14 13:40:22,699 autoreload 6488 11576 Watching for file changes with StatReloader
+INFO 2021-04-14 13:40:51,615 autoreload 6488 11576 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-04-14 13:40:52,594 autoreload 1864 11648 Watching for file changes with StatReloader
+INFO 2021-04-14 13:41:25,509 autoreload 1864 11648 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-04-14 13:41:27,097 autoreload 8660 640 Watching for file changes with StatReloader
+INFO 2021-04-14 13:42:38,908 autoreload 8660 640 E:\jfyunwei\jsb\jsb\__init__.py changed, reloading.
+INFO 2021-04-14 13:42:40,217 autoreload 10140 11560 Watching for file changes with StatReloader
+INFO 2021-04-14 13:45:15,395 autoreload 9780 7352 Watching for file changes with StatReloader
+WARNING 2021-04-14 13:46:00,739 log 9780 12060 Not Found: /
+WARNING 2021-04-14 13:46:00,741 basehttp 9780 12060 "GET / HTTP/1.1" 404 2467
+WARNING 2021-04-14 13:46:00,799 log 9780 12060 Not Found: /
+WARNING 2021-04-14 13:46:00,800 basehttp 9780 12060 "GET / HTTP/1.1" 404 2467
+INFO 2021-04-14 13:46:04,353 basehttp 9780 12060 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-14 13:46:04,388 basehttp 9780 12060 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2226
+INFO 2021-04-14 13:46:04,421 basehttp 9780 12060 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-04-14 13:46:04,437 basehttp 9780 12060 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-04-14 13:46:06,644 basehttp 9780 12060 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2358
+INFO 2021-04-14 13:46:06,710 basehttp 9780 12060 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-04-14 13:46:24,992 basehttp 9780 12060 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-04-14 13:46:25,037 basehttp 9780 12060 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:46:25,065 basehttp 9780 12060 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-04-14 13:46:25,087 basehttp 9780 12060 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-04-14 13:46:25,092 basehttp 9780 2788 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-04-14 13:46:25,105 basehttp 9780 2932 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-04-14 13:46:28,330 basehttp 9780 2932 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:46:28,358 basehttp 9780 2932 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-04-14 13:46:28,368 basehttp 9780 12060 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-04-14 13:46:28,380 basehttp 9780 2932 "GET /djstatic/admin/js/actions.js HTTP/1.1" 200 6540
+INFO 2021-04-14 13:46:28,386 basehttp 9780 12060 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-04-14 13:46:28,387 basehttp 9780 2788 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:46:28,391 basehttp 9780 2932 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-04-14 13:46:28,394 basehttp 9780 6716 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-04-14 13:46:28,394 basehttp 9780 10772 "GET /djstatic/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-04-14 13:46:28,396 basehttp 9780 12060 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-04-14 13:46:28,396 basehttp 9780 9936 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-04-14 13:46:28,416 basehttp 9780 12060 "GET /djstatic/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-04-14 13:46:28,432 basehttp 9780 12060 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-04-14 13:46:33,965 basehttp 9780 12060 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:46:34,001 basehttp 9780 12060 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:46:46,148 basehttp 9780 12060 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:46:46,183 basehttp 9780 12060 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:46:46,582 basehttp 9780 12060 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:46:46,614 basehttp 9780 12060 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:46:46,799 basehttp 9780 12060 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:46:46,835 basehttp 9780 12060 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:04,091 basehttp 9780 8996 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:47:04,120 basehttp 9780 8996 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:04,578 basehttp 9780 8996 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:47:04,607 basehttp 9780 8996 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:04,818 basehttp 9780 8996 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:47:04,857 basehttp 9780 8996 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:04,988 basehttp 9780 8996 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:47:05,019 basehttp 9780 8996 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:05,186 basehttp 9780 8996 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:47:05,218 basehttp 9780 8996 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:07,517 basehttp 9780 10420 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:47:09,845 basehttp 9780 10420 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:47:10,027 basehttp 9780 10420 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:47:10,237 basehttp 9780 10420 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:47:10,406 basehttp 9780 10420 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:47:10,572 basehttp 9780 10420 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:47:10,778 basehttp 9780 10420 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:47:18,076 basehttp 9780 11832 "GET /admin/address/env/ HTTP/1.1" 200 16053
+INFO 2021-04-14 13:47:18,118 basehttp 9780 11832 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-04-14 13:47:18,127 basehttp 9780 11832 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-04-14 13:47:18,140 basehttp 9780 10728 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:18,141 basehttp 9780 11832 "GET /djstatic/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-04-14 13:47:18,143 basehttp 9780 9580 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-04-14 13:47:18,146 basehttp 9780 2180 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-04-14 13:47:18,153 basehttp 9780 10728 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-04-14 13:47:18,153 basehttp 9780 11832 "GET /djstatic/admin/js/actions.js HTTP/1.1" 200 6540
+INFO 2021-04-14 13:47:18,155 basehttp 9780 11872 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-04-14 13:47:18,157 basehttp 9780 9580 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-04-14 13:47:18,158 basehttp 9780 2180 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-04-14 13:47:18,164 basehttp 9780 10392 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-04-14 13:47:18,168 basehttp 9780 11872 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-04-14 13:47:18,171 basehttp 9780 10728 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-04-14 13:47:18,198 basehttp 9780 10728 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-04-14 13:47:18,244 basehttp 9780 10728 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-04-14 13:47:18,253 basehttp 9780 11872 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-04-14 13:47:18,254 basehttp 9780 10392 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-04-14 13:47:18,269 basehttp 9780 10728 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-04-14 13:47:18,269 basehttp 9780 11872 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-04-14 13:47:26,798 basehttp 9780 11872 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 15831
+INFO 2021-04-14 13:47:26,830 basehttp 9780 11872 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:28,635 basehttp 9780 11116 "GET /admin/django_apscheduler/djangojob/ HTTP/1.1" 200 14029
+INFO 2021-04-14 13:47:28,666 basehttp 9780 11116 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:30,655 basehttp 9780 11116 "GET /admin/ HTTP/1.1" 200 18672
+INFO 2021-04-14 13:47:32,326 basehttp 9780 11116 "GET /admin/auth_permission/department/ HTTP/1.1" 200 17294
+INFO 2021-04-14 13:47:32,357 basehttp 9780 11116 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:36,885 basehttp 9780 11116 "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 16629
+INFO 2021-04-14 13:47:36,916 basehttp 9780 11116 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:39,927 basehttp 9780 11568 "GET /admin/oauth2_provider/application/ HTTP/1.1" 200 17050
+INFO 2021-04-14 13:47:39,957 basehttp 9780 11568 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:47:40,565 basehttp 9780 11568 "GET /admin/oauth2_provider/accesstoken/ HTTP/1.1" 200 22950
+INFO 2021-04-14 13:47:40,599 basehttp 9780 11568 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-14 13:52:13,088 autoreload 9780 7352 E:\jfyunwei\jsb\jsb\celery.py changed, reloading.
+INFO 2021-04-14 13:52:14,494 autoreload 9280 9612 Watching for file changes with StatReloader
+INFO 2021-04-14 14:06:48,250 autoreload 9280 9612 E:\PyEnv\jsb\Lib\site-packages\importlib_metadata\__init__.py changed, reloading.
+INFO 2021-04-14 14:06:49,575 autoreload 11316 10108 Watching for file changes with StatReloader
+INFO 2021-04-14 14:29:48,031 autoreload 4596 2856 Watching for file changes with StatReloader
+INFO 2021-04-14 15:34:28,211 autoreload 4596 2856 E:\jfyunwei\jsb\jsb\celery.py changed, reloading.

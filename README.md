@@ -1,3 +1,21 @@
+# 使用docker-compose 部署
+
+上传文件前端静态文件到 /data/yunwei/jfywf
+
+上传后端代码到 /data/yunwei/jsb
+
+
+
+启动
+
+```
+docker-compose up -d
+```
+
+
+
+# 手动部署
+
 #### 前端生产环境部署
 
 提取管理端静态文件
@@ -45,20 +63,22 @@ server {
         proxy_set_header Connection "upgrade";
     }
 }
-
 ```
 
 
 
 #### 后端生产环境部署
 
-安装 gunicorn
+安装包
 
 ```
-pip install gunicorn
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple importlib-metadata==3.10.1
+pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt
 ```
 
-重启脚本 restart.sh
+代码上传到 /data/yunwei/jsb
+
+启动脚本 start.sh
 
 > 启动前设置环境变量
 >
@@ -68,14 +88,15 @@ pip install gunicorn
 
 ```shell
 #!/bin/bash
-cd /jsb
-kill -9 `ps -ef | grep gunicorn | grep -v grep | awk '{print $2}'`
+cd /data/yunwei/jsb
 export ENV_FILE=jsb/.prod
-echo ${ENV_FILE}
-nohup gunicorn jsb.wsgi \
---bind=0.0.0.0:8000 \
---log-file logs/INFO.log \
---workers 8 \
->/dev/null 2>&1 &
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple importlib-metadata==3.10.1
+pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt
+
+[ -f /var/run/celery/worker.pid ] && rm -f /var/run/celery/worker.pid
+celery multi start -A jsb worker -l info -f logs/worker.log
+nohup celery -A jsb beat -l info -f logs/beat.log  >/dev/null 2>&1 &
+gunicorn jsb.wsgi --bind=0.0.0.0:8000 --log-file logs/INFO.log --workers 8
 ```
 
