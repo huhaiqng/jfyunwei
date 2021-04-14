@@ -73,4 +73,3 @@ def check_schedule():
 def clear_token():
     logger.info('从数据库中删除过期 token')
     call_command('cleartokens')
-
