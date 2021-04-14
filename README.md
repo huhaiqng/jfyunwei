@@ -9,6 +9,7 @@
 启动
 
 ```
+cd /data/yunwei/jsb
 docker-compose up -d
 ```
 
