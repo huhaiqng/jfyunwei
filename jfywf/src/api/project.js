@@ -6,3 +6,11 @@ export function getProjectInfo() {
     method: 'get'
   })
 }
+
+export function getTaskResult(data) {
+  return request({
+    url: '/api/taskresult/',
+    method: 'get',
+    params: data
+  })
+}

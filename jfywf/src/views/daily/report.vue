@@ -92,12 +92,12 @@ export default {
   },
   methods: {
     getReporList() {
-      this.pick_date[0].setSeconds(0)
-      this.pick_date[0].setMinutes(0)
-      this.pick_date[0].setHours(0)
-      this.pick_date[1].setSeconds(59)
-      this.pick_date[1].setMinutes(59)
-      this.pick_date[1].setHours(23)
+      // this.pick_date[0].setSeconds(0)
+      // this.pick_date[0].setMinutes(0)
+      // this.pick_date[0].setHours(0)
+      // this.pick_date[1].setSeconds(59)
+      // this.pick_date[1].setMinutes(59)
+      // this.pick_date[1].setHours(23)
       this.dailyQueryList.start_date = this.pick_date[0]
       this.dailyQueryList.end_date = this.pick_date[1]
       getReportDaily(this.dailyQueryList).then(response => {

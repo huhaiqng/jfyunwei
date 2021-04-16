@@ -1,8 +1,12 @@
 from django.contrib import admin
-from .models import Department, Position, UserInfo, L1Menu, L2Menu
+from .models import UserInfo, L1Menu, L2Menu
 from django.contrib.auth.admin import UserAdmin
 from django.utils.translation import gettext_lazy
 from guardian.admin import GuardedModelAdmin
+
+
+class L1MenuAdmin(GuardedModelAdmin):
+    list_display = ('name', 'title', 'path', 'redirect', 'order')
 
 
 class L2MenuAdmin(GuardedModelAdmin):
@@ -24,9 +28,9 @@ class UserInfoAdmin(UserAdmin):
 
 
 admin.site.register(UserInfo, UserInfoAdmin)
-admin.site.register(Department)
-admin.site.register(Position)
-admin.site.register(L1Menu)
+# admin.site.register(Department)
+# admin.site.register(Position)
+admin.site.register(L1Menu, L1MenuAdmin)
 admin.site.register(L2Menu, L2MenuAdmin)
 
 

@@ -4,34 +4,34 @@ from django.contrib.auth.models import ContentType
 
 
 # 部门
-class Department(models.Model):
-    name = models.CharField(max_length=11, unique=True)
-
-    class Meta:
-        verbose_name = '部门'
-        verbose_name_plural = '部门'
-
-    def __str__(self):
-        return self.name
+# class Department(models.Model):
+#     name = models.CharField(max_length=11, unique=True)
+#
+#     class Meta:
+#         verbose_name = '部门'
+#         verbose_name_plural = '部门'
+#
+#     def __str__(self):
+#         return self.name
 
 
 # 职位
-class Position(models.Model):
-    name = models.CharField(max_length=255, unique=True)
-
-    class Meta:
-        verbose_name = '职位'
-        verbose_name_plural = '职位'
-
-    def __str__(self):
-        return self.name
+# class Position(models.Model):
+#     name = models.CharField(max_length=255, unique=True)
+#
+#     class Meta:
+#         verbose_name = '职位'
+#         verbose_name_plural = '职位'
+#
+#     def __str__(self):
+#         return self.name
 
 
 # 用户
 class UserInfo(AbstractUser):
     phone = models.CharField('手机号码', max_length=11, unique=True)
-    department = models.ForeignKey(Department, verbose_name="部门", on_delete=models.PROTECT)
-    position = models.ForeignKey(Position, verbose_name='职位', on_delete=models.PROTECT)
+    # department = models.ForeignKey(Department, verbose_name="部门", on_delete=models.PROTECT)
+    # position = models.ForeignKey(Position, verbose_name='职位', on_delete=models.PROTECT)
 
     def __str__(self):
         return self.username

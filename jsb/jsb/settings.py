@@ -125,7 +125,9 @@ LANGUAGE_CODE = 'zh-hans'
 TIME_ZONE = 'Asia/Shanghai'
 USE_I18N = True
 USE_L10N = True
-USE_TZ = False
+# USE_TZ = True: 数据库保存的时间为 UTC 时间，admin 显示的时间为 Asia/Shanghai 时间
+# USE_TZ = False: 数据库保存的时间为 Asia/Shanghai 时间，admin 显示的时间为 Asia/Shanghai 时间
+USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
@@ -220,4 +222,4 @@ CELERY_RESULT_BACKEND = 'django-db'
 CELERY_BROKER_URL = 'redis://192.168.40.159:6379/3'
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 CELERY_TIMEZONE = 'Asia/Shanghai'
-DJANGO_CELERY_BEAT_TZ_AWARE = False
+# DJANGO_CELERY_BEAT_TZ_AWARE = False
