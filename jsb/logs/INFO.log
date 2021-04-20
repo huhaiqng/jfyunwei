@@ -6951,3 +6951,27 @@ INFO 2021-04-20 15:35:41,630 basehttp 10272 11812 "GET /api/getL2Menu/?username=
 INFO 2021-04-20 15:35:41,943 basehttp 10272 11280 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 307
 INFO 2021-04-20 15:38:38,783 autoreload 10272 12120 E:\jfyunwei\jsb\project\models.py changed, reloading.
 INFO 2021-04-20 15:38:40,056 autoreload 10684 10060 Watching for file changes with StatReloader
+INFO 2021-04-20 15:44:44,237 basehttp 10684 11064 "POST /api/mysqlInstance/ HTTP/1.1" 201 255
+INFO 2021-04-20 15:44:44,277 basehttp 10684 11524 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 563
+INFO 2021-04-20 15:52:13,307 basehttp 10684 6072 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:52:13,368 basehttp 10684 11244 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:52:13,685 basehttp 10684 11224 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 563
+INFO 2021-04-20 15:52:19,888 basehttp 10684 8968 "POST /api/mysqlInstance/ HTTP/1.1" 201 255
+INFO 2021-04-20 15:52:19,929 basehttp 10684 12220 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 819
+INFO 2021-04-20 15:59:17,759 basehttp 10684 9084 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:59:17,799 basehttp 10684 188 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:59:18,090 basehttp 10684 10364 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 819
+INFO 2021-04-20 16:00:26,095 basehttp 10684 12172 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 16:00:26,170 basehttp 10684 6400 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 16:00:26,626 basehttp 10684 11648 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 819
+WARNING 2021-04-20 16:00:35,074 log 10684 11508 Bad Request: /api/mysqlInstance/
+WARNING 2021-04-20 16:00:35,074 basehttp 10684 11508 "POST /api/mysqlInstance/ HTTP/1.1" 400 72
+INFO 2021-04-20 16:00:43,578 basehttp 10684 12248 "POST /api/mysqlInstance/ HTTP/1.1" 201 255
+INFO 2021-04-20 16:00:43,619 basehttp 10684 5656 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-04-20 16:02:18,640 basehttp 10684 10280 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 16:02:18,756 basehttp 10684 10384 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 16:02:19,201 basehttp 10684 12160 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+WARNING 2021-04-20 16:02:29,412 log 10684 10020 Bad Request: /api/mysqlInstance/3/
+WARNING 2021-04-20 16:02:29,412 basehttp 10684 10020 "PUT /api/mysqlInstance/3/ HTTP/1.1" 400 72
+INFO 2021-04-20 16:02:34,430 basehttp 10684 10340 "PUT /api/mysqlInstance/3/ HTTP/1.1" 200 255
+INFO 2021-04-20 16:02:34,473 basehttp 10684 12240 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
