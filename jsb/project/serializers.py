@@ -1,6 +1,13 @@
 from rest_framework import serializers
 from .models import Host
+from address.models import Env
 from django_celery_results.models import TaskResult
+
+
+class EnvSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Env
+        fields = '__all__'
 
 
 class HostSerializer(serializers.ModelSerializer):

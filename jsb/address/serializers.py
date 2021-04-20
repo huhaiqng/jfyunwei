@@ -1,6 +1,12 @@
 from rest_framework import serializers
 from address.models import Address, Env, ProjectUrl, Project
-from project.serializers import HostSerializer
+from project.models import Host
+
+
+class ProjectHostSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Host
+        fields = ['name', 'hostname', 'inside_ip', 'env']
 
 
 class AddressSerializer(serializers.ModelSerializer):
@@ -25,7 +31,7 @@ class ProjectUrlSerializer(serializers.ModelSerializer):
 
 class ProjectSerializer(serializers.ModelSerializer):
     urls = ProjectUrlSerializer(read_only=True, many=True)
-    hosts = HostSerializer(read_only=True, many=True)
+    hosts = ProjectHostSerializer(read_only=True, many=True)
 
     class Meta:
         model = Project

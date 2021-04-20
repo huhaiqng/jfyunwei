@@ -17,25 +17,12 @@
           </div>
           <el-dropdown-menu slot="dropdown">
             <el-dropdown-item @click.native="handleChangeMyPassword">更改密码</el-dropdown-item>
+            <el-dropdown-item @click.native="gotoAdmin">Django 管理</el-dropdown-item>
             <el-dropdown-item divided @click.native="logout">退出</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
       </template>
     </div>
-
-    <!-- <div class="right-menu">
-      <el-dropdown class="avatar-container" trigger="click">
-        <div class="avatar-wrapper">
-          <img :src="avatar+'?imageView2/1/w/80/h/80'" class="user-avatar">
-          <i class="el-icon-caret-bottom" />
-        </div>
-        <el-dropdown-menu slot="dropdown" class="user-dropdown">
-          <el-dropdown-item divided @click.native="logout">
-            <span style="display:block;">Log Out</span>
-          </el-dropdown-item>
-        </el-dropdown-menu>
-      </el-dropdown>
-    </div> -->
   </div>
 </template>
 
@@ -70,6 +57,14 @@ export default {
   methods: {
     toggleSideBar() {
       this.$store.dispatch('app/toggleSideBar')
+    },
+    gotoAdmin() {
+      if (process.env.NODE_ENV === 'development') {
+        window.open(process.env.VUE_APP_ADMIN_URL, '_blank')
+      } else if (process.env.NODE_ENV === 'production') {
+        var ADMIN_URL = window.location.protocol + '//' + window.location.host + '/admin'
+        window.open(ADMIN_URL, '_blank')
+      }
     },
     async logout() {
       await this.$store.dispatch('user/logout')

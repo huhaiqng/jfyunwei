@@ -1,10 +1,14 @@
 from django.urls import path, include
 from .views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, GetLingfannaoDomainRecord, \
-    TaskResultViewSet
+    TaskResultViewSet, HostViewSet, EnvViewSet
 from rest_framework import routers
+
 
 router = routers.DefaultRouter()
 router.register(r'taskresult', TaskResultViewSet)
+router.register(r'getEnv', EnvViewSet)
+router.register(r'hosts', HostViewSet)
+
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -7,7 +7,11 @@ class ProjectUrlAdmin(GuardedModelAdmin):
     list_display = ('name', 'url', 'project', 'env')
 
 
+class AddressAdmin(GuardedModelAdmin):
+    list_display = ('name', 'url', 'order')
+
+
 admin.site.register(Project)
 admin.site.register(Env)
 admin.site.register(ProjectUrl, ProjectUrlAdmin)
-admin.site.register(Address)
+admin.site.register(Address, AddressAdmin)

@@ -1,8 +1,11 @@
--- 20210323
-ALTER TABLE `project_host` ADD COLUMN `hostname` varchar(200) DEFAULT '' NOT NULL;
-ALTER TABLE `project_host` ALTER COLUMN `hostname` DROP DEFAULT;
+--
+ALTER TABLE `project_host` ADD COLUMN `password` varchar(200) DEFAULT '123456' NOT NULL;
+ALTER TABLE `project_host` ALTER COLUMN `password` DROP DEFAULT;
+--
+-- Add field user to host
+--
+ALTER TABLE `project_host` ADD COLUMN `user` varchar(200) DEFAULT 'root' NOT NULL;
+ALTER TABLE `project_host` ALTER COLUMN `user` DROP DEFAULT;
 
-# 未执行
--- 20210415
-ALTER TABLE `auth_permission_userinfo` DROP COLUMN `department_id`;
-ALTER TABLE `auth_permission_userinfo` DROP COLUMN `position_id`;
+
+ALTER TABLE `project_host` ADD CONSTRAINT `project_host_inside_ip_cloud_user_a170097e_uniq` UNIQUE (`inside_ip`, `cloud_user`);

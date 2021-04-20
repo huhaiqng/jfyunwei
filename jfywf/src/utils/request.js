@@ -43,9 +43,9 @@ service.interceptors.response.use(
   error => {
     if (error.response.status === 401) {
       store.dispatch('user/resetToken')
-    } else if (error.response.status === 400) {
+    } else if (error.response.status >= 400) {
       Message({
-        message: '用户名或密码错误！',
+        message: error.response.data,
         type: 'warning'
       })
     } else if (error.response.status >= 500) {
