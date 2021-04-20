@@ -73,49 +73,79 @@
       </el-table-column>
     </el-table>
     <pagination v-show="total>0" :total="total" :page.sync="queryList.page" :limit.sync="queryList.limit" @pagination="getList" />
-    <el-dialog :title="textMap[dialogStatus]" :visible.sync="dialogVisible">
+    <el-dialog :title="textMap[dialogStatus]" :visible.sync="dialogVisible" width="60%">
       <el-form ref="dataForm" :model="temp" label-position="left" label-width="100px" style="margin-right:30px; margin-left:30px;">
-        <el-form-item label="内网地址" prop="inside_addr">
-          <el-input v-model="temp.inside_addr" style="width:60%" />
-        </el-form-item>
-        <el-form-item label="外网地址" prop="outside_addr">
-          <el-input v-model="temp.outside_addr" style="width:60%" />
-        </el-form-item>
-        <el-form-item label="角色" prop="role">
-          <el-select v-model="temp.role" style="width:60%">
-            <el-option value="master">master</el-option>
-            <el-option value="slave">slave</el-option>
-          </el-select>
-        </el-form-item>
-        <el-form-item label="数据库路径" prop="data_dir">
-          <el-input v-model="temp.data_dir" style="width:60%" />
-        </el-form-item>
-        <el-form-item label="版本号" prop="version">
-          <el-input v-model="temp.version" style="width:60%" />
-        </el-form-item>
-        <el-form-item label="管理员" prop="manger">
-          <el-input v-model="temp.manager" style="width:60%" />
-        </el-form-item>
-        <el-form-item label="密码" prop="password">
-          <el-input v-model="temp.password" style="width:60%" />
-        </el-form-item>
-        <el-form-item label="部署方式" prop="method">
-          <el-select v-model="temp.method" class="filter-item" style="width:60%">
-            <el-option value="normal">normal</el-option>
-            <el-option value="docker">docker</el-option>
-            <el-option value="docker-compose">docker-compose</el-option>
-          </el-select>
-        </el-form-item>
-        <el-form-item label="来源" prop="origin">
-          <el-select v-model="temp.origin" class="filter-item" style="width:60%">
-            <el-option value="自建">自建</el-option>
-            <el-option value="阿里云">阿里云</el-option>
-            <el-option value="华为云">华为云</el-option>
-          </el-select>
-        </el-form-item>
-        <el-form-item label="备注" prop="cluster">
-          <el-input v-model="temp.cluster" style="width:60%" />
-        </el-form-item>
+        <el-row>
+          <el-col :span="12">
+            <el-form-item label="内网地址" prop="inside_addr">
+              <el-input v-model="temp.inside_addr" style="width:80%" />
+            </el-form-item>
+          </el-col>
+          <el-col :span="12">
+            <el-form-item label="外网地址" prop="outside_addr">
+              <el-input v-model="temp.outside_addr" style="width:80%" />
+            </el-form-item>
+          </el-col>
+        </el-row>
+        <el-row>
+          <el-col :span="12">
+            <el-form-item label="角色" prop="role">
+              <el-select v-model="temp.role" style="width:60%">
+                <el-option value="master">master</el-option>
+                <el-option value="slave">slave</el-option>
+              </el-select>
+            </el-form-item>
+          </el-col>
+          <el-col :span="12">
+            <el-form-item label="数据库路径" prop="data_dir">
+              <el-input v-model="temp.data_dir" style="width:60%" />
+            </el-form-item>
+          </el-col>
+        </el-row>
+        <el-row>
+          <el-col :span="12">
+            <el-form-item label="管理员" prop="manger">
+              <el-input v-model="temp.manager" style="width:60%" />
+            </el-form-item>
+          </el-col>
+          <el-col :span="12">
+            <el-form-item label="密码" prop="password">
+              <el-input v-model="temp.password" style="width:60%" />
+            </el-form-item>
+          </el-col>
+        </el-row>
+        <el-row>
+          <el-col :span="12">
+            <el-form-item label="部署方式" prop="method">
+              <el-select v-model="temp.method" class="filter-item" style="width:60%">
+                <el-option value="normal">normal</el-option>
+                <el-option value="docker">docker</el-option>
+                <el-option value="docker-compose">docker-compose</el-option>
+              </el-select>
+            </el-form-item>
+          </el-col>
+          <el-col :span="12">
+            <el-form-item label="版本号" prop="version">
+              <el-input v-model="temp.version" style="width:60%" />
+            </el-form-item>
+          </el-col>
+        </el-row>
+        <el-row>
+          <el-col :span="12">
+            <el-form-item label="来源" prop="origin">
+              <el-select v-model="temp.origin" class="filter-item" style="width:60%">
+                <el-option value="自建">自建</el-option>
+                <el-option value="阿里云">阿里云</el-option>
+                <el-option value="华为云">华为云</el-option>
+              </el-select>
+            </el-form-item>
+          </el-col>
+          <el-col :span="12">
+            <el-form-item label="备注" prop="cluster">
+              <el-input v-model="temp.cluster" style="width:80%" />
+            </el-form-item>
+          </el-col>
+        </el-row>
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">
@@ -157,6 +187,7 @@ export default {
         cluster: undefined,
         created: new Date()
       },
+      tempCopy: undefined,
       queryList: {
         inside_addr: '',
         page: 0,
@@ -231,8 +262,9 @@ export default {
       })
     },
     createData() {
-      this.temp.password = encrypt(this.temp.password)
-      addMySQLInstance(this.temp).then(response => {
+      this.tempCopy = Object.assign({}, this.temp)
+      this.tempCopy.password = encrypt(this.tempCopy.password)
+      addMySQLInstance(this.tempCopy).then(response => {
         this.getList()
         this.dialogVisible = false
         this.$notify({
@@ -244,8 +276,9 @@ export default {
       })
     },
     updateData() {
-      this.temp.password = encrypt(this.temp.password)
-      updateMySQLInstance(this.temp).then(() => {
+      this.tempCopy = Object.assign({}, this.temp)
+      this.tempCopy.password = encrypt(this.tempCopy.password)
+      updateMySQLInstance(this.tempCopy).then(() => {
         this.getList()
         this.dialogVisible = false
         this.$notify({

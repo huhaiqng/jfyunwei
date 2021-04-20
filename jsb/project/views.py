@@ -5,10 +5,10 @@ from aliyunsdkalidns.request.v20150109.DescribeDomainRecordsRequest import Descr
 from aliyunsdkalidns.request.v20150109.DescribeDomainsRequest import DescribeDomainsRequest
 from rest_framework.views import APIView
 from rest_framework import viewsets
-from .serializers import TaskResultSerializer, HostSerializer, EnvSerializer
+from .serializers import TaskResultSerializer, HostSerializer, EnvSerializer, MySQLInstanceSerializer
 from django_celery_results.models import TaskResult
 from rest_framework.pagination import PageNumberPagination
-from .models import Host
+from .models import Host, MySQLInstance
 from address.models import Env
 
 
@@ -130,6 +130,32 @@ class HostViewSet(viewsets.ModelViewSet):
         queryset = Host.objects.filter(inside_ip__contains=inside_ip, env__contains=env).order_by('inside_ip')
         page = self.paginate_queryset(queryset)
 
+        PageNumberPagination.page_size = None
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
+
+
+# MySQL 实例
+class MySQLInstanceViewSet(viewsets.ModelViewSet):
+    queryset = MySQLInstance.objects.all()
+    serializer_class = MySQLInstanceSerializer
+    pagination_class = PageNumberPagination
+
+    def list(self, request, *args, **kwargs):
+        page_size = request.GET.get('limit')
+        if int(page_size) == 10000:
+            PageNumberPagination.page_size = None
+        else:
+            PageNumberPagination.page_size = page_size
+        inside_addr = request.GET.get('inside_addr')
+        queryset = MySQLInstance.objects.filter(inside_addr__contains=inside_addr).order_by('inside_addr')
+        page = self.paginate_queryset(queryset)
+
+        # 将 PageNumberPagination.page_size 设置为 None 以免影响其它查询
         PageNumberPagination.page_size = None
         if page is not None:
             serializer = self.get_serializer(page, many=True)

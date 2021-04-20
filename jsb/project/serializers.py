@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Host
+from .models import Host, MySQLInstance
 from address.models import Env
 from django_celery_results.models import TaskResult
 
@@ -20,3 +20,11 @@ class TaskResultSerializer(serializers.ModelSerializer):
     class Meta:
         model = TaskResult
         fields = '__all__'
+
+
+# MySQL 实例
+class MySQLInstanceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MySQLInstance
+        fields = '__all__'
+

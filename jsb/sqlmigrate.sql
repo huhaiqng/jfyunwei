@@ -1,11 +1,2 @@
---
-ALTER TABLE `project_host` ADD COLUMN `password` varchar(200) DEFAULT '123456' NOT NULL;
-ALTER TABLE `project_host` ALTER COLUMN `password` DROP DEFAULT;
---
--- Add field user to host
---
-ALTER TABLE `project_host` ADD COLUMN `user` varchar(200) DEFAULT 'root' NOT NULL;
-ALTER TABLE `project_host` ALTER COLUMN `user` DROP DEFAULT;
-
-
-ALTER TABLE `project_host` ADD CONSTRAINT `project_host_inside_ip_cloud_user_a170097e_uniq` UNIQUE (`inside_ip`, `cloud_user`);
+CREATE TABLE `project_mysqlinstance` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `inside_addr` varchar(200) NOT NULL, `outside_addr` varchar(200) NOT NULL, `role` varchar(200) NOT NULL, `data_dir` varchar(200) NOT NULL, `vers
+ion` varchar(200) NOT NULL, `manager` varchar(200) NOT NULL, `password` varchar(200) NOT NULL, `method` varchar(200) NOT NULL, `origin` varchar(200) NOT NULL, `cluster` varchar(200) NOT NULL, `created` datetime(6) NOT NULL);

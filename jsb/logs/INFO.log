@@ -6903,3 +6903,51 @@ INFO 2021-04-20 14:47:52,263 autoreload 1880 10380 E:\jfyunwei\jsb\address\seria
 INFO 2021-04-20 14:47:53,558 autoreload 10992 524 Watching for file changes with StatReloader
 INFO 2021-04-20 14:48:30,458 autoreload 10992 524 E:\jfyunwei\jsb\address\serializers.py changed, reloading.
 INFO 2021-04-20 14:48:31,741 autoreload 8840 10912 Watching for file changes with StatReloader
+INFO 2021-04-20 14:58:19,483 basehttp 8840 7124 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 14:58:19,536 basehttp 8840 4108 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 14:58:20,042 basehttp 8840 5100 "GET /api/hosts/?page=1&inside_ip=&env=&limit=10 HTTP/1.1" 200 1730
+INFO 2021-04-20 14:58:20,043 basehttp 8840 11024 "GET /api/getEnv/ HTTP/1.1" 200 226
+INFO 2021-04-20 14:59:03,118 basehttp 8840 11056 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 14:59:03,185 basehttp 8840 9128 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 14:59:03,645 basehttp 8840 12244 "GET /api/hosts/?page=1&inside_ip=&env=&limit=10 HTTP/1.1" 200 1730
+INFO 2021-04-20 14:59:03,649 basehttp 8840 10616 "GET /api/getEnv/ HTTP/1.1" 200 226
+INFO 2021-04-20 15:17:49,555 autoreload 8840 10912 E:\jfyunwei\jsb\project\models.py changed, reloading.
+INFO 2021-04-20 15:17:50,871 autoreload 9220 9116 Watching for file changes with StatReloader
+INFO 2021-04-20 15:18:38,551 autoreload 9220 9116 E:\jfyunwei\jsb\project\serializers.py changed, reloading.
+INFO 2021-04-20 15:18:39,925 autoreload 10380 11600 Watching for file changes with StatReloader
+INFO 2021-04-20 15:20:39,954 autoreload 10380 11600 E:\jfyunwei\jsb\project\views.py changed, reloading.
+INFO 2021-04-20 15:20:41,395 autoreload 6624 12224 Watching for file changes with StatReloader
+INFO 2021-04-20 15:21:54,268 autoreload 6624 12224 E:\jfyunwei\jsb\project\urls.py changed, reloading.
+INFO 2021-04-20 15:21:55,551 autoreload 10272 12120 Watching for file changes with StatReloader
+INFO 2021-04-20 15:22:57,145 basehttp 10272 11392 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:22:57,193 basehttp 10272 11016 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:22:57,629 basehttp 10272 11320 "GET /api/hosts/?page=1&inside_ip=&env=&limit=10 HTTP/1.1" 200 1730
+INFO 2021-04-20 15:22:57,632 basehttp 10272 3516 "GET /api/getEnv/ HTTP/1.1" 200 226
+INFO 2021-04-20 15:22:59,524 basehttp 10272 3992 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-04-20 15:23:23,712 basehttp 10272 2120 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:23:23,758 basehttp 10272 7752 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:23:24,075 basehttp 10272 12216 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-04-20 15:23:47,491 basehttp 10272 228 "POST /api/mysqlInstance/ HTTP/1.1" 201 255
+INFO 2021-04-20 15:23:47,533 basehttp 10272 11856 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 307
+INFO 2021-04-20 15:25:45,524 basehttp 10272 10804 "GET /api/hosts/?page=1&inside_ip=&env=&limit=10 HTTP/1.1" 200 1730
+INFO 2021-04-20 15:25:45,539 basehttp 10272 12244 "GET /api/getEnv/ HTTP/1.1" 200 226
+INFO 2021-04-20 15:27:36,474 basehttp 10272 11720 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:27:36,533 basehttp 10272 7308 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:27:36,851 basehttp 10272 11524 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 307
+INFO 2021-04-20 15:29:06,695 basehttp 10272 11392 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:29:06,754 basehttp 10272 9496 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:29:07,065 basehttp 10272 9776 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 307
+INFO 2021-04-20 15:29:38,608 basehttp 10272 6828 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:29:38,676 basehttp 10272 11596 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:29:38,969 basehttp 10272 4884 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 307
+INFO 2021-04-20 15:30:36,662 basehttp 10272 11448 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:30:36,747 basehttp 10272 11152 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:30:37,048 basehttp 10272 12264 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 307
+INFO 2021-04-20 15:32:38,688 basehttp 10272 9284 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:32:38,772 basehttp 10272 11708 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:32:39,084 basehttp 10272 10892 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 307
+INFO 2021-04-20 15:35:41,551 basehttp 10272 11340 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-20 15:35:41,630 basehttp 10272 11812 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-20 15:35:41,943 basehttp 10272 11280 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 307
+INFO 2021-04-20 15:38:38,783 autoreload 10272 12120 E:\jfyunwei\jsb\project\models.py changed, reloading.
+INFO 2021-04-20 15:38:40,056 autoreload 10684 10060 Watching for file changes with StatReloader
