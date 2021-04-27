@@ -1,2 +1,6 @@
-CREATE TABLE `project_mysqlinstance` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `inside_addr` varchar(200) NOT NULL, `outside_addr` varchar(200) NOT NULL, `role` varchar(200) NOT NULL, `data_dir` varchar(200) NOT NULL, `vers
-ion` varchar(200) NOT NULL, `manager` varchar(200) NOT NULL, `password` varchar(200) NOT NULL, `method` varchar(200) NOT NULL, `origin` varchar(200) NOT NULL, `cluster` varchar(200) NOT NULL, `created` datetime(6) NOT NULL);
+-- 20210427
+DROP TABLE `report_daily` CASCADE;
+
+CREATE TABLE `project_account` (`id` integer AUTO_INCREMENT NOT NULL PRIMARY KEY, `use` varchar(255) NOT NULL UNIQUE, `username` varchar(200) NOT NULL, `password` varchar(200) NOT NULL, `addr` varchar(200) NULL, `remark` varchar(255) NOT NULL, `created` datetime(6) NOT NULL);
+
+ALTER TABLE `project_account` CHANGE `use` `name` varchar(255) NOT NULL;

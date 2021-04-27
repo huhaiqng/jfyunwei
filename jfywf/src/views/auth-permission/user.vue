@@ -8,7 +8,7 @@
         新增
       </el-button>
     </div>
-    <el-table :key="tableKey" :data="list" border fit highlight-current-row style="width:100%; margin-top:15px">
+    <el-table :key="tableKey" :data="list" border fit highlight-current-row style="width:100%">
       <el-table-column label="序号" align="center" width="50px">
         <template slot-scope="{$index}">
           <span>{{ $index + 1 + (listQuery.page - 1)*listQuery.limit }}</span>

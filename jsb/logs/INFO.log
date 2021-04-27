@@ -6975,3 +6975,272 @@ WARNING 2021-04-20 16:02:29,412 log 10684 10020 Bad Request: /api/mysqlInstance/
 WARNING 2021-04-20 16:02:29,412 basehttp 10684 10020 "PUT /api/mysqlInstance/3/ HTTP/1.1" 400 72
 INFO 2021-04-20 16:02:34,430 basehttp 10684 10340 "PUT /api/mysqlInstance/3/ HTTP/1.1" 200 255
 INFO 2021-04-20 16:02:34,473 basehttp 10684 12240 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-04-27 16:11:13,764 autoreload 13400 14172 Watching for file changes with StatReloader
+INFO 2021-04-27 16:11:36,447 autoreload 8732 6892 Watching for file changes with StatReloader
+INFO 2021-04-27 16:13:19,078 autoreload 12436 11320 Watching for file changes with StatReloader
+INFO 2021-04-27 16:14:48,274 autoreload 12436 11320 E:\jfyunwei\jsb\address\models.py changed, reloading.
+INFO 2021-04-27 16:14:49,822 autoreload 13284 9008 Watching for file changes with StatReloader
+WARNING 2021-04-27 16:40:21,497 log 13284 4736 Unauthorized: /api/o/token/
+WARNING 2021-04-27 16:40:21,508 basehttp 13284 4736 "POST /api/o/token/ HTTP/1.1" 401 27
+INFO 2021-04-27 16:43:13,405 basehttp 13284 13384 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-04-27 16:43:19,470 basehttp 13284 13100 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-04-27 16:43:19,557 basehttp 13284 3340 "GET /api/user/?username=jsb HTTP/1.1" 200 378
+INFO 2021-04-27 16:43:19,622 basehttp 13284 8496 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-04-27 16:43:19,643 basehttp 13284 8488 "GET /api/getL1Menu/ HTTP/1.1" 200 2090
+INFO 2021-04-27 16:43:19,675 basehttp 13284 12720 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1269
+INFO 2021-04-27 16:43:28,361 basehttp 13284 6308 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-27 16:43:28,553 basehttp 13284 6308 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2226
+INFO 2021-04-27 16:43:28,587 basehttp 13284 13360 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:28,587 basehttp 13284 2908 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:28,595 basehttp 13284 13360 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:28,597 basehttp 13284 6308 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-04-27 16:43:28,610 basehttp 13284 6308 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:28,612 basehttp 13284 13360 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:28,688 basehttp 13284 13360 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:28,688 basehttp 13284 6308 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-04-27 16:43:28,879 log 13284 6308 Not Found: /favicon.ico
+WARNING 2021-04-27 16:43:28,882 basehttp 13284 6308 "GET /favicon.ico HTTP/1.1" 404 2413
+INFO 2021-04-27 16:43:31,879 basehttp 13284 6308 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-04-27 16:43:31,987 basehttp 13284 6308 "GET /admin/ HTTP/1.1" 200 15864
+INFO 2021-04-27 16:43:32,011 basehttp 13284 6308 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:32,028 basehttp 13284 13360 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:32,028 basehttp 13284 6308 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:32,070 basehttp 13284 6308 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,153 basehttp 13284 6308 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 17151
+INFO 2021-04-27 16:43:36,186 basehttp 13284 6308 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,206 basehttp 13284 6308 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,207 basehttp 13284 2908 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,208 basehttp 13284 13128 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,212 basehttp 13284 6308 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,213 basehttp 13284 2908 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,217 basehttp 13284 13128 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,220 basehttp 13284 11224 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,221 basehttp 13284 8868 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,228 basehttp 13284 13360 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 16:43:36,266 basehttp 13284 13360 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:36,267 basehttp 13284 8868 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:43,414 basehttp 13284 8868 "POST /admin/auth_permission/l2menu/ HTTP/1.1" 200 11805
+INFO 2021-04-27 16:43:43,457 basehttp 13284 8868 "GET /djstatic/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2021-04-27 16:43:44,635 basehttp 13284 8868 "POST /admin/auth_permission/l2menu/ HTTP/1.1" 302 0
+INFO 2021-04-27 16:43:44,693 basehttp 13284 8868 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 16544
+INFO 2021-04-27 16:43:44,726 basehttp 13284 8868 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 16:43:44,746 basehttp 13284 8868 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-04-27 16:43:47,363 basehttp 13284 8868 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15584
+INFO 2021-04-27 16:43:47,395 basehttp 13284 8868 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 16:43:51,262 basehttp 13284 8868 "POST /admin/auth_permission/l1menu/ HTTP/1.1" 200 11643
+INFO 2021-04-27 16:43:52,281 basehttp 13284 8868 "POST /admin/auth_permission/l1menu/ HTTP/1.1" 302 0
+INFO 2021-04-27 16:43:52,374 basehttp 13284 8868 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15369
+INFO 2021-04-27 16:43:52,404 basehttp 13284 8868 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 16:43:55,709 basehttp 13284 13416 "GET /api/getL1Menu/ HTTP/1.1" 200 1720
+INFO 2021-04-27 16:43:55,741 basehttp 13284 13992 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-04-27 16:43:55,794 basehttp 13284 10540 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1020
+INFO 2021-04-27 16:49:52,046 autoreload 13284 9008 E:\jfyunwei\jsb\project\models.py changed, reloading.
+INFO 2021-04-27 16:49:56,829 autoreload 13368 7152 Watching for file changes with StatReloader
+INFO 2021-04-27 16:54:49,856 autoreload 13368 7152 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-04-27 16:54:52,302 autoreload 2476 9564 Watching for file changes with StatReloader
+INFO 2021-04-27 16:55:15,669 autoreload 8260 14168 Watching for file changes with StatReloader
+INFO 2021-04-27 17:02:37,470 autoreload 1592 12112 Watching for file changes with StatReloader
+INFO 2021-04-27 17:04:06,908 autoreload 13648 12164 Watching for file changes with StatReloader
+INFO 2021-04-27 17:04:20,054 basehttp 13648 13984 "GET /api/getL1Menu/ HTTP/1.1" 200 1720
+INFO 2021-04-27 17:04:20,098 basehttp 13648 12516 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-04-27 17:04:20,149 basehttp 13648 1224 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1020
+INFO 2021-04-27 17:04:23,974 basehttp 13648 10936 "GET /api/getEnv/ HTTP/1.1" 200 226
+INFO 2021-04-27 17:04:23,982 basehttp 13648 13076 "GET /api/hosts/?page=1&inside_ip=&env=&limit=10 HTTP/1.1" 200 1730
+INFO 2021-04-27 17:04:25,710 basehttp 13648 9052 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-04-27 17:13:12,477 autoreload 13648 12164 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-04-27 17:13:14,152 autoreload 12236 11864 Watching for file changes with StatReloader
+INFO 2021-04-27 17:16:30,768 autoreload 12236 11864 E:\jfyunwei\jsb\project\urls.py changed, reloading.
+INFO 2021-04-27 17:16:32,562 autoreload 13904 9992 Watching for file changes with StatReloader
+INFO 2021-04-27 17:19:02,824 basehttp 13904 12896 "GET /api/getL1Menu/ HTTP/1.1" 200 1720
+INFO 2021-04-27 17:19:02,892 basehttp 13904 10752 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1020
+INFO 2021-04-27 17:19:03,248 basehttp 13904 12708 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-04-27 17:19:10,404 basehttp 13904 13528 "GET /api/getL1Menu/ HTTP/1.1" 200 1720
+INFO 2021-04-27 17:19:10,450 basehttp 13904 11668 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1020
+INFO 2021-04-27 17:19:10,843 basehttp 13904 9580 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-04-27 17:19:19,831 basehttp 13904 6380 "GET /admin/ HTTP/1.1" 200 15708
+INFO 2021-04-27 17:19:19,890 basehttp 13904 6380 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2021-04-27 17:19:23,146 basehttp 13904 6380 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15229
+INFO 2021-04-27 17:19:23,187 basehttp 13904 6380 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 17:19:32,176 basehttp 13904 6380 "GET /admin/auth_permission/l1menu/add/ HTTP/1.1" 200 15001
+INFO 2021-04-27 17:19:32,204 basehttp 13904 6380 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-04-27 17:19:32,213 basehttp 13904 6380 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-04-27 17:19:32,218 basehttp 13904 5012 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 17:19:32,228 basehttp 13904 6380 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-04-27 17:19:32,228 basehttp 13904 5012 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-04-27 17:20:18,391 basehttp 13904 5012 "POST /admin/auth_permission/l1menu/add/ HTTP/1.1" 302 0
+INFO 2021-04-27 17:20:18,443 basehttp 13904 5012 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15805
+INFO 2021-04-27 17:20:18,480 basehttp 13904 5012 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 17:20:21,190 basehttp 13904 5012 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 16404
+INFO 2021-04-27 17:20:21,219 basehttp 13904 5012 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 17:20:22,717 basehttp 13904 5012 "GET /admin/auth_permission/l2menu/add/ HTTP/1.1" 200 16749
+INFO 2021-04-27 17:20:22,748 basehttp 13904 5012 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 17:20:51,748 basehttp 13904 5012 "POST /admin/auth_permission/l2menu/add/ HTTP/1.1" 302 0
+INFO 2021-04-27 17:20:51,802 basehttp 13904 5012 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 16995
+INFO 2021-04-27 17:20:51,835 basehttp 13904 5012 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-27 17:20:56,227 basehttp 13904 9140 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:20:56,267 basehttp 13904 11396 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:20:56,613 basehttp 13904 1904 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+ERROR 2021-04-27 17:21:01,053 log 13904 11336 Internal Server Error: /api/accounts/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views\account.py", line 18, in list
+    queryset = get_objects_for_user(request.user, 'app.view_%s' % self.basename, objects)
+  File "E:\PyEnv\jsb\lib\site-packages\guardian\shortcuts.py", line 497, in get_objects_for_user
+    permission__codename=codename)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 437, in get
+    self.model._meta.object_name
+django.contrib.contenttypes.models.ContentType.DoesNotExist: ContentType matching query does not exist.
+ERROR 2021-04-27 17:21:01,055 basehttp 13904 11336 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 500 113019
+INFO 2021-04-27 17:26:42,241 basehttp 13904 10764 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:26:42,289 basehttp 13904 12996 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+ERROR 2021-04-27 17:26:42,660 log 13904 9668 Internal Server Error: /api/accounts/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views\account.py", line 18, in list
+    queryset = get_objects_for_user(request.user, 'app.view_%s' % self.basename, objects)
+  File "E:\PyEnv\jsb\lib\site-packages\guardian\shortcuts.py", line 497, in get_objects_for_user
+    permission__codename=codename)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 437, in get
+    self.model._meta.object_name
+django.contrib.contenttypes.models.ContentType.DoesNotExist: ContentType matching query does not exist.
+ERROR 2021-04-27 17:26:42,661 basehttp 13904 9668 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 500 112821
+INFO 2021-04-27 17:27:20,138 autoreload 13468 5644 Watching for file changes with StatReloader
+INFO 2021-04-27 17:27:23,231 basehttp 13468 2712 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:27:23,293 basehttp 13468 3368 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:27:23,608 basehttp 13468 8044 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 52
+INFO 2021-04-27 17:33:43,618 basehttp 13468 12388 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:33:43,722 basehttp 13468 12756 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:33:44,325 basehttp 13468 12164 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 52
+ERROR 2021-04-27 17:33:53,792 log 13468 7464 Internal Server Error: /api/getGaingon666Domain/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views\domain.py", line 21, in get
+    res = client.do_action_with_exception(req).decode('utf-8')
+  File "E:\PyEnv\jsb\lib\site-packages\aliyunsdkcore\client.py", line 476, in do_action_with_exception
+    raise exception
+aliyunsdkcore.acs_exception.exceptions.ServerException: HTTP Status: 404 Error:InvalidAccessKeyId Specified access key is not found or invalid. RequestID: 55892E37-52BC-40F8-A031-9D2CBB72DE22
+ERROR 2021-04-27 17:33:53,793 basehttp 13468 7464 "GET /api/getGaingon666Domain/?per_page=10&page=1 HTTP/1.1" 500 102478
+INFO 2021-04-27 17:34:28,150 basehttp 13468 9100 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4498
+INFO 2021-04-27 17:34:28,190 basehttp 13468 13884 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 8644
+INFO 2021-04-27 17:34:29,828 basehttp 13468 5228 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 8694
+INFO 2021-04-27 17:35:37,238 basehttp 13468 1720 "POST /api/accounts/ HTTP/1.1" 201 145
+INFO 2021-04-27 17:35:37,264 basehttp 13468 1784 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 197
+WARNING 2021-04-27 17:36:06,583 log 13468 5312 Bad Request: /api/accounts/
+WARNING 2021-04-27 17:36:06,584 basehttp 13468 5312 "POST /api/accounts/ HTTP/1.1" 400 43
+WARNING 2021-04-27 17:36:09,369 log 13468 3368 Bad Request: /api/accounts/
+WARNING 2021-04-27 17:36:09,370 basehttp 13468 3368 "POST /api/accounts/ HTTP/1.1" 400 43
+INFO 2021-04-27 17:37:49,359 basehttp 13468 3340 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:37:49,417 basehttp 13468 2480 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:37:49,721 basehttp 13468 9576 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 197
+WARNING 2021-04-27 17:37:53,818 log 13468 11676 Bad Request: /api/accounts/
+WARNING 2021-04-27 17:37:53,819 basehttp 13468 11676 "POST /api/accounts/ HTTP/1.1" 400 43
+INFO 2021-04-27 17:40:06,238 basehttp 13468 11648 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:40:06,303 basehttp 13468 11632 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:40:06,629 basehttp 13468 10648 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 197
+WARNING 2021-04-27 17:40:12,223 log 13468 13244 Bad Request: /api/accounts/
+WARNING 2021-04-27 17:40:12,224 basehttp 13468 13244 "POST /api/accounts/ HTTP/1.1" 400 43
+WARNING 2021-04-27 17:40:13,676 log 13468 12448 Bad Request: /api/accounts/
+WARNING 2021-04-27 17:40:13,677 basehttp 13468 12448 "POST /api/accounts/ HTTP/1.1" 400 43
+WARNING 2021-04-27 17:40:30,743 log 13468 4128 Bad Request: /api/accounts/1/
+WARNING 2021-04-27 17:40:30,743 basehttp 13468 4128 "PUT /api/accounts/1/ HTTP/1.1" 400 41
+WARNING 2021-04-27 17:40:31,563 log 13468 10756 Bad Request: /api/accounts/1/
+WARNING 2021-04-27 17:40:31,563 basehttp 13468 10756 "PUT /api/accounts/1/ HTTP/1.1" 400 41
+INFO 2021-04-27 17:41:39,584 basehttp 13468 9956 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:41:39,632 basehttp 13468 12016 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:41:39,975 basehttp 13468 9564 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 197
+WARNING 2021-04-27 17:41:44,229 log 13468 12632 Bad Request: /api/accounts/1/
+WARNING 2021-04-27 17:41:44,229 basehttp 13468 12632 "PUT /api/accounts/1/ HTTP/1.1" 400 41
+WARNING 2021-04-27 17:41:45,124 log 13468 492 Bad Request: /api/accounts/1/
+WARNING 2021-04-27 17:41:45,124 basehttp 13468 492 "PUT /api/accounts/1/ HTTP/1.1" 400 41
+INFO 2021-04-27 17:41:52,086 basehttp 13468 6396 "PUT /api/accounts/1/ HTTP/1.1" 200 143
+INFO 2021-04-27 17:42:42,416 basehttp 13468 12748 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:42:42,464 basehttp 13468 12200 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:42:42,838 basehttp 13468 1196 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 195
+INFO 2021-04-27 17:42:46,321 basehttp 13468 12640 "PUT /api/accounts/1/ HTTP/1.1" 200 143
+INFO 2021-04-27 17:42:54,371 basehttp 13468 7184 "POST /api/accounts/ HTTP/1.1" 201 142
+INFO 2021-04-27 17:42:54,399 basehttp 13468 10280 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 338
+INFO 2021-04-27 17:43:01,534 basehttp 13468 2584 "PUT /api/accounts/2/ HTTP/1.1" 200 144
+INFO 2021-04-27 17:45:17,772 basehttp 13468 13668 "PUT /api/accounts/2/ HTTP/1.1" 200 144
+INFO 2021-04-27 17:45:27,025 basehttp 13468 13904 "PUT /api/accounts/1/ HTTP/1.1" 200 143
+INFO 2021-04-27 17:47:02,362 basehttp 13468 13016 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:47:02,410 basehttp 13468 14044 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:47:03,238 basehttp 13468 5548 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:47:27,517 basehttp 13468 4284 "PUT /api/accounts/1/ HTTP/1.1" 200 143
+INFO 2021-04-27 17:48:19,161 basehttp 13468 14000 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:48:19,217 basehttp 13468 8696 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:48:19,670 basehttp 13468 13344 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:48:35,692 basehttp 13468 7384 "PUT /api/accounts/1/ HTTP/1.1" 200 143
+INFO 2021-04-27 17:49:28,826 basehttp 13468 10992 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:49:28,904 basehttp 13468 10768 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:49:29,415 basehttp 13468 11052 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:49:52,215 basehttp 13468 11024 "PUT /api/accounts/1/ HTTP/1.1" 200 143
+INFO 2021-04-27 17:54:13,748 basehttp 13468 5808 "GET /api/getL1Menu/ HTTP/1.1" 200 1980
+INFO 2021-04-27 17:54:13,919 basehttp 13468 1440 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1147
+INFO 2021-04-27 17:54:14,370 basehttp 13468 2840 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:54:23,967 basehttp 13468 13596 "PUT /api/accounts/2/ HTTP/1.1" 200 144
+INFO 2021-04-27 17:54:23,999 basehttp 13468 12408 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:54:32,705 basehttp 13468 11776 "PUT /api/accounts/2/ HTTP/1.1" 200 144
+INFO 2021-04-27 17:54:32,736 basehttp 13468 12104 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:54:39,784 basehttp 13468 9444 "PUT /api/accounts/2/ HTTP/1.1" 200 144
+INFO 2021-04-27 17:54:39,818 basehttp 13468 13064 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:54:41,890 basehttp 13468 4128 "PUT /api/accounts/2/ HTTP/1.1" 200 144
+INFO 2021-04-27 17:54:41,918 basehttp 13468 7956 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:54:44,025 basehttp 13468 13136 "PUT /api/accounts/2/ HTTP/1.1" 200 144
+INFO 2021-04-27 17:54:44,054 basehttp 13468 14176 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:54:46,365 basehttp 13468 12076 "PUT /api/accounts/2/ HTTP/1.1" 200 144
+INFO 2021-04-27 17:54:46,394 basehttp 13468 12516 "GET /api/accounts/?page=1&limit=10&use= HTTP/1.1" 200 340
+INFO 2021-04-27 17:57:29,199 autoreload 13468 5644 E:\jfyunwei\jsb\project\models\account.py changed, reloading.
+INFO 2021-04-27 17:57:30,859 autoreload 8948 12236 Watching for file changes with StatReloader
+INFO 2021-04-27 17:57:52,480 autoreload 8948 12236 E:\jfyunwei\jsb\project\models\account.py changed, reloading.
+INFO 2021-04-27 17:57:54,148 autoreload 13500 12072 Watching for file changes with StatReloader
+INFO 2021-04-27 17:59:29,929 autoreload 13500 12072 E:\jfyunwei\jsb\project\views\account.py changed, reloading.
+INFO 2021-04-27 17:59:31,986 autoreload 12364 10488 Watching for file changes with StatReloader

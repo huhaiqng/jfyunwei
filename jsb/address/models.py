@@ -1,5 +1,4 @@
 from django.db import models
-from django.utils import timezone
 from django.contrib.auth.models import User
 from auth_permission.models import UserInfo
 from project.models import Host
@@ -67,4 +66,3 @@ class ProjectUrl(models.Model):
 
     def __str__(self):
         return self.url
-

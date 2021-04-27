@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'auth_permission',
     'address',
-    'report.apps.ReportConfig',
     'guardian',
     'project',
     'django_celery_results',
