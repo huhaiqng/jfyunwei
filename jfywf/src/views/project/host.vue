@@ -2,20 +2,17 @@
   <div class="app-container">
     <div class="filter-container">
       <el-input v-model="listQuery.inside_ip" placeholder="IP 地址" style="width: 200px;" class="filter-item" @keyup.enter.native="handleFilter" />
-      <el-select v-model="listQuery.env" placeholder="环境" clearable class="filter-item" style="width: 150px">
+      <el-select v-model="listQuery.env" placeholder="环境" clearable class="filter-item" style="width: 200px">
         <el-option v-for="item in envOptions" :key="item.id" :label="item.name" :value="item.name" />
+      </el-select>
+      <el-select v-model="listQuery.cloud_user" placeholder="云账号" clearable class="filter-item" style="width: 200px">
+        <el-option v-for="item in cloudUserOptions" :key="item" :label="item" :value="item" />
       </el-select>
       <el-button v-waves class="filter-item" type="primary" icon="el-icon-search" @click="handleFilter">
         搜索
       </el-button>
       <el-button class="filter-item" style="margin-left: 10px;" type="primary" icon="el-icon-edit" @click="handleCreate">
         添加
-      </el-button>
-      <el-button v-waves :loading="downloadLoading" class="filter-item" type="primary" icon="el-icon-upload" @click="dialogUploadVisible=true">
-        导入
-      </el-button>
-      <el-button v-waves :loading="downloadLoading" class="filter-item" type="primary" icon="el-icon-download" @click="handleDownload">
-        导出
       </el-button>
     </div>
 
@@ -32,42 +29,42 @@
           <span>{{ $index + 1 + (listQuery.page - 1)*listQuery.limit }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="名称" align="center">
+      <el-table-column label="名称">
         <template slot-scope="{row}">
           <span class="link-type" @click="showDetail(row)">{{ row.hostname }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="内网 IP" align="center">
+      <el-table-column label="内网 IP">
         <template slot-scope="{row}">
           <span>{{ row.inside_ip }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="外网 IP" align="center">
+      <el-table-column label="外网 IP">
         <template slot-scope="{row}">
           <span>{{ row.outside_ip }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="系统版本" align="center">
+      <el-table-column label="系统版本">
         <template slot-scope="{row}">
           <span>{{ row.os }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="位置" align="center">
+      <el-table-column label="位置">
         <template slot-scope="{row}">
           <span>{{ row.cloud }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="云账号" align="center">
+      <el-table-column label="云账号">
         <template slot-scope="{row}">
           <span>{{ row.cloud_user }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="环境" align="center">
+      <el-table-column label="环境">
         <template slot-scope="{row}">
           <span>{{ row.env }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="创建时间" align="center">
+      <el-table-column label="创建时间">
         <template slot-scope="{row}">
           <span>{{ row.created | parseTime('{y}-{m}-{d} {h}:{i}') }}</span>
         </template>
@@ -77,7 +74,6 @@
           <el-dropdown type="primary">
             <el-button size="mini" split-buttion type="primary">操作<i class="el-icon-arrow-down el-icon--right" /></el-button>
             <el-dropdown-menu slot="dropdown">
-              <el-dropdown-item @click.native="handleSSHConnectHost(row)">SSH 主机</el-dropdown-item>
               <el-dropdown-item @click.native="handleUpdate(row)">编辑</el-dropdown-item>
               <el-dropdown-item @click.native="handleDelete(row.id, $index)">删除</el-dropdown-item>
               <el-dropdown-item v-if="row.status" @click.native="hostProblem(row, false)">标记故障</el-dropdown-item>
@@ -178,7 +174,9 @@
         <el-row>
           <el-col :span="12">
             <el-form-item label="用户" prop="user">
-              <el-input v-model="temp.user" style="width:60%" />
+              <el-select v-model="temp.user" class="filter-item">
+                <el-option v-for="item in userOptions" :key="item" :label="item" :value="item" />
+              </el-select>
             </el-form-item>
           </el-col>
           <el-col :span="12">
@@ -220,16 +218,13 @@
 <script>
 import { getHosts, addHost, updateHost, deleteHost, getEnv } from '@/api/project'
 import waves from '@/directive/waves' // waves directive
-import { parseTime } from '@/utils'
 import Pagination from '@/components/Pagination' // secondary package based on el-pagination
-import UploadExcelComponent from '@/components/UploadExcel/index.vue'
 import { encrypt, decrypt } from '@/utils/aes'
 import HostDrawerContent from '@/components/Drawer/HostDrawerContent'
-import { sshConnectHost } from '@/utils/webssh'
 
 export default {
-  name: 'ComplexTable',
-  components: { Pagination, UploadExcelComponent, HostDrawerContent },
+  name: 'Host',
+  components: { Pagination, HostDrawerContent },
   directives: { waves },
   data() {
     return {
@@ -240,10 +235,12 @@ export default {
         page: 1,
         inside_ip: '',
         env: '',
+        cloud_user: '',
         limit: 10
       },
       versionOptions: ['CentOS 6', 'CentOS 7', 'Windows Server 2008 R2'],
       cpuOptions: [4, 8, 16, 32],
+      userOptions: ['root', 'administrator'],
       memoryOptions: ['4G', '8G', '16G', '32G'],
       diskOptions: ['40G', '100G', '200G'],
       cloudOptions: ['阿里云', '华为云', 'IDC 托管', '公司机房'],
@@ -405,29 +402,6 @@ export default {
         })
       })
     },
-    handleDownload() {
-      this.downloadLoading = true
-      import('@/vendor/Export2Excel').then(excel => {
-        const tHeader = ['name', 'ip', 'outside_ip', 'manage_port', 'version', 'cpu', 'memory', 'disk', 'position', 'admin', 'password', 'type', 'env', 'status']
-        const filterVal = ['name', 'ip', 'outside_ip', 'manage_port', 'version', 'cpu', 'memory', 'disk', 'position', 'admin', 'password', 'type', 'env', 'status']
-        const data = this.formatJson(filterVal)
-        excel.export_json_to_excel({
-          header: tHeader,
-          data,
-          filename: 'table-list'
-        })
-        this.downloadLoading = false
-      })
-    },
-    formatJson(filterVal) {
-      return this.list.map(v => filterVal.map(j => {
-        if (j === 'timestamp') {
-          return parseTime(v[j])
-        } else {
-          return v[j]
-        }
-      }))
-    },
     showPwd() {
       if (this.passwordType === 'password') {
         this.passwordType = ''
@@ -442,45 +416,6 @@ export default {
       this.temp = Object.assign({}, row)
       this.temp.password = decrypt(this.temp.password)
       this.drawerVisible = true
-    },
-    beforeUpload(file) {
-      const isLt1M = file.size / 1024 / 1024 < 1
-
-      if (isLt1M) {
-        return true
-      }
-
-      this.$message({
-        message: 'Please do not upload files larger than 1m in size.',
-        type: 'warning'
-      })
-      return false
-    },
-    handleSuccess({ results, header }) {
-      this.uploadSuccessCount = 0
-      this.uploadFailCount = 0
-      this.failTableData = []
-      const tableData = results
-      for (var i = 0; i < tableData.length; i++) {
-        tableData[i].password = encrypt(tableData[i].password)
-        addHost(tableData[i]).then(() => {
-          this.uploadSuccessCount += 1
-        }).catch(() => {
-          this.uploadFailCount += 1
-        })
-      }
-      this.tableHeader = header
-    },
-    afterUpload() {
-      this.dialogUploadVisible = false
-      this.tableHeader = []
-      this.tableData = []
-      this.uploadSuccessCount = 0
-      this.uploadFailCount = 0
-      this.getList()
-    },
-    handleSSHConnectHost(row) {
-      sshConnectHost(row)
     }
   }
 }

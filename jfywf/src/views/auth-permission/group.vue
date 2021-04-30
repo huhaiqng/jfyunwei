@@ -11,12 +11,12 @@
           <span>{{ $index + 1 + (listQuery.page - 1)*listQuery.limit }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="组名" align="center">
+      <el-table-column label="组名">
         <template slot-scope="{row}">
           <span>{{ row.name }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="用户" align="center">
+      <el-table-column label="用户">
         <template slot-scope="{row}">
           <span v-for="(u, i) in row.user_set" :key="u.id">{{ i === 0?u.username:", " + u.username }}</span>
         </template>

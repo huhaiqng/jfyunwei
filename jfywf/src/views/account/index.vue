@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
     <div class="filter-container">
-      <el-input v-model="listQuery.use" placeholder="名称" style="width:400px" class="filter-item" @keyup.enter.native="getList" />
+      <el-input v-model="listQuery.name" placeholder="名称" style="width:400px" class="filter-item" @keyup.enter.native="getList" />
       <el-button class="filter-item" type="primary" icon="el-icon-search" @click="getList">
         搜索
       </el-button>
@@ -82,7 +82,7 @@
           <div class="drawer-item">
             <el-row>
               <el-col :span="12">名称：</el-col>
-              <el-col :span="12">{{ temp.use }}</el-col>
+              <el-col :span="12">{{ temp.name }}</el-col>
             </el-row>
           </div>
           <div class="drawer-item">

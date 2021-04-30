@@ -14,32 +14,32 @@
           <span>{{ $index + 1 + (listQuery.page - 1)*listQuery.limit }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="用户名" align="center">
+      <el-table-column label="用户名">
         <template slot-scope="{row}">
           <span>{{ row.username }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="手机号码" align="center">
+      <el-table-column label="手机号码">
         <template slot-scope="{row}">
           <span>{{ row.phone }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="邮箱" align="center">
+      <el-table-column label="邮箱">
         <template slot-scope="{row}">
           <span>{{ row.email }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="超级用户" align="center">
+      <el-table-column label="超级用户">
         <template slot-scope="{row}">
           <span>{{ row.is_superuser?"是":"否" }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="组" align="center">
+      <el-table-column label="组">
         <template slot-scope="{row}">
           <span v-for="(g, i) in row.groups" :key="g.id">{{ i===0?g.name:", " + g.name }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="创建时间" align="center">
+      <el-table-column label="创建时间">
         <template slot-scope="{row}">
           <span>{{ row.date_joined | parseTime('{y}-{m}-{d} {h}:{i}') }}</span>
         </template>

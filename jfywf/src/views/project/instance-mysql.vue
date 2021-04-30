@@ -15,47 +15,47 @@
           <span>{{ $index + 1 + (queryList.page - 1)*queryList.limit }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="内网地址" align="center">
+      <el-table-column label="内网地址">
         <template slot-scope="{row}">
           <span class="link-type" @click="showDetail(row)">{{ row.inside_addr }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="外网地址" align="center">
+      <el-table-column label="外网地址">
         <template slot-scope="{row}">
           <span>{{ row.outside_addr }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="角色" align="center">
+      <el-table-column label="角色">
         <template slot-scope="{row}">
           <span>{{ row.role }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="数据库路径" align="center">
+      <el-table-column label="数据库路径">
         <template slot-scope="{row}">
           <span>{{ row.data_dir }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="版本号" align="center">
+      <el-table-column label="版本号">
         <template slot-scope="{row}">
           <span>{{ row.version }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="部署方式" align="center">
+      <el-table-column label="部署方式">
         <template slot-scope="{row}">
           <span>{{ row.method }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="来源" align="center">
+      <el-table-column label="来源">
         <template slot-scope="{row}">
           <span>{{ row.origin }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="备注" align="center">
+      <el-table-column label="备注">
         <template slot-scope="{row}">
           <span>{{ row.cluster }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="创建时间" align="center">
+      <el-table-column label="创建时间">
         <template slot-scope="{row}">
           <span>{{ row.created | parseTime('{y}-{m}-{d} {h}:{i}') }}</span>
         </template>
@@ -168,7 +168,7 @@ import Pagination from '@/components/Pagination'
 import MysqlInstanceDrawer from '@/components/Drawer/mysql'
 import { encrypt, decrypt } from '@/utils/aes'
 export default {
-  name: 'MySQLInstance',
+  name: 'InstanceMySQL',
   components: { Pagination, MysqlInstanceDrawer },
   data() {
     return {

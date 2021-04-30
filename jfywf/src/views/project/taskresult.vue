@@ -6,32 +6,32 @@
           <span>{{ $index + 1 + (listQuery.page - 1)*listQuery.limit }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="任务名称" align="center">
+      <el-table-column label="任务名称">
         <template slot-scope="{row}">
           <span>{{ row.task_name }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="开始时间" align="center">
+      <el-table-column label="开始时间">
         <template slot-scope="{row}">
           <span>{{ row.date_created | parseTime('{y}-{m}-{d} {h}:{i}') }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="结束时间" align="center">
+      <el-table-column label="结束时间">
         <template slot-scope="{row}">
           <span>{{ row.date_done | parseTime('{y}-{m}-{d} {h}:{i}') }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="参数" align="center">
+      <el-table-column label="参数">
         <template slot-scope="{row}">
           <span>{{ row.task_args }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="返回结果" align="center">
+      <el-table-column label="返回结果">
         <template slot-scope="{row}">
           <span>{{ row.result }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="执行状态" align="center">
+      <el-table-column label="执行状态">
         <template slot-scope="{row}">
           <span>{{ row.status }}</span>
         </template>
