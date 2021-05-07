@@ -8605,3 +8605,22 @@ INFO 2021-05-07 12:42:00,830 basehttp 1116 1792 "GET /api/project/ HTTP/1.1" 200
 INFO 2021-05-07 12:42:03,586 basehttp 1116 6816 "GET /api/getEnv/ HTTP/1.1" 200 63
 INFO 2021-05-07 12:42:03,589 basehttp 1116 11472 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
 INFO 2021-05-07 12:43:27,752 autoreload 9380 11720 Watching for file changes with StatReloader
+INFO 2021-05-07 12:43:36,140 basehttp 9380 11564 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 12:43:36,176 basehttp 9380 11760 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-07 12:43:36,237 basehttp 9380 2036 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 12:43:37,519 basehttp 9380 10648 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-07 12:43:39,467 basehttp 9380 10880 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 12:43:39,512 basehttp 9380 9280 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-07 12:43:39,538 basehttp 9380 10988 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 12:43:41,104 basehttp 9380 8932 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-07 12:43:44,486 basehttp 9380 11376 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 12:43:44,487 basehttp 9380 7088 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-07 12:43:45,748 basehttp 9380 11892 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-07 12:43:47,561 basehttp 9380 10952 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 12:43:47,565 basehttp 9380 8660 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+INFO 2021-05-07 12:43:47,569 basehttp 9380 11180 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 12:43:48,760 basehttp 9380 12040 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 1272
+INFO 2021-05-07 12:43:53,857 basehttp 9380 7036 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 342
+INFO 2021-05-07 12:43:56,077 basehttp 9380 10604 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4498
+INFO 2021-05-07 12:43:56,121 basehttp 9380 10800 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 8644
+INFO 2021-05-07 12:43:57,197 basehttp 9380 8880 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 8694
