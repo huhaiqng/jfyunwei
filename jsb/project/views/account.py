@@ -23,7 +23,7 @@ class AccountViewSet(CheckPermViewSet):
             PageNumberPagination.page_size = None
         else:
             PageNumberPagination.page_size = page_size
-
+        
         page = self.paginate_queryset(queryset)
         PageNumberPagination.page_size = None
         if page is not None:

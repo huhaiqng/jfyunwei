@@ -3,7 +3,7 @@ from django.utils import timezone
 
 
 # MySQL 实例
-class MySQLInstance(models.Model):
+class MySQL(models.Model):
     inside_addr = models.CharField('内网地址', max_length=200, unique=True)
     outside_addr = models.CharField('外网地址', max_length=200, blank=True)
     role = models.CharField('角色', max_length=200)

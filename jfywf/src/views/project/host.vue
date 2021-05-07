@@ -22,7 +22,7 @@
       border
       fit
       highlight-current-row
-      style="width: 100%; margin-top:15px"
+      style="width: 100%;"
     >
       <el-table-column label="序号" align="center" width="60px">
         <template slot-scope="{$index}">
@@ -198,14 +198,6 @@
         <el-button type="primary" @click="dialogStatus==='create'?createData():updateData()">
           保存
         </el-button>
-      </div>
-    </el-dialog>
-
-    <el-dialog :visible.sync="dialogUploadVisible" title="导入" width="60%">
-      <upload-excel-component :on-success="handleSuccess" :before-upload="beforeUpload" />
-      <span><h3>导入成功数量：{{ uploadSuccessCount }} 导入失败数量：{{ uploadFailCount }}</h3></span>
-      <div slot="footer" class="dialog-footer">
-        <el-button type="primary" @click="afterUpload">关闭</el-button>
       </div>
     </el-dialog>
 

@@ -7440,3 +7440,1168 @@ INFO 2021-04-29 10:58:14,736 basehttp 1432 832 "GET /api/getL2Menu/?username=jsb
 INFO 2021-04-29 10:58:19,050 basehttp 1432 8036 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
 INFO 2021-04-29 10:58:19,051 basehttp 1432 7856 "GET /api/getEnv/ HTTP/1.1" 200 226
 INFO 2021-04-29 10:58:21,199 basehttp 1432 1572 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 14:26:54,550 autoreload 10048 5636 Watching for file changes with StatReloader
+INFO 2021-05-06 14:28:03,655 autoreload 10048 5636 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-05-06 14:28:05,225 autoreload 11344 11312 Watching for file changes with StatReloader
+INFO 2021-05-06 14:31:29,423 autoreload 11344 11312 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:31:30,869 autoreload 11996 11864 Watching for file changes with StatReloader
+INFO 2021-05-06 14:31:52,777 autoreload 11996 11864 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-05-06 14:31:54,428 autoreload 12272 12112 Watching for file changes with StatReloader
+INFO 2021-05-06 14:32:19,399 autoreload 12272 12112 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-05-06 14:32:21,011 autoreload 6520 12040 Watching for file changes with StatReloader
+INFO 2021-05-06 14:32:42,663 autoreload 6520 12040 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:32:44,459 autoreload 10320 11428 Watching for file changes with StatReloader
+INFO 2021-05-06 14:32:53,498 autoreload 10320 11428 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:32:55,234 autoreload 8340 11752 Watching for file changes with StatReloader
+INFO 2021-05-06 14:33:02,290 autoreload 8340 11752 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:33:03,791 autoreload 10588 12008 Watching for file changes with StatReloader
+INFO 2021-05-06 14:35:05,461 autoreload 10588 12008 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:35:06,842 autoreload 12148 12264 Watching for file changes with StatReloader
+INFO 2021-05-06 14:36:38,756 autoreload 12148 12264 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:36:40,667 autoreload 5356 11184 Watching for file changes with StatReloader
+INFO 2021-05-06 14:37:15,901 autoreload 5356 11184 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:37:17,180 autoreload 12172 6964 Watching for file changes with StatReloader
+INFO 2021-05-06 14:38:38,855 autoreload 12172 6964 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:38:40,282 autoreload 10924 12052 Watching for file changes with StatReloader
+INFO 2021-05-06 14:42:38,540 autoreload 10924 12052 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:42:40,074 autoreload 11828 6808 Watching for file changes with StatReloader
+INFO 2021-05-06 14:45:01,479 autoreload 11828 6808 E:\jfyunwei\jsb\address\models.py changed, reloading.
+INFO 2021-05-06 14:45:03,108 autoreload 3212 9756 Watching for file changes with StatReloader
+INFO 2021-05-06 14:48:02,763 autoreload 3212 9756 E:\jfyunwei\jsb\address\models.py changed, reloading.
+INFO 2021-05-06 14:48:04,090 autoreload 11348 11624 Watching for file changes with StatReloader
+INFO 2021-05-06 14:51:30,149 autoreload 11348 11624 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-05-06 14:51:31,769 autoreload 12212 12176 Watching for file changes with StatReloader
+INFO 2021-05-06 14:51:56,750 autoreload 12212 12176 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-05-06 14:51:58,176 autoreload 1688 10840 Watching for file changes with StatReloader
+INFO 2021-05-06 14:55:37,619 autoreload 1688 10840 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:55:39,084 autoreload 1456 10412 Watching for file changes with StatReloader
+INFO 2021-05-06 14:58:35,294 autoreload 1456 10412 E:\jfyunwei\jsb\project\models\config_project.py changed, reloading.
+INFO 2021-05-06 14:58:36,616 autoreload 12120 12176 Watching for file changes with StatReloader
+INFO 2021-05-06 15:22:26,113 autoreload 11584 11928 Watching for file changes with StatReloader
+INFO 2021-05-06 15:23:40,551 autoreload 10680 11684 Watching for file changes with StatReloader
+INFO 2021-05-06 15:25:24,892 autoreload 10680 11684 E:\jfyunwei\jsb\address\urls.py changed, reloading.
+INFO 2021-05-06 15:25:26,479 autoreload 908 11496 Watching for file changes with StatReloader
+INFO 2021-05-06 15:25:30,618 autoreload 11768 11852 Watching for file changes with StatReloader
+INFO 2021-05-06 15:27:17,412 autoreload 5272 11268 Watching for file changes with StatReloader
+INFO 2021-05-06 15:27:33,249 autoreload 11504 10704 Watching for file changes with StatReloader
+INFO 2021-05-06 15:27:46,185 autoreload 9372 11928 Watching for file changes with StatReloader
+INFO 2021-05-06 15:29:00,901 autoreload 9372 11928 E:\jfyunwei\jsb\address\models.py changed, reloading.
+INFO 2021-05-06 15:29:02,463 autoreload 10488 9800 Watching for file changes with StatReloader
+INFO 2021-05-06 15:35:36,866 autoreload 10488 9800 E:\jfyunwei\jsb\project\models\project_config.py changed, reloading.
+INFO 2021-05-06 15:35:38,458 autoreload 9368 8216 Watching for file changes with StatReloader
+INFO 2021-05-06 15:37:28,205 autoreload 7240 11756 Watching for file changes with StatReloader
+INFO 2021-05-06 15:38:24,778 autoreload 12140 11948 Watching for file changes with StatReloader
+INFO 2021-05-06 15:41:02,385 basehttp 12140 11120 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-06 15:41:06,892 basehttp 12140 10272 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-05-06 15:41:06,917 basehttp 12140 11856 "GET /api/user/?username=jsb HTTP/1.1" 200 378
+INFO 2021-05-06 15:41:06,974 basehttp 12140 4608 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-06 15:41:06,985 basehttp 12140 4796 "GET /api/getL1Menu/ HTTP/1.1" 200 2001
+INFO 2021-05-06 15:41:07,022 basehttp 12140 5900 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1165
+INFO 2021-05-06 15:41:10,838 basehttp 12140 11388 "GET /admin HTTP/1.1" 301 0
+INFO 2021-05-06 15:41:11,086 basehttp 12140 11388 "GET /admin/ HTTP/1.1" 200 15267
+INFO 2021-05-06 15:41:11,126 basehttp 12140 2744 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-05-06 15:41:11,134 basehttp 12140 9844 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-05-06 15:41:11,147 basehttp 12140 11456 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-05-06 15:41:11,147 basehttp 12140 11388 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-05-06 15:41:11,158 basehttp 12140 9844 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-05-06 15:41:11,160 basehttp 12140 11456 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-05-06 15:41:11,185 basehttp 12140 11456 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-05-06 15:41:11,186 basehttp 12140 9844 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-05-06 15:41:11,193 basehttp 12140 11388 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2021-05-06 15:41:11,287 basehttp 12140 11388 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-05-06 15:41:11,287 basehttp 12140 11456 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-05-06 15:41:11,290 basehttp 12140 9844 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+WARNING 2021-05-06 15:41:11,516 log 12140 11456 Not Found: /favicon.ico
+WARNING 2021-05-06 15:41:11,517 basehttp 12140 11456 "GET /favicon.ico HTTP/1.1" 404 2413
+INFO 2021-05-06 15:41:29,691 basehttp 12140 11456 "GET /admin/project/project/ HTTP/1.1" 200 11193
+INFO 2021-05-06 15:41:29,746 basehttp 12140 2744 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-05-06 15:41:29,767 basehttp 12140 2744 "GET /djstatic/admin/js/actions.js HTTP/1.1" 200 6540
+INFO 2021-05-06 15:41:29,770 basehttp 12140 11456 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-05-06 15:41:29,774 basehttp 12140 9844 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:41:29,778 basehttp 12140 10960 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-05-06 15:41:29,779 basehttp 12140 11508 "GET /djstatic/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-05-06 15:41:29,804 basehttp 12140 11456 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-05-06 15:41:29,811 basehttp 12140 9844 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-05-06 15:41:29,822 basehttp 12140 11388 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-05-06 15:41:29,866 basehttp 12140 2744 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-05-06 15:41:29,903 basehttp 12140 2744 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-05-06 15:41:31,576 basehttp 12140 2744 "GET /admin/project/project/add/ HTTP/1.1" 200 13628
+INFO 2021-05-06 15:41:31,610 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:41:31,619 basehttp 12140 2744 "GET /djstatic/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-05-06 15:41:31,629 basehttp 12140 9844 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-05-06 15:41:31,633 basehttp 12140 2744 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-05-06 15:41:31,636 basehttp 12140 11388 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-05-06 15:41:42,038 basehttp 12140 11332 "GET /api/project/ HTTP/1.1" 200 2
+INFO 2021-05-06 15:42:15,466 basehttp 12140 11388 "POST /admin/project/project/add/ HTTP/1.1" 302 0
+INFO 2021-05-06 15:42:15,529 basehttp 12140 11388 "GET /admin/project/project/ HTTP/1.1" 200 12543
+INFO 2021-05-06 15:42:15,567 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:42:15,606 basehttp 12140 11388 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-05-06 15:42:18,376 basehttp 12140 11572 "GET /api/getL1Menu/ HTTP/1.1" 200 2001
+INFO 2021-05-06 15:42:18,456 basehttp 12140 12004 "GET /api/project/ HTTP/1.1" 200 242
+INFO 2021-05-06 15:42:18,473 basehttp 12140 4876 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1165
+INFO 2021-05-06 15:42:31,186 basehttp 12140 6964 "GET /api/project/ HTTP/1.1" 200 242
+INFO 2021-05-06 15:42:42,987 basehttp 12140 11388 "GET /admin/project/url/ HTTP/1.1" 200 11215
+INFO 2021-05-06 15:42:43,019 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:42:44,666 basehttp 12140 11388 "GET /admin/project/url/add/ HTTP/1.1" 200 15130
+INFO 2021-05-06 15:42:44,695 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:05,424 basehttp 12140 11388 "GET /admin/project/env/ HTTP/1.1" 200 11185
+INFO 2021-05-06 15:43:05,456 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:07,408 basehttp 12140 11388 "GET /admin/project/env/add/ HTTP/1.1" 200 11869
+INFO 2021-05-06 15:43:07,438 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:14,822 basehttp 12140 11388 "POST /admin/project/env/add/ HTTP/1.1" 302 0
+INFO 2021-05-06 15:43:14,855 basehttp 12140 11388 "GET /admin/project/env/add/ HTTP/1.1" 200 12104
+INFO 2021-05-06 15:43:14,889 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:20,597 basehttp 12140 11388 "POST /admin/project/env/add/ HTTP/1.1" 302 0
+INFO 2021-05-06 15:43:20,629 basehttp 12140 11388 "GET /admin/project/env/add/ HTTP/1.1" 200 12104
+INFO 2021-05-06 15:43:20,665 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:22,603 basehttp 12140 11388 "POST /admin/project/env/add/ HTTP/1.1" 200 12006
+INFO 2021-05-06 15:43:22,636 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:25,695 basehttp 12140 11388 "GET /admin/project/env/ HTTP/1.1" 200 12551
+INFO 2021-05-06 15:43:25,725 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:31,997 basehttp 12140 11388 "GET /admin/project/url/ HTTP/1.1" 200 11215
+INFO 2021-05-06 15:43:32,027 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:33,887 basehttp 12140 11388 "GET /admin/project/url/add/ HTTP/1.1" 200 15216
+INFO 2021-05-06 15:43:33,916 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:41,347 basehttp 12140 11388 "POST /admin/project/url/add/ HTTP/1.1" 302 0
+INFO 2021-05-06 15:43:41,389 basehttp 12140 11388 "GET /admin/project/url/ HTTP/1.1" 200 14112
+INFO 2021-05-06 15:43:41,418 basehttp 12140 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:43:41,475 basehttp 12140 11388 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2021-05-06 15:43:43,786 basehttp 12140 12224 "GET /api/getL1Menu/ HTTP/1.1" 200 2001
+INFO 2021-05-06 15:43:43,844 basehttp 12140 10996 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-06 15:43:43,854 basehttp 12140 10508 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1165
+INFO 2021-05-06 15:43:50,583 basehttp 12140 10676 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-06 15:43:53,577 basehttp 12140 4980 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 15:43:53,599 basehttp 12140 11500 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 15:43:55,310 basehttp 12140 11016 "GET /api/mysqlInstance/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 15:44:07,825 basehttp 12140 5808 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 342
+INFO 2021-05-06 15:45:27,926 autoreload 12140 11948 E:\jfyunwei\jsb\project\models\instance_mysql.py changed, reloading.
+INFO 2021-05-06 15:45:29,501 autoreload 12212 2972 Watching for file changes with StatReloader
+INFO 2021-05-06 15:46:50,109 autoreload 12212 2972 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-05-06 15:46:51,797 autoreload 11736 10080 Watching for file changes with StatReloader
+INFO 2021-05-06 15:49:37,225 autoreload 7424 8536 Watching for file changes with StatReloader
+INFO 2021-05-06 15:50:09,044 autoreload 2380 4980 Watching for file changes with StatReloader
+INFO 2021-05-06 15:50:30,683 autoreload 11748 11504 Watching for file changes with StatReloader
+INFO 2021-05-06 15:50:37,652 autoreload 11748 11504 E:\jfyunwei\jsb\project\urls.py changed, reloading.
+INFO 2021-05-06 15:50:39,549 autoreload 6596 11316 Watching for file changes with StatReloader
+INFO 2021-05-06 15:51:44,788 basehttp 6596 10972 "GET /api/getL1Menu/ HTTP/1.1" 200 2001
+INFO 2021-05-06 15:51:44,840 basehttp 6596 11696 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1165
+INFO 2021-05-06 15:51:45,088 basehttp 6596 11908 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 342
+INFO 2021-05-06 15:53:47,366 autoreload 4796 12052 Watching for file changes with StatReloader
+INFO 2021-05-06 15:53:58,580 autoreload 8984 12180 Watching for file changes with StatReloader
+INFO 2021-05-06 15:54:47,459 autoreload 8952 12164 Watching for file changes with StatReloader
+WARNING 2021-05-06 15:54:57,536 log 8952 8792 Bad Request: /api/accounts/
+WARNING 2021-05-06 15:54:57,536 basehttp 8952 8792 "POST /api/accounts/ HTTP/1.1" 400 51
+INFO 2021-05-06 15:55:03,580 basehttp 8952 12072 "POST /api/accounts/ HTTP/1.1" 201 147
+INFO 2021-05-06 15:55:03,609 basehttp 8952 8892 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 490
+INFO 2021-05-06 15:55:08,892 basehttp 8952 5540 "PUT /api/accounts/3/ HTTP/1.1" 200 149
+INFO 2021-05-06 15:55:08,924 basehttp 8952 12052 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 492
+INFO 2021-05-06 15:55:11,558 basehttp 8952 11372 "DELETE /api/accounts/3/ HTTP/1.1" 204 0
+INFO 2021-05-06 15:56:09,888 autoreload 8952 12164 E:\jfyunwei\jsb\project\models\config.py changed, reloading.
+INFO 2021-05-06 15:56:11,467 autoreload 12240 12012 Watching for file changes with StatReloader
+INFO 2021-05-06 15:56:54,559 autoreload 12240 12012 E:\jfyunwei\jsb\project\models\config.py changed, reloading.
+INFO 2021-05-06 15:56:56,313 autoreload 11936 11016 Watching for file changes with StatReloader
+INFO 2021-05-06 15:57:28,843 basehttp 11936 2180 "GET /api/getL1Menu/ HTTP/1.1" 200 2001
+INFO 2021-05-06 15:57:28,865 basehttp 11936 11996 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1165
+INFO 2021-05-06 15:57:29,084 basehttp 11936 11804 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 342
+INFO 2021-05-06 15:57:29,963 basehttp 11936 11096 "GET /api/getL1Menu/ HTTP/1.1" 200 2001
+INFO 2021-05-06 15:57:30,018 basehttp 11936 3780 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1165
+INFO 2021-05-06 15:57:30,267 basehttp 11936 11332 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 342
+INFO 2021-05-06 15:57:30,932 basehttp 11936 7716 "GET /api/getL1Menu/ HTTP/1.1" 200 2001
+INFO 2021-05-06 15:57:30,969 basehttp 11936 11484 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1165
+INFO 2021-05-06 15:57:31,173 basehttp 11936 2480 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 342
+INFO 2021-05-06 15:57:45,789 basehttp 11936 4876 "GET /admin/ HTTP/1.1" 200 15333
+INFO 2021-05-06 15:57:50,270 basehttp 11936 4876 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15287
+INFO 2021-05-06 15:57:50,305 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:58:05,465 basehttp 11936 4876 "GET /admin/auth_permission/l1menu/add/ HTTP/1.1" 200 14692
+INFO 2021-05-06 15:58:05,507 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:58:28,358 basehttp 11936 4876 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15287
+INFO 2021-05-06 15:58:28,394 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 15:58:50,132 basehttp 11936 10828 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-06 15:58:50,997 basehttp 11936 1160 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-06 15:58:55,189 basehttp 11936 11840 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-06 15:59:13,612 basehttp 11936 4876 "GET /admin/auth_permission/l1menu/add/ HTTP/1.1" 200 14692
+INFO 2021-05-06 15:59:13,645 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 16:00:25,507 basehttp 11936 11764 "GET /api/getL1Menu/ HTTP/1.1" 200 2001
+INFO 2021-05-06 16:00:25,604 basehttp 11936 11292 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-06 16:00:25,634 basehttp 11936 6824 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1165
+INFO 2021-05-06 16:03:26,211 basehttp 11936 4876 "POST /admin/auth_permission/l1menu/add/ HTTP/1.1" 302 0
+INFO 2021-05-06 16:03:26,265 basehttp 11936 4876 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15860
+INFO 2021-05-06 16:03:26,298 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 16:03:29,800 basehttp 11936 4876 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 16494
+INFO 2021-05-06 16:03:29,830 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 16:03:31,301 basehttp 11936 4876 "GET /admin/auth_permission/l2menu/add/ HTTP/1.1" 200 16483
+INFO 2021-05-06 16:03:31,331 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 16:04:07,931 basehttp 11936 4876 "POST /admin/auth_permission/l2menu/add/ HTTP/1.1" 302 0
+INFO 2021-05-06 16:04:07,988 basehttp 11936 4876 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 17089
+INFO 2021-05-06 16:04:08,027 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 16:04:11,140 basehttp 11936 11804 "GET /api/getL1Menu/ HTTP/1.1" 200 2259
+INFO 2021-05-06 16:04:11,195 basehttp 11936 2680 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-06 16:04:11,212 basehttp 11936 4736 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1293
+INFO 2021-05-06 16:04:23,551 basehttp 11936 4896 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:04:23,551 basehttp 11936 9452 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:04:40,410 basehttp 11936 4876 "GET /admin/auth_permission/l2menu/10/change/ HTTP/1.1" 200 16889
+INFO 2021-05-06 16:04:40,448 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 16:04:51,354 basehttp 11936 4876 "POST /admin/auth_permission/l2menu/10/change/ HTTP/1.1" 302 0
+INFO 2021-05-06 16:04:51,409 basehttp 11936 4876 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 17064
+INFO 2021-05-06 16:04:51,441 basehttp 11936 4876 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-06 16:04:53,876 basehttp 11936 11680 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:04:53,911 basehttp 11936 2396 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:04:54,190 basehttp 11936 11652 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:04:54,191 basehttp 11936 12220 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:05:08,263 basehttp 11936 6512 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:05:08,315 basehttp 11936 6092 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:07:03,572 basehttp 11936 1112 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:07:03,781 basehttp 11936 10784 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:07:44,346 basehttp 11936 6512 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:07:44,518 basehttp 11936 11712 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:07:44,847 basehttp 11936 11784 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:07:50,462 basehttp 11936 1264 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:07:50,522 basehttp 11936 9452 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:07:50,833 basehttp 11936 11664 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:07:52,555 basehttp 11936 2480 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:07:52,563 basehttp 11936 11176 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:08:03,074 basehttp 11936 10944 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:08:03,151 basehttp 11936 11916 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:08:03,598 basehttp 11936 10136 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:08:03,599 basehttp 11936 11268 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:09:27,527 basehttp 11936 2744 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:09:27,607 basehttp 11936 10376 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:09:28,078 basehttp 11936 10664 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:09:28,085 basehttp 11936 10808 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:09:29,552 basehttp 11936 8952 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:09:29,582 basehttp 11936 7716 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:09:29,991 basehttp 11936 6876 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:09:30,008 basehttp 11936 1688 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:09:34,087 basehttp 11936 11748 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:09:35,225 basehttp 11936 9284 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:09:35,298 basehttp 11936 340 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:09:35,683 basehttp 11936 2396 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:09:40,946 basehttp 11936 11216 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:09:40,955 basehttp 11936 11084 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:11:51,139 basehttp 11936 10084 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:22:07,354 autoreload 11936 11016 E:\jfyunwei\jsb\project\views\mysql.py changed, reloading.
+INFO 2021-05-06 16:22:09,313 autoreload 11644 11488 Watching for file changes with StatReloader
+INFO 2021-05-06 16:26:58,846 autoreload 6512 11444 Watching for file changes with StatReloader
+INFO 2021-05-06 16:28:22,604 basehttp 6512 9964 "GET /api/hosts/?page=1&inside_ip=&env=%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 16:28:25,030 basehttp 6512 11052 "GET /api/hosts/?page=1&inside_ip=&env=%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:28:33,276 basehttp 6512 11360 "GET /api/hosts/?page=1&inside_ip=&env=%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83&cloud_user=gainhon666&limit=10 HTTP/1.1" 200 1397
+INFO 2021-05-06 16:28:35,870 basehttp 6512 11216 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:33:55,095 autoreload 6512 11444 E:\jfyunwei\jsb\project\serializers\__init__.py changed, reloading.
+INFO 2021-05-06 16:33:56,923 autoreload 12040 1120 Watching for file changes with StatReloader
+INFO 2021-05-06 16:35:14,945 autoreload 12040 1120 E:\jfyunwei\jsb\project\urls.py changed, reloading.
+INFO 2021-05-06 16:35:16,707 autoreload 8204 9960 Watching for file changes with StatReloader
+INFO 2021-05-06 16:38:49,118 basehttp 8204 12040 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:38:49,255 basehttp 8204 12280 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:38:49,648 basehttp 8204 2380 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:38:49,650 basehttp 8204 8212 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:39:39,503 basehttp 8204 11516 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:39:39,574 basehttp 8204 11044 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:39:39,972 basehttp 8204 5340 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:39:39,983 basehttp 8204 2756 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:39:40,003 basehttp 8204 11452 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 16:42:19,891 basehttp 8204 5056 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:42:19,958 basehttp 8204 1112 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:42:20,386 basehttp 8204 1052 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:42:20,392 basehttp 8204 2680 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:42:20,411 basehttp 8204 884 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 16:44:52,614 basehttp 8204 10648 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:44:52,734 basehttp 8204 11456 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:44:53,164 basehttp 8204 11460 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:44:53,165 basehttp 8204 1308 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:44:53,180 basehttp 8204 12164 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 16:45:00,978 basehttp 8204 2756 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:45:01,017 basehttp 8204 2868 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:45:01,458 basehttp 8204 4876 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:45:01,480 basehttp 8204 4632 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:45:01,486 basehttp 8204 1688 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 16:46:24,803 basehttp 8204 12144 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:46:24,903 basehttp 8204 11932 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:46:25,300 basehttp 8204 1728 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:46:25,322 basehttp 8204 12184 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:46:25,341 basehttp 8204 11956 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 16:55:25,811 basehttp 8204 6520 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:55:25,950 basehttp 8204 2216 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:55:26,347 basehttp 8204 11292 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:55:26,357 basehttp 8204 7240 "GET /api/project-for-config/ HTTP/1.1" 200 22
+ERROR 2021-05-06 16:55:26,622 log 8204 8648 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views\config.py", line 23, in list
+    objects = Config.objects.filter(config_name__contains=project)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1396, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1418, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1289, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1115, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1543, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'config_name' into field. Choices are: conf, created, env, env_id, id, project, project_id
+ERROR 2021-05-06 16:55:26,626 basehttp 8204 8648 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 500 140896
+INFO 2021-05-06 16:56:10,348 basehttp 8204 10600 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:56:10,355 basehttp 8204 11472 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:56:12,624 basehttp 8204 10944 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:56:12,772 basehttp 8204 11220 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:56:13,277 basehttp 8204 11940 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-06 16:56:13,294 basehttp 8204 10084 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:57:32,254 basehttp 8204 8892 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:57:34,418 basehttp 8204 6880 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:57:34,503 basehttp 8204 6612 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:57:34,936 basehttp 8204 11644 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1075
+INFO 2021-05-06 16:57:55,779 basehttp 8204 11568 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:57:55,786 basehttp 8204 11736 "GET /api/project-for-config/ HTTP/1.1" 200 22
+ERROR 2021-05-06 16:57:55,875 log 8204 2180 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views\config.py", line 23, in list
+    objects = Config.objects.filter(config_name__contains=project)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1396, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1418, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1289, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1115, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1543, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'config_name' into field. Choices are: conf, created, env, env_id, id, project, project_id
+ERROR 2021-05-06 16:57:55,877 basehttp 8204 2180 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 500 140896
+INFO 2021-05-06 16:59:19,159 autoreload 8204 9960 E:\jfyunwei\jsb\project\views\config.py changed, reloading.
+INFO 2021-05-06 16:59:21,460 autoreload 6612 12040 Watching for file changes with StatReloader
+INFO 2021-05-06 16:59:22,262 basehttp 6612 7288 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:59:22,285 basehttp 6612 7056 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:59:22,640 basehttp 6612 2180 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:59:22,645 basehttp 6612 11568 "GET /api/project-for-config/ HTTP/1.1" 200 22
+ERROR 2021-05-06 16:59:22,728 log 6612 11724 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views\config.py", line 23, in list
+    objects = Config.objects.filter(project_name__contains=project)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1396, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1418, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1289, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1115, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\query.py", line 1543, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'project_name' into field. Choices are: conf, created, env, env_id, id, project, project_id
+ERROR 2021-05-06 16:59:22,731 basehttp 6612 11724 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 500 140918
+INFO 2021-05-06 16:59:45,918 autoreload 340 11964 Watching for file changes with StatReloader
+INFO 2021-05-06 16:59:46,877 basehttp 340 11724 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:59:46,906 basehttp 340 11424 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:59:47,251 basehttp 340 10352 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 16:59:47,252 basehttp 340 9280 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 16:59:47,255 basehttp 340 504 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:59:54,049 basehttp 340 2116 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 16:59:54,106 basehttp 340 11584 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 16:59:54,509 basehttp 340 5184 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 16:59:54,510 basehttp 340 12052 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 16:59:54,516 basehttp 340 4800 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:02:03,648 basehttp 340 12200 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:02:03,736 basehttp 340 7244 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:02:04,121 basehttp 340 652 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:02:04,121 basehttp 340 10800 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:02:04,128 basehttp 340 11500 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:02:28,739 basehttp 340 12212 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:02:28,880 basehttp 340 6792 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:02:29,223 basehttp 340 1264 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:02:29,230 basehttp 340 11452 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:02:29,230 basehttp 340 6740 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:02:33,450 basehttp 340 12040 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:02:33,523 basehttp 340 8576 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:02:33,887 basehttp 340 11988 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:02:33,888 basehttp 340 8892 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:02:33,903 basehttp 340 11332 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:26:31,968 basehttp 340 9048 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:26:32,011 basehttp 340 5540 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:26:32,370 basehttp 340 13128 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:26:32,407 basehttp 340 12732 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:26:32,415 basehttp 340 12828 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:28:35,731 basehttp 340 4900 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:28:35,783 basehttp 340 1184 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:28:36,021 basehttp 340 12800 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:28:36,025 basehttp 340 13292 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:28:36,029 basehttp 340 13024 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:29:59,449 basehttp 340 11576 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:29:59,514 basehttp 340 12544 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:29:59,743 basehttp 340 12060 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:29:59,746 basehttp 340 6560 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:29:59,747 basehttp 340 10972 "GET /api/project-for-config/ HTTP/1.1" 200 22
+WARNING 2021-05-06 17:30:35,726 log 340 11340 Bad Request: /api/config/
+WARNING 2021-05-06 17:30:35,727 basehttp 340 11340 "POST /api/config/ HTTP/1.1" 400 143
+INFO 2021-05-06 17:31:13,824 basehttp 340 4460 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:31:13,875 basehttp 340 6688 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:31:14,106 basehttp 340 12680 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:31:14,111 basehttp 340 12024 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:31:14,118 basehttp 340 11304 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:32:50,348 basehttp 340 12524 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:32:50,405 basehttp 340 6836 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:32:50,661 basehttp 340 12680 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:32:50,662 basehttp 340 11332 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:32:50,663 basehttp 340 12024 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+WARNING 2021-05-06 17:33:52,422 log 340 11652 Bad Request: /api/config/
+WARNING 2021-05-06 17:33:52,422 basehttp 340 11652 "POST /api/config/ HTTP/1.1" 400 78
+INFO 2021-05-06 17:35:22,274 basehttp 340 10664 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:35:22,324 basehttp 340 10916 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:35:22,734 basehttp 340 8296 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:35:22,741 basehttp 340 11972 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:35:22,744 basehttp 340 12676 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:35:56,151 basehttp 340 2660 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:35:56,212 basehttp 340 9488 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:35:56,474 basehttp 340 13128 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:35:56,479 basehttp 340 11376 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:35:56,483 basehttp 340 12924 "GET /api/project-for-config/ HTTP/1.1" 200 22
+WARNING 2021-05-06 17:36:04,771 log 340 12880 Bad Request: /api/config/
+WARNING 2021-05-06 17:36:04,772 basehttp 340 12880 "POST /api/config/ HTTP/1.1" 400 40
+WARNING 2021-05-06 17:36:17,977 log 340 11528 Bad Request: /api/config/
+WARNING 2021-05-06 17:36:17,977 basehttp 340 11528 "POST /api/config/ HTTP/1.1" 400 40
+INFO 2021-05-06 17:54:14,454 basehttp 340 9296 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:54:14,536 basehttp 340 10924 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:54:14,959 basehttp 340 12284 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:54:14,973 basehttp 340 11928 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:54:14,979 basehttp 340 11100 "GET /api/project-for-config/ HTTP/1.1" 200 22
+WARNING 2021-05-06 17:54:24,934 log 340 12432 Bad Request: /api/config/
+WARNING 2021-05-06 17:54:24,935 basehttp 340 12432 "POST /api/config/ HTTP/1.1" 400 40
+INFO 2021-05-06 17:55:33,006 basehttp 340 11584 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:55:33,065 basehttp 340 6792 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:55:33,537 basehttp 340 12644 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:55:33,550 basehttp 340 13108 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:55:33,556 basehttp 340 12052 "GET /api/project-for-config/ HTTP/1.1" 200 22
+INFO 2021-05-06 17:56:21,111 autoreload 340 11964 E:\jfyunwei\jsb\project\serializers\project.py changed, reloading.
+INFO 2021-05-06 17:56:23,446 autoreload 12340 9464 Watching for file changes with StatReloader
+INFO 2021-05-06 17:56:23,978 basehttp 12340 2812 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 17:56:24,005 basehttp 12340 12268 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 17:56:24,287 basehttp 12340 13240 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 17:56:24,287 basehttp 12340 13128 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-06 17:56:24,293 basehttp 12340 11668 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 17:56:38,734 basehttp 12340 7336 "POST /api/config/ HTTP/1.1" 201 91
+INFO 2021-05-06 17:56:38,777 basehttp 12340 5900 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 143
+INFO 2021-05-06 17:59:33,896 autoreload 12216 4152 Watching for file changes with StatReloader
+INFO 2021-05-06 17:59:42,416 basehttp 12216 12728 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 198
+INFO 2021-05-06 18:00:08,012 basehttp 12216 664 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:00:08,103 basehttp 12216 11616 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:00:08,490 basehttp 12216 11968 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:00:08,491 basehttp 12216 10416 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:00:08,491 basehttp 12216 12992 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 198
+INFO 2021-05-06 18:00:10,290 basehttp 12216 12960 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:00:10,340 basehttp 12216 12976 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:00:10,745 basehttp 12216 11800 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 198
+INFO 2021-05-06 18:00:10,751 basehttp 12216 4980 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:00:10,771 basehttp 12216 13268 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:00:13,430 basehttp 12216 7244 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:00:13,468 basehttp 12216 11156 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:00:13,865 basehttp 12216 9456 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 198
+INFO 2021-05-06 18:00:13,870 basehttp 12216 12932 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:00:13,877 basehttp 12216 10488 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:01:03,826 basehttp 12216 11236 "PUT /api/config/1/ HTTP/1.1" 200 170
+INFO 2021-05-06 18:01:03,872 basehttp 12216 10996 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:04:52,186 basehttp 12216 10384 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:04:52,223 basehttp 12216 13108 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:04:52,426 basehttp 12216 2480 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:04:52,430 basehttp 12216 12836 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:04:52,462 basehttp 12216 4460 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:04:58,762 basehttp 12216 13016 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:04:58,813 basehttp 12216 11700 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:04:59,018 basehttp 12216 1264 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:04:59,019 basehttp 12216 11020 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:04:59,067 basehttp 12216 12708 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:06:33,068 basehttp 12216 244 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:06:33,119 basehttp 12216 12704 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:06:33,362 basehttp 12216 8956 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:06:33,362 basehttp 12216 4968 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:06:33,365 basehttp 12216 748 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:12:21,627 basehttp 12216 12656 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:12:21,664 basehttp 12216 11444 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:12:21,899 basehttp 12216 11560 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:12:21,899 basehttp 12216 6164 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:12:21,907 basehttp 12216 12444 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 222
+ERROR 2021-05-06 18:13:35,727 log 12216 12068 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 198, in execute
+    res = self._query(query)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 304, in _query
+    db.query(q)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\connections.py", line 217, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'project_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\auth_permission\perm.py", line 24, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 948, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'project_id' cannot be null")
+ERROR 2021-05-06 18:13:35,743 basehttp 12216 12068 "POST /api/config/ HTTP/1.1" 500 229425
+ERROR 2021-05-06 18:13:57,420 log 12216 12948 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 198, in execute
+    res = self._query(query)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 304, in _query
+    db.query(q)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\connections.py", line 217, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'project_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\auth_permission\perm.py", line 24, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 948, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'project_id' cannot be null")
+ERROR 2021-05-06 18:13:57,433 basehttp 12216 12948 "POST /api/config/ HTTP/1.1" 500 229425
+ERROR 2021-05-06 18:14:16,369 log 12216 13120 Internal Server Error: /api/config/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 198, in execute
+    res = self._query(query)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 304, in _query
+    db.query(q)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\connections.py", line 217, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'project_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\auth_permission\perm.py", line 24, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 948, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'project_id' cannot be null")
+ERROR 2021-05-06 18:14:16,379 basehttp 12216 13120 "POST /api/config/ HTTP/1.1" 500 229690
+INFO 2021-05-06 18:18:31,703 autoreload 12216 4152 E:\jfyunwei\jsb\project\serializers\config.py changed, reloading.
+INFO 2021-05-06 18:18:33,883 autoreload 10128 3780 Watching for file changes with StatReloader
+INFO 2021-05-06 18:19:37,325 autoreload 10128 3780 E:\jfyunwei\jsb\project\views\config.py changed, reloading.
+INFO 2021-05-06 18:19:38,951 autoreload 12352 9488 Watching for file changes with StatReloader
+INFO 2021-05-06 18:20:02,509 basehttp 12352 9280 "POST /api/config/ HTTP/1.1" 201 940
+INFO 2021-05-06 18:20:02,550 basehttp 12352 12196 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 1058
+INFO 2021-05-06 18:20:05,553 basehttp 12352 9964 "GET /api/config/?project=&page=1&limit=10 HTTP/1.1" 200 1058
+INFO 2021-05-06 18:20:07,515 basehttp 12352 12876 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:20:07,624 basehttp 12352 12444 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:20:08,019 basehttp 12352 12256 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1218
+INFO 2021-05-06 18:20:08,038 basehttp 12352 8972 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:20:08,052 basehttp 12352 11776 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:20:31,616 basehttp 12352 11676 "DELETE /api/config/2/ HTTP/1.1" 204 0
+INFO 2021-05-06 18:20:31,643 basehttp 12352 4784 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:21:04,860 autoreload 12352 9488 E:\jfyunwei\jsb\project\models\config.py changed, reloading.
+INFO 2021-05-06 18:21:06,407 autoreload 1184 12920 Watching for file changes with StatReloader
+INFO 2021-05-06 18:21:18,549 basehttp 1184 11644 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:21:18,599 basehttp 1184 1872 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:21:19,003 basehttp 1184 12924 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:21:19,011 basehttp 1184 13028 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:21:19,013 basehttp 1184 11584 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:21:20,035 basehttp 1184 11352 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:21:20,075 basehttp 1184 10972 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:21:20,288 basehttp 1184 13256 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:21:20,302 basehttp 1184 8304 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:21:20,304 basehttp 1184 12548 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:25:19,237 basehttp 1184 11628 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:25:19,300 basehttp 1184 2568 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+WARNING 2021-05-06 18:25:19,493 log 1184 7336 Not Found: /api/getConfig/
+INFO 2021-05-06 18:25:19,493 basehttp 1184 12776 "GET /api/getEnv/ HTTP/1.1" 200 63
+WARNING 2021-05-06 18:25:19,499 basehttp 1184 7336 "GET /api/getConfig/?project=&page=0&limit=10 HTTP/1.1" 404 28
+INFO 2021-05-06 18:25:19,501 basehttp 1184 12768 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:25:23,725 basehttp 1184 11156 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:25:23,764 basehttp 1184 11792 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:25:24,142 basehttp 1184 10748 "GET /api/getEnv/ HTTP/1.1" 200 63
+WARNING 2021-05-06 18:25:24,143 log 1184 1728 Not Found: /api/getConfig/
+WARNING 2021-05-06 18:25:24,146 basehttp 1184 1728 "GET /api/getConfig/?project=&page=0&limit=10 HTTP/1.1" 404 28
+INFO 2021-05-06 18:25:24,157 basehttp 1184 11576 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:25:47,294 basehttp 1184 5580 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:25:47,378 basehttp 1184 12276 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:25:47,619 basehttp 1184 12988 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:25:47,629 basehttp 1184 1236 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:25:47,630 basehttp 1184 4228 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:26:31,894 basehttp 1184 8892 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:26:31,948 basehttp 1184 4632 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:26:32,201 basehttp 1184 10484 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:26:32,215 basehttp 1184 1872 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:26:32,221 basehttp 1184 2744 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:27:14,897 basehttp 1184 10376 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:27:14,972 basehttp 1184 11744 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+WARNING 2021-05-06 18:27:15,166 log 1184 12548 Not Found: /api/getConfig/
+WARNING 2021-05-06 18:27:15,167 basehttp 1184 12548 "GET /api/getConfig/?project=&page=0&limit=10 HTTP/1.1" 404 28
+INFO 2021-05-06 18:27:15,174 basehttp 1184 8364 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:27:15,176 basehttp 1184 4520 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:28:15,016 basehttp 1184 12952 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:28:15,079 basehttp 1184 7940 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+WARNING 2021-05-06 18:28:15,422 log 1184 1308 Not Found: /api/getConfig/
+WARNING 2021-05-06 18:28:15,423 basehttp 1184 1308 "GET /api/getConfig/?project=&page=0&limit=10 HTTP/1.1" 404 28
+INFO 2021-05-06 18:28:15,477 basehttp 1184 6284 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:28:15,484 basehttp 1184 11416 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:30:28,967 basehttp 1184 12544 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:30:29,083 basehttp 1184 12044 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+WARNING 2021-05-06 18:30:29,371 log 1184 6740 Not Found: /api/getConfig/
+WARNING 2021-05-06 18:30:29,372 basehttp 1184 6740 "GET /api/getConfig/?project=&page=0&limit=10 HTTP/1.1" 404 28
+INFO 2021-05-06 18:30:29,396 basehttp 1184 12160 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:30:29,398 basehttp 1184 8944 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-06 18:30:51,585 basehttp 1184 12772 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-06 18:30:51,677 basehttp 1184 5496 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-06 18:30:52,086 basehttp 1184 12404 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-06 18:30:52,088 basehttp 1184 9368 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-06 18:30:52,103 basehttp 1184 11904 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:11:23,003 autoreload 10172 4040 Watching for file changes with StatReloader
+INFO 2021-05-07 09:13:00,327 basehttp 10172 3348 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-07 09:13:07,676 basehttp 10172 9516 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-05-07 09:13:07,729 basehttp 10172 10780 "GET /api/user/?username=jsb HTTP/1.1" 200 378
+INFO 2021-05-07 09:13:07,810 basehttp 10172 10376 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:13:07,812 basehttp 10172 1912 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-07 09:13:07,836 basehttp 10172 10792 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:13:11,974 basehttp 10172 10340 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:13:11,975 basehttp 10172 8168 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:13:11,992 basehttp 10172 9740 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 222
+WARNING 2021-05-07 09:14:19,760 log 10172 9872 Bad Request: /api/config/1/
+WARNING 2021-05-07 09:14:19,760 basehttp 10172 9872 "PUT /api/config/1/ HTTP/1.1" 400 145
+WARNING 2021-05-07 09:14:27,049 log 10172 11244 Bad Request: /api/config/1/
+WARNING 2021-05-07 09:14:27,050 basehttp 10172 11244 "PUT /api/config/1/ HTTP/1.1" 400 145
+WARNING 2021-05-07 09:14:39,920 log 10172 6020 Bad Request: /api/config/1/
+WARNING 2021-05-07 09:14:39,920 basehttp 10172 6020 "PUT /api/config/1/ HTTP/1.1" 400 145
+WARNING 2021-05-07 09:20:09,025 log 10172 10996 Bad Request: /api/config/1/
+WARNING 2021-05-07 09:20:09,026 basehttp 10172 10996 "PUT /api/config/1/ HTTP/1.1" 400 145
+INFO 2021-05-07 09:20:19,849 basehttp 10172 11248 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:20:19,977 basehttp 10172 6816 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:20:20,438 basehttp 10172 9504 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 222
+INFO 2021-05-07 09:20:20,455 basehttp 10172 10324 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:20:20,498 basehttp 10172 10080 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:20:30,282 basehttp 10172 9284 "PUT /api/config/1/ HTTP/1.1" 200 678
+INFO 2021-05-07 09:20:30,334 basehttp 10172 8424 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:20:39,640 basehttp 10172 9348 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:20:40,485 basehttp 10172 10588 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:20:46,601 basehttp 10172 7300 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:23:28,189 basehttp 10172 3968 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:23:28,256 basehttp 10172 676 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:23:28,680 basehttp 10172 11128 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:23:28,710 basehttp 10172 6040 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:23:28,718 basehttp 10172 7116 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:24:13,281 basehttp 10172 10260 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:24:13,334 basehttp 10172 9396 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+WARNING 2021-05-07 09:24:13,734 log 10172 9800 Not Found: /api/getConfig/
+WARNING 2021-05-07 09:24:13,735 basehttp 10172 9800 "GET /api/getConfig/?project=&page=0&limit=10 HTTP/1.1" 404 28
+INFO 2021-05-07 09:24:13,757 basehttp 10172 6112 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:24:13,806 basehttp 10172 10264 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:24:16,249 basehttp 10172 10636 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:24:16,328 basehttp 10172 2316 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+WARNING 2021-05-07 09:24:16,669 log 10172 8480 Not Found: /api/getConfig/
+WARNING 2021-05-07 09:24:16,670 basehttp 10172 8480 "GET /api/getConfig/?project=&page=0&limit=10 HTTP/1.1" 404 28
+INFO 2021-05-07 09:24:16,752 basehttp 10172 9752 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:24:16,760 basehttp 10172 10804 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:26:32,240 basehttp 10172 11004 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:26:32,315 basehttp 10172 1896 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:26:32,723 basehttp 10172 5172 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:26:32,743 basehttp 10172 7568 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:26:32,747 basehttp 10172 10836 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:26:39,614 basehttp 10172 7692 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:26:39,672 basehttp 10172 10304 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:26:40,127 basehttp 10172 2856 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:26:40,156 basehttp 10172 2748 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:26:40,184 basehttp 10172 11040 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:27:04,548 basehttp 10172 9584 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:27:04,605 basehttp 10172 3772 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:27:05,134 basehttp 10172 6264 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:27:05,175 basehttp 10172 10468 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:27:05,191 basehttp 10172 5388 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:29:31,813 basehttp 10172 5360 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:29:31,861 basehttp 10172 11200 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:29:32,321 basehttp 10172 10748 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:29:32,361 basehttp 10172 9904 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:29:32,366 basehttp 10172 9392 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:29:57,264 basehttp 10172 10280 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:29:57,342 basehttp 10172 8500 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:29:57,812 basehttp 10172 232 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:29:57,836 basehttp 10172 11232 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:29:57,870 basehttp 10172 10876 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:35:30,758 basehttp 10172 10312 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:35:30,816 basehttp 10172 5220 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:35:31,080 basehttp 10172 656 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:35:31,084 basehttp 10172 3532 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:35:31,090 basehttp 10172 5392 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:36:39,708 basehttp 10172 9872 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:36:39,749 basehttp 10172 4916 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:36:40,125 basehttp 10172 10500 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:36:40,127 basehttp 10172 2648 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:36:40,131 basehttp 10172 5468 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:36:59,071 basehttp 10172 10836 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:36:59,126 basehttp 10172 9752 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:36:59,402 basehttp 10172 8440 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:36:59,412 basehttp 10172 10416 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 785
+INFO 2021-05-07 09:36:59,412 basehttp 10172 10232 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:37:59,797 basehttp 10172 6264 "PUT /api/config/1/ HTTP/1.1" 200 1590
+INFO 2021-05-07 09:37:59,825 basehttp 10172 5712 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+ERROR 2021-05-07 09:40:28,666 log 10172 7688 Internal Server Error: /api/getLingfannaoDomain/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\jfyunwei\jsb\project\views\domain.py", line 56, in get
+    res = client.do_action_with_exception(req).decode('utf-8')
+  File "E:\PyEnv\jsb\lib\site-packages\aliyunsdkcore\client.py", line 476, in do_action_with_exception
+    raise exception
+aliyunsdkcore.acs_exception.exceptions.ServerException: HTTP Status: 404 Error:InvalidAccessKeyId Specified access key is not found or invalid. RequestID: E59BF10A-6A19-4132-9F56-6C439F70FB88
+ERROR 2021-05-07 09:40:28,667 basehttp 10172 7688 "GET /api/getLingfannaoDomain/?per_page=10&page=1 HTTP/1.1" 500 102172
+INFO 2021-05-07 09:56:21,341 basehttp 10172 9360 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:56:21,372 basehttp 10172 2436 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:56:21,637 basehttp 10172 11036 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+INFO 2021-05-07 09:56:21,646 basehttp 10172 5840 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:56:21,655 basehttp 10172 8424 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:59:57,324 basehttp 10172 5392 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 09:59:57,376 basehttp 10172 1952 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 09:59:57,637 basehttp 10172 4756 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 09:59:57,650 basehttp 10172 7176 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 09:59:57,654 basehttp 10172 10852 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+INFO 2021-05-07 09:59:58,726 basehttp 10172 8004 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+INFO 2021-05-07 10:00:16,431 basehttp 10172 9360 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 10:00:16,508 basehttp 10172 8268 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 10:00:16,781 basehttp 10172 10452 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+INFO 2021-05-07 10:00:16,788 basehttp 10172 2476 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 10:00:16,794 basehttp 10172 10380 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 10:15:32,639 basehttp 10172 5396 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 10:15:32,677 basehttp 10172 10192 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 10:15:32,946 basehttp 10172 11688 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 10:15:32,957 basehttp 10172 11708 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 10:15:32,958 basehttp 10172 10428 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+INFO 2021-05-07 10:25:16,070 basehttp 10172 5856 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 10:25:16,110 basehttp 10172 1228 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 10:25:16,366 basehttp 10172 11924 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 10:25:16,378 basehttp 10172 11404 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 10:25:16,383 basehttp 10172 9536 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+INFO 2021-05-07 11:03:16,836 autoreload 10172 4040 E:\jfyunwei\jsb\address\admin.py changed, reloading.
+INFO 2021-05-07 11:03:19,226 autoreload 11600 9948 Watching for file changes with StatReloader
+INFO 2021-05-07 11:03:21,153 autoreload 11600 9948 E:\jfyunwei\jsb\auth_permission\perm.py changed, reloading.
+INFO 2021-05-07 11:03:23,407 autoreload 12132 1220 Watching for file changes with StatReloader
+INFO 2021-05-07 11:03:31,684 autoreload 12132 1220 E:\jfyunwei\jsb\project\apps.py changed, reloading.
+INFO 2021-05-07 11:03:33,835 autoreload 10812 1896 Watching for file changes with StatReloader
+INFO 2021-05-07 11:03:35,634 autoreload 10812 1896 E:\jfyunwei\jsb\project\models\account.py changed, reloading.
+INFO 2021-05-07 11:03:37,756 autoreload 9860 548 Watching for file changes with StatReloader
+INFO 2021-05-07 11:03:40,542 autoreload 9860 548 E:\jfyunwei\jsb\manage.py changed, reloading.
+INFO 2021-05-07 11:03:42,131 autoreload 4656 11956 Watching for file changes with StatReloader
+INFO 2021-05-07 11:05:31,868 autoreload 4656 11956 E:\jfyunwei\jsb\jsb\urls.py changed, reloading.
+INFO 2021-05-07 11:05:33,465 autoreload 11928 8068 Watching for file changes with StatReloader
+INFO 2021-05-07 11:09:06,625 basehttp 11928 5580 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 11:09:06,671 basehttp 11928 10056 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+WARNING 2021-05-07 11:09:06,975 log 11928 10284 Not Found: /api/project-for-config/
+WARNING 2021-05-07 11:09:06,987 basehttp 11928 10284 "GET /api/project-for-config/ HTTP/1.1" 404 18990
+WARNING 2021-05-07 11:09:06,986 log 11928 11052 Not Found: /api/getConfig/
+WARNING 2021-05-07 11:09:07,004 basehttp 11928 11052 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 404 18996
+ERROR 2021-05-07 11:09:07,207 log 11928 6084 Internal Server Error: /api/getEnv/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 198, in execute
+    res = self._query(query)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 304, in _query
+    db.query(q)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\connections.py", line 217, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'yunwei.address_env' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\compiler.py", line 1169, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 198, in execute
+    res = self._query(query)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 304, in _query
+    db.query(q)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\connections.py", line 217, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'yunwei.address_env' doesn't exist")
+ERROR 2021-05-07 11:09:07,223 basehttp 11928 6084 "GET /api/getEnv/ HTTP/1.1" 500 190521
+INFO 2021-05-07 11:09:18,582 basehttp 11928 1372 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 11:09:18,630 basehttp 11928 8676 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+WARNING 2021-05-07 11:09:18,891 log 11928 12000 Not Found: /api/getConfig/
+WARNING 2021-05-07 11:09:18,892 basehttp 11928 12000 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 404 18996
+WARNING 2021-05-07 11:09:18,913 log 11928 11660 Not Found: /api/project-for-config/
+WARNING 2021-05-07 11:09:18,914 basehttp 11928 11660 "GET /api/project-for-config/ HTTP/1.1" 404 18990
+ERROR 2021-05-07 11:09:19,019 log 11928 11728 Internal Server Error: /api/getEnv/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 198, in execute
+    res = self._query(query)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 304, in _query
+    db.query(q)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\connections.py", line 217, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'yunwei.address_env' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\sql\compiler.py", line 1169, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 198, in execute
+    res = self._query(query)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\cursors.py", line 304, in _query
+    db.query(q)
+  File "E:\PyEnv\jsb\lib\site-packages\MySQLdb\connections.py", line 217, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'yunwei.address_env' doesn't exist")
+ERROR 2021-05-07 11:09:19,039 basehttp 11928 11728 "GET /api/getEnv/ HTTP/1.1" 500 190521
+INFO 2021-05-07 11:10:20,679 autoreload 10860 10140 Watching for file changes with StatReloader
+WARNING 2021-05-07 11:10:42,933 log 10860 2592 Not Found: /api/getConfig/
+WARNING 2021-05-07 11:10:42,933 basehttp 10860 2592 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 404 18996
+INFO 2021-05-07 12:26:49,707 autoreload 9412 10896 Watching for file changes with StatReloader
+INFO 2021-05-07 12:28:48,284 autoreload 9412 10896 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-05-07 12:28:49,884 autoreload 10564 10024 Watching for file changes with StatReloader
+INFO 2021-05-07 12:32:08,614 autoreload 10564 10024 E:\jfyunwei\jsb\project\models\__init__.py changed, reloading.
+INFO 2021-05-07 12:32:10,319 autoreload 6180 10756 Watching for file changes with StatReloader
+INFO 2021-05-07 12:39:02,877 autoreload 12204 4456 Watching for file changes with StatReloader
+INFO 2021-05-07 12:39:34,671 autoreload 10736 876 Watching for file changes with StatReloader
+INFO 2021-05-07 12:39:43,858 basehttp 10736 9540 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-07 12:39:47,858 basehttp 10736 7964 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-05-07 12:39:47,878 basehttp 10736 11580 "GET /api/user/?username=jsb HTTP/1.1" 200 378
+INFO 2021-05-07 12:39:47,931 basehttp 10736 6108 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-07 12:39:47,939 basehttp 10736 11204 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 12:39:47,974 basehttp 10736 11876 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 12:39:49,972 basehttp 10736 11712 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 12:39:49,977 basehttp 10736 10104 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+WARNING 2021-05-07 12:39:49,990 log 10736 3372 Not Found: /api/project-for-config/
+WARNING 2021-05-07 12:39:49,991 basehttp 10736 3372 "GET /api/project-for-config/ HTTP/1.1" 404 19948
+INFO 2021-05-07 12:41:30,519 autoreload 10736 876 E:\jfyunwei\jsb\project\urls.py changed, reloading.
+INFO 2021-05-07 12:41:32,238 autoreload 10768 8348 Watching for file changes with StatReloader
+INFO 2021-05-07 12:41:46,929 autoreload 1116 9316 Watching for file changes with StatReloader
+INFO 2021-05-07 12:41:52,070 basehttp 1116 12080 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-07 12:41:52,131 basehttp 1116 10320 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-07 12:41:52,429 basehttp 1116 2020 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 12:41:52,441 basehttp 1116 2268 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1697
+INFO 2021-05-07 12:41:52,443 basehttp 1116 11552 "GET /api/project-for-config/ HTTP/1.1" 200 29
+INFO 2021-05-07 12:41:57,683 basehttp 1116 10988 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-07 12:41:59,432 basehttp 1116 10428 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-07 12:42:00,830 basehttp 1116 1792 "GET /api/project/ HTTP/1.1" 200 355
+INFO 2021-05-07 12:42:03,586 basehttp 1116 6816 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-07 12:42:03,589 basehttp 1116 11472 "GET /api/hosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1736
+INFO 2021-05-07 12:43:27,752 autoreload 9380 11720 Watching for file changes with StatReloader

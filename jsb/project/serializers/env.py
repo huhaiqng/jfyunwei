@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from address.models import Env
+from project.models import Env
 
 
 class EnvSerializer(serializers.ModelSerializer):

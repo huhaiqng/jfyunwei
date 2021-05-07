@@ -9,7 +9,7 @@
         新增
       </el-button>
     </div>
-    <el-table :key="0" :data="list" border fit highlight-current-row style="width: 100%; margin-top:15px">
+    <el-table :key="0" :data="list" border fit highlight-current-row style="width: 100%;">
       <el-table-column label="序号" align="center" width="50px">
         <template slot-scope="{$index}">
           <span>{{ $index + 1 + (queryList.page - 1)*queryList.limit }}</span>
@@ -157,19 +157,19 @@
       </div>
     </el-dialog>
     <el-drawer title="详情" :visible.sync="drawerVisible" :with-header="false">
-      <mysql-instance-drawer :instance="instance" />
+      <mysql-drawer :instance="instance" />
     </el-drawer>
   </div>
 </template>
 
 <script>
-import { addMySQLInstance, deleteMySQLInstance, updateMySQLInstance, getMySQLInstance } from '@/api/project'
+import { addMySQL, deleteMySQL, updateMySQL, getMySQL } from '@/api/project'
 import Pagination from '@/components/Pagination'
-import MysqlInstanceDrawer from '@/components/Drawer/mysql'
+import MysqlDrawer from '@/components/Drawer/mysql'
 import { encrypt, decrypt } from '@/utils/aes'
 export default {
-  name: 'InstanceMySQL',
-  components: { Pagination, MysqlInstanceDrawer },
+  name: 'MySQL',
+  components: { Pagination, MysqlDrawer },
   data() {
     return {
       list: null,
@@ -208,7 +208,7 @@ export default {
   },
   methods: {
     getList() {
-      getMySQLInstance(this.queryList).then(response => {
+      getMySQL(this.queryList).then(response => {
         this.list = response.results
         this.total = response.count
       })
@@ -245,7 +245,7 @@ export default {
         cancelButtonText: '取消',
         type: 'warning'
       }).then(() => {
-        deleteMySQLInstance(id).then(() => {
+        deleteMySQL(id).then(() => {
           this.$notify({
             title: '成功',
             message: '删除成功！',
@@ -264,7 +264,7 @@ export default {
     createData() {
       this.tempCopy = Object.assign({}, this.temp)
       this.tempCopy.password = encrypt(this.tempCopy.password)
-      addMySQLInstance(this.tempCopy).then(response => {
+      addMySQL(this.tempCopy).then(response => {
         this.getList()
         this.dialogVisible = false
         this.$notify({
@@ -278,7 +278,7 @@ export default {
     updateData() {
       this.tempCopy = Object.assign({}, this.temp)
       this.tempCopy.password = encrypt(this.tempCopy.password)
-      updateMySQLInstance(this.tempCopy).then(() => {
+      updateMySQL(this.tempCopy).then(() => {
         this.getList()
         this.dialogVisible = false
         this.$notify({

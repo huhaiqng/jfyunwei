@@ -37,41 +37,79 @@ export function getEnv() {
   })
 }
 
-// MySQL 实例
-export function getMySQLInstance(query) {
+// MySQL
+export function getMySQL(query) {
   return request({
-    url: '/api/mysqlInstance/',
+    url: '/api/mysql/',
     method: 'get',
     params: query
   })
 }
-export function addMySQLInstance(data) {
+export function addMySQL(data) {
   return request({
-    url: '/api/mysqlInstance/',
+    url: '/api/mysql/',
     method: 'post',
     data
   })
 }
-export function updateMySQLInstance(data) {
+export function updateMySQL(data) {
   return request({
-    url: `/api/mysqlInstance/${data.id}/`,
+    url: `/api/mysql/${data.id}/`,
     method: 'put',
     data
   })
 }
-export function deleteMySQLInstance(id) {
+export function deleteMySQL(id) {
   return request({
-    url: `/api/mysqlInstance/${id}/`,
+    url: `/api/mysql/${id}/`,
     method: 'delete'
   })
 }
+
+// Config
+export function getConfig(query) {
+  return request({
+    url: '/api/getConfig/',
+    method: 'get',
+    params: query
+  })
+}
+export function addConfig(data) {
+  return request({
+    url: '/api/config/',
+    method: 'post',
+    data
+  })
+}
+export function updateConfig(data) {
+  return request({
+    url: `/api/config/${data.id}/`,
+    method: 'put',
+    data
+  })
+}
+export function deleteConfig(id) {
+  return request({
+    url: `/api/config/${id}/`,
+    method: 'delete'
+  })
+}
+
+// Project
 export function getProjectInfo() {
   return request({
     url: '/api/getProjectInfo/',
     method: 'get'
   })
 }
+export function getProjectForConfig() {
+  return request({
+    url: '/api/project-for-config/',
+    method: 'get'
+  })
+}
 
+// Task
 export function getTaskResult(data) {
   return request({
     url: '/api/taskresult/',

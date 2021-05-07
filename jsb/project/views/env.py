@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from address.models import Env
+from project.models import Env
 from project.serializers import EnvSerializer
 
 
