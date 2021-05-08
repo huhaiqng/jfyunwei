@@ -44,29 +44,21 @@
     </el-table>
     <pagination v-show="total>0" :total="total" :page.sync="queryList.page" :limit.sync="queryList.limit" @pagination="getList" />
     <el-dialog :title="textMap[dialogStatus]" :visible.sync="dialogVisible" width="60%">
-      <el-form ref="dataForm" :model="temp" label-position="left" label-width="100px" style="margin-right:30px; margin-left:30px;">
-        <el-row>
-          <el-col :span="12">
-            <el-form-item label="项目" prop="project">
-              <el-select v-model="temp.project" class="filter-item">
-                <el-option v-for="item in projectList" :key="item.id" :label="item.name" :value="item.id" />
-              </el-select>
-            </el-form-item>
-          </el-col>
-          <el-col :span="12">
-            <el-form-item label="环境" prop="env">
-              <el-select v-model="temp.env" class="filter-item">
-                <el-option v-for="item in envList" :key="item.id" :label="item.name" :value="item.id" />
-              </el-select>
-            </el-form-item>
-          </el-col>
-        </el-row>
-        <el-row>
-          <el-form-item label="配置" prop="conf">
-            <tinymce v-model="temp.conf" :height="300" />
-          </el-form-item>
-        </el-row>
-      </el-form>
+      <el-row>
+        <el-col :span="12">
+          <el-select v-model="temp.project" placeholder="项目" class="filter-item" style="width:60%">
+            <el-option v-for="item in projectList" :key="item.id" :label="item.name" :value="item.id" />
+          </el-select>
+        </el-col>
+        <el-col :span="12">
+          <el-select v-model="temp.env" placeholder="环境" class="filter-item" style="width:60%">
+            <el-option v-for="item in envList" :key="item.id" :label="item.name" :value="item.id" />
+          </el-select>
+        </el-col>
+      </el-row>
+      <el-row style="margin-top:15px;">
+        <tinymce ref="tinymce" v-model="temp.conf" :height="300" />
+      </el-row>
       <div slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">
           取消
@@ -87,6 +79,7 @@
 </template>
 
 <script>
+
 import { addConfig, deleteConfig, updateConfig, getConfig, getEnv, getProjectForConfig } from '@/api/project'
 import Pagination from '@/components/Pagination'
 import Tinymce from '@/components/Tinymce'
@@ -102,7 +95,7 @@ export default {
       temp: {
         project: null,
         env: null,
-        conf: null,
+        conf: '',
         created: new Date()
       },
       confText: null,
@@ -141,16 +134,18 @@ export default {
       this.temp = {
         project: null,
         env: null,
-        conf: null,
+        conf: '',
         created: new Date()
       }
     },
     handleCreate() {
+      this.reloadTinymce()
       this.dialogStatus = 'create'
       this.dialogVisible = true
       this.restTemp()
     },
     handleUpdate(row) {
+      this.reloadTinymce()
       this.temp = Object.assign({}, row)
       this.temp.project = this.temp.project.id
       this.temp.env = this.temp.env.id
@@ -205,8 +200,14 @@ export default {
     },
     showDetail(row) {
       this.confText = row.conf
-      this.confTitle = '配置: ' + row.project.name + ' ' + row.env.name
+      this.confTitle = '查看: ' + row.project.name + ' ' + row.env.name
       this.configDialogVisible = true
+    },
+    reloadTinymce() {
+      if (this.$refs.tinymce) {
+        this.$refs.tinymce.destroyTinymce()
+        this.$refs.tinymce.init()
+      }
     }
   }
 }

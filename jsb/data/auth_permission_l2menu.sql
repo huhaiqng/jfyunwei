@@ -1,5 +1,3 @@
-INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (1, '我的日报', 'index', '/daily/index', 10, 1, 18, 1);
-INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (2, '查看日报', 'report', '/daily/report', 11, 0, NULL, 1);
 INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (3, '用户', 'user', '/auth-permission/user', 10, 1, NULL, 2);
 INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (4, '组', 'group', '/auth-permission/group', 10, 1, NULL, 2);
 INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (5, 'Gitlab 项目', 'group', '/gitlab/group', 10, 1, NULL, 3);
@@ -8,3 +6,5 @@ INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`
 INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (8, '定时任务', 'taskresult', '/project/taskresult', 10, 0, NULL, 5);
 INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (9, '主机', 'host', '/project/host', 10, 1, NULL, 6);
 INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (10, 'MySQL', 'mysql', '/project/mysql', 10, 0, NULL, 6);
+INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (11, '账号管理', 'index', '/account/index', 10, 1, NULL, 7);
+INSERT INTO `auth_permission_l2menu`(`id`, `title`, `path`, `component`, `order`, `is_model`, `name_id`, `parent_id`) VALUES (12, '项目配置', 'index', '/project/config', 10, 1, NULL, 8);
