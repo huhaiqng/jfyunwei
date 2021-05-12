@@ -1,7 +1,7 @@
 from django.urls import path, include
 from project.views import GetGaingon666Domain, GetGaingon666DomainRecord, GetLingfannaoDomain, \
     GetLingfannaoDomainRecord, TaskResultViewSet, HostViewSet, EnvViewSet, MySQLViewSet, AccountViewSet, \
-    ConfigViewSet, GetConfigViewSet, ProjectViewSet, ProjectForConfigViewSet
+    ConfigViewSet, GetConfigViewSet, ProjectViewSet, ProjectForConfigViewSet, GetHostViewSet
 from rest_framework import routers
 
 
@@ -9,6 +9,7 @@ router = routers.DefaultRouter()
 router.register(r'taskresult', TaskResultViewSet)
 router.register(r'getEnv', EnvViewSet)
 router.register(r'hosts', HostViewSet)
+router.register(r'getHosts', GetHostViewSet)
 router.register(r'mysql', MySQLViewSet)
 router.register(r'accounts', AccountViewSet)
 router.register(r'config', ConfigViewSet)

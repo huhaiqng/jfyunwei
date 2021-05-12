@@ -9029,3 +9029,97 @@ INFO 2021-05-08 15:33:10,224 basehttp 2232 8696 "GET /api/getL2Menu/?username=js
 INFO 2021-05-08 15:33:10,588 basehttp 2232 9848 "GET /api/getEnv/ HTTP/1.1" 200 63
 INFO 2021-05-08 15:33:10,600 basehttp 2232 1604 "GET /api/project-for-config/ HTTP/1.1" 200 29
 INFO 2021-05-08 15:33:10,605 basehttp 2232 7072 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 13569
+INFO 2021-05-12 15:58:53,337 autoreload 1868 2196 Watching for file changes with StatReloader
+INFO 2021-05-12 16:01:44,115 autoreload 2992 11408 Watching for file changes with StatReloader
+INFO 2021-05-12 16:02:38,082 autoreload 7308 6900 Watching for file changes with StatReloader
+INFO 2021-05-12 16:03:16,256 autoreload 4668 8976 Watching for file changes with StatReloader
+INFO 2021-05-12 16:04:22,357 autoreload 8964 9296 Watching for file changes with StatReloader
+INFO 2021-05-12 16:04:55,500 autoreload 6752 3368 Watching for file changes with StatReloader
+INFO 2021-05-12 16:10:36,851 autoreload 6752 3368 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-05-12 16:10:38,472 autoreload 5788 8036 Watching for file changes with StatReloader
+INFO 2021-05-12 16:13:57,221 autoreload 3784 888 Watching for file changes with StatReloader
+INFO 2021-05-12 16:22:46,503 autoreload 4776 4552 Watching for file changes with StatReloader
+INFO 2021-05-12 16:24:07,248 autoreload 6024 11024 Watching for file changes with StatReloader
+INFO 2021-05-12 16:26:03,732 autoreload 4880 11572 Watching for file changes with StatReloader
+INFO 2021-05-12 16:26:46,539 autoreload 11756 10324 Watching for file changes with StatReloader
+INFO 2021-05-12 16:28:40,400 autoreload 2992 11408 E:\jfyunwei\jsb\project\serializers\project.py changed, reloading.
+INFO 2021-05-12 16:28:43,152 autoreload 5388 10052 Watching for file changes with StatReloader
+INFO 2021-05-12 16:31:09,354 autoreload 5388 10052 E:\jfyunwei\jsb\project\views\host.py changed, reloading.
+INFO 2021-05-12 16:31:10,906 autoreload 10768 6220 Watching for file changes with StatReloader
+INFO 2021-05-12 16:32:32,458 autoreload 10768 6220 E:\jfyunwei\jsb\project\urls.py changed, reloading.
+INFO 2021-05-12 16:32:34,039 autoreload 2608 11992 Watching for file changes with StatReloader
+INFO 2021-05-12 16:32:48,768 autoreload 6528 8664 Watching for file changes with StatReloader
+INFO 2021-05-12 16:34:25,634 basehttp 6528 11064 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-12 16:34:42,539 basehttp 6528 836 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-05-12 16:34:42,650 basehttp 6528 2992 "GET /api/user/?username=jsb HTTP/1.1" 200 378
+INFO 2021-05-12 16:34:42,752 basehttp 6528 5172 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-12 16:34:42,786 basehttp 6528 1956 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-12 16:34:42,915 basehttp 6528 7500 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-12 16:34:48,281 basehttp 6528 11148 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-12 16:34:48,338 basehttp 6528 4296 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1855
+INFO 2021-05-12 16:38:16,279 basehttp 6528 4296 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1855
+INFO 2021-05-12 16:38:18,766 basehttp 6528 10952 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-12 16:38:18,937 basehttp 6528 2732 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-12 16:38:19,331 basehttp 6528 10512 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-12 16:38:19,357 basehttp 6528 7664 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1855
+INFO 2021-05-12 16:38:33,888 basehttp 6528 11024 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 8694
+INFO 2021-05-12 16:39:45,700 basehttp 6528 10356 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-12 16:39:45,766 basehttp 6528 10664 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-12 16:39:46,185 basehttp 6528 11544 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-12 16:39:46,204 basehttp 6528 6608 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1855
+INFO 2021-05-12 16:40:22,472 basehttp 6528 10640 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-12 16:40:22,617 basehttp 6528 7584 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-12 16:40:23,041 basehttp 6528 864 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-12 16:40:23,045 basehttp 6528 124 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1855
+INFO 2021-05-12 16:41:18,794 basehttp 6528 10884 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-12 16:41:18,912 basehttp 6528 12228 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-12 16:41:19,338 basehttp 6528 9976 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1855
+INFO 2021-05-12 16:41:19,346 basehttp 6528 4028 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-12 16:51:54,421 basehttp 6528 12628 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-05-12 16:51:54,631 basehttp 6528 12628 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2226
+INFO 2021-05-12 16:51:54,686 basehttp 6528 836 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:54,688 basehttp 6528 4296 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:54,692 basehttp 6528 13236 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:54,698 basehttp 6528 12628 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-05-12 16:51:54,713 basehttp 6528 12628 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:54,715 basehttp 6528 13236 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:54,784 basehttp 6528 12628 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:54,785 basehttp 6528 13236 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-05-12 16:51:55,015 log 6528 13236 Not Found: /favicon.ico
+WARNING 2021-05-12 16:51:55,015 basehttp 6528 13236 "GET /favicon.ico HTTP/1.1" 404 2413
+INFO 2021-05-12 16:51:57,601 basehttp 6528 13236 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-05-12 16:51:57,706 basehttp 6528 13236 "GET /admin/ HTTP/1.1" 200 15387
+INFO 2021-05-12 16:51:57,730 basehttp 6528 13236 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:57,744 basehttp 6528 13236 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:57,744 basehttp 6528 12628 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-05-12 16:51:57,789 basehttp 6528 12628 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,844 basehttp 6528 12628 "GET /admin/project/project/ HTTP/1.1" 200 12350
+INFO 2021-05-12 16:52:00,883 basehttp 6528 12628 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,884 basehttp 6528 4296 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,890 basehttp 6528 836 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,890 basehttp 6528 12628 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,891 basehttp 6528 4296 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,895 basehttp 6528 12628 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,896 basehttp 6528 836 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,899 basehttp 6528 12540 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,901 basehttp 6528 12548 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:00,917 basehttp 6528 13236 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-12 16:52:00,952 basehttp 6528 13236 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:02,569 basehttp 6528 13236 "GET /admin/project/project/add/ HTTP/1.1" 200 13628
+INFO 2021-05-12 16:52:02,597 basehttp 6528 13236 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:02,598 basehttp 6528 12540 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:02,605 basehttp 6528 12548 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-12 16:52:02,618 basehttp 6528 12540 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:02,619 basehttp 6528 12548 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:12,619 basehttp 6528 12548 "POST /admin/project/project/add/ HTTP/1.1" 302 0
+INFO 2021-05-12 16:52:12,664 basehttp 6528 12548 "GET /admin/project/project/ HTTP/1.1" 200 12754
+INFO 2021-05-12 16:52:12,693 basehttp 6528 12548 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-12 16:52:12,724 basehttp 6528 12548 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-05-12 16:52:15,158 basehttp 6528 11664 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-12 16:52:15,205 basehttp 6528 12832 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-12 16:52:15,482 basehttp 6528 1712 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-12 16:52:15,498 basehttp 6528 12572 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1992
+INFO 2021-05-12 16:53:11,453 basehttp 6528 12968 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-12 16:53:11,539 basehttp 6528 6436 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-12 16:53:12,025 basehttp 6528 10356 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-12 16:53:12,054 basehttp 6528 12460 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1992

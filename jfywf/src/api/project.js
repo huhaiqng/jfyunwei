@@ -3,7 +3,7 @@ import request from '@/utils/request'
 // Host
 export function getHosts(query) {
   return request({
-    url: '/api/hosts/',
+    url: '/api/getHosts/',
     method: 'get',
     params: query
   })

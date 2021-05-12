@@ -5,7 +5,7 @@ from .host import Host
 # 项目
 class Project(models.Model):
     name = models.CharField('名称', max_length=200, unique=True)
-    hosts = models.ManyToManyField(Host, verbose_name='主机', blank=True)
+    hosts = models.ManyToManyField(Host, verbose_name='主机', blank=True, related_name='project')
     deploy_dir = models.CharField('部署路径', max_length=200, blank=True)
     log_dir = models.CharField('日志路径', max_length=200, blank=True)
 

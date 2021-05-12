@@ -20,7 +20,7 @@ class GetConfigViewSet(CheckPermViewSet):
         else:
             PageNumberPagination.page_size = page_size
 
-        objects = Config.objects.filter(project__name__contains=project)
+        objects = Config.objects.filter(project__name__icontains=project)
         queryset = get_objects_for_user(request.user, 'project.view_%s' % self.basename, objects)
 
         page = self.paginate_queryset(queryset)

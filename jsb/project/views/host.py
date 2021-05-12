@@ -1,15 +1,21 @@
 from rest_framework.response import Response
-from project.serializers import HostSerializer
+from project.serializers import HostSerializer, GetHostSerializer
 from rest_framework.pagination import PageNumberPagination
 from auth_permission.perm import CheckPermViewSet
 from guardian.shortcuts import get_objects_for_user
 from project.models import Host
 
 
-# 主机
+# 增删改
 class HostViewSet(CheckPermViewSet):
     queryset = Host.objects.all()
     serializer_class = HostSerializer
+
+
+# 查
+class GetHostViewSet(CheckPermViewSet):
+    queryset = Host.objects.all()
+    serializer_class = GetHostSerializer
     pagination_class = PageNumberPagination
 
     def list(self, request, *args, **kwargs):

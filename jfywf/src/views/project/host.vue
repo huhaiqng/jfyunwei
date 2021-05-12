@@ -59,6 +59,13 @@
           <span>{{ row.cloud_user }}</span>
         </template>
       </el-table-column>
+      <el-table-column label="项目" width="200px">
+        <template slot-scope="{row}">
+          <span v-for="p in row.project" :key="p.id">
+            <div>{{ p.name }}</div>
+          </span>
+        </template>
+      </el-table-column>
       <el-table-column label="环境">
         <template slot-scope="{row}">
           <span>{{ row.env }}</span>
@@ -236,7 +243,7 @@ export default {
       memoryOptions: ['4G', '8G', '16G', '32G'],
       diskOptions: ['40G', '100G', '200G'],
       cloudOptions: ['阿里云', '华为云', 'IDC 托管', '公司机房'],
-      cloudUserOptions: ['gainhon666', 'lingfannao', '胡振春221240096', '水贝珠宝商业运营管理', 'zhangtian2018'],
+      cloudUserOptions: ['gainhon666', 'lingfannao', '胡振春221240096', '水贝珠宝商业运营管理', 'zhangtian2018', '其它'],
       adminOptions: ['root', 'administrator'],
       envOptions: undefined,
       dialogUploadVisible: false,
