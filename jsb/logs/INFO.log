@@ -9123,3 +9123,57 @@ INFO 2021-05-12 16:53:11,453 basehttp 6528 12968 "GET /api/getL1Menu/ HTTP/1.1" 
 INFO 2021-05-12 16:53:11,539 basehttp 6528 6436 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
 INFO 2021-05-12 16:53:12,025 basehttp 6528 10356 "GET /api/getEnv/ HTTP/1.1" 200 63
 INFO 2021-05-12 16:53:12,054 basehttp 6528 12460 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1992
+INFO 2021-05-13 10:58:42,759 autoreload 3208 10416 Watching for file changes with StatReloader
+INFO 2021-05-13 10:58:48,572 basehttp 3208 11528 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-05-13 10:58:48,619 basehttp 3208 11740 "GET /api/user/?username=jsb HTTP/1.1" 200 378
+INFO 2021-05-13 10:58:48,696 basehttp 3208 11260 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-13 10:58:48,703 basehttp 3208 9124 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-13 10:58:48,776 basehttp 3208 11676 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-13 10:58:56,229 basehttp 3208 10500 "GET /api/project/ HTTP/1.1" 200 826
+INFO 2021-05-13 10:58:58,731 basehttp 3208 7376 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 1272
+INFO 2021-05-13 10:59:18,058 basehttp 3208 12068 "GET /admin/ HTTP/1.1" 200 15368
+WARNING 2021-05-13 10:59:18,429 log 3208 12068 Not Found: /favicon.ico
+WARNING 2021-05-13 10:59:18,430 basehttp 3208 12068 "GET /favicon.ico HTTP/1.1" 404 2413
+INFO 2021-05-13 10:59:23,112 basehttp 3208 12068 "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 14346
+INFO 2021-05-13 10:59:23,175 basehttp 3208 12068 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-13 10:59:23,184 basehttp 3208 11972 "GET /djstatic/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-05-13 10:59:25,125 basehttp 3208 11972 "GET /admin/django_celery_beat/periodictask/add/ HTTP/1.1" 200 27549
+INFO 2021-05-13 10:59:25,173 basehttp 3208 11972 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-13 10:59:25,203 basehttp 3208 10480 "GET /djstatic/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2021-05-13 10:59:25,205 basehttp 3208 12068 "GET /djstatic/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-05-13 10:59:25,221 basehttp 3208 12164 "GET /djstatic/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-05-13 10:59:25,330 basehttp 3208 12068 "GET /djstatic/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-05-13 10:59:25,337 basehttp 3208 12164 "GET /djstatic/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-05-13 11:17:14,747 basehttp 3208 11008 "GET /admin/django_celery_beat/ HTTP/1.1" 200 4877
+INFO 2021-05-13 11:17:21,796 basehttp 3208 640 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-13 11:17:21,849 basehttp 3208 4632 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-13 11:17:21,876 basehttp 3208 11364 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-14 12:03:03,799 autoreload 1860 4236 Watching for file changes with StatReloader
+INFO 2021-05-14 12:03:37,033 basehttp 1860 2904 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-05-14 12:03:37,111 basehttp 1860 7836 "GET /api/user/?username=jsb HTTP/1.1" 200 378
+INFO 2021-05-14 12:03:37,217 basehttp 1860 1284 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-14 12:03:37,228 basehttp 1860 1296 "GET /api/getL1Menu/ HTTP/1.1" 200 2241
+INFO 2021-05-14 12:03:37,317 basehttp 1860 10500 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-14 12:03:39,842 basehttp 1860 10776 "GET /admin/ HTTP/1.1" 200 15368
+WARNING 2021-05-14 12:03:40,243 log 1860 10776 Not Found: /favicon.ico
+WARNING 2021-05-14 12:03:40,244 basehttp 1860 10776 "GET /favicon.ico HTTP/1.1" 404 2413
+INFO 2021-05-14 12:03:41,670 basehttp 1860 10776 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15651
+INFO 2021-05-14 12:03:41,747 basehttp 1860 10776 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-14 12:03:41,797 basehttp 1860 10776 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2021-05-14 12:03:43,827 basehttp 1860 10776 "GET /admin/auth_permission/l1menu/8/change/ HTTP/1.1" 200 15129
+INFO 2021-05-14 12:03:43,859 basehttp 1860 10776 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-14 12:03:53,555 basehttp 1860 10776 "POST /admin/auth_permission/l1menu/8/change/ HTTP/1.1" 302 0
+INFO 2021-05-14 12:03:53,608 basehttp 1860 10776 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15860
+INFO 2021-05-14 12:03:53,640 basehttp 1860 10776 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-14 12:03:56,306 basehttp 1860 10776 "GET /admin/auth_permission/l1menu/5/change/ HTTP/1.1" 200 15142
+INFO 2021-05-14 12:03:56,345 basehttp 1860 10776 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-14 12:04:15,452 basehttp 1860 10776 "POST /admin/auth_permission/l1menu/5/change/ HTTP/1.1" 302 0
+INFO 2021-05-14 12:04:15,541 basehttp 1860 10776 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15860
+INFO 2021-05-14 12:04:15,570 basehttp 1860 10776 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-05-14 12:04:17,964 basehttp 1860 11196 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-05-14 12:04:17,987 basehttp 1860 1116 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-14 12:04:18,035 basehttp 1860 9360 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-14 12:04:20,073 basehttp 1860 200 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-05-14 12:04:20,115 basehttp 1860 9296 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-05-14 12:04:20,156 basehttp 1860 10712 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-14 15:02:58,912 autoreload 11844 10028 Watching for file changes with StatReloader

@@ -79,7 +79,6 @@
 </template>
 
 <script>
-
 import { addConfig, deleteConfig, updateConfig, getConfig, getEnv, getProjectForConfig } from '@/api/project'
 import Pagination from '@/components/Pagination'
 import Tinymce from '@/components/Tinymce'
@@ -139,14 +138,14 @@ export default {
       }
     },
     handleCreate() {
-      this.reloadTinymce()
       this.dialogStatus = 'create'
       this.dialogVisible = true
       this.restTemp()
+      this.setTinymceContent()
     },
     handleUpdate(row) {
-      this.reloadTinymce()
       this.temp = Object.assign({}, row)
+      this.setTinymceContent()
       this.temp.project = this.temp.project.id
       this.temp.env = this.temp.env.id
       this.dialogStatus = 'edit'
@@ -203,10 +202,9 @@ export default {
       this.confTitle = '查看: ' + row.project.name + ' ' + row.env.name
       this.configDialogVisible = true
     },
-    reloadTinymce() {
+    setTinymceContent() {
       if (this.$refs.tinymce) {
-        this.$refs.tinymce.destroyTinymce()
-        this.$refs.tinymce.init()
+        this.$refs.tinymce.setContent(this.temp.conf)
       }
     }
   }
@@ -222,8 +220,9 @@ export default {
       overflow-x: hidden;
     }
   }
-  border-style: groove;
-  border-radius:5px;
+  border-style: solid;
+  border-radius: 3px;
+  border-width:1px;
 }
 .conf-text{
   padding: 15px;
