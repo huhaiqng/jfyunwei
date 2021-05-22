@@ -1,10 +1,9 @@
 <template>
   <div class="app-container">
     <div class="filter-container">
-      <el-input v-model="queryList.project" placeholder="项目" style="width:400px" class="filter-item" @keyup.enter.native="getList" />
-      <el-button class="filter-item" type="primary" icon="el-icon-search" @click="getList">
-        搜索
-      </el-button>
+      <el-select v-model="queryList.project" placeholder="项目" filterable clearable class="filter-item" style="width: 400px" @change="getList">
+        <el-option v-for="item in projectList" :key="item.name" :label="item.name" :value="item.name" />
+      </el-select>
       <el-button class="filter-item" icon="el-icon-edit" type="primary" @click="handleCreate">
         新增
       </el-button>

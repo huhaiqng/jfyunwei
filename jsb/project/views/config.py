@@ -3,7 +3,7 @@ from guardian.shortcuts import get_objects_for_user
 from rest_framework.response import Response
 from project.serializers import ConfigSerializer, GetConfigSerializer
 from rest_framework.pagination import PageNumberPagination
-from project.models import Config
+from project.models import Config, Project
 
 
 class GetConfigViewSet(CheckPermViewSet):
@@ -13,14 +13,14 @@ class GetConfigViewSet(CheckPermViewSet):
 
     def list(self, request, *args, **kwargs):
         page_size = request.GET.get('limit')
-        project = request.GET.get('project')
+        project_name = request.GET.get('project')
 
         if int(page_size) == 10000:
             PageNumberPagination.page_size = None
         else:
             PageNumberPagination.page_size = page_size
 
-        objects = Config.objects.filter(project__name__icontains=project)
+        objects = Config.objects.filter(project__name__icontains=project_name)
         queryset = get_objects_for_user(request.user, 'project.view_%s' % self.basename, objects)
 
         page = self.paginate_queryset(queryset)

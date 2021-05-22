@@ -9317,3 +9317,75 @@ INFO 2021-05-14 16:13:31,139 basehttp 11844 2128 "GET /api/getConfig/?project=&p
 INFO 2021-05-14 16:13:31,143 basehttp 11844 12176 "GET /api/project-for-config/ HTTP/1.1" 200 57
 INFO 2021-05-14 16:17:45,248 basehttp 11844 7512 "PUT /api/config/15/ HTTP/1.1" 200 333
 INFO 2021-05-14 16:17:45,279 basehttp 11844 8520 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 593
+INFO 2021-05-14 16:36:13,010 autoreload 200 12156 Watching for file changes with StatReloader
+INFO 2021-05-14 16:38:35,873 basehttp 200 4564 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-05-14 16:38:35,951 basehttp 200 10456 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-14 16:38:36,289 basehttp 200 10476 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-14 16:38:36,298 basehttp 200 6036 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 593
+INFO 2021-05-14 16:38:36,299 basehttp 200 11040 "GET /api/project-for-config/ HTTP/1.1" 200 57
+INFO 2021-05-14 16:38:45,526 basehttp 200 3492 "PUT /api/config/15/ HTTP/1.1" 200 333
+INFO 2021-05-14 16:38:45,571 basehttp 200 5040 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 593
+INFO 2021-05-14 16:38:48,137 basehttp 200 11712 "GET /api/getConfig/?project=b&page=1&limit=10 HTTP/1.1" 200 440
+INFO 2021-05-14 16:38:51,276 basehttp 200 11004 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:39:01,906 basehttp 200 4624 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:40:59,096 autoreload 200 12156 E:\jfyunwei\jsb\project\views\config.py changed, reloading.
+INFO 2021-05-14 16:41:00,700 autoreload 1988 4132 Watching for file changes with StatReloader
+INFO 2021-05-14 16:41:01,200 basehttp 1988 4888 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:41:11,911 basehttp 1988 10928 "GET /api/getConfig/?project=b&page=1&limit=10 HTTP/1.1" 200 440
+INFO 2021-05-14 16:47:36,662 autoreload 11328 12208 Watching for file changes with StatReloader
+INFO 2021-05-14 16:47:47,644 basehttp 11328 11428 "GET /api/getConfig/?project=b&page=1&limit=10 HTTP/1.1" 200 440
+INFO 2021-05-14 16:47:54,448 basehttp 11328 7404 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:47:55,344 basehttp 11328 748 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:48:15,768 autoreload 11328 12208 E:\jfyunwei\jsb\project\views\config.py changed, reloading.
+INFO 2021-05-14 16:48:17,381 autoreload 4784 10128 Watching for file changes with StatReloader
+INFO 2021-05-14 16:48:19,143 basehttp 4784 10780 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:48:19,889 basehttp 4784 11772 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:48:21,103 basehttp 4784 10060 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:48:26,879 basehttp 4784 10204 "GET /api/getConfig/?project=b&page=1&limit=10 HTTP/1.1" 200 440
+INFO 2021-05-14 16:48:31,169 basehttp 4784 12056 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:48:37,714 basehttp 4784 7216 "GET /api/getConfig/?project=PRO&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:48:41,686 basehttp 4784 5028 "GET /api/getConfig/?project=P&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:48:45,535 basehttp 4784 10144 "GET /api/getConfig/?project=p&page=1&limit=10 HTTP/1.1" 200 593
+INFO 2021-05-14 16:49:54,841 autoreload 11808 7024 Watching for file changes with StatReloader
+INFO 2021-05-14 16:49:57,528 basehttp 11808 1212 "GET /api/getConfig/?project=p&page=1&limit=10 HTTP/1.1" 200 593
+INFO 2021-05-14 16:50:05,000 basehttp 11808 5968 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:50:40,838 autoreload 3288 12108 Watching for file changes with StatReloader
+INFO 2021-05-14 16:50:43,039 basehttp 3288 6920 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:50:45,058 basehttp 3288 9600 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-05-14 16:50:45,139 basehttp 3288 10940 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-05-14 16:50:45,517 basehttp 3288 5556 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 593
+INFO 2021-05-14 16:50:45,540 basehttp 3288 9332 "GET /api/project-for-config/ HTTP/1.1" 200 57
+INFO 2021-05-14 16:50:45,546 basehttp 3288 12156 "GET /api/getEnv/ HTTP/1.1" 200 63
+INFO 2021-05-14 16:50:47,808 basehttp 3288 12076 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 16:58:03,336 basehttp 3288 5808 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 342
+INFO 2021-05-14 16:58:06,431 basehttp 3288 9492 "GET /api/accounts/?page=1&limit=10&name=AA HTTP/1.1" 200 52
+INFO 2021-05-14 16:58:40,042 basehttp 3288 2840 "GET /api/accounts/?page=1&limit=10&name=aa HTTP/1.1" 200 196
+INFO 2021-05-14 17:01:58,884 autoreload 3288 12108 E:\jfyunwei\jsb\project\views\config.py changed, reloading.
+INFO 2021-05-14 17:02:00,573 autoreload 2132 9248 Watching for file changes with StatReloader
+INFO 2021-05-14 17:05:33,283 basehttp 2132 11340 "GET /api/getConfig/?project=B&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-05-14 17:05:39,280 basehttp 2132 7064 "GET /api/getConfig/?project=b&page=1&limit=10 HTTP/1.1" 200 440
+INFO 2021-05-14 17:08:41,901 basehttp 2132 5148 "GET /api/accounts/?page=1&limit=10&name=aa HTTP/1.1" 200 196
+INFO 2021-05-14 17:08:44,076 basehttp 2132 10516 "GET /api/accounts/?page=1&limit=10&name=AA HTTP/1.1" 200 52
+INFO 2021-05-14 17:08:46,893 basehttp 2132 10164 "GET /api/accounts/?page=1&limit=10&name=aa HTTP/1.1" 200 196
+INFO 2021-05-14 17:10:56,083 basehttp 2132 11516 "PUT /api/accounts/1/ HTTP/1.1" 200 144
+INFO 2021-05-14 17:10:56,117 basehttp 2132 6120 "GET /api/accounts/?page=1&limit=10&name=aa HTTP/1.1" 200 196
+INFO 2021-05-14 17:11:02,113 basehttp 2132 1876 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 342
+INFO 2021-05-14 17:11:06,081 basehttp 2132 10672 "PUT /api/accounts/1/ HTTP/1.1" 200 145
+INFO 2021-05-14 17:11:06,105 basehttp 2132 5352 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 343
+INFO 2021-05-14 17:11:11,365 basehttp 2132 8704 "PUT /api/accounts/2/ HTTP/1.1" 200 146
+INFO 2021-05-14 17:11:11,396 basehttp 2132 11380 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 344
+INFO 2021-05-14 17:11:13,828 basehttp 2132 5468 "GET /api/accounts/?page=1&limit=10&name=AAA HTTP/1.1" 200 52
+INFO 2021-05-14 17:11:17,922 basehttp 2132 5716 "GET /api/accounts/?page=1&limit=10&name=a HTTP/1.1" 200 197
+INFO 2021-05-14 17:11:20,642 basehttp 2132 5296 "GET /api/accounts/?page=1&limit=10&name=AAA HTTP/1.1" 200 52
+INFO 2021-05-14 17:11:37,913 autoreload 2132 9248 E:\jfyunwei\jsb\project\views\config.py changed, reloading.
+INFO 2021-05-14 17:11:39,602 autoreload 11336 5824 Watching for file changes with StatReloader
+INFO 2021-05-14 17:15:37,578 basehttp 11336 9772 "GET /api/accounts/?page=1&limit=10&name=AAA HTTP/1.1" 200 52
+INFO 2021-05-14 17:15:38,237 basehttp 11336 4224 "GET /api/accounts/?page=1&limit=10&name=AAA HTTP/1.1" 200 52
+INFO 2021-05-14 17:15:38,491 basehttp 11336 11464 "GET /api/accounts/?page=1&limit=10&name=AAA HTTP/1.1" 200 52
+INFO 2021-05-14 17:15:38,777 basehttp 11336 6380 "GET /api/accounts/?page=1&limit=10&name=AAA HTTP/1.1" 200 52
+INFO 2021-05-14 17:20:37,123 basehttp 11336 200 "GET /api/accounts/?page=1&limit=10&name=AAA HTTP/1.1" 200 52
+INFO 2021-05-14 18:03:24,541 basehttp 11336 4156 "GET /api/accounts/?page=1&limit=10&name=AAA HTTP/1.1" 200 52
+INFO 2021-05-14 18:03:27,945 basehttp 11336 10600 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 2134
+INFO 2021-05-14 18:03:35,360 basehttp 11336 6712 "GET /api/accounts/?page=1&limit=10&name=CE HTTP/1.1" 200 922
+INFO 2021-05-14 18:03:46,609 basehttp 11336 11956 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 2134
+INFO 2021-05-22 17:12:58,482 autoreload 11564 9148 Watching for file changes with StatReloader
