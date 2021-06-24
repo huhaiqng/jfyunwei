@@ -13,7 +13,7 @@
           >
             <el-table-column label="名称-环境" width="400px">
               <template slot-scope="{row}">
-                <span class="link-type"><a :href="row.url" target="_blank">{{ row.name }} - {{ row.env.name }}</a></span>
+                <span class="link-type"><a :href="row.url" target="_blank">{{ row.env.name }} - {{ row.name }}</a></span>
               </template>
             </el-table-column>
             <el-table-column label="地址">

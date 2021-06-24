@@ -11,7 +11,7 @@ class Url(models.Model):
     url = models.URLField('地址', max_length=200, unique=True)
 
     class Meta:
-        ordering = ['project', 'name', 'env']
+        ordering = ['project', 'env', 'name']
         verbose_name = '地址大全'
         verbose_name_plural = '地址大全'
 
