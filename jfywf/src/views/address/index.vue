@@ -7,7 +7,6 @@
           <el-table
             :key="project.id"
             :data="project.urls"
-            border
             fit
             highlight-current-row
           >

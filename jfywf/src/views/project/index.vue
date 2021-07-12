@@ -8,7 +8,6 @@
             <el-table
               :key="project.id"
               :data="project.hosts"
-              border
               fit
               highlight-current-row
             >
