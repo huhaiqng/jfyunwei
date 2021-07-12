@@ -34,6 +34,11 @@
           <span>{{ row.is_superuser?"是":"否" }}</span>
         </template>
       </el-table-column>
+      <el-table-column label="早会主持">
+        <template slot-scope="{row}">
+          <span>{{ row.hosted?"已完成":"未完成" }}</span>
+        </template>
+      </el-table-column>
       <el-table-column label="组">
         <template slot-scope="{row}">
           <span v-for="(g, i) in row.groups" :key="g.id">{{ i===0?g.name:", " + g.name }}</span>
@@ -77,6 +82,9 @@
         </el-form-item>
         <el-form-item label="超级用户" prop="use">
           <el-checkbox v-model="temp.is_superuser">是</el-checkbox>
+        </el-form-item>
+        <el-form-item label="早会主持" prop="hosted">
+          <el-checkbox v-model="temp.hosted">已完成</el-checkbox>
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
@@ -122,6 +130,7 @@ export default {
         password: null,
         confirm_password: null,
         is_superuser: false,
+        hosted: false,
         email: null,
         is_staff: false,
         date_joined: new Date(),

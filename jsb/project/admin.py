@@ -1,12 +1,21 @@
 from django.contrib import admin
-from project.models import Project, Url, Env
+from project.models import Project, Url, Env, BuildHost
 from guardian.admin import GuardedModelAdmin
+
+
+class ProjectAdmin(GuardedModelAdmin):
+    list_display = ('name', 'alias', 'deploy_dir', 'deploy_obj', 'user', 'log_dir')
+
+
+class BuildHostAdmin(GuardedModelAdmin):
+    list_display = ('project', 'host', 'env', 'user')
 
 
 class ProjectUrlAdmin(GuardedModelAdmin):
     list_display = ('name', 'url', 'project', 'env')
 
 
-admin.site.register(Project)
+admin.site.register(Project, ProjectAdmin)
 admin.site.register(Env)
 admin.site.register(Url, ProjectUrlAdmin)
+admin.site.register(BuildHost, BuildHostAdmin)

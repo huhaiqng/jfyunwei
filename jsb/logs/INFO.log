@@ -9446,3 +9446,700 @@ INFO 2021-05-22 17:24:56,365 basehttp 11564 396 "GET /api/project-for-config/ HT
 INFO 2021-05-22 17:24:56,365 basehttp 11564 8580 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 593
 INFO 2021-05-22 17:25:03,045 basehttp 11564 9512 "GET /api/getConfig/?project=project-b&page=1&limit=10 HTTP/1.1" 200 440
 INFO 2021-05-22 17:25:05,858 basehttp 11564 8088 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 593
+INFO 2021-07-07 10:08:45,373 autoreload 340 12540 Watching for file changes with StatReloader
+INFO 2021-07-07 10:11:29,176 autoreload 340 12540 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:11:30,903 autoreload 2320 10836 Watching for file changes with StatReloader
+INFO 2021-07-07 10:12:42,366 autoreload 2320 10836 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:12:44,064 autoreload 13192 4592 Watching for file changes with StatReloader
+INFO 2021-07-07 10:14:13,283 autoreload 13192 4592 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:14:14,984 autoreload 6724 7908 Watching for file changes with StatReloader
+INFO 2021-07-07 10:15:30,929 autoreload 6724 7908 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:15:32,511 autoreload 6384 2168 Watching for file changes with StatReloader
+INFO 2021-07-07 10:16:04,964 autoreload 6384 2168 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:16:06,477 autoreload 12044 10656 Watching for file changes with StatReloader
+INFO 2021-07-07 10:24:19,845 autoreload 12044 10656 E:\jfyunwei\jsb\project\models\env.py changed, reloading.
+INFO 2021-07-07 10:24:21,452 autoreload 7844 4776 Watching for file changes with StatReloader
+INFO 2021-07-07 10:29:05,204 autoreload 7844 4776 E:\jfyunwei\jsb\project\models\env.py changed, reloading.
+INFO 2021-07-07 10:29:06,732 autoreload 13048 9056 Watching for file changes with StatReloader
+INFO 2021-07-07 10:31:56,210 autoreload 13048 9056 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:31:57,746 autoreload 11476 7448 Watching for file changes with StatReloader
+INFO 2021-07-07 10:38:47,177 autoreload 11476 7448 E:\jfyunwei\jsb\project\models\env.py changed, reloading.
+INFO 2021-07-07 10:38:48,498 autoreload 6228 9064 Watching for file changes with StatReloader
+INFO 2021-07-07 10:39:49,503 autoreload 6228 9064 E:\jfyunwei\jsb\project\models\env.py changed, reloading.
+INFO 2021-07-07 10:39:51,023 autoreload 11164 3936 Watching for file changes with StatReloader
+INFO 2021-07-07 10:41:02,733 autoreload 11164 3936 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:41:04,347 autoreload 7612 3824 Watching for file changes with StatReloader
+INFO 2021-07-07 10:41:44,354 autoreload 7612 3824 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:41:45,871 autoreload 9700 1484 Watching for file changes with StatReloader
+INFO 2021-07-07 10:42:01,514 autoreload 9700 1484 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:42:03,348 autoreload 1620 1868 Watching for file changes with StatReloader
+INFO 2021-07-07 10:46:17,542 autoreload 1620 1868 E:\jfyunwei\jsb\project\migrations\0024_auto_20210707_1041.py changed, reloading.
+INFO 2021-07-07 10:46:19,256 autoreload 11420 908 Watching for file changes with StatReloader
+INFO 2021-07-07 10:46:43,230 autoreload 11420 908 E:\jfyunwei\jsb\project\migrations\0024_auto_20210707_1041.py changed, reloading.
+INFO 2021-07-07 10:46:44,803 autoreload 7160 9552 Watching for file changes with StatReloader
+INFO 2021-07-07 10:50:00,829 autoreload 7160 9552 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:50:02,363 autoreload 3192 4520 Watching for file changes with StatReloader
+INFO 2021-07-07 10:50:16,861 autoreload 3192 4520 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:50:18,440 autoreload 9488 11220 Watching for file changes with StatReloader
+INFO 2021-07-07 10:51:00,571 autoreload 9488 11220 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:51:02,111 autoreload 1928 9652 Watching for file changes with StatReloader
+INFO 2021-07-07 10:53:43,011 autoreload 1928 9652 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:53:44,540 autoreload 10940 12684 Watching for file changes with StatReloader
+INFO 2021-07-07 10:54:08,502 autoreload 10940 12684 E:\jfyunwei\jsb\project\migrations\0025_project_alias.py changed, reloading.
+INFO 2021-07-07 10:54:10,181 autoreload 11072 7004 Watching for file changes with StatReloader
+INFO 2021-07-07 10:55:24,414 autoreload 11072 7004 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 10:55:25,932 autoreload 5656 12504 Watching for file changes with StatReloader
+INFO 2021-07-07 11:06:35,374 autoreload 6208 2096 Watching for file changes with StatReloader
+INFO 2021-07-07 11:06:53,234 autoreload 6208 2096 E:\jfyunwei\jsb\project\admin.py changed, reloading.
+INFO 2021-07-07 11:06:57,194 autoreload 6204 12208 Watching for file changes with StatReloader
+WARNING 2021-07-07 11:06:59,327 log 6204 4592 Not Found: /
+WARNING 2021-07-07 11:06:59,328 basehttp 6204 4592 "GET / HTTP/1.1" 404 2362
+WARNING 2021-07-07 11:06:59,628 log 6204 4592 Not Found: /
+WARNING 2021-07-07 11:06:59,628 basehttp 6204 4592 "GET / HTTP/1.1" 404 2362
+WARNING 2021-07-07 11:06:59,738 log 6204 4592 Not Found: /favicon.ico
+WARNING 2021-07-07 11:06:59,739 basehttp 6204 4592 "GET /favicon.ico HTTP/1.1" 404 2413
+INFO 2021-07-07 11:07:05,304 basehttp 6204 4592 "GET /admin HTTP/1.1" 301 0
+INFO 2021-07-07 11:07:05,391 basehttp 6204 4592 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-07-07 11:07:06,797 basehttp 6204 4592 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2226
+INFO 2021-07-07 11:07:06,864 basehttp 6204 4592 "GET /djstatic/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-07-07 11:07:06,865 basehttp 6204 10832 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-07-07 11:07:06,868 basehttp 6204 5940 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-07-07 11:07:06,869 basehttp 6204 2204 "GET /djstatic/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-07-07 11:07:06,881 basehttp 6204 2384 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-07-07 11:07:06,892 basehttp 6204 5940 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-07-07 11:07:07,036 basehttp 6204 5940 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-07-07 11:07:07,040 basehttp 6204 2384 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-07-07 11:07:08,901 basehttp 6204 5940 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-07-07 11:07:09,230 basehttp 6204 5940 "GET /admin/ HTTP/1.1" 200 15380
+INFO 2021-07-07 11:07:09,272 basehttp 6204 5940 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-07-07 11:07:09,292 basehttp 6204 5940 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-07-07 11:07:09,294 basehttp 6204 2384 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-07-07 11:07:09,478 basehttp 6204 2384 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-07-07 11:07:19,094 basehttp 6204 2384 "GET /admin/project/project/ HTTP/1.1" 200 12561
+INFO 2021-07-07 11:07:19,143 basehttp 6204 10832 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-07-07 11:07:19,201 basehttp 6204 5940 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 11:07:19,202 basehttp 6204 4592 "GET /djstatic/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-07-07 11:07:19,203 basehttp 6204 10832 "GET /djstatic/admin/js/actions.js HTTP/1.1" 200 6540
+INFO 2021-07-07 11:07:19,208 basehttp 6204 2364 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-07-07 11:07:19,212 basehttp 6204 2384 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-07-07 11:07:19,308 basehttp 6204 5940 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-07-07 11:07:19,330 basehttp 6204 10832 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-07-07 11:07:19,379 basehttp 6204 4592 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-07-07 11:07:19,448 basehttp 6204 2204 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-07-07 11:07:19,495 basehttp 6204 2204 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-07-07 11:07:21,952 basehttp 6204 2204 "GET /admin/project/project/ HTTP/1.1" 200 12561
+INFO 2021-07-07 11:07:21,981 basehttp 6204 2204 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 11:07:40,215 autoreload 6744 1924 Watching for file changes with StatReloader
+INFO 2021-07-07 11:07:43,334 basehttp 6744 6412 "GET /admin/project/project/ HTTP/1.1" 200 13705
+INFO 2021-07-07 11:07:43,371 basehttp 6744 6412 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 11:07:43,437 basehttp 6744 6412 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2021-07-07 11:07:47,872 basehttp 6744 6412 "GET /admin/project/project/2/change/ HTTP/1.1" 200 15691
+INFO 2021-07-07 11:07:47,912 basehttp 6744 5784 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 11:07:47,916 basehttp 6744 5160 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-07-07 11:07:47,926 basehttp 6744 5160 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-07-07 11:07:47,962 basehttp 6744 6412 "GET /djstatic/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-07-07 11:07:48,013 basehttp 6744 6412 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-07-07 11:07:51,322 basehttp 6744 6412 "GET /admin/project/project/ HTTP/1.1" 200 13705
+INFO 2021-07-07 11:07:53,207 basehttp 6744 6412 "GET /admin/project/project/1/change/ HTTP/1.1" 200 15692
+INFO 2021-07-07 11:07:53,242 basehttp 6744 6412 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 11:08:03,742 basehttp 6744 6412 "POST /admin/project/project/1/change/ HTTP/1.1" 302 0
+INFO 2021-07-07 11:08:03,795 basehttp 6744 6412 "GET /admin/project/project/ HTTP/1.1" 200 13943
+INFO 2021-07-07 11:08:03,835 basehttp 6744 6412 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 11:08:03,877 basehttp 6744 6412 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-07-07 12:05:38,920 autoreload 6744 1924 E:\jfyunwei\jsb\project\models\project.py changed, reloading.
+INFO 2021-07-07 12:05:40,497 autoreload 11416 7612 Watching for file changes with StatReloader
+INFO 2021-07-07 13:38:59,772 autoreload 11416 7612 E:\jfyunwei\jsb\project\admin.py changed, reloading.
+INFO 2021-07-07 13:39:01,636 autoreload 13440 8900 Watching for file changes with StatReloader
+WARNING 2021-07-07 13:43:12,151 log 13440 7612 Not Found: /
+WARNING 2021-07-07 13:43:12,152 basehttp 13440 7612 "GET / HTTP/1.1" 404 2362
+WARNING 2021-07-07 13:43:12,189 log 13440 7612 Not Found: /
+WARNING 2021-07-07 13:43:12,190 basehttp 13440 7612 "GET / HTTP/1.1" 404 2362
+INFO 2021-07-07 13:43:19,204 basehttp 13440 7612 "GET /admin/ HTTP/1.1" 200 15825
+INFO 2021-07-07 13:44:28,633 autoreload 5160 12744 Watching for file changes with StatReloader
+INFO 2021-07-07 13:44:35,870 basehttp 5160 13276 "GET /admin/ HTTP/1.1" 200 15826
+INFO 2021-07-07 13:44:37,858 basehttp 5160 13276 "GET /admin/project/buildhost/ HTTP/1.1" 200 11536
+INFO 2021-07-07 13:44:37,897 basehttp 5160 13276 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 13:44:39,629 basehttp 5160 13276 "GET /admin/project/buildhost/add/ HTTP/1.1" 200 15371
+INFO 2021-07-07 13:44:39,661 basehttp 5160 13276 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 13:44:39,682 basehttp 5160 13276 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+ERROR 2021-07-07 13:44:48,863 log 5160 13276 Internal Server Error: /admin/project/buildhost/add/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 1655, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 1538, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 1588, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 815, in log_addition
+    object_repr=str(object),
+TypeError: __str__ returned non-string (type Project)
+ERROR 2021-07-07 13:44:48,866 basehttp 5160 13276 "POST /admin/project/buildhost/add/ HTTP/1.1" 500 116607
+INFO 2021-07-07 13:45:21,496 autoreload 5328 5584 Watching for file changes with StatReloader
+INFO 2021-07-07 13:45:23,605 basehttp 5328 8532 "POST /admin/project/buildhost/add/ HTTP/1.1" 302 0
+INFO 2021-07-07 13:45:23,665 basehttp 5328 8532 "GET /admin/project/buildhost/ HTTP/1.1" 200 12908
+INFO 2021-07-07 13:45:23,709 basehttp 5328 8532 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 13:45:26,150 basehttp 5328 8532 "GET /admin/project/buildhost/2/change/ HTTP/1.1" 200 15604
+INFO 2021-07-07 13:45:26,180 basehttp 5328 8532 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 13:46:32,407 autoreload 5328 5584 E:\jfyunwei\jsb\project\admin.py changed, reloading.
+INFO 2021-07-07 13:46:34,107 autoreload 14248 12096 Watching for file changes with StatReloader
+INFO 2021-07-07 13:46:35,606 basehttp 14248 3484 "POST /admin/project/buildhost/2/change/ HTTP/1.1" 302 0
+INFO 2021-07-07 13:46:35,676 basehttp 14248 3484 "GET /admin/project/buildhost/ HTTP/1.1" 200 13312
+INFO 2021-07-07 13:46:35,714 basehttp 14248 3484 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-07 13:47:40,907 autoreload 14248 12096 E:\jfyunwei\jsb\project\models\build_host.py changed, reloading.
+INFO 2021-07-07 13:47:42,467 autoreload 14132 1588 Watching for file changes with StatReloader
+INFO 2021-07-07 14:53:29,829 basehttp 14132 11040 "GET /admin/project/ HTTP/1.1" 200 4034
+INFO 2021-07-12 10:31:17,219 autoreload 10540 2580 Watching for file changes with StatReloader
+ERROR 2021-07-12 10:31:38,635 log 10540 9920 Internal Server Error: /api/getUserHostedInfo
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\deprecation.py", line 116, in __call__
+    response = self.process_request(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\middleware\common.py", line 95, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/getUserHostedInfo/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2021-07-12 10:31:38,636 basehttp 10540 9920 "POST /api/getUserHostedInfo HTTP/1.1" 500 75095
+INFO 2021-07-12 10:32:09,929 basehttp 10540 11884 "GET /api/getUserHostedInfo HTTP/1.1" 301 0
+INFO 2021-07-12 10:35:10,737 basehttp 10540 11884 "GET /api/project HTTP/1.1" 301 0
+INFO 2021-07-12 10:36:09,159 basehttp 10540 11884 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 1973
+INFO 2021-07-12 10:40:37,963 autoreload 10540 2580 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 10:40:39,919 autoreload 760 11496 Watching for file changes with StatReloader
+INFO 2021-07-12 10:42:12,438 autoreload 760 11496 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-07-12 10:42:14,192 autoreload 3136 9604 Watching for file changes with StatReloader
+ERROR 2021-07-12 10:42:16,794 log 3136 7444 Internal Server Error: /api/getUserHostedInfo/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 1139, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'groups' was declared on serializer GetUserHostedInfoSerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-12 10:42:16,797 basehttp 3136 7444 "GET /api/getUserHostedInfo/ HTTP/1.1" 500 152812
+INFO 2021-07-12 10:42:50,247 autoreload 3136 9604 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 10:42:51,949 autoreload 8112 760 Watching for file changes with StatReloader
+ERROR 2021-07-12 10:42:52,574 log 8112 5464 Internal Server Error: /api/getUserHostedInfo/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 1139, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'groups' was declared on serializer GetUserHostedInfoSerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-12 10:42:52,578 basehttp 8112 5464 "GET /api/getUserHostedInfo/ HTTP/1.1" 500 152806
+ERROR 2021-07-12 10:42:54,368 log 8112 5464 Internal Server Error: /api/getUserHostedInfo/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 1139, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'groups' was declared on serializer GetUserHostedInfoSerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-12 10:42:54,369 basehttp 8112 5464 "GET /api/getUserHostedInfo/ HTTP/1.1" 500 152806
+INFO 2021-07-12 10:43:19,260 autoreload 8264 11716 Watching for file changes with StatReloader
+ERROR 2021-07-12 10:43:22,350 log 8264 7968 Internal Server Error: /api/getUserHostedInfo/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\serializers.py", line 1139, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: The field 'groups' was declared on serializer GetUserHostedInfoSerializer, but has not been included in the 'fields' option.
+ERROR 2021-07-12 10:43:22,353 basehttp 8264 7968 "GET /api/getUserHostedInfo/ HTTP/1.1" 500 152806
+INFO 2021-07-12 10:43:47,319 autoreload 8264 11716 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-07-12 10:43:49,040 autoreload 11516 6512 Watching for file changes with StatReloader
+INFO 2021-07-12 10:43:49,618 basehttp 11516 32 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 1756
+INFO 2021-07-12 10:44:33,954 basehttp 11516 11992 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-12 10:44:38,491 basehttp 11516 11740 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-07-12 10:44:38,527 basehttp 11516 10456 "GET /api/user/?username=jsb HTTP/1.1" 200 393
+INFO 2021-07-12 10:44:38,586 basehttp 11516 1452 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-12 10:44:38,609 basehttp 11516 1232 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 10:44:38,636 basehttp 11516 11704 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 10:47:03,261 basehttp 11516 6988 "GET /api/project/ HTTP/1.1" 200 962
+INFO 2021-07-12 10:47:15,995 basehttp 11516 11812 "GET /api/project/ HTTP/1.1" 200 962
+INFO 2021-07-12 10:47:18,923 basehttp 11516 6788 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 1272
+INFO 2021-07-12 10:48:18,059 basehttp 11516 32 "GET /admin/ HTTP/1.1" 200 15847
+WARNING 2021-07-12 10:48:18,335 log 11516 32 Not Found: /favicon.ico
+WARNING 2021-07-12 10:48:18,336 basehttp 11516 32 "GET /favicon.ico HTTP/1.1" 404 2413
+INFO 2021-07-12 10:48:20,996 basehttp 11516 32 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15960
+INFO 2021-07-12 10:48:21,055 basehttp 11516 32 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 10:48:47,299 basehttp 11516 32 "GET /admin/auth_permission/l1menu/6/change/ HTTP/1.1" 200 15448
+INFO 2021-07-12 10:48:47,335 basehttp 11516 32 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 10:48:50,978 basehttp 11516 32 "GET /admin/auth_permission/l1menu/ HTTP/1.1" 200 15960
+INFO 2021-07-12 10:50:34,675 basehttp 11516 2268 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 10:50:34,730 basehttp 11516 6968 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 10:50:35,005 basehttp 11516 9680 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 1272
+INFO 2021-07-12 10:50:37,615 basehttp 11516 10440 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 1272
+INFO 2021-07-12 10:51:13,572 basehttp 11516 9208 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 10:51:13,658 basehttp 11516 12228 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 1272
+INFO 2021-07-12 10:51:13,667 basehttp 11516 6592 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 10:53:19,778 basehttp 11516 12528 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 10:53:19,861 basehttp 11516 12620 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 1272
+INFO 2021-07-12 10:53:19,900 basehttp 11516 2840 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 10:54:57,290 autoreload 11516 6512 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-07-12 10:54:59,010 autoreload 12452 12512 Watching for file changes with StatReloader
+INFO 2021-07-12 10:55:00,047 basehttp 12452 3280 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 783
+INFO 2021-07-12 10:55:50,033 autoreload 12452 12512 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 10:55:52,068 autoreload 12728 10832 Watching for file changes with StatReloader
+INFO 2021-07-12 10:55:52,638 basehttp 12728 9488 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 783
+INFO 2021-07-12 10:58:01,385 basehttp 12728 9668 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 10:58:01,463 basehttp 12728 11424 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 783
+INFO 2021-07-12 10:58:01,478 basehttp 12728 12904 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 10:59:23,019 basehttp 12728 32 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 10:59:23,087 basehttp 12728 10672 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 783
+INFO 2021-07-12 10:59:23,100 basehttp 12728 5748 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 10:59:31,923 basehttp 12728 12504 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 10:59:32,020 basehttp 12728 1484 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 783
+INFO 2021-07-12 10:59:32,038 basehttp 12728 12652 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:00:38,982 basehttp 12728 12080 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:00:39,076 basehttp 12728 12564 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 783
+INFO 2021-07-12 11:00:39,117 basehttp 12728 13080 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:02:24,037 basehttp 12728 2796 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4648
+INFO 2021-07-12 11:02:24,124 basehttp 12728 2544 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 8959
+INFO 2021-07-12 11:04:41,690 basehttp 12728 12776 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:04:41,775 basehttp 12728 11572 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:04:42,090 basehttp 12728 4836 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4648
+INFO 2021-07-12 11:04:42,146 basehttp 12728 13200 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 8959
+INFO 2021-07-12 11:05:13,649 basehttp 12728 10456 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:05:13,701 basehttp 12728 12984 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:05:14,044 basehttp 12728 13088 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4648
+INFO 2021-07-12 11:05:14,105 basehttp 12728 5220 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 8959
+INFO 2021-07-12 11:05:19,323 basehttp 12728 3368 "PUT /api/userInfo/6/ HTTP/1.1" 200 228
+INFO 2021-07-12 11:05:19,415 basehttp 12728 13300 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4648
+INFO 2021-07-12 11:05:31,297 basehttp 12728 11632 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:05:31,342 basehttp 12728 11916 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:05:31,739 basehttp 12728 12592 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4648
+INFO 2021-07-12 11:05:31,786 basehttp 12728 11628 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 8959
+INFO 2021-07-12 11:05:56,022 autoreload 12728 10832 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-07-12 11:05:57,804 autoreload 12776 11572 Watching for file changes with StatReloader
+INFO 2021-07-12 11:07:07,151 basehttp 12776 10724 "PUT /api/userInfo/6/ HTTP/1.1" 200 242
+INFO 2021-07-12 11:07:07,251 basehttp 12776 12572 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4647
+INFO 2021-07-12 11:07:16,826 basehttp 12776 11816 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 782
+INFO 2021-07-12 11:07:40,727 basehttp 12776 13304 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:07:40,785 basehttp 12776 12552 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 782
+INFO 2021-07-12 11:07:40,805 basehttp 12776 10264 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:07:59,386 autoreload 12776 11572 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 11:08:01,137 autoreload 12804 10320 Watching for file changes with StatReloader
+INFO 2021-07-12 11:08:01,821 basehttp 12804 12616 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:08:01,860 basehttp 12804 9604 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 782
+INFO 2021-07-12 11:08:01,917 basehttp 12804 13028 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:08:21,213 autoreload 12804 10320 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 11:08:22,855 autoreload 13008 13264 Watching for file changes with StatReloader
+INFO 2021-07-12 11:08:25,368 basehttp 13008 12472 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:08:25,412 basehttp 13008 10492 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 782
+INFO 2021-07-12 11:08:25,438 basehttp 13008 13244 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:09:49,959 autoreload 13008 13264 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 11:09:51,923 autoreload 11572 6488 Watching for file changes with StatReloader
+INFO 2021-07-12 11:09:52,483 basehttp 11572 12916 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:09:52,513 basehttp 11572 12732 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:09:52,532 basehttp 11572 1740 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 782
+INFO 2021-07-12 11:10:08,341 basehttp 11572 12832 "GET /api/accounts/?page=1&limit=10&name= HTTP/1.1" 200 2134
+INFO 2021-07-12 11:10:13,773 basehttp 11572 664 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4647
+INFO 2021-07-12 11:10:13,820 basehttp 11572 10060 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 8958
+INFO 2021-07-12 11:10:17,448 basehttp 11572 8200 "GET /api/getUserInfo/?page=1&limit=20&group= HTTP/1.1" 200 9194
+INFO 2021-07-12 11:10:23,504 basehttp 11572 13068 "PUT /api/userInfo/80/ HTTP/1.1" 200 243
+INFO 2021-07-12 11:10:23,648 basehttp 11572 11620 "GET /api/getUserInfo/?page=1&limit=20&group= HTTP/1.1" 200 9193
+INFO 2021-07-12 11:10:28,280 basehttp 11572 2460 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:10:28,318 basehttp 11572 3336 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 781
+INFO 2021-07-12 11:10:28,341 basehttp 11572 9680 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:15:28,203 autoreload 11572 6488 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-07-12 11:15:29,848 autoreload 5640 7312 Watching for file changes with StatReloader
+INFO 2021-07-12 11:16:34,781 basehttp 5640 13052 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:16:34,866 basehttp 5640 11160 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:16:34,897 basehttp 5640 4132 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 1041
+INFO 2021-07-12 11:16:48,697 autoreload 5640 7312 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-07-12 11:16:50,816 autoreload 12856 11740 Watching for file changes with StatReloader
+INFO 2021-07-12 11:16:51,425 basehttp 12856 12664 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:16:51,444 basehttp 12856 13252 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:16:51,521 basehttp 12856 9696 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 1971
+INFO 2021-07-12 11:17:29,927 basehttp 12856 11004 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:17:30,008 basehttp 12856 1128 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:17:30,095 basehttp 12856 11408 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 1971
+INFO 2021-07-12 11:30:10,526 basehttp 12856 4596 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:30:10,608 basehttp 12856 12324 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:30:10,670 basehttp 12856 8836 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 1971
+INFO 2021-07-12 11:52:23,390 basehttp 12856 9260 "GET /admin/ HTTP/1.1" 200 15847
+INFO 2021-07-12 11:52:31,653 basehttp 12856 9260 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 28431
+INFO 2021-07-12 11:52:31,682 basehttp 12856 9260 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 11:52:31,696 basehttp 12856 9260 "GET /djstatic/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2021-07-12 11:52:31,726 basehttp 12856 9260 "GET /djstatic/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2021-07-12 11:54:32,485 autoreload 12856 11740 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-07-12 11:54:34,082 autoreload 8836 12176 Watching for file changes with StatReloader
+INFO 2021-07-12 11:56:26,316 autoreload 8836 12176 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-07-12 11:56:28,048 autoreload 9260 11428 Watching for file changes with StatReloader
+INFO 2021-07-12 11:56:30,590 basehttp 9260 12240 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 31440
+INFO 2021-07-12 11:56:30,627 basehttp 9260 12240 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+ERROR 2021-07-12 11:56:36,588 log 9260 12240 Internal Server Error: /admin/auth_permission/userinfo/80/change/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "E:\PyEnv\jsb\lib\site-packages\django\forms\models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\forms\models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (position, department) specified for UserInfo
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 1658, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 1538, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 1573, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\auth\admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\options.py", line 714, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (position, department) specified for UserInfo. Check fields/fieldsets/exclude attributes of class UserInfoAdmin.
+ERROR 2021-07-12 11:56:36,591 basehttp 9260 12240 "GET /admin/auth_permission/userinfo/80/change/ HTTP/1.1" 500 146524
+INFO 2021-07-12 11:56:58,238 basehttp 9260 12240 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 31440
+INFO 2021-07-12 11:57:35,797 autoreload 9260 11428 E:\jfyunwei\jsb\auth_permission\admin.py changed, reloading.
+INFO 2021-07-12 11:57:37,586 autoreload 13180 13120 Watching for file changes with StatReloader
+INFO 2021-07-12 11:57:39,492 basehttp 13180 11876 "GET /admin/auth_permission/userinfo/80/change/ HTTP/1.1" 200 35588
+INFO 2021-07-12 11:57:39,550 basehttp 13180 9524 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 11:57:39,570 basehttp 13180 10360 "GET /djstatic/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-07-12 11:57:39,690 basehttp 13180 3880 "GET /djstatic/admin/js/SelectBox.js HTTP/1.1" 200 4360
+INFO 2021-07-12 11:57:39,695 basehttp 13180 11876 "GET /djstatic/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-07-12 11:57:39,706 basehttp 13180 4868 "GET /djstatic/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+INFO 2021-07-12 11:57:39,884 basehttp 13180 11876 "GET /djstatic/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2021-07-12 11:57:39,890 basehttp 13180 10360 "GET /djstatic/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2021-07-12 11:57:39,891 basehttp 13180 9524 "GET /djstatic/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-07-12 11:57:39,894 basehttp 13180 4868 "GET /djstatic/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-07-12 11:57:39,894 basehttp 13180 3880 "GET /djstatic/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2021-07-12 11:57:45,498 basehttp 13180 3880 "GET /djstatic/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+INFO 2021-07-12 11:57:53,346 basehttp 13180 3880 "POST /admin/auth_permission/userinfo/80/change/ HTTP/1.1" 302 0
+INFO 2021-07-12 11:57:53,441 basehttp 13180 3880 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 31658
+INFO 2021-07-12 11:57:53,479 basehttp 13180 3880 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 11:59:28,277 basehttp 13180 10456 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:59:28,362 basehttp 13180 12912 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:59:28,428 basehttp 13180 11488 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 11:59:30,494 basehttp 13180 1744 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:59:30,589 basehttp 13180 11116 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:59:30,627 basehttp 13180 12852 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 11:59:55,027 basehttp 13180 11640 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 11:59:55,198 basehttp 13180 8836 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 11:59:55,224 basehttp 13180 2408 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 12:02:36,282 basehttp 13180 11204 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 12:02:36,622 basehttp 13180 12792 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 12:02:36,675 basehttp 13180 12468 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 12:02:40,946 basehttp 13180 11348 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 12:02:41,072 basehttp 13180 11740 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 12:02:41,146 basehttp 13180 10112 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 12:05:13,608 basehttp 13180 12484 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 12:05:13,746 basehttp 13180 6080 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 12:05:13,756 basehttp 13180 7476 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 12:43:45,916 autoreload 13180 13120 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 12:43:47,611 autoreload 12576 8264 Watching for file changes with StatReloader
+INFO 2021-07-12 12:47:27,594 autoreload 12576 8264 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 12:47:29,204 autoreload 11988 13256 Watching for file changes with StatReloader
+INFO 2021-07-12 12:48:28,426 autoreload 11988 13256 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 12:48:30,141 autoreload 11552 12504 Watching for file changes with StatReloader
+INFO 2021-07-12 12:49:27,098 autoreload 11552 12504 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 12:49:28,738 autoreload 12720 4592 Watching for file changes with StatReloader
+INFO 2021-07-12 12:51:24,114 autoreload 12720 4592 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 12:51:25,676 autoreload 5776 10440 Watching for file changes with StatReloader
+INFO 2021-07-12 12:53:38,283 autoreload 5776 10440 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-07-12 12:53:40,036 autoreload 9496 13020 Watching for file changes with StatReloader
+INFO 2021-07-12 12:54:51,012 autoreload 9496 13020 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 12:54:52,615 autoreload 12508 8004 Watching for file changes with StatReloader
+INFO 2021-07-12 12:58:11,163 autoreload 12508 8004 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-07-12 12:58:12,766 autoreload 11852 9668 Watching for file changes with StatReloader
+INFO 2021-07-12 12:59:00,962 autoreload 11852 9668 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-07-12 12:59:03,021 autoreload 11988 13220 Watching for file changes with StatReloader
+INFO 2021-07-12 12:59:22,007 autoreload 11988 13220 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-07-12 12:59:23,685 autoreload 1076 12720 Watching for file changes with StatReloader
+INFO 2021-07-12 13:19:51,103 autoreload 2392 9948 Watching for file changes with StatReloader
+INFO 2021-07-12 13:21:47,893 autoreload 1744 7780 Watching for file changes with StatReloader
+INFO 2021-07-12 13:21:53,143 basehttp 1744 11488 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:22:19,453 basehttp 1744 11464 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-07-12 13:22:19,473 basehttp 1744 9744 "GET /api/user/?username=jsb HTTP/1.1" 200 412
+INFO 2021-07-12 13:22:19,556 basehttp 1744 11016 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:22:19,578 basehttp 1744 11560 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:22:19,617 basehttp 1744 9208 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:22:23,321 basehttp 1744 2580 "GET /admin/ HTTP/1.1" 200 15843
+INFO 2021-07-12 13:22:56,391 autoreload 11944 12936 Watching for file changes with StatReloader
+INFO 2021-07-12 13:25:18,817 autoreload 13056 13028 Watching for file changes with StatReloader
+INFO 2021-07-12 13:25:22,795 basehttp 13056 12828 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:25:22,870 basehttp 13056 12756 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:25:23,148 basehttp 13056 3384 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4837
+INFO 2021-07-12 13:25:23,209 basehttp 13056 12468 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 9350
+INFO 2021-07-12 13:31:13,911 autoreload 11808 10360 Watching for file changes with StatReloader
+INFO 2021-07-12 13:32:04,417 autoreload 664 12404 Watching for file changes with StatReloader
+INFO 2021-07-12 13:32:10,636 basehttp 664 7940 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:32:10,688 basehttp 664 13144 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:32:10,998 basehttp 664 11612 "GET /api/getUserInfo/?page=1&limit=10&group= HTTP/1.1" 200 4837
+INFO 2021-07-12 13:32:11,064 basehttp 664 7324 "GET /api/getGroups/?page=1&limit=10000 HTTP/1.1" 200 9350
+INFO 2021-07-12 13:32:20,382 basehttp 664 10236 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:32:22,340 basehttp 664 12024 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:32:22,454 basehttp 664 9796 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:32:22,482 basehttp 664 12816 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:32:23,482 basehttp 664 3580 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:32:23,555 basehttp 664 7780 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:32:23,622 basehttp 664 10800 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:32:31,684 basehttp 664 3732 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:32:31,748 basehttp 664 12676 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:32:31,820 basehttp 664 108 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:32:32,094 basehttp 664 2428 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:32:32,178 basehttp 664 6004 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:32:32,259 basehttp 664 11728 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:32:38,294 basehttp 664 10000 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:32:38,425 basehttp 664 3976 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:32:38,494 basehttp 664 9780 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:32:59,386 basehttp 664 11736 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:32:59,625 basehttp 664 11484 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:32:59,675 basehttp 664 12484 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:33:11,125 basehttp 664 1172 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:33:11,229 basehttp 664 8560 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:33:11,299 basehttp 664 11204 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:34:39,536 basehttp 664 12876 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:34:39,730 basehttp 664 4224 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:34:39,754 basehttp 664 6968 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:36:44,640 basehttp 664 9948 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:36:44,954 basehttp 664 12936 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:36:45,001 basehttp 664 644 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:36:48,962 basehttp 664 12676 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:36:49,090 basehttp 664 7780 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:36:49,168 basehttp 664 3368 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:37:24,236 basehttp 664 7160 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:37:24,367 basehttp 664 12936 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:37:24,440 basehttp 664 6332 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:38:33,353 autoreload 664 12404 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 13:38:35,305 autoreload 12884 9496 Watching for file changes with StatReloader
+INFO 2021-07-12 13:38:35,836 basehttp 12884 10996 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:38:35,870 basehttp 12884 4796 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:38:35,949 basehttp 12884 11916 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:38:57,178 autoreload 1088 6700 Watching for file changes with StatReloader
+INFO 2021-07-12 13:39:00,529 basehttp 1088 12428 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:39:00,590 basehttp 1088 8560 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:39:00,668 basehttp 1088 12436 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:39:50,632 autoreload 1088 6700 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 13:39:52,478 autoreload 4240 10456 Watching for file changes with StatReloader
+INFO 2021-07-12 13:39:53,251 basehttp 4240 12296 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:39:53,267 basehttp 4240 12448 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:39:53,337 basehttp 4240 7656 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2359
+INFO 2021-07-12 13:40:07,757 basehttp 4240 11716 "GET /admin/ HTTP/1.1" 200 15843
+INFO 2021-07-12 13:40:34,295 basehttp 4240 11716 "GET /admin/ HTTP/1.1" 200 15843
+INFO 2021-07-12 13:41:49,610 autoreload 4240 10456 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-07-12 13:41:51,405 autoreload 13216 7652 Watching for file changes with StatReloader
+INFO 2021-07-12 13:42:05,041 autoreload 5552 12720 Watching for file changes with StatReloader
+INFO 2021-07-12 13:42:12,886 basehttp 5552 11572 "GET /admin/ HTTP/1.1" 200 15836
+INFO 2021-07-12 13:42:15,684 basehttp 5552 11572 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 31455
+INFO 2021-07-12 13:42:15,723 basehttp 5552 11572 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 13:42:56,923 autoreload 5552 12720 E:\jfyunwei\jsb\auth_permission\models.py changed, reloading.
+INFO 2021-07-12 13:42:58,558 autoreload 11392 12492 Watching for file changes with StatReloader
+INFO 2021-07-12 13:42:59,242 basehttp 11392 5316 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 31455
+INFO 2021-07-12 13:42:59,281 basehttp 11392 5316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 13:43:04,434 basehttp 11392 5316 "GET /admin/auth_permission/userinfo/6/change/ HTTP/1.1" 200 35586
+INFO 2021-07-12 13:43:04,472 basehttp 11392 5316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 13:43:12,108 basehttp 11392 5316 "POST /admin/auth_permission/userinfo/6/change/ HTTP/1.1" 302 0
+INFO 2021-07-12 13:43:12,210 basehttp 11392 5316 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 31672
+INFO 2021-07-12 13:43:12,252 basehttp 11392 5316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 13:43:18,949 basehttp 11392 5316 "GET /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 200 35589
+INFO 2021-07-12 13:43:18,988 basehttp 11392 5316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 13:43:26,066 basehttp 11392 5316 "POST /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 302 0
+INFO 2021-07-12 13:43:26,154 basehttp 11392 5316 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 31688
+INFO 2021-07-12 13:43:26,188 basehttp 11392 5316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 13:43:28,946 basehttp 11392 2580 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:43:29,007 basehttp 11392 12796 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:43:29,072 basehttp 11392 10320 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2374
+INFO 2021-07-12 13:43:39,211 basehttp 11392 32 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:43:39,355 basehttp 11392 11496 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:43:39,413 basehttp 11392 12324 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2374
+INFO 2021-07-12 13:43:41,347 basehttp 11392 10236 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:43:41,405 basehttp 11392 10668 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:43:41,472 basehttp 11392 6404 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2374
+INFO 2021-07-12 13:43:42,324 basehttp 11392 8716 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:43:42,380 basehttp 11392 12816 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:43:42,442 basehttp 11392 9668 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2374
+INFO 2021-07-12 13:43:43,253 basehttp 11392 7652 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:43:43,305 basehttp 11392 644 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:43:43,379 basehttp 11392 12296 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2374
+INFO 2021-07-12 13:43:44,102 basehttp 11392 12024 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:43:44,163 basehttp 11392 12504 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:43:44,238 basehttp 11392 11824 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2374
+INFO 2021-07-12 13:44:09,880 basehttp 11392 5316 "GET /admin/auth_permission/userinfo/42/change/ HTTP/1.1" 200 35568
+INFO 2021-07-12 13:44:09,915 basehttp 11392 5316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 13:44:16,332 basehttp 11392 5316 "POST /admin/auth_permission/userinfo/42/change/ HTTP/1.1" 302 0
+INFO 2021-07-12 13:44:16,425 basehttp 11392 5316 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 31699
+INFO 2021-07-12 13:44:16,458 basehttp 11392 5316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-12 13:44:18,488 basehttp 11392 12596 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:44:18,550 basehttp 11392 10156 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:44:18,624 basehttp 11392 6004 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2381
+INFO 2021-07-12 13:44:41,296 autoreload 11392 12492 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-07-12 13:44:43,177 autoreload 664 4184 Watching for file changes with StatReloader
+INFO 2021-07-12 13:44:43,878 basehttp 664 12748 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:44:43,893 basehttp 664 5392 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:44:43,967 basehttp 664 9972 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2381
+INFO 2021-07-12 13:44:46,997 basehttp 664 916 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:44:47,081 basehttp 664 5892 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:44:47,147 basehttp 664 11988 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2381
+INFO 2021-07-12 13:45:50,882 basehttp 664 13028 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-12 13:45:50,963 basehttp 664 10424 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-12 13:45:51,035 basehttp 664 12752 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2381

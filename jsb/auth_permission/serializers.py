@@ -41,11 +41,11 @@ class L1MenuSerializer(serializers.ModelSerializer):
 
 
 # 增删改用户
-class UserInfoInfoSerializer(serializers.ModelSerializer):
+class UserInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
-        fields = ['id', 'username', 'email', 'phone',  'password', 'is_superuser', 'groups', 'user_permissions']
-        # fields = '__all__'
+        fields = ['id', 'username', 'email', 'phone',  'password', 'is_superuser', 'groups', 'user_permissions',
+                  'hosted']
 
 
 # 查询用户
@@ -56,3 +56,11 @@ class GetUserInfoSerializer(serializers.ModelSerializer):
         model = UserInfo
         fields = '__all__'
 
+
+# 查询用户的主持信息
+class GetUserHostedInfoSerializer(serializers.ModelSerializer):
+    groups = GroupSerializer(many=True)
+
+    class Meta:
+        model = UserInfo
+        fields = ['username', 'groups', 'hosted', 'hosted_date']

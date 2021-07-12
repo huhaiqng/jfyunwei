@@ -1,6 +1,6 @@
 from django.urls import path, include
 from .views import UserViewSet, L1MenuViewSet, L2MenuViewSet, GroupViewSet, GetGroupViewSet, \
-     GetGroupL2menuView, SetGroupObjectPermsView, UserInfoViewSet, GetUserInfoViewSet
+     GetGroupL2menuView, SetGroupObjectPermsView, UserInfoViewSet, GetUserInfoViewSet, GetUserHostedInfoViewSet
 from rest_framework import routers
 
 router = routers.DefaultRouter()
@@ -11,6 +11,7 @@ router.register(r'groups', GroupViewSet)
 router.register(r'getGroups', GetGroupViewSet)
 router.register(r'userInfo', UserInfoViewSet)
 router.register(r'getUserInfo', GetUserInfoViewSet)
+router.register(r'getUserHostedInfo', GetUserHostedInfoViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

@@ -2,13 +2,14 @@ from rest_framework import viewsets, status
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.permissions import AllowAny
 from guardian.shortcuts import get_objects_for_user, assign_perm
 from guardian.models import GroupObjectPermission
 from django.contrib.auth.models import Group, ContentType
 from django.contrib.auth.hashers import make_password
 from .models import UserInfo, L1Menu, L2Menu
-from .serializers import UserSerializer, L1MenuSerializer, L2MenuSerializer, GroupSerializer, UserInfoInfoSerializer,\
-     GetUserInfoSerializer, GetGroupSerializer
+from .serializers import UserSerializer, L1MenuSerializer, L2MenuSerializer, GroupSerializer, UserInfoSerializer,\
+     GetUserInfoSerializer, GetGroupSerializer, GetUserHostedInfoSerializer
 from .perm import CheckPermViewSet, get_user_by_token
 
 
@@ -129,7 +130,7 @@ class SetGroupObjectPermsView(APIView):
 # 增删改用户
 class UserInfoViewSet(CheckPermViewSet):
     queryset = UserInfo.objects.all().order_by('-date_joined')
-    serializer_class = UserInfoInfoSerializer
+    serializer_class = UserInfoSerializer
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
@@ -208,3 +209,10 @@ class GetUserInfoViewSet(CheckPermViewSet):
 
         serializer = self.get_serializer(queryset, many=True)
         return Response(serializer.data)
+
+
+# 查询用户主持
+class GetUserHostedInfoViewSet(viewsets.ModelViewSet):
+    queryset = UserInfo.objects.exclude(username__in=['jsb']).order_by('hosted', 'hosted_date', 'groups', 'date_joined')
+    serializer_class = GetUserHostedInfoSerializer
+    permission_classes = [AllowAny]

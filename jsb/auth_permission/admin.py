@@ -14,11 +14,12 @@ class L2MenuAdmin(GuardedModelAdmin):
 
 
 class UserInfoAdmin(UserAdmin):
-    list_display = ('username', 'last_login', 'is_superuser', 'is_staff', 'is_active', 'date_joined')
+    list_display = ('username', 'last_login', 'is_superuser', 'is_staff', 'is_active', 'date_joined',
+                    'hosted', 'hosted_date')
     fieldsets = (
         (None, {'fields': ('username', 'password', 'first_name', 'last_name', 'email')}),
 
-        (gettext_lazy('User Information'), {'fields': ('phone', 'department', 'position')}),
+        (gettext_lazy('User Information'), {'fields': ('phone', 'hosted', 'hosted_date')}),
 
         (gettext_lazy('Permissions'), {'fields': ('is_superuser', 'is_staff', 'is_active',
                                                   'groups', 'user_permissions')}),

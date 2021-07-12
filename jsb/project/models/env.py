@@ -3,7 +3,8 @@ from django.db import models
 
 # 环境
 class Env(models.Model):
-    name = models.CharField('环境', max_length=200)
+    name = models.CharField('名称', max_length=200)
+    alias = models.CharField('简称', max_length=200, blank=True)
 
     class Meta:
         verbose_name = '环境'

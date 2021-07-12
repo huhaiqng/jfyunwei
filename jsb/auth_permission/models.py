@@ -3,35 +3,15 @@ from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.models import ContentType
 
 
-# 部门
-# class Department(models.Model):
-#     name = models.CharField(max_length=11, unique=True)
-#
-#     class Meta:
-#         verbose_name = '部门'
-#         verbose_name_plural = '部门'
-#
-#     def __str__(self):
-#         return self.name
-
-
-# 职位
-# class Position(models.Model):
-#     name = models.CharField(max_length=255, unique=True)
-#
-#     class Meta:
-#         verbose_name = '职位'
-#         verbose_name_plural = '职位'
-#
-#     def __str__(self):
-#         return self.name
-
-
 # 用户
 class UserInfo(AbstractUser):
     phone = models.CharField('手机号码', max_length=11, unique=True)
-    # department = models.ForeignKey(Department, verbose_name="部门", on_delete=models.PROTECT)
-    # position = models.ForeignKey(Position, verbose_name='职位', on_delete=models.PROTECT)
+    hosted = models.BooleanField('主持早会', default=False)
+    hosted_date = models.DateField('主持日期', blank=True, null=True)
+
+    class Meta:
+        verbose_name = '用户'
+        verbose_name_plural = '用户'
 
     def __str__(self):
         return self.username

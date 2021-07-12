@@ -52,3 +52,10 @@ export function getL2Menu(data) {
     params: data
   })
 }
+
+export function getUserHostedInfo() {
+  return request({
+    url: '/api/getUserHostedInfo/',
+    method: 'get'
+  })
+}

@@ -76,52 +76,27 @@ export const constantRoutes = [
     children: [
       {
         path: 'index',
-        name: 'Index',
+        name: 'ProjectIndex',
         component: () => import('@/views/project/index'),
         meta: { title: '项目信息', icon: 'tree' }
       }
     ]
-  }
+  },
 
-  // {
-  //   path: '/daily',
-  //   component: Layout,
-  //   redirect: '/daily/index',
-  //   name: 'Daily',
-  //   meta: { title: '日报', icon: 'example' },
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       name: 'Index',
-  //       component: () => import('@/views/daily/index'),
-  //       meta: { title: '我的日报' }
-  //     },
-  //     {
-  //       path: 'report',
-  //       name: 'Report',
-  //       component: () => import('@/views/daily/report'),
-  //       meta: { title: '查看日报' }
-  //     }
-  //   ]
-  // },
-  // {
-  //   path: '/daily',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: 'index',
-  //       name: 'Daily',
-  //       component: () => import('@/views/daily/index'),
-  //       meta: { title: '我的日报', icon: 'example' }
-  //     },
-  //     {
-  //       path: 'index',
-  //       name: 'Daily',
-  //       component: () => import('@/views/daily/index'),
-  //       meta: { title: '我的日报', icon: 'example' }
-  //     },
-  //   ]
-  // },
+  {
+    path: '/meeting',
+    component: Layout,
+    redirect: '/meeting/index',
+    name: 'Meeting',
+    children: [
+      {
+        path: 'index',
+        name: 'MeetingIndex',
+        component: () => import('@/views/meeting/index'),
+        meta: { title: '早会主持', icon: 'star' }
+      }
+    ]
+  }
 
   // 404 page must be placed at the end !!!
   // { path: '*', redirect: '/404', hidden: true }
