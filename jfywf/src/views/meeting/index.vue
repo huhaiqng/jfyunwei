@@ -5,7 +5,7 @@
         <div>&nbsp;</div>
       </el-col>
       <el-col :span="18">
-        <el-table :key="tableKey" :data="list" fit highlight-current-row style="margin-top:15px">
+        <el-table :key="tableKey" :data="list" fit highlight-current-row style="margin-top:15px;margin-bottom:15px;">
           <el-table-column label="序号" align="center" width="50px">
             <template slot-scope="{$index}">
               <span>{{ $index + 1 }}</span>
