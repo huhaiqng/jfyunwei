@@ -22,7 +22,7 @@ class Host(models.Model):
     created = models.DateTimeField('创建时间', default=timezone.now)
 
     class Meta:
-        ordering = ['cloud_user', 'env', 'inside_ip']
+        ordering = ['cloud_user', 'hostname', 'env', 'inside_ip']
         unique_together = ['inside_ip', 'cloud_user']
         verbose_name = '主机'
         verbose_name_plural = '主机'

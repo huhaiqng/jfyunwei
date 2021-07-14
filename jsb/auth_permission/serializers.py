@@ -44,8 +44,7 @@ class L1MenuSerializer(serializers.ModelSerializer):
 class UserInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
-        fields = ['id', 'username', 'email', 'phone',  'password', 'is_superuser', 'groups', 'user_permissions',
-                  'hosted']
+        fields = ['id', 'username', 'email', 'phone',  'password', 'is_superuser', 'groups', 'user_permissions']
 
 
 # 查询用户

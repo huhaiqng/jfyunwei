@@ -29,7 +29,7 @@
           <span>{{ $index + 1 + (listQuery.page - 1)*listQuery.limit }}</span>
         </template>
       </el-table-column>
-      <el-table-column label="名称">
+      <el-table-column label="主机名">
         <template slot-scope="{row}">
           <span class="link-type" @click="showDetail(row)">{{ row.hostname }}</span>
         </template>

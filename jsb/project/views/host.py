@@ -31,7 +31,7 @@ class GetHostViewSet(CheckPermViewSet):
 
         objects = Host.objects.filter(
             inside_ip__contains=inside_ip, cloud_user__contains=cloud_user, env__contains=env
-        ).order_by('inside_ip')
+        )
         queryset = get_objects_for_user(request.user, 'project.view_%s' % self.basename, objects)
 
         page = self.paginate_queryset(queryset)

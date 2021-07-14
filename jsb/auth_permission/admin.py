@@ -6,7 +6,7 @@ from guardian.admin import GuardedModelAdmin
 
 
 class L1MenuAdmin(GuardedModelAdmin):
-    list_display = ('name', 'title', 'path', 'redirect', 'order')
+    list_display = ('name', 'title', 'icon', 'path', 'redirect', 'order')
 
 
 class L2MenuAdmin(GuardedModelAdmin):
