@@ -11,7 +11,7 @@
               fit
               highlight-current-row
             >
-              <el-table-column label="主机名称">
+              <el-table-column label="显示名称">
                 <template slot-scope="{row}">
                   <span>{{ row.name }}</span>
                 </template>

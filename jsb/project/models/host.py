@@ -28,4 +28,4 @@ class Host(models.Model):
         verbose_name_plural = '主机'
 
     def __str__(self):
-        return self.name
+        return self.hostname
