@@ -1,10 +1,10 @@
 <template>
   <div class="app-container">
     <el-row>
-      <el-col :span="20">
+      <el-col :span="20" style="margin-left: 20px;">
         <div v-for="(project, index) in projects" :id="index" :key="project.id" class="tb">
-          <h4>{{ project.name }}</h4>
-          <el-tabs v-model="activeNameListTemp[index].url" type="border-card">
+          <h3>{{ project.name }}</h3>
+          <el-tabs v-model="activeNameListTemp[index].url" type="border-card" style="margin-bottom: 50px;">
             <el-tab-pane label="访问地址" :name="activeNameList[index].url">
               <el-table
                 :key="project.id"
@@ -75,9 +75,14 @@
                     <span>{{ row.module }}</span>
                   </template>
                 </el-table-column>
-                <el-table-column label="包名">
+                <el-table-column label="包名" width="400px">
                   <template slot-scope="{row}">
                     <span>{{ row.pkg_name }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="部署路径" width="250">
+                  <template slot-scope="{row}">
+                    <span>{{ row.deploy_dir }}</span>
                   </template>
                 </el-table-column>
                 <el-table-column label="包类型">
@@ -90,7 +95,7 @@
                     <span>{{ row.port }}</span>
                   </template>
                 </el-table-column>
-                <el-table-column label="日志文件" width="300px">
+                <el-table-column label="日志文件" width="350px">
                   <template slot-scope="{row}">
                     <span>{{ row.logfile }}</span>
                   </template>
@@ -100,7 +105,7 @@
           </el-tabs>
         </div>
       </el-col>
-      <el-col :span="4">
+      <el-col :span="3">
         <el-card class="choice">
           <div v-for="(c, index) in projects" :key="c.name" :class="{active: active===index}" style="margin-bottom: 8px;">
             <el-link :underline="false" @click="goto(index)">{{ c.name }}</el-link>
