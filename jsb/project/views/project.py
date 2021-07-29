@@ -5,12 +5,12 @@ from project.models import Project
 
 
 class ProjectViewSet(viewsets.ModelViewSet):
-    queryset = Project.objects.all()
+    queryset = Project.objects.filter(used=True)
     serializer_class = ProjectSerializer
     permission_classes = [AllowAny]
 
 
 class ProjectForConfigViewSet(viewsets.ModelViewSet):
-    queryset = Project.objects.all()
+    queryset = Project.objects.filter(used=True)
     serializer_class = ProjectForConfigSerializer
     permission_classes = [AllowAny]

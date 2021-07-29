@@ -3,52 +3,107 @@
     <el-row>
       <el-col :span="20">
         <div v-for="(project, index) in projects" :id="index" :key="project.id" class="tb">
-          <div v-if="project.hosts.length>0">
-            <h4>{{ project.name }}</h4>
-            <el-table
-              :key="project.id"
-              :data="project.hosts"
-              fit
-              highlight-current-row
-            >
-              <el-table-column label="显示名称">
-                <template slot-scope="{row}">
-                  <span>{{ row.name }}</span>
-                </template>
-              </el-table-column>
-              <el-table-column label="IP 地址">
-                <template slot-scope="{row}">
-                  <span>{{ row.inside_ip }}</span>
-                </template>
-              </el-table-column>
-              <el-table-column label="环境">
-                <template slot-scope="{row}">
-                  <span>{{ row.env }}</span>
-                </template>
-              </el-table-column>
-              <el-table-column label="部署路径">
-                <template>
-                  <span>{{ project.deploy_dir }}</span>
-                </template>
-              </el-table-column>
-              <el-table-column label="日志路径" width="300px">
-                <template>
-                  <span>{{ project.log_dir }}</span>
-                </template>
-              </el-table-column>
-              <el-table-column label="操作" align="center" width="120px">
-                <template slot-scope="{row}">
-                  <el-button type="primary" size="mini" @click="downloadLog(row.hostname+project.log_dir)">下载日志</el-button>
-                </template>
-              </el-table-column>
-            </el-table>
-          </div>
+          <h4>{{ project.name }}</h4>
+          <el-tabs v-model="activeNameListTemp[index].url" type="border-card">
+            <el-tab-pane label="访问地址" :name="activeNameList[index].url">
+              <el-table
+                :key="project.id"
+                :data="project.urls"
+                fit
+                highlight-current-row
+              >
+                <el-table-column label="名称-环境" width="400px">
+                  <template slot-scope="{row}">
+                    <span class="link-type"><a :href="row.url" target="_blank">{{ row.env.name }} - {{ row.name }}</a></span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="地址">
+                  <template slot-scope="{row}">
+                    <span class="link-type"><el-link type="primary" :href="row.url" target="_blank">{{ row.url }}</el-link></span>
+                  </template>
+                </el-table-column>
+              </el-table>
+            </el-tab-pane>
+            <el-tab-pane label="服务器" :name="activeNameList[index].host">
+              <el-table
+                :key="project.id"
+                :data="project.hosts"
+                fit
+                highlight-current-row
+              >
+                <el-table-column label="服务器名称">
+                  <template slot-scope="{row}">
+                    <span>{{ row.name }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="IP 地址">
+                  <template slot-scope="{row}">
+                    <span>{{ row.inside_ip }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="环境">
+                  <template slot-scope="{row}">
+                    <span>{{ row.env }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="部署路径">
+                  <template>
+                    <span>{{ project.deploy_dir }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="日志路径" width="300px">
+                  <template>
+                    <span>{{ project.log_dir }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="操作" align="center" width="120px">
+                  <template slot-scope="{row}">
+                    <el-button type="primary" size="mini" @click="downloadLog(row.hostname+project.log_dir)">下载日志</el-button>
+                  </template>
+                </el-table-column>
+              </el-table>
+            </el-tab-pane>
+            <el-tab-pane label="模块(包)" :name="activeNameList[index].module">
+              <el-table
+                :key="project.id"
+                :data="project.modules"
+                fit
+                highlight-current-row
+              >
+                <el-table-column label="模块名">
+                  <template slot-scope="{row}">
+                    <span>{{ row.module }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="包名">
+                  <template slot-scope="{row}">
+                    <span>{{ row.pkg_name }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="包类型">
+                  <template slot-scope="{row}">
+                    <span>{{ row.pkg_type }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="端口号">
+                  <template slot-scope="{row}">
+                    <span>{{ row.port }}</span>
+                  </template>
+                </el-table-column>
+                <el-table-column label="日志文件" width="300px">
+                  <template slot-scope="{row}">
+                    <span>{{ row.logfile }}</span>
+                  </template>
+                </el-table-column>
+              </el-table>
+            </el-tab-pane>
+          </el-tabs>
         </div>
       </el-col>
       <el-col :span="4">
         <el-card class="choice">
           <div v-for="(c, index) in projects" :key="c.name" :class="{active: active===index}" style="margin-bottom: 8px;">
-            <el-link v-if="c.hosts.length>0" :underline="false" @click="goto(index)">{{ c.name }}</el-link>
+            <el-link :underline="false" @click="goto(index)">{{ c.name }}</el-link>
           </div>
         </el-card>
       </el-col>
@@ -73,7 +128,9 @@ export default {
       projects: null,
       filterProjects: null,
       dialogVisible: false,
-      log_rul: null
+      log_rul: null,
+      activeNameList: [],
+      activeNameListTemp: []
     }
   },
   created() {
@@ -92,6 +149,12 @@ export default {
       getProject().then(response => {
         this.projects = response
         this.filterProjects = response
+
+        for (var i = 0; i < this.projects.length; i++) {
+          var tabname = { 'host': 'host-tab-' + i, 'module': 'module-tab-' + i, 'url': 'url-tab-' + i }
+          this.activeNameListTemp.push(tabname)
+        }
+        this.activeNameList = JSON.parse(JSON.stringify(this.activeNameListTemp))
       })
     },
     downloadLog(log_url) {

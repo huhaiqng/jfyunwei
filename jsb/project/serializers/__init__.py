@@ -6,3 +6,4 @@ from .account import AccountSerializer
 from .config import ConfigSerializer, GetConfigSerializer
 from .project import ProjectSerializer, ProjectForConfigSerializer, GetHostSerializer
 from .url import UrlSerializer
+from .project_module import ProjectModuleSerializer
