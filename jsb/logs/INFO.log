@@ -10712,3 +10712,200 @@ INFO 2021-07-29 15:58:48,384 basehttp 12840 4584 "GET /api/project/ HTTP/1.1" 20
 INFO 2021-07-29 16:03:27,369 autoreload 12256 3540 Watching for file changes with StatReloader
 INFO 2021-07-29 16:21:23,942 autoreload 12348 12868 Watching for file changes with StatReloader
 INFO 2021-07-29 16:23:12,907 autoreload 10444 1260 Watching for file changes with StatReloader
+INFO 2021-07-29 16:32:28,815 basehttp 12348 7508 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 16:32:28,996 basehttp 12348 2480 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 16:32:29,284 basehttp 12348 12060 "GET /api/project/ HTTP/1.1" 200 33803
+INFO 2021-07-29 16:34:20,935 basehttp 12348 1668 "GET /api/getUserHostedInfo/ HTTP/1.1" 200 2266
+INFO 2021-07-29 16:34:34,304 basehttp 12348 11448 "GET /api/project/ HTTP/1.1" 200 33803
+INFO 2021-07-29 16:37:31,710 basehttp 12348 11180 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 16:37:31,795 basehttp 12348 10732 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 16:37:32,150 basehttp 12348 10644 "GET /api/project/ HTTP/1.1" 200 33803
+INFO 2021-07-29 16:39:33,001 basehttp 12348 12388 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 16:39:33,237 basehttp 12348 9752 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 16:39:33,485 basehttp 12348 6448 "GET /api/project/ HTTP/1.1" 200 33803
+INFO 2021-07-29 16:40:17,229 basehttp 12348 12088 "GET /api/project/ HTTP/1.1" 200 33803
+INFO 2021-07-29 16:58:20,946 basehttp 12348 12316 "GET /admin/project/projectmodule/5/change/ HTTP/1.1" 200 18113
+INFO 2021-07-29 16:58:20,986 basehttp 12348 12316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-29 16:58:34,109 basehttp 12348 12316 "POST /admin/project/projectmodule/5/change/ HTTP/1.1" 302 0
+INFO 2021-07-29 16:58:34,160 basehttp 12348 12316 "GET /admin/project/projectmodule/ HTTP/1.1" 200 15972
+INFO 2021-07-29 16:58:34,201 basehttp 12348 12316 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-29 16:58:37,512 basehttp 12348 12388 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 16:58:37,588 basehttp 12348 4036 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 16:58:37,954 basehttp 12348 960 "GET /api/project/ HTTP/1.1" 200 33856
+INFO 2021-07-29 17:14:36,645 basehttp 12348 11672 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 17:14:36,715 basehttp 12348 10856 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 17:14:37,067 basehttp 12348 13140 "GET /api/project/ HTTP/1.1" 200 33856
+INFO 2021-07-29 17:14:46,640 basehttp 12348 6264 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 17:14:46,729 basehttp 12348 12468 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 17:14:47,089 basehttp 12348 3272 "GET /api/project/ HTTP/1.1" 200 33856
+INFO 2021-07-29 17:25:02,243 basehttp 12348 8720 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 17:25:02,340 basehttp 12348 6856 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 17:25:02,694 basehttp 12348 11668 "GET /api/project/ HTTP/1.1" 200 33856
+INFO 2021-07-29 17:28:05,999 basehttp 12348 11528 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 17:28:06,061 basehttp 12348 12532 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 17:28:06,399 basehttp 12348 12992 "GET /api/project/ HTTP/1.1" 200 33856
+INFO 2021-07-29 17:28:08,286 basehttp 12348 11244 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 17:28:08,378 basehttp 12348 3364 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 17:28:08,661 basehttp 12348 6700 "GET /api/project/ HTTP/1.1" 200 33856
+INFO 2021-07-29 17:31:22,594 basehttp 12348 10592 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-29 17:31:22,672 basehttp 12348 9740 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-29 17:31:23,008 basehttp 12348 3540 "GET /api/project/ HTTP/1.1" 200 33856
+INFO 2021-07-30 09:38:58,687 autoreload 9700 6692 Watching for file changes with StatReloader
+INFO 2021-07-30 09:40:34,063 basehttp 9700 5068 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 09:40:38,053 basehttp 9700 2212 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-07-30 09:40:38,091 basehttp 9700 5372 "GET /api/user/?username=jsb HTTP/1.1" 200 412
+INFO 2021-07-30 09:40:38,158 basehttp 9700 2136 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 09:40:38,166 basehttp 9700 872 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 09:40:38,203 basehttp 9700 9192 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 09:40:44,627 basehttp 9700 6416 "GET /admin HTTP/1.1" 301 0
+INFO 2021-07-30 09:40:44,883 basehttp 9700 6416 "GET /admin/ HTTP/1.1" 200 16388
+WARNING 2021-07-30 09:40:45,270 log 9700 6416 Not Found: /favicon.ico
+WARNING 2021-07-30 09:40:45,270 basehttp 9700 6416 "GET /favicon.ico HTTP/1.1" 404 2413
+INFO 2021-07-30 09:40:49,287 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60525
+INFO 2021-07-30 09:40:49,355 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:42:14,692 basehttp 9700 6416 "GET /admin/project/url/76/change/ HTTP/1.1" 200 18401
+INFO 2021-07-30 09:42:14,728 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:42:18,515 basehttp 9700 6416 "POST /admin/project/url/76/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:42:18,832 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60744
+INFO 2021-07-30 09:42:18,873 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:42:26,673 basehttp 9700 6416 "GET /admin/project/url/76/change/ HTTP/1.1" 200 18409
+INFO 2021-07-30 09:42:26,710 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:42:29,903 basehttp 9700 6416 "POST /admin/project/url/76/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:42:30,115 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60744
+INFO 2021-07-30 09:42:30,149 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:44:09,499 basehttp 9700 6416 "GET /admin/project/url/98/change/ HTTP/1.1" 200 18436
+INFO 2021-07-30 09:44:09,539 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:44:12,807 basehttp 9700 6416 "POST /admin/project/url/98/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:44:13,028 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60751
+INFO 2021-07-30 09:44:13,062 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:44:19,991 basehttp 9700 6416 "GET /admin/project/url/97/change/ HTTP/1.1" 200 18416
+INFO 2021-07-30 09:44:20,026 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:44:22,708 basehttp 9700 6416 "POST /admin/project/url/97/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:44:22,941 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60748
+INFO 2021-07-30 09:44:22,985 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:44:45,388 basehttp 9700 6416 "GET /admin/project/url/186/change/ HTTP/1.1" 200 18415
+INFO 2021-07-30 09:44:45,427 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:44:48,119 basehttp 9700 6416 "POST /admin/project/url/186/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:44:48,341 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60748
+INFO 2021-07-30 09:44:48,378 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:44:55,250 basehttp 9700 6416 "GET /admin/project/url/187/change/ HTTP/1.1" 200 18395
+INFO 2021-07-30 09:44:55,280 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:44:58,308 basehttp 9700 6416 "POST /admin/project/url/187/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:44:58,539 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60745
+INFO 2021-07-30 09:44:58,573 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:45:45,694 basehttp 9700 6416 "GET /admin/project/url/74/change/ HTTP/1.1" 200 18407
+INFO 2021-07-30 09:45:45,733 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:45:53,050 basehttp 9700 6416 "POST /admin/project/url/74/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:45:53,278 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60745
+INFO 2021-07-30 09:45:53,312 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:46:08,988 basehttp 9700 6416 "GET /admin/project/url/75/change/ HTTP/1.1" 200 18413
+INFO 2021-07-30 09:46:09,034 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:46:10,839 basehttp 9700 6416 "GET /admin/project/url/2/change/ HTTP/1.1" 200 18404
+INFO 2021-07-30 09:46:10,887 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:46:14,175 basehttp 9700 6416 "POST /admin/project/url/75/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:46:14,396 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60746
+INFO 2021-07-30 09:46:14,435 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:46:18,040 basehttp 9700 6416 "POST /admin/project/url/2/change/ HTTP/1.1" 302 0
+INFO 2021-07-30 09:46:18,247 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60744
+INFO 2021-07-30 09:46:18,283 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:46:21,536 basehttp 9700 6416 "GET /admin/project/url/ HTTP/1.1" 200 60525
+INFO 2021-07-30 09:46:21,573 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:46:33,725 basehttp 9700 6416 "GET /admin/project/url/?p=2 HTTP/1.1" 200 48547
+INFO 2021-07-30 09:46:33,765 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:46:48,987 basehttp 9700 6416 "GET /admin/project/url/95/change/?_changelist_filters=p%3D2 HTTP/1.1" 200 18580
+INFO 2021-07-30 09:46:49,024 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:46:57,108 basehttp 9700 6416 "POST /admin/project/url/95/change/?_changelist_filters=p%3D2 HTTP/1.1" 302 0
+INFO 2021-07-30 09:46:57,287 basehttp 9700 6416 "GET /admin/project/url/?p=2 HTTP/1.1" 200 48772
+INFO 2021-07-30 09:46:57,327 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:47:09,295 basehttp 9700 6416 "GET /admin/project/url/96/change/?_changelist_filters=p%3D2 HTTP/1.1" 200 18580
+INFO 2021-07-30 09:47:09,332 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:47:14,002 basehttp 9700 6416 "POST /admin/project/url/96/change/?_changelist_filters=p%3D2 HTTP/1.1" 302 0
+INFO 2021-07-30 09:47:14,169 basehttp 9700 6416 "GET /admin/project/url/?p=2 HTTP/1.1" 200 48767
+INFO 2021-07-30 09:47:14,203 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:47:19,110 basehttp 9700 6416 "GET /admin/project/url/83/change/?_changelist_filters=p%3D2 HTTP/1.1" 200 18521
+INFO 2021-07-30 09:47:19,145 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:47:21,815 basehttp 9700 6416 "POST /admin/project/url/83/change/?_changelist_filters=p%3D2 HTTP/1.1" 302 0
+INFO 2021-07-30 09:47:22,000 basehttp 9700 6416 "GET /admin/project/url/?p=2 HTTP/1.1" 200 48758
+INFO 2021-07-30 09:47:22,039 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:47:27,719 basehttp 9700 6416 "GET /admin/project/url/84/change/?_changelist_filters=p%3D2 HTTP/1.1" 200 18521
+INFO 2021-07-30 09:47:27,752 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:47:30,250 basehttp 9700 6416 "POST /admin/project/url/84/change/?_changelist_filters=p%3D2 HTTP/1.1" 302 0
+INFO 2021-07-30 09:47:30,437 basehttp 9700 6416 "GET /admin/project/url/?p=2 HTTP/1.1" 200 48758
+INFO 2021-07-30 09:47:30,473 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:47:48,689 basehttp 9700 6416 "GET /admin/project/url/?p=1 HTTP/1.1" 200 63151
+INFO 2021-07-30 09:47:48,727 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:48:00,866 basehttp 9700 6416 "GET /admin/project/url/179/change/?_changelist_filters=p%3D1 HTTP/1.1" 200 18545
+INFO 2021-07-30 09:48:00,906 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:48:05,219 basehttp 9700 6416 "POST /admin/project/url/179/change/?_changelist_filters=p%3D1 HTTP/1.1" 302 0
+INFO 2021-07-30 09:48:05,447 basehttp 9700 6416 "GET /admin/project/url/?p=1 HTTP/1.1" 200 63377
+INFO 2021-07-30 09:48:05,482 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:48:26,839 basehttp 9700 6416 "GET /admin/project/url/183/change/?_changelist_filters=p%3D1 HTTP/1.1" 200 18515
+INFO 2021-07-30 09:48:26,876 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:48:29,489 basehttp 9700 6416 "POST /admin/project/url/183/change/?_changelist_filters=p%3D1 HTTP/1.1" 302 0
+INFO 2021-07-30 09:48:29,713 basehttp 9700 6416 "GET /admin/project/url/?p=1 HTTP/1.1" 200 63372
+INFO 2021-07-30 09:48:29,746 basehttp 9700 6416 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-07-30 09:54:58,869 autoreload 9700 6692 E:\jfyunwei\jsb\project\urls.py changed, reloading.
+INFO 2021-07-30 09:55:00,572 autoreload 2520 10780 Watching for file changes with StatReloader
+INFO 2021-07-30 09:55:58,598 basehttp 2520 6564 "GET /api/popular-url/ HTTP/1.1" 200 1963
+INFO 2021-07-30 09:57:51,395 autoreload 2520 10780 E:\jfyunwei\jsb\project\serializers\url.py changed, reloading.
+INFO 2021-07-30 09:57:52,957 autoreload 2984 5004 Watching for file changes with StatReloader
+INFO 2021-07-30 09:58:03,318 autoreload 2984 5004 E:\jfyunwei\jsb\project\serializers\url.py changed, reloading.
+INFO 2021-07-30 09:58:05,006 autoreload 6548 9724 Watching for file changes with StatReloader
+INFO 2021-07-30 10:01:17,720 autoreload 4356 3464 Watching for file changes with StatReloader
+INFO 2021-07-30 10:03:46,059 autoreload 4356 3464 E:\jfyunwei\jsb\project\serializers\url.py changed, reloading.
+INFO 2021-07-30 10:03:48,051 autoreload 4020 9724 Watching for file changes with StatReloader
+INFO 2021-07-30 10:04:43,884 autoreload 10996 5868 Watching for file changes with StatReloader
+INFO 2021-07-30 10:04:47,016 basehttp 10996 8952 "GET /api/popular-url/ HTTP/1.1" 200 1963
+INFO 2021-07-30 10:06:23,357 autoreload 11136 1124 Watching for file changes with StatReloader
+INFO 2021-07-30 10:06:44,966 autoreload 10224 1544 Watching for file changes with StatReloader
+INFO 2021-07-30 10:07:40,043 autoreload 10224 1544 E:\jfyunwei\jsb\project\views\url.py changed, reloading.
+INFO 2021-07-30 10:07:41,768 autoreload 6416 3952 Watching for file changes with StatReloader
+INFO 2021-07-30 10:07:42,373 basehttp 6416 8800 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:08:03,670 basehttp 6416 9952 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:08:03,714 basehttp 6416 9364 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:08:03,733 basehttp 6416 10940 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 10:08:05,820 basehttp 6416 624 "GET /api/project/ HTTP/1.1" 200 36553
+INFO 2021-07-30 10:08:07,728 basehttp 6416 9688 "GET /api/project/ HTTP/1.1" 200 36553
+INFO 2021-07-30 10:09:54,488 autoreload 6416 3952 E:\jfyunwei\jsb\project\views\url.py changed, reloading.
+INFO 2021-07-30 10:09:56,188 autoreload 5944 7448 Watching for file changes with StatReloader
+INFO 2021-07-30 10:09:56,709 basehttp 5944 10876 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:19:49,137 basehttp 5944 1544 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:19:49,177 basehttp 5944 9720 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:19:49,220 basehttp 5944 6816 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 10:19:49,232 basehttp 5944 7744 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:19:51,064 basehttp 5944 3516 "GET /api/project/ HTTP/1.1" 200 36553
+INFO 2021-07-30 10:20:03,095 basehttp 5944 5176 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:20:03,146 basehttp 5944 9816 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:20:03,199 basehttp 5944 5788 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:20:03,205 basehttp 5944 5824 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 10:20:51,616 basehttp 5944 3516 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:20:51,659 basehttp 5944 2296 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:20:55,816 basehttp 5944 9816 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-07-30 10:20:55,846 basehttp 5944 260 "GET /api/user/?username=jsb HTTP/1.1" 200 412
+INFO 2021-07-30 10:20:55,970 basehttp 5944 9168 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:20:55,978 basehttp 5944 5824 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:20:56,021 basehttp 5944 5848 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:20:56,145 basehttp 5944 924 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 10:31:13,641 basehttp 5944 820 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:31:13,739 basehttp 5944 11116 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:31:13,792 basehttp 5944 10084 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:31:13,818 basehttp 5944 8152 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 10:31:56,003 basehttp 5944 2892 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:31:56,100 basehttp 5944 8036 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:31:56,175 basehttp 5944 6548 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:31:56,197 basehttp 5944 4040 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 10:33:43,219 basehttp 5944 11560 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:33:43,351 basehttp 5944 11556 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:33:43,419 basehttp 5944 11544 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:33:43,442 basehttp 5944 11540 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 10:36:39,243 autoreload 5944 7448 E:\jfyunwei\jsb\project\views\url.py changed, reloading.
+INFO 2021-07-30 10:36:40,978 autoreload 10292 3496 Watching for file changes with StatReloader
+INFO 2021-07-30 10:36:41,813 basehttp 10292 11680 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:52:05,763 basehttp 10292 12260 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:52:05,827 basehttp 10292 10700 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:52:05,877 basehttp 10292 11448 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-07-30 10:52:05,885 basehttp 10292 10856 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:52:27,192 basehttp 10292 11940 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-07-30 10:52:27,275 basehttp 10292 11988 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-30 10:52:27,339 basehttp 10292 6324 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-30 10:52:27,376 basehttp 10292 8036 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275

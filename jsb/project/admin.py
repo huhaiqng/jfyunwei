@@ -16,7 +16,7 @@ class BuildHostAdmin(GuardedModelAdmin):
 
 
 class ProjectUrlAdmin(GuardedModelAdmin):
-    list_display = ('project', 'name', 'env', 'url')
+    list_display = ('project', 'name', 'env', 'url', 'popular')
 
 
 admin.site.register(Project, ProjectAdmin)

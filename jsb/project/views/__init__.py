@@ -6,3 +6,4 @@ from .task_result import TaskResultViewSet
 from .account import AccountViewSet
 from .config import ConfigViewSet, GetConfigViewSet
 from .project import ProjectViewSet, ProjectForConfigViewSet
+from .url import PopularUrlViewSet

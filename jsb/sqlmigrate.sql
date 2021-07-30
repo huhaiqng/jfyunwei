@@ -20,3 +20,13 @@ INSERT INTO `auth_permission`(`id`, `name`, `content_type_id`, `codename`) VALUE
 INSERT INTO `auth_permission`(`id`, `name`, `content_type_id`, `codename`) VALUES (204, 'Can view 项目模块', 48, 'view_projectmodule');
 
 INSERT INTO `django_content_type`(`id`, `app_label`, `model`) VALUES (48, 'project', 'projectmodule');
+
+
+--
+-- Add field popular to url
+--
+ALTER TABLE `project_url` ADD COLUMN `popular` bool DEFAULT b'0' NOT NULL;
+ALTER TABLE `project_url` ALTER COLUMN `popular` DROP DEFAULT;
+--
+-- Alter field project on projectmodule
+--

@@ -9,6 +9,7 @@ class Url(models.Model):
     project = models.ForeignKey(Project, verbose_name='项目', on_delete=models.PROTECT, related_name='urls')
     env = models.ForeignKey(Env, verbose_name='环境', on_delete=models.PROTECT)
     url = models.URLField('地址', max_length=200, unique=True)
+    popular = models.BooleanField('常用的', default=False)
 
     class Meta:
         ordering = ['project', 'env', 'name']

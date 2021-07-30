@@ -3,6 +3,8 @@ from .url import UrlSerializer
 from .host import ProjectHostSerializer
 from .project_module import ProjectModuleSerializer
 from project.models import Project, Host
+from .env import EnvSerializer
+from project.models import Url
 
 
 class ProjectSerializer(serializers.ModelSerializer):
@@ -27,4 +29,13 @@ class GetHostSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Host
+        fields = '__all__'
+
+
+class PopularUrlSerializer(serializers.ModelSerializer):
+    project = ProjectForConfigSerializer(read_only=True)
+    env = EnvSerializer(read_only=True)
+
+    class Meta:
+        model = Url
         fields = '__all__'

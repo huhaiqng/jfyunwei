@@ -13,3 +13,10 @@ export function getProject() {
     method: 'get'
   })
 }
+
+export function getPopularUrl() {
+  return request({
+    url: '/api/popular-url/',
+    method: 'get'
+  })
+}
