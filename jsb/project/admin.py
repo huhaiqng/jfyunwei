@@ -4,7 +4,7 @@ from guardian.admin import GuardedModelAdmin
 
 
 class ProjectAdmin(GuardedModelAdmin):
-    list_display = ('name', 'alias', 'deploy_obj', 'user', 'deploy_dir', 'log_dir', 'used')
+    list_display = ('name', 'alias', 'user', 'deploy_dir', 'log_dir', 'used')
 
 
 class ProjectModuleAdmin(GuardedModelAdmin):

@@ -5,6 +5,6 @@ from project.models import Url
 
 
 class PopularUrlViewSet(viewsets.ModelViewSet):
-    queryset = Url.objects.filter(popular=True).order_by('project__name', 'env__name')
+    queryset = Url.objects.filter(popular=True).order_by('project__name', 'env__name', 'name')
     serializer_class = PopularUrlSerializer
     permission_classes = [AllowAny]
