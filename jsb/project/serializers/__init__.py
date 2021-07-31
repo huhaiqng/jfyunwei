@@ -4,6 +4,7 @@ from .host import HostSerializer, ProjectHostSerializer
 from .env import EnvSerializer
 from .account import AccountSerializer
 from .config import ConfigSerializer, GetConfigSerializer
-from .project import ProjectSerializer, ProjectForConfigSerializer, GetHostSerializer, PopularUrlSerializer
+from .project import ProjectSerializer, ProjectForConfigSerializer, GetHostSerializer, PopularUrlSerializer, \
+    ProjectMainSerializer
 from .url import UrlSerializer
 from .project_module import ProjectModuleSerializer
