@@ -11330,3 +11330,12 @@ INFO 2021-07-31 11:23:03,949 basehttp 11568 3836 "GET /api/project/23/ HTTP/1.1"
 INFO 2021-07-31 11:23:06,644 basehttp 11568 11228 "GET /api/project/3/ HTTP/1.1" 200 3876
 INFO 2021-07-31 11:23:45,310 basehttp 11568 3280 "GET /api/project-for-config/ HTTP/1.1" 200 942
 INFO 2021-07-31 11:23:45,421 basehttp 11568 12880 "GET /api/project/28/ HTTP/1.1" 200 562
+INFO 2021-07-31 16:14:45,902 autoreload 3644 5864 Watching for file changes with StatReloader
+INFO 2021-07-31 16:15:03,112 basehttp 3644 11860 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-07-31 16:15:03,196 basehttp 3644 13224 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-07-31 16:15:06,849 basehttp 3644 3436 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-07-31 16:15:06,931 basehttp 3644 7068 "GET /api/project/28/ HTTP/1.1" 200 562
+INFO 2021-07-31 16:19:03,936 basehttp 3644 6172 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-07-31 16:19:04,052 basehttp 3644 916 "GET /api/project/1/ HTTP/1.1" 200 363
+INFO 2021-07-31 16:19:35,862 basehttp 3644 9840 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-07-31 16:19:36,004 basehttp 3644 6116 "GET /api/project/28/ HTTP/1.1" 200 562

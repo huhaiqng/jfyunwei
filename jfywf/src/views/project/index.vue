@@ -1,16 +1,17 @@
 <template>
   <div>
     <el-row>
-      <el-col :span="3">
+      <el-col :span="3" style="background-color: white;">
         <div class="down-tree">
-          <el-scrollbar style="margin-left: 10px;margin-top: 10px;">
-            <div v-for="p in projects" :key="p.name" style="margin-bottom: 8px;">
+          <el-scrollbar>
+            <!-- <div v-for="p in projects" :key="p.name" style="margin-bottom: 8px;">
               <el-link :underline="false" @click="showProjectInfo(p.id)">{{ p.name }}</el-link>
-            </div>
+            </div> -->
+            <el-tree :data="projects" :highlight-current="true" :props="defaultProps" style="#f0f2f5;padding-top: 10px;" @node-click="showProjectInfo" />
           </el-scrollbar>
         </div>
       </el-col>
-      <el-col :span="21" style="background-color: white;">
+      <el-col :span="21">
         <div class="project-scrollbar">
           <el-scrollbar>
             <div class="tb">
@@ -137,7 +138,11 @@ export default {
       project: {},
       dialogVisible: false,
       log_url: null,
-      activeName: 'url'
+      activeName: 'url',
+      defaultProps: {
+        children: 'children',
+        label: 'name'
+      }
     }
   },
   created() {
@@ -145,7 +150,9 @@ export default {
       this.projects = response
 
       if (this.projects.length > 0) {
-        this.showProjectInfo(this.projects[0].id)
+        getOneProjectInfo(this.projects[0].id).then(response => {
+          this.project = response
+        })
       }
     })
   },
@@ -154,8 +161,8 @@ export default {
       this.dialogVisible = true
       this.log_url = log_url
     },
-    showProjectInfo(id) {
-      getOneProjectInfo(id).then(response => {
+    showProjectInfo(node) {
+      getOneProjectInfo(node.id).then(response => {
         this.project = response
       })
     }
@@ -186,9 +193,9 @@ export default {
 .down-tree{
   flex: 1;
   // border-right:1px solid rgba(211,219,222,1);
-  background-color: #f0f2f5;
+  // background-color: #f0f2f5;
   /deep/.el-scrollbar{
-    height: calc(100vh - 66px);
+    height: calc(100vh - 50px);
     .el-scrollbar__wrap{
       overflow-x: hidden;
     }
