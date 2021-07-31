@@ -55,18 +55,18 @@ export const constantRoutes = [
     }]
   },
 
-  {
-    path: '/address',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        name: 'Address',
-        component: () => import('@/views/address/index'),
-        meta: { title: '地址大全', icon: 'table' }
-      }
-    ]
-  },
+  // {
+  //   path: '/address',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index',
+  //       name: 'Address',
+  //       component: () => import('@/views/address/index'),
+  //       meta: { title: '地址大全', icon: 'table' }
+  //     }
+  //   ]
+  // },
 
   {
     path: '/project',
