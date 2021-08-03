@@ -4,9 +4,6 @@
       <el-col :span="3" style="background-color: white;">
         <div class="down-tree">
           <el-scrollbar>
-            <!-- <div v-for="p in projects" :key="p.name" style="margin-bottom: 8px;">
-              <el-link :underline="false" @click="showProjectInfo(p.id)">{{ p.name }}</el-link>
-            </div> -->
             <el-tree :data="projects" :highlight-current="true" :props="defaultProps" style="#f0f2f5;padding-top: 10px;" @node-click="showProjectInfo" />
           </el-scrollbar>
         </div>
@@ -43,17 +40,17 @@
                     fit
                     highlight-current-row
                   >
-                    <el-table-column label="服务器名称">
+                    <el-table-column label="服务器名称" width="200px">
                       <template slot-scope="{row}">
                         <span>{{ row.name }}</span>
                       </template>
                     </el-table-column>
-                    <el-table-column label="IP 地址">
+                    <el-table-column label="IP 地址" width="200px">
                       <template slot-scope="{row}">
                         <span>{{ row.inside_ip }}</span>
                       </template>
                     </el-table-column>
-                    <el-table-column label="环境">
+                    <el-table-column label="环境" width="200px">
                       <template slot-scope="{row}">
                         <span>{{ row.env }}</span>
                       </template>
@@ -63,7 +60,7 @@
                         <span>{{ project.deploy_dir }}</span>
                       </template>
                     </el-table-column>
-                    <el-table-column label="日志路径" width="300px">
+                    <el-table-column label="日志路径">
                       <template>
                         <span>{{ project.log_dir }}</span>
                       </template>
@@ -92,17 +89,17 @@
                         <span>{{ row.pkg_name }}</span>
                       </template>
                     </el-table-column>
-                    <el-table-column label="部署路径" width="250">
+                    <el-table-column label="部署路径" width="300px">
                       <template slot-scope="{row}">
                         <span>{{ row.deploy_dir }}</span>
                       </template>
                     </el-table-column>
-                    <el-table-column label="包类型">
+                    <el-table-column label="包类型" width="80px">
                       <template slot-scope="{row}">
                         <span>{{ row.pkg_type }}</span>
                       </template>
                     </el-table-column>
-                    <el-table-column label="端口号">
+                    <el-table-column label="端口号" width="80px">
                       <template slot-scope="{row}">
                         <span>{{ row.port }}</span>
                       </template>

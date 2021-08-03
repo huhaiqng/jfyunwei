@@ -15,6 +15,6 @@ class ProjectModule(models.Model):
 
     class Meta:
         unique_together = ['project', 'module']
-        ordering = ['project', 'module']
+        ordering = ['project', 'pkg_type', 'module']
         verbose_name = '项目模块'
         verbose_name_plural = '项目模块'
