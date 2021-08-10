@@ -4,17 +4,20 @@ from project.serializers import ProjectSerializer, ProjectForConfigSerializer, P
 from project.models import Project
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
+from django_filters.rest_framework import DjangoFilterBackend
 
 
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.filter(used=True)
     serializer_class = ProjectSerializer
+    filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
 
 
 class ProjectForConfigViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.filter(used=True)
     serializer_class = ProjectForConfigSerializer
+    filter_backends = [DjangoFilterBackend]
     permission_classes = [AllowAny]
 
 

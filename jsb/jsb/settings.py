@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'project',
     'django_celery_results',
     'django_celery_beat',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -155,15 +156,17 @@ REST_FRAMEWORK = {
         'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
+        'jsb.permissions.CustomObjectPermissions',
     ),
+    'DEFAULT_FILTER_BACKENDS': (
+        'django_filters.rest_framework.DjangoFilterBackend',
+        'rest_framework_guardian.filters.ObjectPermissionsFilter',
+    ),
+    'DEFAULT_PAGINATION_CLASS': 'jsb.pagination.ResultsSetPagination',
 }
 
 # 禁用匿名用户，因为自定义用户模型无法创建匿名用户
-ANONYMOUS_USER_NAME = None
-
-APSCHEDULER_RUN_NOW_TIMEOUT = 300
-APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
+# ANONYMOUS_USER_NAME = None
 
 LOGGING = {
     'version': 1,
@@ -221,4 +224,3 @@ CELERY_RESULT_BACKEND = 'django-db'
 CELERY_BROKER_URL = 'redis://192.168.40.159:6379/3'
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 CELERY_TIMEZONE = 'Asia/Shanghai'
-# DJANGO_CELERY_BEAT_TZ_AWARE = False

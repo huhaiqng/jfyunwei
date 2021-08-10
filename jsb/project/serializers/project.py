@@ -18,14 +18,12 @@ class ProjectSerializer(serializers.ModelSerializer):
 
 
 class ProjectForConfigSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Project
         fields = ['id', 'name']
 
 
 class ProjectMainSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Project
         fields = ['id', 'name', 'alias', 'deploy_dir', 'log_dir', 'used']

@@ -7,3 +7,4 @@ from project.serializers import EnvSerializer
 class EnvViewSet(viewsets.ModelViewSet):
     queryset = Env.objects.all().order_by('name')
     serializer_class = EnvSerializer
+    pagination_class = None

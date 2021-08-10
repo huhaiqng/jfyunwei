@@ -2,7 +2,7 @@
   <div class="app-container">
     <div class="filter-container">
       <el-select v-model="queryList.project" placeholder="项目" filterable clearable class="filter-item" style="width: 400px" @change="getList">
-        <el-option v-for="item in projectList" :key="item.name" :label="item.name" :value="item.name" />
+        <el-option v-for="item in projectList" :key="item.name" :label="item.name" :value="item.id" />
       </el-select>
       <el-button class="filter-item" icon="el-icon-edit" type="primary" @click="handleCreate">
         新增
@@ -87,8 +87,8 @@ export default {
   data() {
     return {
       list: null,
-      envList: null,
-      projectList: null,
+      envList: [],
+      projectList: [],
       total: 0,
       temp: {
         project: null,

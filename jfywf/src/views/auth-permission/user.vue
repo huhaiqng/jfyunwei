@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
     <div class="filter-container">
-      <el-select v-model="listQuery.group" placeholder="选择组" clearable style="width: 300px" class="filter-item" @change="getList">
+      <el-select v-model="listQuery.groups" placeholder="选择组" clearable style="width: 300px" class="filter-item" @change="getList">
         <el-option v-for="item in groupList" :key="item.id" :label="item.name" :value="item.id" />
       </el-select>
       <el-button type="primary" class="filter-item" icon="el-icon-edit" @click="handleCreate">
@@ -136,11 +136,10 @@ export default {
       listQuery: {
         page: 1,
         limit: 10,
-        group: ''
+        groups: ''
       },
       groupListQuery: {
-        page: 1,
-        limit: 10000
+        page: 1
       },
       dialogVisible: false,
       dialogStatus: null,
@@ -161,7 +160,13 @@ export default {
   },
   methods: {
     getList() {
-      getUser(this.listQuery).then(response => {
+      var userQueryList = {}
+      if (this.listQuery.groups) {
+        userQueryList = this.listQuery
+      } else {
+        userQueryList = { page: this.listQuery.page, limit: this.listQuery.limit }
+      }
+      getUser(userQueryList).then(response => {
         this.list = response.results
         this.total = response.count
       })

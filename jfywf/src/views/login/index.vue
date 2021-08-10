@@ -63,8 +63,8 @@
 </template>
 
 <script>
-import { getUserInfo } from '@/api/user'
-import { setUserInfo } from '@/utils/auth'
+// import { getUserInfo } from '@/api/user'
+// import { setUserInfo } from '@/utils/auth'
 
 export default {
   name: 'Login',
@@ -132,16 +132,18 @@ export default {
           this.loading = true
           this.$store.dispatch('user/login', this.loginForm)
             .then(() => {
-              getUserInfo({ username: this.loginForm.username }).then(response => {
-                const user = response[0]
-                if (!user) {
-                  console.log('无法获取用户信息！')
-                } else {
-                  setUserInfo(user)
-                  this.$router.push({ path: this.redirect || '/', query: this.otherQuery })
-                  this.loading = false
-                }
-              })
+              this.$router.push({ path: this.redirect || '/', query: this.otherQuery })
+              this.loading = false
+              // getUserInfo({ username: this.loginForm.username }).then(response => {
+              //   const user = response[0]
+              //   if (!user) {
+              //     console.log('无法获取用户信息！')
+              //   } else {
+              //     setUserInfo(user)
+              //     this.$router.push({ path: this.redirect || '/', query: this.otherQuery })
+              //     this.loading = false
+              //   }
+              // })
             })
             .catch(() => {
               this.loading = false
