@@ -14306,3 +14306,1673 @@ INFO 2021-08-10 16:24:05,918 basehttp 3096 344 "GET /api/accounts/?page=1&limit=
 INFO 2021-08-10 16:24:12,360 basehttp 3096 11440 "GET /api/getEnv/ HTTP/1.1" 200 395
 INFO 2021-08-10 16:24:12,391 basehttp 3096 12248 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5176
 INFO 2021-08-10 16:24:13,676 basehttp 3096 10428 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 1079
+INFO 2021-08-10 18:02:35,977 autoreload 11236 13128 Watching for file changes with StatReloader
+INFO 2021-08-11 09:14:08,451 autoreload 2496 8292 Watching for file changes with StatReloader
+INFO 2021-08-11 09:20:51,111 basehttp 2496 1084 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:20:51,175 basehttp 2496 7228 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:21:17,423 basehttp 2496 7688 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:21:17,476 basehttp 2496 7240 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:21:30,336 basehttp 2496 6972 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 09:21:30,403 basehttp 2496 11488 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:21:30,464 basehttp 2496 9660 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:21:30,498 basehttp 2496 6216 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:21:30,532 basehttp 2496 6320 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:21:33,126 basehttp 2496 1480 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:21:33,138 basehttp 2496 11912 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:21:33,199 basehttp 2496 11776 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:21:33,219 basehttp 2496 5832 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:21:53,620 basehttp 2496 6740 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 09:21:53,694 basehttp 2496 11944 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:21:53,714 basehttp 2496 3496 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:21:53,745 basehttp 2496 7832 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:21:53,754 basehttp 2496 8124 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-11 09:21:57,280 basehttp 2496 7916 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9804
+INFO 2021-08-11 09:22:03,024 basehttp 2496 7684 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4906
+INFO 2021-08-11 09:22:03,044 basehttp 2496 11856 "GET /api/getGroups/?page=1 HTTP/1.1" 200 9754
+INFO 2021-08-11 09:22:08,632 basehttp 2496 11484 "PUT /api/userInfo/6/ HTTP/1.1" 200 228
+INFO 2021-08-11 09:22:08,737 basehttp 2496 10968 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4816
+INFO 2021-08-11 09:22:13,773 basehttp 2496 1344 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 8
+INFO 2021-08-11 09:22:13,790 basehttp 2496 6816 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:22:17,929 basehttp 2496 11732 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 09:22:21,100 basehttp 2496 5220 "PUT /api/groups/6/ HTTP/1.1" 200 44
+INFO 2021-08-11 09:22:21,208 basehttp 2496 2640 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 8956
+INFO 2021-08-11 09:22:27,344 basehttp 2496 9780 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:22:27,397 basehttp 2496 7456 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:22:27,439 basehttp 2496 6568 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:22:27,455 basehttp 2496 8512 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:23:46,439 autoreload 2496 8292 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 09:23:48,496 autoreload 8056 5964 Watching for file changes with StatReloader
+INFO 2021-08-11 09:23:53,219 basehttp 8056 7552 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:23:53,240 basehttp 8056 11732 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:23:53,279 basehttp 8056 10308 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:23:53,299 basehttp 8056 5064 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:23:54,330 basehttp 8056 11980 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:23:54,375 basehttp 8056 6956 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:23:54,410 basehttp 8056 8852 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:23:54,438 basehttp 8056 5976 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:23:55,041 basehttp 8056 8456 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:23:55,097 basehttp 8056 11116 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:23:55,122 basehttp 8056 8616 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:23:55,158 basehttp 8056 11092 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:23:55,385 basehttp 8056 5556 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:23:55,438 basehttp 8056 9780 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:23:55,498 basehttp 8056 6568 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:23:55,512 basehttp 8056 7456 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:23:55,682 basehttp 8056 8512 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:23:55,730 basehttp 8056 5668 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:23:55,760 basehttp 8056 2716 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:23:55,789 basehttp 8056 11340 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:24:24,763 autoreload 8056 5964 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 09:24:26,645 autoreload 2920 4116 Watching for file changes with StatReloader
+INFO 2021-08-11 09:24:27,447 basehttp 2920 6008 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:24:27,447 basehttp 2920 10516 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:24:27,499 basehttp 2920 6076 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:24:27,517 basehttp 2920 9420 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:24:29,569 basehttp 2920 7240 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:24:29,599 basehttp 2920 12200 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:24:29,627 basehttp 2920 7872 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 09:24:29,670 basehttp 2920 7688 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 09:24:33,845 log 2920 11996 Forbidden: /api/getEnv/
+WARNING 2021-08-11 09:24:33,846 basehttp 2920 11996 "GET /api/getEnv/ HTTP/1.1" 403 49
+WARNING 2021-08-11 09:24:33,847 log 2920 6884 Forbidden: /api/getHosts/
+WARNING 2021-08-11 09:24:33,848 basehttp 2920 6884 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-11 09:24:36,715 log 2920 8828 Forbidden: /api/mysql/
+WARNING 2021-08-11 09:24:36,716 basehttp 2920 8828 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 09:24:47,128 basehttp 2920 3680 "GET /api/getL1Menu/ HTTP/1.1" 200 380
+INFO 2021-08-11 09:24:47,178 basehttp 2920 8000 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+WARNING 2021-08-11 09:24:47,429 log 2920 2784 Forbidden: /api/mysql/
+WARNING 2021-08-11 09:24:47,430 basehttp 2920 2784 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 09:25:20,841 autoreload 2920 4116 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 09:25:22,822 autoreload 4496 6048 Watching for file changes with StatReloader
+INFO 2021-08-11 09:25:23,925 basehttp 4496 5052 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:25:23,955 basehttp 4496 4468 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+WARNING 2021-08-11 09:25:24,240 log 4496 11664 Forbidden: /api/mysql/
+WARNING 2021-08-11 09:25:24,241 basehttp 4496 11664 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-11 09:25:27,763 log 4496 2440 Forbidden: /api/getConfig/
+WARNING 2021-08-11 09:25:27,771 basehttp 4496 2440 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-11 09:25:27,776 log 4496 4712 Forbidden: /api/getEnv/
+WARNING 2021-08-11 09:25:27,777 basehttp 4496 4712 "GET /api/getEnv/ HTTP/1.1" 403 49
+INFO 2021-08-11 09:25:27,785 basehttp 4496 11772 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 09:28:10,253 autoreload 4496 6048 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 09:28:12,045 autoreload 11456 11960 Watching for file changes with StatReloader
+INFO 2021-08-11 09:28:12,918 basehttp 11456 9852 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:28:12,945 basehttp 11456 3036 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+WARNING 2021-08-11 09:28:13,131 log 11456 11284 Forbidden: /api/getConfig/
+WARNING 2021-08-11 09:28:13,135 log 11456 3044 Forbidden: /api/getEnv/
+INFO 2021-08-11 09:28:13,137 basehttp 11456 11768 "GET /api/project-for-config/ HTTP/1.1" 200 942
+WARNING 2021-08-11 09:28:13,138 basehttp 11456 11284 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-11 09:28:13,138 basehttp 11456 3044 "GET /api/getEnv/ HTTP/1.1" 403 49
+INFO 2021-08-11 09:29:27,325 basehttp 11456 10900 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:29:27,382 basehttp 11456 6900 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 09:29:38,763 log 11456 2496 Forbidden: /api/getHosts/
+WARNING 2021-08-11 09:29:38,764 basehttp 11456 2496 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-11 09:29:38,770 log 11456 10132 Forbidden: /api/getEnv/
+WARNING 2021-08-11 09:29:38,770 basehttp 11456 10132 "GET /api/getEnv/ HTTP/1.1" 403 49
+WARNING 2021-08-11 09:29:40,362 log 11456 10460 Forbidden: /api/mysql/
+WARNING 2021-08-11 09:29:40,362 basehttp 11456 10460 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 09:33:13,997 basehttp 11456 5808 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 11
+INFO 2021-08-11 09:33:14,007 basehttp 11456 6056 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:33:16,094 basehttp 11456 3180 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 09:33:17,336 basehttp 11456 2728 "PUT /api/groups/6/ HTTP/1.1" 200 44
+INFO 2021-08-11 09:33:17,453 basehttp 11456 8140 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 8956
+INFO 2021-08-11 09:33:24,886 basehttp 11456 10440 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:33:24,929 basehttp 11456 7888 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+WARNING 2021-08-11 09:33:25,225 log 11456 10976 Forbidden: /api/mysql/
+WARNING 2021-08-11 09:33:25,225 basehttp 11456 10976 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-11 09:33:27,450 log 11456 11996 Forbidden: /api/taskresult/
+WARNING 2021-08-11 09:33:27,450 basehttp 11456 11996 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 09:41:05,875 autoreload 11652 7388 Watching for file changes with StatReloader
+INFO 2021-08-11 09:41:10,872 basehttp 11652 10272 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:41:10,901 basehttp 11652 2728 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 09:41:11,166 basehttp 11652 11664 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 09:41:15,785 basehttp 11652 6776 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 09:41:15,787 basehttp 11652 10132 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 09:41:17,139 basehttp 11652 11544 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 09:51:58,820 basehttp 11652 1904 "GET /admin/ HTTP/1.1" 200 16460
+INFO 2021-08-11 09:51:58,851 basehttp 11652 1904 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,853 basehttp 11652 5364 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,856 basehttp 11652 11644 "GET /djstatic/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,856 basehttp 11652 5764 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,873 basehttp 11652 5764 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,876 basehttp 11652 5764 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,892 basehttp 11652 5764 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,892 basehttp 11652 11644 "GET /djstatic/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,992 basehttp 11652 11644 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,992 basehttp 11652 5764 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-11 09:51:58,993 basehttp 11652 5364 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-08-11 09:51:59,181 log 11652 5364 Not Found: /favicon.ico
+WARNING 2021-08-11 09:51:59,181 basehttp 11652 5364 "GET /favicon.ico HTTP/1.1" 404 2390
+INFO 2021-08-11 09:52:25,120 basehttp 11652 5364 "GET /admin/project/project/ HTTP/1.1" 200 26144
+INFO 2021-08-11 09:52:25,154 basehttp 11652 5364 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,165 basehttp 11652 5364 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,165 basehttp 11652 11644 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,166 basehttp 11652 1904 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,174 basehttp 11652 5364 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,175 basehttp 11652 1904 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,175 basehttp 11652 11644 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,177 basehttp 11652 8180 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,178 basehttp 11652 10968 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,192 basehttp 11652 5764 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:52:25,198 basehttp 11652 5764 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,236 basehttp 11652 5764 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:25,241 basehttp 11652 5764 "GET /djstatic/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:52:43,801 basehttp 11652 11436 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 09:52:43,802 basehttp 11652 11496 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 09:52:43,816 basehttp 11652 1704 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1112
+INFO 2021-08-11 09:52:54,907 basehttp 11652 5764 "GET /admin/project/projectmodule/ HTTP/1.1" 200 16045
+INFO 2021-08-11 09:52:54,940 basehttp 11652 5764 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:53:02,905 basehttp 11652 5764 "GET /admin/project/env/ HTTP/1.1" 200 14672
+INFO 2021-08-11 09:53:02,936 basehttp 11652 5764 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:54:11,940 autoreload 11652 7388 E:\jfyunwei\jsb\project\admin.py changed, reloading.
+INFO 2021-08-11 09:54:13,774 autoreload 2456 5812 Watching for file changes with StatReloader
+INFO 2021-08-11 09:54:15,997 basehttp 2456 11456 "GET /admin/project/env/ HTTP/1.1" 200 14960
+INFO 2021-08-11 09:54:16,030 basehttp 2456 11456 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:54:18,441 basehttp 2456 11456 "GET /admin/project/host/ HTTP/1.1" 200 18305
+INFO 2021-08-11 09:54:18,469 basehttp 2456 11456 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:54:22,225 basehttp 2456 11456 "GET /admin/project/host/4/change/ HTTP/1.1" 200 20958
+INFO 2021-08-11 09:54:22,258 basehttp 2456 5376 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-08-11 09:54:22,270 basehttp 2456 3420 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:54:22,273 basehttp 2456 5376 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-08-11 09:54:22,274 basehttp 2456 5808 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:54:22,276 basehttp 2456 11456 "GET /djstatic/admin/js/calendar.js HTTP/1.1" 200 7788
+INFO 2021-08-11 09:54:22,289 basehttp 2456 11456 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:54:22,297 basehttp 2456 2932 "GET /djstatic/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19750
+INFO 2021-08-11 09:54:22,385 basehttp 2456 11456 "GET /djstatic/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-08-11 09:54:22,388 basehttp 2456 2932 "GET /djstatic/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-08-11 09:54:30,753 basehttp 2456 2932 "GET /admin/project/host/ HTTP/1.1" 200 18305
+INFO 2021-08-11 09:54:30,785 basehttp 2456 2932 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:54:33,863 basehttp 2456 2932 "GET /admin/project/host/5/change/ HTTP/1.1" 200 20969
+INFO 2021-08-11 09:54:33,893 basehttp 2456 2932 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:56:34,700 autoreload 2456 5812 E:\jfyunwei\jsb\project\admin.py changed, reloading.
+INFO 2021-08-11 09:56:36,417 autoreload 3396 7564 Watching for file changes with StatReloader
+INFO 2021-08-11 09:56:39,150 basehttp 3396 8828 "GET /admin/project/host/5/change/ HTTP/1.1" 200 21067
+INFO 2021-08-11 09:56:39,187 basehttp 3396 8828 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:56:40,617 basehttp 3396 8828 "GET /admin/project/host/5/permissions/ HTTP/1.1" 200 14272
+INFO 2021-08-11 09:56:40,647 basehttp 3396 8828 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:56:49,265 basehttp 3396 8828 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 32105
+INFO 2021-08-11 09:56:49,296 basehttp 3396 8828 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:56:49,304 basehttp 3396 8828 "GET /djstatic/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:56:49,315 basehttp 3396 2956 "GET /djstatic/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2021-08-11 09:56:52,136 basehttp 3396 2956 "GET /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 200 36484
+INFO 2021-08-11 09:56:52,170 basehttp 3396 8828 "GET /djstatic/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:56:52,173 basehttp 3396 6108 "GET /djstatic/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2021-08-11 09:56:52,173 basehttp 3396 2956 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:56:52,312 basehttp 3396 8828 "GET /djstatic/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:56:52,313 basehttp 3396 2956 "GET /djstatic/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:56:52,313 basehttp 3396 6108 "GET /djstatic/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2021-08-11 09:57:24,557 basehttp 3396 6108 "POST /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 09:57:24,644 basehttp 3396 6108 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 32309
+INFO 2021-08-11 09:57:24,677 basehttp 3396 6108 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:57:28,745 basehttp 3396 6108 "GET /admin/project/host/ HTTP/1.1" 200 26874
+INFO 2021-08-11 09:57:28,779 basehttp 3396 6108 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:57:34,868 basehttp 3396 6108 "GET /admin/project/host/4/change/ HTTP/1.1" 200 21056
+INFO 2021-08-11 09:57:34,902 basehttp 3396 6108 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:57:36,178 basehttp 3396 6108 "GET /admin/project/host/4/permissions/ HTTP/1.1" 200 14277
+INFO 2021-08-11 09:57:36,209 basehttp 3396 6108 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 09:57:59,569 basehttp 3396 1580 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 09:57:59,635 basehttp 3396 3108 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:57:59,657 basehttp 3396 2012 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 09:57:59,936 basehttp 3396 11092 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 09:57:59,948 basehttp 3396 7196 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 09:58:06,974 basehttp 3396 11840 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:58:07,023 basehttp 3396 2640 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 09:58:07,365 basehttp 3396 11724 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 09:58:07,376 basehttp 3396 12196 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 09:58:58,040 autoreload 3396 7564 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-08-11 09:58:59,727 autoreload 2500 5824 Watching for file changes with StatReloader
+INFO 2021-08-11 09:59:00,754 basehttp 2500 12020 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+WARNING 2021-08-11 09:59:00,777 log 2500 7196 Forbidden: /api/getL2Menu/
+WARNING 2021-08-11 09:59:00,777 basehttp 2500 7196 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 09:59:09,150 basehttp 2500 11632 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:59:09,201 basehttp 2500 5220 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-11 09:59:09,268 log 2500 5808 Forbidden: /api/getL2Menu/
+INFO 2021-08-11 09:59:09,269 basehttp 2500 6120 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 09:59:09,270 basehttp 2500 5808 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 09:59:12,600 basehttp 2500 12008 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:59:12,660 basehttp 2500 5972 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:59:15,618 basehttp 2500 7552 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:59:15,671 basehttp 2500 11808 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:59:16,813 basehttp 2500 4664 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:59:16,867 basehttp 2500 1252 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 09:59:35,057 basehttp 2500 8072 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 09:59:35,151 basehttp 2500 6884 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 09:59:35,156 basehttp 2500 6900 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 09:59:35,221 basehttp 2500 5352 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 09:59:35,281 log 2500 10316 Forbidden: /api/getL2Menu/
+WARNING 2021-08-11 09:59:35,282 basehttp 2500 10316 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 10:00:41,679 autoreload 2500 5824 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-08-11 10:00:43,268 autoreload 2836 11664 Watching for file changes with StatReloader
+INFO 2021-08-11 10:01:09,370 autoreload 8960 6868 Watching for file changes with StatReloader
+INFO 2021-08-11 10:01:33,779 basehttp 8960 6072 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 10:01:33,804 basehttp 8960 6816 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 10:01:33,866 basehttp 8960 10460 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 10:01:33,869 basehttp 8960 7004 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 10:01:39,073 basehttp 8960 7388 "GET /api/taskresult/?page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:01:40,264 basehttp 8960 6104 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:01:40,276 basehttp 8960 11404 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:01:40,277 basehttp 8960 4712 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 10:01:42,522 basehttp 8960 1988 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:01:42,527 basehttp 8960 11700 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:01:43,741 basehttp 8960 11880 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:01:56,298 basehttp 8960 5064 "POST /admin/project/host/4/permissions/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:01:56,363 basehttp 8960 5064 "GET /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 200 12761
+INFO 2021-08-11 10:01:56,403 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:02:00,529 basehttp 8960 5064 "POST /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:02:00,564 basehttp 8960 5064 "GET /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 200 12891
+INFO 2021-08-11 10:02:00,594 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:02:12,956 basehttp 8960 812 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 524
+WARNING 2021-08-11 10:02:21,586 log 8960 11444 Forbidden: /api/hosts/4/
+WARNING 2021-08-11 10:02:21,587 basehttp 8960 11444 "PUT /api/hosts/4/ HTTP/1.1" 403 49
+WARNING 2021-08-11 10:02:48,458 log 8960 10136 Forbidden: /api/hosts/
+WARNING 2021-08-11 10:02:48,459 basehttp 8960 10136 "POST /api/hosts/ HTTP/1.1" 403 49
+INFO 2021-08-11 10:04:48,116 basehttp 8960 5064 "POST /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:04:48,153 basehttp 8960 5064 "GET /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 200 12900
+INFO 2021-08-11 10:04:48,187 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+WARNING 2021-08-11 10:05:05,580 log 8960 12096 Forbidden: /api/hosts/
+WARNING 2021-08-11 10:05:05,580 basehttp 8960 12096 "POST /api/hosts/ HTTP/1.1" 403 49
+INFO 2021-08-11 10:05:29,291 basehttp 8960 5064 "POST /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:05:29,325 basehttp 8960 5064 "GET /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 200 12900
+INFO 2021-08-11 10:05:29,359 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+WARNING 2021-08-11 10:05:48,052 log 8960 7824 Forbidden: /api/hosts/4/
+WARNING 2021-08-11 10:05:48,052 basehttp 8960 7824 "PUT /api/hosts/4/ HTTP/1.1" 403 49
+ERROR 2021-08-11 10:06:00,295 log 8960 5064 Internal Server Error: /admin/project/host/4/permissions/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\guardian\admin.py", line 206, in obj_perms_manage_view
+    return render(request, self.get_obj_perms_manage_template(), context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 180, in render
+    template = context.template.engine.select_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1038, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+guardian_tags
+i18n
+l10n
+log
+rest_framework
+static
+tz
+ERROR 2021-08-11 10:06:00,300 basehttp 8960 5064 "GET /admin/project/host/4/permissions/ HTTP/1.1" 500 494716
+INFO 2021-08-11 10:06:11,772 basehttp 8960 5064 "GET /admin/project/host/ HTTP/1.1" 200 26874
+INFO 2021-08-11 10:06:11,811 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:06:13,592 basehttp 8960 5064 "GET /admin/project/host/4/change/ HTTP/1.1" 200 21056
+INFO 2021-08-11 10:06:13,627 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+ERROR 2021-08-11 10:06:15,422 log 8960 5064 Internal Server Error: /admin/project/host/4/permissions/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\guardian\admin.py", line 206, in obj_perms_manage_view
+    return render(request, self.get_obj_perms_manage_template(), context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 180, in render
+    template = context.template.engine.select_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1038, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+guardian_tags
+i18n
+l10n
+log
+rest_framework
+static
+tz
+ERROR 2021-08-11 10:06:15,426 basehttp 8960 5064 "GET /admin/project/host/4/permissions/ HTTP/1.1" 500 494695
+INFO 2021-08-11 10:08:14,205 basehttp 8960 5064 "GET /admin/project/host/4/change/ HTTP/1.1" 200 21056
+INFO 2021-08-11 10:08:17,522 basehttp 8960 5064 "GET /admin/project/host/ HTTP/1.1" 200 26874
+INFO 2021-08-11 10:08:17,556 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:08:18,525 basehttp 8960 5064 "GET /admin/project/host/5/change/ HTTP/1.1" 200 21067
+INFO 2021-08-11 10:08:18,559 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:08:19,452 basehttp 8960 5064 "GET /admin/project/host/5/permissions/ HTTP/1.1" 200 14272
+INFO 2021-08-11 10:08:19,486 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:08:21,796 basehttp 8960 5064 "GET /admin/project/host/5/change/ HTTP/1.1" 200 21067
+INFO 2021-08-11 10:08:24,340 basehttp 8960 5064 "GET /admin/project/host/ HTTP/1.1" 200 26874
+INFO 2021-08-11 10:08:24,371 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:08:25,509 basehttp 8960 5064 "GET /admin/project/host/4/change/ HTTP/1.1" 200 21056
+INFO 2021-08-11 10:08:25,541 basehttp 8960 5064 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+ERROR 2021-08-11 10:08:26,832 log 8960 5064 Internal Server Error: /admin/project/host/4/permissions/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\guardian\admin.py", line 206, in obj_perms_manage_view
+    return render(request, self.get_obj_perms_manage_template(), context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loader_tags.py", line 180, in render
+    template = context.template.engine.select_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "E:\PyEnv\jsb\lib\site-packages\django\template\defaulttags.py", line 1038, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+guardian_tags
+i18n
+l10n
+log
+rest_framework
+static
+tz
+ERROR 2021-08-11 10:08:26,844 basehttp 8960 5064 "GET /admin/project/host/4/permissions/ HTTP/1.1" 500 494695
+INFO 2021-08-11 10:09:12,711 autoreload 8960 6868 E:\PyEnv\jsb\Lib\site-packages\guardian\managers.py changed, reloading.
+INFO 2021-08-11 10:09:15,642 autoreload 11492 2620 Watching for file changes with StatReloader
+INFO 2021-08-11 10:09:23,110 basehttp 11492 8132 "GET /admin/project/host/4/permissions/ HTTP/1.1" 200 15428
+INFO 2021-08-11 10:09:23,192 basehttp 11492 8132 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:09:23,244 basehttp 11492 8132 "GET /djstatic/guardian/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2021-08-11 10:09:23,288 basehttp 11492 8132 "GET /djstatic/guardian/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-08-11 10:16:32,953 basehttp 11492 13212 "GET /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 200 12779
+INFO 2021-08-11 10:16:32,988 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:16:38,901 basehttp 11492 13212 "POST /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:16:38,937 basehttp 11492 13212 "GET /admin/project/host/4/permissions/user-manage/112/ HTTP/1.1" 200 12882
+INFO 2021-08-11 10:16:38,974 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:16:43,984 basehttp 11492 8296 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 10:16:44,030 basehttp 11492 5832 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 10:16:44,382 basehttp 11492 11532 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:16:44,401 basehttp 11492 12344 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:17:03,863 basehttp 11492 13212 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 32105
+INFO 2021-08-11 10:17:03,898 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:17:06,358 basehttp 11492 13212 "GET /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 200 36466
+INFO 2021-08-11 10:17:06,391 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:17:26,129 basehttp 11492 13212 "POST /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:17:26,286 basehttp 11492 13212 "GET /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 200 36715
+INFO 2021-08-11 10:17:26,329 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:17:31,474 basehttp 11492 13080 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 10:17:31,522 basehttp 11492 12928 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 10:17:31,888 basehttp 11492 13048 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:17:31,888 basehttp 11492 13008 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:17:33,768 basehttp 11492 12904 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 10:17:33,802 basehttp 11492 13072 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 10:17:34,158 basehttp 11492 12848 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:17:34,172 basehttp 11492 13076 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:17:35,228 basehttp 11492 13052 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 10:17:35,279 basehttp 11492 13056 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 10:17:35,661 basehttp 11492 12968 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:17:35,692 basehttp 11492 12888 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:17:38,493 basehttp 11492 12828 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:17:41,524 basehttp 11492 12992 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 10:17:41,570 basehttp 11492 12940 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 10:17:41,950 basehttp 11492 12900 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:17:41,954 basehttp 11492 12932 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:18:05,453 basehttp 11492 13212 "POST /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:18:05,557 basehttp 11492 13212 "GET /admin/auth_permission/userinfo/112/change/ HTTP/1.1" 200 36706
+INFO 2021-08-11 10:18:05,591 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:18:09,305 basehttp 11492 13212 "GET /admin/auth/group/ HTTP/1.1" 200 14814
+INFO 2021-08-11 10:18:09,342 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:18:10,908 basehttp 11492 13212 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27563
+INFO 2021-08-11 10:18:10,937 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:18:22,861 basehttp 11492 13212 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:18:22,925 basehttp 11492 13212 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27793
+INFO 2021-08-11 10:18:22,959 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:19:55,960 basehttp 11492 1304 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 10:19:56,036 basehttp 11492 5716 "GET /api/project/28/ HTTP/1.1" 200 562
+INFO 2021-08-11 10:20:07,187 basehttp 11492 8196 "GET /api/project/4/ HTTP/1.1" 200 2407
+INFO 2021-08-11 10:20:09,994 basehttp 11492 6244 "GET /api/project/28/ HTTP/1.1" 200 562
+INFO 2021-08-11 10:20:10,776 basehttp 11492 10888 "GET /api/project/25/ HTTP/1.1" 200 720
+INFO 2021-08-11 10:22:19,596 basehttp 11492 13212 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:22:19,660 basehttp 11492 13212 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27820
+INFO 2021-08-11 10:22:19,692 basehttp 11492 13212 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:22:53,046 basehttp 11492 12484 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 10:22:53,093 basehttp 11492 9376 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 10:22:53,448 basehttp 11492 12936 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:22:53,452 basehttp 11492 12740 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:23:05,242 basehttp 11492 5984 "POST /api/hosts/ HTTP/1.1" 201 333
+INFO 2021-08-11 10:23:05,291 basehttp 11492 13292 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:23:09,472 basehttp 11492 2348 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 10:23:09,517 basehttp 11492 6772 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 10:23:09,839 basehttp 11492 13268 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:23:09,855 basehttp 11492 13264 "GET /api/getEnv/ HTTP/1.1" 200 2
+INFO 2021-08-11 10:28:19,177 autoreload 11492 2620 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:28:20,903 autoreload 6956 13164 Watching for file changes with StatReloader
+INFO 2021-08-11 10:28:35,377 autoreload 6956 13164 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:28:37,232 autoreload 5832 12680 Watching for file changes with StatReloader
+INFO 2021-08-11 10:29:38,645 autoreload 5832 12680 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:29:40,645 autoreload 11520 3676 Watching for file changes with StatReloader
+INFO 2021-08-11 10:30:22,664 autoreload 11520 3676 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:30:24,278 autoreload 11528 10952 Watching for file changes with StatReloader
+INFO 2021-08-11 10:30:30,947 basehttp 11528 12900 "GET /admin/project/host/ HTTP/1.1" 200 27310
+INFO 2021-08-11 10:30:30,985 basehttp 11528 12900 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:30:32,664 basehttp 11528 12900 "GET /admin/project/host/26/change/ HTTP/1.1" 200 21009
+INFO 2021-08-11 10:30:32,697 basehttp 11528 12900 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:30:33,976 basehttp 11528 12900 "GET /admin/project/host/26/permissions/ HTTP/1.1" 200 14265
+INFO 2021-08-11 10:30:34,024 basehttp 11528 12900 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:30:45,808 basehttp 11528 12900 "POST /admin/project/host/26/permissions/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:30:45,842 basehttp 11528 12900 "GET /admin/project/host/26/permissions/group-manage/6/ HTTP/1.1" 200 12741
+INFO 2021-08-11 10:30:45,879 basehttp 11528 12900 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:30:57,618 basehttp 11528 12900 "POST /admin/project/host/26/permissions/group-manage/6/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:30:57,656 basehttp 11528 12900 "GET /admin/project/host/26/permissions/group-manage/6/ HTTP/1.1" 200 12871
+INFO 2021-08-11 10:30:57,691 basehttp 11528 12900 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:31:07,821 basehttp 11528 6096 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 398
+WARNING 2021-08-11 10:31:29,587 log 11528 12744 Forbidden: /api/hosts/26/
+WARNING 2021-08-11 10:31:29,588 basehttp 11528 12744 "PUT /api/hosts/26/ HTTP/1.1" 403 49
+INFO 2021-08-11 10:31:50,462 basehttp 11528 12900 "POST /admin/project/host/26/permissions/group-manage/6/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:31:50,498 basehttp 11528 12900 "GET /admin/project/host/26/permissions/group-manage/6/ HTTP/1.1" 200 12889
+INFO 2021-08-11 10:31:50,538 basehttp 11528 12900 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:31:58,437 basehttp 11528 13108 "PUT /api/hosts/26/ HTTP/1.1" 200 334
+INFO 2021-08-11 10:31:58,495 basehttp 11528 8196 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 399
+WARNING 2021-08-11 10:32:34,421 log 11528 6120 Bad Request: /api/hosts/
+WARNING 2021-08-11 10:32:34,421 basehttp 11528 6120 "POST /api/hosts/ HTTP/1.1" 400 62
+INFO 2021-08-11 10:32:38,571 basehttp 11528 13104 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-08-11 10:32:38,623 basehttp 11528 13240 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 399
+INFO 2021-08-11 10:32:40,561 basehttp 11528 11712 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 399
+INFO 2021-08-11 10:32:57,321 basehttp 11528 13156 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 399
+INFO 2021-08-11 10:34:45,448 autoreload 11528 10952 E:\jfyunwei\jsb\jsb\settings.py changed, reloading.
+INFO 2021-08-11 10:34:47,052 autoreload 7964 12040 Watching for file changes with StatReloader
+INFO 2021-08-11 10:34:52,146 basehttp 7964 11492 "DELETE /api/hosts/26/ HTTP/1.1" 204 0
+INFO 2021-08-11 10:34:52,181 basehttp 7964 12604 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:35:02,839 basehttp 7964 9684 "GET /admin/project/host/ HTTP/1.1" 200 27312
+INFO 2021-08-11 10:35:02,882 basehttp 7964 9684 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:35:09,225 basehttp 7964 9684 "GET /admin/project/host/27/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:35:09,259 basehttp 7964 9684 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:35:10,859 basehttp 7964 9684 "GET /admin/project/host/27/permissions/ HTTP/1.1" 200 14266
+INFO 2021-08-11 10:35:10,895 basehttp 7964 9684 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:35:18,583 basehttp 7964 9684 "POST /admin/project/host/27/permissions/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:35:18,618 basehttp 7964 9684 "GET /admin/project/host/27/permissions/group-manage/6/ HTTP/1.1" 200 12743
+INFO 2021-08-11 10:35:18,648 basehttp 7964 9684 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:35:33,300 basehttp 7964 9684 "POST /admin/project/host/27/permissions/group-manage/6/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:35:33,336 basehttp 7964 9684 "GET /admin/project/host/27/permissions/group-manage/6/ HTTP/1.1" 200 12900
+INFO 2021-08-11 10:35:33,375 basehttp 7964 9684 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:35:38,398 basehttp 7964 13260 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+INFO 2021-08-11 10:35:45,823 basehttp 7964 11304 "DELETE /api/hosts/27/ HTTP/1.1" 204 0
+INFO 2021-08-11 10:35:45,852 basehttp 7964 9840 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:35:47,818 basehttp 7964 3632 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:35:59,386 basehttp 7964 9052 "POST /api/hosts/ HTTP/1.1" 201 336
+INFO 2021-08-11 10:35:59,436 basehttp 7964 32 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:36:01,789 basehttp 7964 12884 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:37:39,348 autoreload 7964 12040 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:37:41,011 autoreload 11640 12020 Watching for file changes with StatReloader
+INFO 2021-08-11 10:37:55,231 autoreload 11640 12020 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:37:56,913 autoreload 10872 13100 Watching for file changes with StatReloader
+ERROR 2021-08-11 10:38:10,263 log 10872 9840 Internal Server Error: /api/hosts/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 24, in save
+    self.assign_permissions(permissions_map)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 58, in assign_permissions
+    assign_perm(permission, user, self.instance)
+  File "E:\PyEnv\jsb\lib\site-packages\guardian\shortcuts.py", line 131, in assign_perm
+    return model.objects.assign_perm(perm, user, obj)
+  File "E:\PyEnv\jsb\lib\site-packages\guardian\managers.py", line 39, in assign_perm
+    permission = Permission.objects.get(content_type=ctype, codename=perm)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 431, in get
+    self.model._meta.object_name
+django.contrib.auth.models.Permission.DoesNotExist: Permission matching query does not exist.
+ERROR 2021-08-11 10:38:10,270 basehttp 10872 9840 "POST /api/hosts/ HTTP/1.1" 500 137970
+INFO 2021-08-11 10:39:07,983 autoreload 10872 13100 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:39:09,753 autoreload 10704 12812 Watching for file changes with StatReloader
+WARNING 2021-08-11 10:39:10,623 log 10704 8512 Bad Request: /api/hosts/
+WARNING 2021-08-11 10:39:10,624 basehttp 10704 8512 "POST /api/hosts/ HTTP/1.1" 400 84
+INFO 2021-08-11 10:39:17,548 basehttp 10704 5288 "POST /api/hosts/ HTTP/1.1" 201 336
+INFO 2021-08-11 10:39:17,612 basehttp 10704 7964 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 401
+INFO 2021-08-11 10:39:54,992 basehttp 10704 12016 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 4860
+INFO 2021-08-11 10:40:05,178 basehttp 10704 6104 "PUT /api/userInfo/112/ HTTP/1.1" 200 239
+INFO 2021-08-11 10:40:05,277 basehttp 10704 12880 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 4964
+ERROR 2021-08-11 10:41:32,006 log 10704 12796 Internal Server Error: /api/hosts/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 23, in save
+    permissions_map = self.get_permissions_map(created)
+  File "E:\jfyunwei\jsb\project\serializers\host.py", line 14, in get_permissions_map
+    current_group = Group.objects.get(user=current_user)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\db\models\query.py", line 436, in get
+    num if not limit or num < limit else 'more than %s' % (limit - 1),
+django.contrib.auth.models.Group.MultipleObjectsReturned: get() returned more than one Group -- it returned 3!
+ERROR 2021-08-11 10:41:32,009 basehttp 10704 12796 "POST /api/hosts/ HTTP/1.1" 500 127184
+INFO 2021-08-11 10:42:13,770 autoreload 10704 12812 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:42:15,461 autoreload 13148 5688 Watching for file changes with StatReloader
+WARNING 2021-08-11 10:42:16,366 log 13148 11408 Bad Request: /api/hosts/
+WARNING 2021-08-11 10:42:16,366 basehttp 13148 11408 "POST /api/hosts/ HTTP/1.1" 400 84
+INFO 2021-08-11 10:42:37,514 basehttp 13148 3512 "GET /admin/project/host/ HTTP/1.1" 200 28628
+INFO 2021-08-11 10:42:37,549 basehttp 13148 3512 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:42:49,643 basehttp 13148 3512 "GET /admin/project/host/31/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:42:49,681 basehttp 13148 3512 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:42:51,509 basehttp 13148 3512 "GET /admin/project/host/31/delete/ HTTP/1.1" 200 12041
+INFO 2021-08-11 10:42:51,556 basehttp 13148 3512 "GET /djstatic/admin/js/cancel.js HTTP/1.1" 200 857
+INFO 2021-08-11 10:42:52,625 basehttp 13148 3512 "POST /admin/project/host/31/delete/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:42:52,711 basehttp 13148 3512 "GET /admin/project/host/ HTTP/1.1" 200 28330
+INFO 2021-08-11 10:42:52,747 basehttp 13148 3512 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:42:58,347 basehttp 13148 10872 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-08-11 10:42:58,404 basehttp 13148 12764 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 750
+INFO 2021-08-11 10:43:13,656 basehttp 13148 3512 "GET /admin/project/host/ HTTP/1.1" 200 28628
+INFO 2021-08-11 10:43:13,687 basehttp 13148 3512 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:43:15,261 basehttp 13148 3512 "GET /admin/project/host/32/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:43:15,298 basehttp 13148 3512 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:43:16,396 basehttp 13148 3512 "GET /admin/project/host/32/permissions/ HTTP/1.1" 200 15418
+INFO 2021-08-11 10:43:16,431 basehttp 13148 3512 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:43:16,439 basehttp 13148 3512 "GET /djstatic/guardian/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2021-08-11 10:43:16,444 basehttp 13148 12324 "GET /djstatic/guardian/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-11 10:43:23,093 basehttp 13148 12324 "GET /admin/project/host/32/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:54:39,082 autoreload 13148 5688 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:54:40,691 autoreload 3468 6244 Watching for file changes with StatReloader
+INFO 2021-08-11 10:54:58,148 basehttp 3468 7888 "GET /admin/project/host/ HTTP/1.1" 200 28628
+INFO 2021-08-11 10:54:58,185 basehttp 3468 7888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:55:03,242 basehttp 3468 7888 "GET /admin/project/host/32/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:55:03,277 basehttp 3468 7888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:55:04,452 basehttp 3468 7888 "GET /admin/project/host/32/permissions/ HTTP/1.1" 200 15418
+INFO 2021-08-11 10:55:04,502 basehttp 3468 7888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:55:04,511 basehttp 3468 7888 "GET /djstatic/guardian/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2021-08-11 10:55:04,517 basehttp 3468 8888 "GET /djstatic/guardian/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-11 10:55:11,835 basehttp 3468 8888 "GET /admin/project/host/ HTTP/1.1" 200 28628
+INFO 2021-08-11 10:55:11,869 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:55:19,984 basehttp 3468 8888 "POST /admin/project/host/ HTTP/1.1" 200 12586
+INFO 2021-08-11 10:55:21,536 basehttp 3468 8888 "POST /admin/project/host/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:55:21,621 basehttp 3468 8888 "GET /admin/project/host/ HTTP/1.1" 200 27008
+INFO 2021-08-11 10:55:21,655 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:55:32,173 basehttp 3468 12828 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 10:55:49,607 basehttp 3468 13100 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-08-11 10:55:49,665 basehttp 3468 4664 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+INFO 2021-08-11 10:56:02,049 basehttp 3468 8888 "GET /admin/project/host/ HTTP/1.1" 200 27312
+INFO 2021-08-11 10:56:02,082 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:56:03,318 basehttp 3468 8888 "GET /admin/project/host/33/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:56:03,353 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:56:04,814 basehttp 3468 8888 "GET /admin/project/host/33/permissions/ HTTP/1.1" 200 15418
+INFO 2021-08-11 10:56:04,850 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:56:37,459 basehttp 3468 6548 "PUT /api/userInfo/112/ HTTP/1.1" 200 235
+INFO 2021-08-11 10:56:37,550 basehttp 3468 2320 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 4860
+INFO 2021-08-11 10:56:54,703 basehttp 3468 2364 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-08-11 10:56:54,752 basehttp 3468 2040 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 749
+INFO 2021-08-11 10:57:15,378 basehttp 3468 8888 "GET /admin/project/host/33/permissions/ HTTP/1.1" 200 15418
+INFO 2021-08-11 10:57:15,409 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:57:17,250 basehttp 3468 8888 "GET /admin/project/host/ HTTP/1.1" 200 27750
+INFO 2021-08-11 10:57:17,282 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:57:18,437 basehttp 3468 8888 "GET /admin/project/host/34/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:57:18,473 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:57:19,537 basehttp 3468 8888 "GET /admin/project/host/34/permissions/ HTTP/1.1" 200 15418
+INFO 2021-08-11 10:57:19,570 basehttp 3468 8888 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:57:56,136 autoreload 3468 6244 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:57:57,769 autoreload 12564 6808 Watching for file changes with StatReloader
+INFO 2021-08-11 10:58:08,857 basehttp 12564 12612 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-08-11 10:58:08,918 basehttp 12564 8456 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1098
+INFO 2021-08-11 10:58:17,263 basehttp 12564 740 "GET /admin/project/host/ HTTP/1.1" 200 28188
+INFO 2021-08-11 10:58:17,299 basehttp 12564 740 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:58:18,656 basehttp 12564 740 "GET /admin/project/host/35/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:58:18,692 basehttp 12564 740 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:58:19,812 basehttp 12564 740 "GET /admin/project/host/35/permissions/ HTTP/1.1" 200 16569
+INFO 2021-08-11 10:58:19,846 basehttp 12564 740 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:59:25,755 autoreload 12564 6808 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 10:59:27,396 autoreload 5808 9684 Watching for file changes with StatReloader
+INFO 2021-08-11 10:59:29,763 basehttp 5808 13300 "GET /admin/project/host/35/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:59:29,851 basehttp 5808 13300 "GET /admin/project/host/35/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 10:59:29,887 basehttp 5808 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:59:30,483 basehttp 5808 13300 "GET /admin/project/host/ HTTP/1.1" 200 28188
+INFO 2021-08-11 10:59:30,519 basehttp 5808 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:59:36,605 basehttp 5808 13300 "POST /admin/project/host/ HTTP/1.1" 200 12453
+INFO 2021-08-11 10:59:37,686 basehttp 5808 13300 "POST /admin/project/host/ HTTP/1.1" 302 0
+INFO 2021-08-11 10:59:37,779 basehttp 5808 13300 "GET /admin/project/host/ HTTP/1.1" 200 27008
+INFO 2021-08-11 10:59:37,819 basehttp 5808 13300 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 10:59:43,219 basehttp 5808 244 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+ERROR 2021-08-11 10:59:51,313 log 5808 13208 Internal Server Error: /api/hosts/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 24, in save
+    self.assign_permissions(permissions_map)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 49, in assign_permissions
+    users = [u for u in assignees if isinstance(u, User)]
+TypeError: 'Group' object is not iterable
+ERROR 2021-08-11 10:59:51,314 basehttp 5808 13208 "POST /api/hosts/ HTTP/1.1" 500 120024
+INFO 2021-08-11 11:00:34,308 autoreload 5808 9684 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:00:36,100 autoreload 2896 11288 Watching for file changes with StatReloader
+WARNING 2021-08-11 11:00:36,905 log 2896 6548 Bad Request: /api/hosts/
+WARNING 2021-08-11 11:00:36,905 basehttp 2896 6548 "POST /api/hosts/ HTTP/1.1" 400 84
+WARNING 2021-08-11 11:00:42,860 log 2896 2648 Bad Request: /api/hosts/
+WARNING 2021-08-11 11:00:42,861 basehttp 2896 2648 "POST /api/hosts/ HTTP/1.1" 400 84
+INFO 2021-08-11 11:00:46,004 basehttp 2896 13056 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-08-11 11:00:46,060 basehttp 2896 1980 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+INFO 2021-08-11 11:00:48,823 basehttp 2896 12140 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+INFO 2021-08-11 11:02:34,307 autoreload 2896 11288 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:02:36,181 autoreload 6060 13076 Watching for file changes with StatReloader
+INFO 2021-08-11 11:02:41,117 basehttp 6060 5556 "GET /admin/project/host/ HTTP/1.1" 200 27750
+INFO 2021-08-11 11:02:41,163 basehttp 6060 5556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:02:47,173 basehttp 6060 5556 "POST /admin/project/host/ HTTP/1.1" 200 12320
+INFO 2021-08-11 11:02:48,211 basehttp 6060 5556 "POST /admin/project/host/ HTTP/1.1" 302 0
+INFO 2021-08-11 11:02:48,302 basehttp 6060 5556 "GET /admin/project/host/ HTTP/1.1" 200 27008
+INFO 2021-08-11 11:02:48,340 basehttp 6060 5556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:02:51,818 basehttp 6060 11120 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 11:03:11,190 basehttp 6060 13084 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-08-11 11:03:11,243 basehttp 6060 12976 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+INFO 2021-08-11 11:03:17,870 basehttp 6060 5556 "GET /admin/project/host/ HTTP/1.1" 200 27312
+INFO 2021-08-11 11:03:17,910 basehttp 6060 5556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:03:20,459 basehttp 6060 5556 "GET /admin/project/host/38/change/ HTTP/1.1" 200 21012
+INFO 2021-08-11 11:03:20,496 basehttp 6060 5556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:03:21,618 basehttp 6060 5556 "GET /admin/project/host/38/permissions/ HTTP/1.1" 200 16566
+INFO 2021-08-11 11:03:21,654 basehttp 6060 5556 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:03:21,662 basehttp 6060 5556 "GET /djstatic/guardian/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2021-08-11 11:03:21,665 basehttp 6060 6504 "GET /djstatic/guardian/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-11 11:06:30,574 autoreload 6060 13076 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:06:32,175 autoreload 2088 10188 Watching for file changes with StatReloader
+INFO 2021-08-11 11:07:13,100 autoreload 2088 10188 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:07:14,659 autoreload 10328 12980 Watching for file changes with StatReloader
+INFO 2021-08-11 11:07:38,511 autoreload 10328 12980 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:07:40,113 autoreload 8084 13184 Watching for file changes with StatReloader
+INFO 2021-08-11 11:08:01,652 basehttp 8084 12452 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+ERROR 2021-08-11 11:08:17,551 log 8084 4968 Internal Server Error: /api/hosts/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 23, in save
+    permissions_map = self.get_permissions_map(created)
+  File "E:\jfyunwei\jsb\project\serializers\host.py", line 21, in get_permissions_map
+    'delete_host': current_group.append(current_user)
+AttributeError: 'QuerySet' object has no attribute 'append'
+ERROR 2021-08-11 11:08:17,552 basehttp 8084 4968 "POST /api/hosts/ HTTP/1.1" 500 118317
+INFO 2021-08-11 11:12:41,020 autoreload 8084 13184 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:12:42,937 autoreload 3060 12972 Watching for file changes with StatReloader
+INFO 2021-08-11 11:30:13,005 autoreload 3060 12972 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:30:14,763 autoreload 13076 12300 Watching for file changes with StatReloader
+WARNING 2021-08-11 11:30:17,767 log 13076 9472 Bad Request: /api/hosts/
+WARNING 2021-08-11 11:30:17,768 basehttp 13076 9472 "POST /api/hosts/ HTTP/1.1" 400 84
+ERROR 2021-08-11 11:30:28,661 log 13076 12468 Internal Server Error: /api/hosts/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 24, in save
+    self.assign_permissions(permissions_map)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 49, in assign_permissions
+    users = [u for u in assignees if isinstance(u, User)]
+TypeError: 'NoneType' object is not iterable
+ERROR 2021-08-11 11:30:28,662 basehttp 13076 12468 "POST /api/hosts/ HTTP/1.1" 500 119982
+INFO 2021-08-11 11:31:50,908 basehttp 13076 11496 "GET /api/hosts/ HTTP/1.1" 200 10323
+INFO 2021-08-11 11:32:05,135 basehttp 13076 9780 "GET /api/hosts/ HTTP/1.1" 200 337
+INFO 2021-08-11 11:33:17,386 autoreload 13076 12300 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:33:19,049 autoreload 12196 6532 Watching for file changes with StatReloader
+WARNING 2021-08-11 11:33:19,800 log 12196 12712 Bad Request: /api/hosts/
+WARNING 2021-08-11 11:33:19,801 basehttp 12196 12712 "POST /api/hosts/ HTTP/1.1" 400 84
+ERROR 2021-08-11 11:33:28,006 log 12196 13116 Internal Server Error: /api/hosts/
+Traceback (most recent call last):
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\PyEnv\jsb\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 24, in save
+    self.assign_permissions(permissions_map)
+  File "E:\PyEnv\jsb\lib\site-packages\rest_framework_guardian\serializers.py", line 49, in assign_permissions
+    users = [u for u in assignees if isinstance(u, User)]
+TypeError: 'NoneType' object is not iterable
+ERROR 2021-08-11 11:33:28,007 basehttp 12196 13116 "POST /api/hosts/ HTTP/1.1" 500 119289
+INFO 2021-08-11 11:34:27,746 autoreload 12196 6532 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:34:29,455 autoreload 12660 10964 Watching for file changes with StatReloader
+INFO 2021-08-11 11:34:34,148 basehttp 12660 8856 "POST /api/hosts/ HTTP/1.1" 201 337
+INFO 2021-08-11 11:34:58,239 basehttp 12660 13236 "GET /admin/project/host/ HTTP/1.1" 200 29067
+INFO 2021-08-11 11:34:58,279 basehttp 12660 13236 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:35:01,873 basehttp 12660 13236 "GET /admin/project/host/42/change/ HTTP/1.1" 200 21014
+INFO 2021-08-11 11:35:01,913 basehttp 12660 13236 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:35:03,391 basehttp 12660 13236 "GET /admin/project/host/42/permissions/ HTTP/1.1" 200 16567
+INFO 2021-08-11 11:35:03,422 basehttp 12660 13236 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:35:03,429 basehttp 12660 13236 "GET /djstatic/guardian/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2021-08-11 11:35:03,433 basehttp 12660 12468 "GET /djstatic/guardian/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-11 11:35:51,150 basehttp 12660 12800 "PUT /api/userInfo/112/ HTTP/1.1" 200 243
+INFO 2021-08-11 11:35:51,268 basehttp 12660 3444 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 5054
+INFO 2021-08-11 11:36:00,793 basehttp 12660 1236 "POST /api/hosts/ HTTP/1.1" 201 338
+INFO 2021-08-11 11:36:07,447 basehttp 12660 12468 "GET /admin/project/host/ HTTP/1.1" 200 29508
+INFO 2021-08-11 11:36:07,484 basehttp 12660 12468 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:36:08,728 basehttp 12660 12468 "GET /admin/project/host/43/change/ HTTP/1.1" 200 21015
+INFO 2021-08-11 11:36:08,767 basehttp 12660 12468 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:36:09,775 basehttp 12660 12468 "GET /admin/project/host/43/permissions/ HTTP/1.1" 200 21177
+INFO 2021-08-11 11:36:09,809 basehttp 12660 12468 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:37:40,273 autoreload 12660 10964 E:\jfyunwei\jsb\project\serializers\host.py changed, reloading.
+INFO 2021-08-11 11:37:42,039 autoreload 2260 4792 Watching for file changes with StatReloader
+INFO 2021-08-11 11:37:57,172 basehttp 2260 3092 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 1103
+INFO 2021-08-11 11:38:00,999 basehttp 2260 13188 "DELETE /api/hosts/38/ HTTP/1.1" 204 0
+INFO 2021-08-11 11:38:01,041 basehttp 2260 13012 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 754
+INFO 2021-08-11 11:38:03,603 basehttp 2260 3612 "DELETE /api/hosts/43/ HTTP/1.1" 204 0
+INFO 2021-08-11 11:38:03,640 basehttp 2260 3060 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 402
+INFO 2021-08-11 11:38:12,319 basehttp 2260 11728 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 11:38:12,337 basehttp 2260 10024 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 4795
+INFO 2021-08-11 11:38:18,368 basehttp 2260 12204 "DELETE /api/hosts/39/ HTTP/1.1" 204 0
+INFO 2021-08-11 11:38:18,410 basehttp 2260 1420 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 4901
+INFO 2021-08-11 11:38:21,465 basehttp 2260 248 "DELETE /api/hosts/40/ HTTP/1.1" 204 0
+INFO 2021-08-11 11:38:21,504 basehttp 2260 8432 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5045
+INFO 2021-08-11 11:38:24,622 basehttp 2260 4836 "DELETE /api/hosts/42/ HTTP/1.1" 204 0
+INFO 2021-08-11 11:38:24,661 basehttp 2260 13228 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5114
+INFO 2021-08-11 11:38:27,690 basehttp 2260 12480 "DELETE /api/hosts/41/ HTTP/1.1" 204 0
+INFO 2021-08-11 11:38:27,728 basehttp 2260 4132 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5176
+INFO 2021-08-11 11:38:32,776 basehttp 2260 11832 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 11:39:46,706 basehttp 2260 12812 "PUT /api/userInfo/112/ HTTP/1.1" 200 237
+INFO 2021-08-11 11:39:46,796 basehttp 2260 12576 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 4912
+INFO 2021-08-11 11:40:01,206 basehttp 2260 12708 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4831
+INFO 2021-08-11 11:40:04,515 basehttp 2260 336 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 4912
+WARNING 2021-08-11 11:40:15,193 log 2260 2252 Not Found: /admin/project/host/43/permissions/
+WARNING 2021-08-11 11:40:15,193 basehttp 2260 2252 "GET /admin/project/host/43/permissions/ HTTP/1.1" 404 1793
+INFO 2021-08-11 11:40:34,399 basehttp 2260 2252 "GET /admin/project/host/ HTTP/1.1" 200 26874
+INFO 2021-08-11 11:40:34,443 basehttp 2260 2252 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:41:09,079 basehttp 2260 2252 "GET /admin/auth/group/ HTTP/1.1" 200 14814
+INFO 2021-08-11 11:41:09,113 basehttp 2260 2252 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:41:10,721 basehttp 2260 2252 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27599
+INFO 2021-08-11 11:41:10,755 basehttp 2260 2252 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:42:06,677 basehttp 2260 7540 "POST /api/userInfo/ HTTP/1.1" 201 153
+INFO 2021-08-11 11:42:06,802 basehttp 2260 6532 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 4912
+INFO 2021-08-11 11:42:10,329 basehttp 2260 13076 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4831
+INFO 2021-08-11 11:42:12,168 basehttp 2260 5372 "GET /api/getUserInfo/?page=2&limit=10 HTTP/1.1" 200 4912
+INFO 2021-08-11 11:42:13,285 basehttp 2260 3288 "GET /api/getUserInfo/?page=3&limit=10 HTTP/1.1" 200 818
+WARNING 2021-08-11 11:42:38,911 log 2260 12932 Bad Request: /api/o/token/
+WARNING 2021-08-11 11:42:38,912 basehttp 2260 12932 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-11 11:42:49,922 log 2260 4516 Bad Request: /api/o/token/
+WARNING 2021-08-11 11:42:49,922 basehttp 2260 4516 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-11 11:43:03,986 log 2260 12632 Bad Request: /api/o/token/
+WARNING 2021-08-11 11:43:03,986 basehttp 2260 12632 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-11 11:43:19,585 basehttp 2260 12708 "PUT /api/userInfo/114/ HTTP/1.1" 200 153
+INFO 2021-08-11 11:43:19,648 basehttp 2260 13008 "GET /api/getUserInfo/?page=3&limit=10 HTTP/1.1" 200 818
+WARNING 2021-08-11 11:43:22,396 log 2260 13232 Bad Request: /api/o/token/
+WARNING 2021-08-11 11:43:22,397 basehttp 2260 13232 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-11 11:44:36,612 log 2260 5700 Bad Request: /api/o/token/
+WARNING 2021-08-11 11:44:36,613 basehttp 2260 5700 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-11 11:44:54,167 basehttp 2260 9780 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 11:44:54,213 basehttp 2260 13012 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:44:54,233 basehttp 2260 11740 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-11 11:44:54,532 basehttp 2260 8856 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 11:44:54,579 basehttp 2260 5080 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 5176
+INFO 2021-08-11 11:44:57,162 basehttp 2260 10512 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:44:57,213 basehttp 2260 13168 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:44:59,750 basehttp 2260 12312 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:44:59,801 basehttp 2260 2364 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:45:17,644 basehttp 2260 2536 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 11:45:17,751 basehttp 2260 13000 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:45:17,754 basehttp 2260 3444 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:45:17,802 basehttp 2260 12444 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 11:45:17,876 log 2260 2772 Forbidden: /api/getL2Menu/
+WARNING 2021-08-11 11:45:17,876 basehttp 2260 2772 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 11:45:35,626 basehttp 2260 3632 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:45:35,673 basehttp 2260 13128 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-11 11:45:35,733 log 2260 7532 Forbidden: /api/getL2Menu/
+INFO 2021-08-11 11:45:35,734 basehttp 2260 2816 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 11:45:35,736 basehttp 2260 7532 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 11:45:54,112 basehttp 2260 12868 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:45:54,150 basehttp 2260 5076 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-11 11:45:54,520 basehttp 2260 7464 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9698
+INFO 2021-08-11 11:45:56,052 basehttp 2260 12564 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 13
+INFO 2021-08-11 11:45:56,059 basehttp 2260 13172 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:47:03,596 basehttp 2260 13112 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 11:47:03,661 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27829
+INFO 2021-08-11 11:47:03,700 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:47:09,374 basehttp 2260 2592 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:47:09,446 basehttp 2260 13248 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:47:09,515 basehttp 2260 10084 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 505
+INFO 2021-08-11 11:47:09,519 basehttp 2260 200 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:47:16,057 basehttp 2260 11880 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:47:16,103 basehttp 2260 1420 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:47:17,731 basehttp 2260 5308 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:47:17,782 basehttp 2260 3468 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:47:25,837 basehttp 2260 2776 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 13
+INFO 2021-08-11 11:47:25,843 basehttp 2260 5044 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:47:28,282 basehttp 2260 13012 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:47:28,859 basehttp 2260 11740 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:47:29,798 basehttp 2260 8856 "PUT /api/groups/6/ HTTP/1.1" 200 59
+INFO 2021-08-11 11:47:29,910 basehttp 2260 5080 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9698
+INFO 2021-08-11 11:47:55,824 basehttp 2260 12980 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 11:47:55,920 basehttp 2260 8840 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:47:55,938 basehttp 2260 11624 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:47:55,978 basehttp 2260 12032 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 11:47:56,083 log 2260 12300 Forbidden: /api/getL2Menu/
+WARNING 2021-08-11 11:47:56,084 basehttp 2260 12300 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 11:48:09,033 basehttp 2260 11084 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:48:09,101 basehttp 2260 7220 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-11 11:48:09,156 log 2260 13144 Forbidden: /api/getL2Menu/
+INFO 2021-08-11 11:48:09,156 basehttp 2260 13088 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 11:48:09,157 basehttp 2260 13144 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 11:48:27,882 basehttp 2260 13112 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 11:48:27,945 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27829
+INFO 2021-08-11 11:48:27,978 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:48:39,384 basehttp 2260 9180 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:48:39,456 basehttp 2260 6808 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:48:39,520 basehttp 2260 12244 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 11:48:39,520 basehttp 2260 6396 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:48:41,785 basehttp 2260 2512 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:48:41,854 basehttp 2260 6992 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:48:41,913 basehttp 2260 3416 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:48:41,928 basehttp 2260 12396 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 11:48:46,124 basehttp 2260 8296 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:48:46,176 basehttp 2260 11904 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:48:48,422 basehttp 2260 11788 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:48:48,468 basehttp 2260 5284 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 11:48:59,341 log 2260 5392 Bad Request: /api/o/token/
+WARNING 2021-08-11 11:48:59,341 basehttp 2260 5392 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-11 11:49:10,079 basehttp 2260 2588 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 11:49:10,171 basehttp 2260 12556 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:49:10,175 basehttp 2260 2620 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:49:10,223 basehttp 2260 12956 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 11:49:10,236 basehttp 2260 12476 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:49:21,138 basehttp 2260 11124 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 8
+INFO 2021-08-11 11:49:21,150 basehttp 2260 4116 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:49:32,819 basehttp 2260 11504 "GET /api/getGroupL2menu/?groupname=%E5%BC%80%E5%8F%91%E7%BB%84-%E5%90%8E%E7%AB%AF HTTP/1.1" 200 3
+INFO 2021-08-11 11:49:32,819 basehttp 2260 32 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:49:32,884 basehttp 2260 6956 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:49:32,887 basehttp 2260 868 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:49:42,186 basehttp 2260 13248 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:49:42,251 basehttp 2260 10084 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:49:42,305 basehttp 2260 400 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 11:49:42,316 basehttp 2260 200 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:49:45,141 basehttp 2260 8496 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:49:45,226 basehttp 2260 5288 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:49:45,282 basehttp 2260 11880 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 11:49:45,282 basehttp 2260 6972 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:49:50,896 basehttp 2260 13232 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:49:50,983 basehttp 2260 8124 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:49:51,038 basehttp 2260 2500 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+INFO 2021-08-11 11:49:51,046 basehttp 2260 8452 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 11:49:53,107 log 2260 2624 Forbidden: /api/getConfig/
+WARNING 2021-08-11 11:49:53,108 basehttp 2260 2624 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-11 11:49:53,116 log 2260 7640 Forbidden: /api/getEnv/
+INFO 2021-08-11 11:49:53,119 basehttp 2260 3548 "GET /api/project-for-config/ HTTP/1.1" 200 942
+WARNING 2021-08-11 11:49:53,121 basehttp 2260 7640 "GET /api/getEnv/ HTTP/1.1" 403 49
+INFO 2021-08-11 11:49:57,726 basehttp 2260 12524 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:49:57,794 basehttp 2260 7592 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 368
+WARNING 2021-08-11 11:49:58,057 log 2260 12696 Forbidden: /api/getConfig/
+WARNING 2021-08-11 11:49:58,062 basehttp 2260 12696 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 403 49
+WARNING 2021-08-11 11:49:58,065 log 2260 12676 Forbidden: /api/getEnv/
+INFO 2021-08-11 11:49:58,072 basehttp 2260 360 "GET /api/project-for-config/ HTTP/1.1" 200 942
+WARNING 2021-08-11 11:49:58,073 basehttp 2260 12676 "GET /api/getEnv/ HTTP/1.1" 403 49
+INFO 2021-08-11 11:50:06,034 basehttp 2260 13112 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 17787
+INFO 2021-08-11 11:50:06,071 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:50:12,474 basehttp 2260 13112 "GET /admin/auth_permission/l2menu/12/change/ HTTP/1.1" 200 17788
+INFO 2021-08-11 11:50:12,507 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:50:12,515 basehttp 2260 13112 "GET /djstatic/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2021-08-11 11:50:14,459 basehttp 2260 13112 "GET /admin/auth_permission/l2menu/12/permissions/ HTTP/1.1" 200 15505
+INFO 2021-08-11 11:50:14,493 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:50:14,500 basehttp 2260 13112 "GET /djstatic/guardian/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2021-08-11 11:50:14,513 basehttp 2260 13112 "GET /djstatic/guardian/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-11 11:50:17,133 basehttp 2260 13112 "GET /admin/auth_permission/l2menu/12/permissions/user-manage/112/ HTTP/1.1" 200 12822
+INFO 2021-08-11 11:50:17,169 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:50:20,419 basehttp 2260 13112 "POST /admin/auth_permission/l2menu/12/permissions/user-manage/112/ HTTP/1.1" 302 0
+INFO 2021-08-11 11:50:20,456 basehttp 2260 13112 "GET /admin/auth_permission/l2menu/12/permissions/user-manage/112/ HTTP/1.1" 200 12934
+INFO 2021-08-11 11:50:20,499 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:50:23,181 basehttp 2260 13112 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 17787
+INFO 2021-08-11 11:50:23,210 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:50:42,588 basehttp 2260 2816 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:50:42,660 basehttp 2260 11792 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 240
+INFO 2021-08-11 11:50:47,166 basehttp 2260 3632 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:50:47,217 basehttp 2260 4192 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:50:47,273 basehttp 2260 12964 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:50:47,326 basehttp 2260 11296 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 240
+INFO 2021-08-11 11:50:49,898 basehttp 2260 12128 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:50:49,955 basehttp 2260 3036 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 11:50:50,016 basehttp 2260 7196 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:50:50,045 basehttp 2260 12500 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 240
+INFO 2021-08-11 11:50:57,234 basehttp 2260 11728 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 8
+INFO 2021-08-11 11:50:57,236 basehttp 2260 12396 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:50:57,313 basehttp 2260 12380 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:50:57,321 basehttp 2260 4544 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:50:58,607 basehttp 2260 9840 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:50:58,609 basehttp 2260 12732 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:50:59,609 basehttp 2260 10328 "PUT /api/groups/6/ HTTP/1.1" 200 59
+INFO 2021-08-11 11:50:59,726 basehttp 2260 12984 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9698
+INFO 2021-08-11 11:51:02,994 basehttp 2260 12692 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:51:03,072 basehttp 2260 12924 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-11 11:51:03,095 log 2260 10556 Forbidden: /api/getL2Menu/
+WARNING 2021-08-11 11:51:03,098 basehttp 2260 10556 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 11:51:03,127 basehttp 2260 5392 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:51:05,372 basehttp 2260 9036 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:51:05,423 basehttp 2260 12472 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-11 11:51:05,466 log 2260 5068 Forbidden: /api/getL2Menu/
+WARNING 2021-08-11 11:51:05,467 basehttp 2260 5068 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 11:51:05,478 basehttp 2260 12400 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:51:37,459 basehttp 2260 13112 "GET /admin/auth/group/ HTTP/1.1" 200 14814
+INFO 2021-08-11 11:51:37,500 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:51:38,580 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27599
+INFO 2021-08-11 11:51:38,624 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:52:07,838 basehttp 2260 11880 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 3
+INFO 2021-08-11 11:52:07,842 basehttp 2260 5288 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:52:10,572 basehttp 2260 6972 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:52:10,588 basehttp 2260 12708 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:52:12,834 basehttp 2260 2624 "PUT /api/groups/6/ HTTP/1.1" 200 59
+INFO 2021-08-11 11:52:12,948 basehttp 2260 3548 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9698
+INFO 2021-08-11 11:52:17,113 basehttp 2260 6096 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:52:17,171 basehttp 2260 10172 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-11 11:52:17,215 log 2260 5220 Forbidden: /api/getL2Menu/
+WARNING 2021-08-11 11:52:17,217 basehttp 2260 5220 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 11:52:17,226 basehttp 2260 13056 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:52:19,795 basehttp 2260 5972 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:52:19,852 basehttp 2260 2592 "GET /api/address/ HTTP/1.1" 200 2066
+WARNING 2021-08-11 11:52:19,901 log 2260 5372 Forbidden: /api/getL2Menu/
+WARNING 2021-08-11 11:52:19,903 basehttp 2260 5372 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 403 49
+INFO 2021-08-11 11:52:19,908 basehttp 2260 8228 "GET /api/popular-url/ HTTP/1.1" 200 2392
+INFO 2021-08-11 11:55:44,907 basehttp 2260 5800 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 8
+INFO 2021-08-11 11:55:44,914 basehttp 2260 12416 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:56:01,526 basehttp 2260 12364 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:56:01,528 basehttp 2260 11620 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:56:16,855 basehttp 2260 7876 "PUT /api/groups/6/ HTTP/1.1" 200 59
+INFO 2021-08-11 11:56:16,978 basehttp 2260 10940 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9698
+INFO 2021-08-11 11:56:33,814 basehttp 2260 13112 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 11:56:33,878 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27829
+INFO 2021-08-11 11:56:33,916 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:56:49,466 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 11:56:49,498 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 11:56:52,944 basehttp 2260 12760 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 3
+INFO 2021-08-11 11:56:52,947 basehttp 2260 11444 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:56:57,035 basehttp 2260 2628 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:57:02,446 basehttp 2260 7232 "PUT /api/groups/6/ HTTP/1.1" 200 59
+INFO 2021-08-11 11:57:02,582 basehttp 2260 32 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9698
+INFO 2021-08-11 11:57:12,133 basehttp 2260 6120 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-11 11:57:12,138 basehttp 2260 1080 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:58:03,126 basehttp 2260 11144 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-11 11:58:03,126 basehttp 2260 10272 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 11:58:07,556 basehttp 2260 13080 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 11:58:11,917 basehttp 2260 9780 "PUT /api/groups/6/ HTTP/1.1" 200 59
+INFO 2021-08-11 11:58:12,034 basehttp 2260 9852 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9698
+INFO 2021-08-11 11:58:40,796 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27599
+INFO 2021-08-11 11:58:40,827 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:00:10,429 basehttp 2260 13112 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 12:00:10,525 basehttp 2260 13112 "GET /admin/auth/group/ HTTP/1.1" 200 14999
+INFO 2021-08-11 12:00:10,561 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:00:12,243 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 12:00:12,277 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:00:39,876 basehttp 2260 1080 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 9
+INFO 2021-08-11 12:00:39,876 basehttp 2260 6120 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 12:00:50,307 basehttp 2260 6112 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 12:01:51,645 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 12:01:51,678 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:01:55,359 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 12:01:55,398 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:02:02,081 basehttp 2260 12888 "PUT /api/groups/6/ HTTP/1.1" 200 59
+INFO 2021-08-11 12:02:02,200 basehttp 2260 13060 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9698
+INFO 2021-08-11 12:02:04,653 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27599
+INFO 2021-08-11 12:02:04,685 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+WARNING 2021-08-11 12:04:37,094 log 2260 8160 Forbidden: /api/groups/6/
+WARNING 2021-08-11 12:04:37,094 basehttp 2260 8160 "GET /api/groups/6/ HTTP/1.1" 403 49
+INFO 2021-08-11 12:04:50,224 basehttp 2260 13012 "GET /api/groups/6/ HTTP/1.1" 200 59
+INFO 2021-08-11 12:05:03,275 basehttp 2260 13112 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 12:05:03,336 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27829
+INFO 2021-08-11 12:05:03,378 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:05:05,533 basehttp 2260 12176 "GET /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 12:05:49,198 basehttp 2260 5696 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 12:05:49,268 basehttp 2260 7876 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-11 12:05:49,766 basehttp 2260 6096 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9702
+INFO 2021-08-11 12:05:50,886 basehttp 2260 2588 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-11 12:05:50,894 basehttp 2260 5376 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 12:05:53,106 basehttp 2260 11860 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 12:05:56,316 basehttp 2260 8112 "PUT /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 12:05:56,437 basehttp 2260 4516 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9702
+INFO 2021-08-11 12:06:04,195 basehttp 2260 6532 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 9
+INFO 2021-08-11 12:06:04,206 basehttp 2260 13180 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 12:06:05,754 basehttp 2260 13236 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 12:06:06,582 basehttp 2260 12556 "PUT /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 12:06:06,696 basehttp 2260 12612 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9702
+INFO 2021-08-11 12:06:12,932 basehttp 2260 11012 "GET /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 12:06:15,750 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 12:06:15,786 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:10:52,045 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 12:10:52,078 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:10:55,299 basehttp 2260 11404 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 12:10:55,318 basehttp 2260 10320 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-11 12:10:55,401 basehttp 2260 11088 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 12:10:56,934 basehttp 2260 4528 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 12:10:57,968 basehttp 2260 12368 "PUT /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 12:10:58,089 basehttp 2260 1988 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9702
+INFO 2021-08-11 12:11:00,653 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 12:11:00,685 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 12:11:01,442 basehttp 2260 13112 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 12:11:01,475 basehttp 2260 13112 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:35:02,362 basehttp 2260 8960 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:35:02,434 basehttp 2260 13720 "GET /api/address/ HTTP/1.1" 200 2066
+INFO 2021-08-11 13:35:02,494 basehttp 2260 1088 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 122
+INFO 2021-08-11 13:35:02,506 basehttp 2260 14044 "GET /api/popular-url/ HTTP/1.1" 200 2392
+WARNING 2021-08-11 13:35:06,103 log 2260 13620 Forbidden: /api/mysql/
+WARNING 2021-08-11 13:35:06,104 basehttp 2260 13620 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 13:35:22,676 basehttp 2260 11488 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:35:22,748 basehttp 2260 13996 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-11 13:35:23,222 basehttp 2260 12312 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9702
+INFO 2021-08-11 13:35:25,810 basehttp 2260 5696 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 6
+INFO 2021-08-11 13:35:25,820 basehttp 2260 13468 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:35:27,162 basehttp 2260 14144 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 13:35:28,146 basehttp 2260 7664 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 13:35:28,148 basehttp 2260 7608 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 13:35:29,167 basehttp 2260 13748 "PUT /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 13:35:29,296 basehttp 2260 7196 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9702
+INFO 2021-08-11 13:35:35,389 basehttp 2260 14160 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:35:35,429 basehttp 2260 10692 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 122
+WARNING 2021-08-11 13:35:35,692 log 2260 13536 Forbidden: /api/mysql/
+WARNING 2021-08-11 13:35:35,693 basehttp 2260 13536 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 13:35:42,423 basehttp 2260 13484 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:35:42,463 basehttp 2260 13844 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 122
+WARNING 2021-08-11 13:35:42,725 log 2260 1884 Forbidden: /api/mysql/
+WARNING 2021-08-11 13:35:42,726 basehttp 2260 1884 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 13:35:49,410 basehttp 2260 3252 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 3
+INFO 2021-08-11 13:35:49,415 basehttp 2260 13532 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:35:53,067 basehttp 2260 9872 "PUT /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 13:35:53,194 basehttp 2260 12028 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9702
+INFO 2021-08-11 13:35:58,253 basehttp 2260 3416 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:35:58,296 basehttp 2260 13508 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 122
+WARNING 2021-08-11 13:35:58,574 log 2260 13696 Forbidden: /api/mysql/
+WARNING 2021-08-11 13:35:58,575 basehttp 2260 13696 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 13:36:00,066 basehttp 2260 9036 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:36:00,118 basehttp 2260 11792 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 122
+WARNING 2021-08-11 13:36:00,363 log 2260 10636 Forbidden: /api/mysql/
+WARNING 2021-08-11 13:36:00,363 basehttp 2260 10636 "GET /api/mysql/?inside_addr=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 13:36:08,579 basehttp 2260 13560 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 13:36:08,668 basehttp 2260 12176 "GET /api/project/28/ HTTP/1.1" 200 562
+INFO 2021-08-11 13:36:09,908 basehttp 2260 12984 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:36:10,072 basehttp 2260 13856 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 13:36:10,090 basehttp 2260 13420 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 122
+INFO 2021-08-11 13:36:10,168 basehttp 2260 7684 "GET /api/project/28/ HTTP/1.1" 200 562
+INFO 2021-08-11 13:36:25,597 basehttp 2260 12932 "GET /admin/auth_permission/l2menu/ HTTP/1.1" 200 17787
+INFO 2021-08-11 13:36:25,636 basehttp 2260 12932 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:36:27,776 basehttp 2260 12932 "GET /admin/auth_permission/l2menu/10/change/ HTTP/1.1" 200 17765
+INFO 2021-08-11 13:36:27,814 basehttp 2260 12932 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:36:29,346 basehttp 2260 12932 "GET /admin/auth_permission/l2menu/10/permissions/ HTTP/1.1" 200 15498
+INFO 2021-08-11 13:36:29,381 basehttp 2260 12932 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:36:29,390 basehttp 2260 12932 "GET /djstatic/guardian/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2021-08-11 13:36:29,393 basehttp 2260 12932 "GET /djstatic/guardian/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-11 13:36:31,204 basehttp 2260 12932 "GET /admin/auth_permission/l2menu/10/permissions/user-manage/112/ HTTP/1.1" 200 12808
+INFO 2021-08-11 13:36:31,237 basehttp 2260 12932 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:36:35,259 basehttp 2260 12932 "POST /admin/auth_permission/l2menu/10/permissions/user-manage/112/ HTTP/1.1" 302 0
+INFO 2021-08-11 13:36:35,295 basehttp 2260 12932 "GET /admin/auth_permission/l2menu/10/permissions/user-manage/112/ HTTP/1.1" 200 12920
+INFO 2021-08-11 13:36:35,330 basehttp 2260 12932 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:36:40,744 basehttp 2260 2272 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:36:40,857 basehttp 2260 13604 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 13:36:40,887 basehttp 2260 13280 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 2
+INFO 2021-08-11 13:36:40,954 basehttp 2260 12444 "GET /api/project/28/ HTTP/1.1" 200 562
+INFO 2021-08-11 13:36:46,023 basehttp 2260 8432 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:36:46,027 basehttp 2260 11408 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 3
+INFO 2021-08-11 13:36:51,627 basehttp 2260 12740 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 13:36:51,630 basehttp 2260 6912 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 13:36:53,963 basehttp 2260 14096 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 13:36:54,853 basehttp 2260 13224 "PUT /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 13:36:54,981 basehttp 2260 4512 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9702
+INFO 2021-08-11 13:36:59,010 basehttp 2260 10044 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:36:59,157 basehttp 2260 6768 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 13:36:59,185 basehttp 2260 1040 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 119
+INFO 2021-08-11 13:36:59,245 basehttp 2260 812 "GET /api/project/28/ HTTP/1.1" 200 562
+WARNING 2021-08-11 13:37:01,439 log 2260 12452 Forbidden: /api/getEnv/
+WARNING 2021-08-11 13:37:01,445 basehttp 2260 12452 "GET /api/getEnv/ HTTP/1.1" 403 49
+INFO 2021-08-11 13:37:01,451 basehttp 2260 13752 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 13:38:53,050 autoreload 2260 4792 E:\jfyunwei\jsb\project\views\env.py changed, reloading.
+INFO 2021-08-11 13:38:54,866 autoreload 13956 7204 Watching for file changes with StatReloader
+INFO 2021-08-11 13:38:58,800 basehttp 13956 10872 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:38:58,838 basehttp 13956 3044 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 119
+INFO 2021-08-11 13:38:59,153 basehttp 13956 13172 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 13:38:59,158 basehttp 13956 10084 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+WARNING 2021-08-11 13:39:42,747 log 13956 13952 Bad Request: /api/o/token/
+WARNING 2021-08-11 13:39:42,748 basehttp 13956 13952 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-11 13:40:16,565 basehttp 13956 8072 "GET /admin/auth_permission/userinfo/ HTTP/1.1" 200 32829
+INFO 2021-08-11 13:40:16,607 basehttp 13956 8072 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:40:18,109 basehttp 13956 8072 "GET /admin/auth_permission/userinfo/114/change/ HTTP/1.1" 200 36274
+INFO 2021-08-11 13:40:18,149 basehttp 13956 8072 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:40:25,053 basehttp 13956 8072 "GET /admin/auth_permission/userinfo/114/password/ HTTP/1.1" 200 12283
+INFO 2021-08-11 13:40:25,087 basehttp 13956 8072 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:40:27,918 basehttp 13956 8072 "POST /admin/auth_permission/userinfo/114/password/ HTTP/1.1" 302 0
+INFO 2021-08-11 13:40:28,025 basehttp 13956 8072 "GET /admin/auth_permission/userinfo/114/change/ HTTP/1.1" 200 36517
+INFO 2021-08-11 13:40:28,065 basehttp 13956 8072 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:40:34,068 basehttp 13956 14268 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 13:40:34,124 basehttp 13956 13520 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:40:34,154 basehttp 13956 14200 "GET /api/getL2Menu/?username=devops01 HTTP/1.1" 200 119
+INFO 2021-08-11 13:40:34,457 basehttp 13956 7832 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 13:40:34,464 basehttp 13956 13632 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 13:41:01,806 basehttp 13956 6548 "POST /api/hosts/ HTTP/1.1" 201 335
+INFO 2021-08-11 13:41:01,851 basehttp 13956 12708 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+INFO 2021-08-11 13:41:32,500 basehttp 13956 12848 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 13:41:32,575 basehttp 13956 3512 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:41:32,595 basehttp 13956 12792 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 119
+INFO 2021-08-11 13:41:32,857 basehttp 13956 11124 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 13:41:32,864 basehttp 13956 10444 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+INFO 2021-08-11 13:42:00,661 basehttp 13956 8016 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 4835
+INFO 2021-08-11 13:42:00,729 basehttp 13956 14316 "GET /api/getGroups/?page=1 HTTP/1.1" 200 9721
+INFO 2021-08-11 13:42:03,040 basehttp 13956 14288 "GET /api/getUserInfo/?page=3&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-11 13:42:20,575 basehttp 13956 14160 "PUT /api/userInfo/114/ HTTP/1.1" 200 153
+INFO 2021-08-11 13:42:20,629 basehttp 13956 13708 "GET /api/getUserInfo/?page=3&limit=10 HTTP/1.1" 200 822
+WARNING 2021-08-11 13:42:33,249 log 13956 3880 Bad Request: /api/o/token/
+WARNING 2021-08-11 13:42:33,249 basehttp 13956 3880 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-11 13:42:54,794 basehttp 13956 11792 "PUT /api/userInfo/114/ HTTP/1.1" 200 153
+INFO 2021-08-11 13:42:54,850 basehttp 13956 13896 "GET /api/getUserInfo/?page=3&limit=10 HTTP/1.1" 200 822
+WARNING 2021-08-11 13:46:22,654 log 13956 1096 Unauthorized: /api/o/token/
+WARNING 2021-08-11 13:46:22,654 basehttp 13956 1096 "POST /api/o/token/ HTTP/1.1" 401 27
+WARNING 2021-08-11 13:46:50,909 log 13956 13976 Unauthorized: /api/o/token/
+WARNING 2021-08-11 13:46:50,910 basehttp 13956 13976 "POST /api/o/token/ HTTP/1.1" 401 27
+WARNING 2021-08-11 13:47:18,357 log 13956 11488 Unauthorized: /api/o/token/
+WARNING 2021-08-11 13:47:18,358 basehttp 13956 11488 "POST /api/o/token/ HTTP/1.1" 401 27
+INFO 2021-08-11 13:47:36,102 basehttp 13956 13356 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 13:47:36,164 basehttp 13956 14228 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 13:47:36,192 basehttp 13956 6532 "GET /api/getL2Menu/?username=%E8%83%A1%E6%B5%B7%E9%9D%92 HTTP/1.1" 200 119
+INFO 2021-08-11 13:47:36,549 basehttp 13956 8180 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 13:47:36,558 basehttp 13956 7964 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+WARNING 2021-08-11 13:48:33,249 log 13956 13856 Unauthorized: /api/o/token/
+WARNING 2021-08-11 13:48:33,249 basehttp 13956 13856 "POST /api/o/token/ HTTP/1.1" 401 27
+WARNING 2021-08-11 13:48:42,056 log 13956 13964 Unauthorized: /api/o/token/
+WARNING 2021-08-11 13:48:42,057 basehttp 13956 13964 "POST /api/o/token/ HTTP/1.1" 401 27
+INFO 2021-08-11 13:49:02,582 basehttp 13956 2252 "POST /api/o/token/ HTTP/1.1" 200 177
+WARNING 2021-08-11 13:49:13,316 log 13956 13404 Bad Request: /api/o/token/
+WARNING 2021-08-11 13:49:13,316 basehttp 13956 13404 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-11 13:49:21,969 log 13956 14148 Bad Request: /api/o/token/
+WARNING 2021-08-11 13:49:21,970 basehttp 13956 14148 "POST /api/o/token/ HTTP/1.1" 400 77
+WARNING 2021-08-11 13:49:28,006 log 13956 9780 Bad Request: /api/o/token/
+WARNING 2021-08-11 13:49:28,006 basehttp 13956 9780 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-11 13:49:36,096 basehttp 13956 3832 "GET /admin/auth_permission/userinfo/114/password/ HTTP/1.1" 200 12283
+INFO 2021-08-11 13:49:36,133 basehttp 13956 3832 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:49:39,404 basehttp 13956 3832 "POST /admin/auth_permission/userinfo/114/password/ HTTP/1.1" 302 0
+INFO 2021-08-11 13:49:39,509 basehttp 13956 3832 "GET /admin/auth_permission/userinfo/114/change/ HTTP/1.1" 200 36517
+INFO 2021-08-11 13:49:39,554 basehttp 13956 3832 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 13:49:45,165 basehttp 13956 13988 "POST /api/o/token/ HTTP/1.1" 200 177
+INFO 2021-08-11 13:52:51,480 autoreload 13956 7204 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 13:52:53,229 autoreload 13740 13332 Watching for file changes with StatReloader
+INFO 2021-08-11 13:54:21,928 autoreload 13740 13332 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 13:54:23,821 autoreload 10940 11084 Watching for file changes with StatReloader
+INFO 2021-08-11 13:56:06,358 autoreload 10940 11084 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 13:56:08,037 autoreload 13924 10560 Watching for file changes with StatReloader
+INFO 2021-08-11 13:57:49,353 autoreload 13924 10560 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 13:57:51,033 autoreload 13084 13024 Watching for file changes with StatReloader
+INFO 2021-08-11 13:58:51,228 autoreload 13084 13024 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 13:58:53,361 autoreload 13676 12328 Watching for file changes with StatReloader
+INFO 2021-08-11 14:08:18,190 autoreload 13676 12328 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 14:08:19,921 autoreload 12344 6336 Watching for file changes with StatReloader
+INFO 2021-08-11 14:08:54,521 autoreload 12344 6336 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 14:08:56,202 autoreload 7540 12700 Watching for file changes with StatReloader
+INFO 2021-08-11 14:10:49,900 autoreload 13788 12352 Watching for file changes with StatReloader
+WARNING 2021-08-11 14:11:18,710 log 13788 13236 Bad Request: /api/o/token/
+WARNING 2021-08-11 14:11:18,711 basehttp 13788 13236 "POST /api/o/token/ HTTP/1.1" 400 77
+INFO 2021-08-11 14:11:37,845 basehttp 13788 13924 "PUT /api/userInfo/114/ HTTP/1.1" 200 222
+INFO 2021-08-11 14:11:37,911 basehttp 13788 11088 "GET /api/getUserInfo/?page=3&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-11 14:38:09,720 basehttp 13788 6244 "PUT /api/userInfo/114/ HTTP/1.1" 200 222
+INFO 2021-08-11 14:38:09,788 basehttp 13788 10704 "GET /api/getUserInfo/?page=3&limit=10 HTTP/1.1" 200 891
+INFO 2021-08-11 14:38:13,901 basehttp 13788 6460 "POST /api/o/token/ HTTP/1.1" 200 165
+INFO 2021-08-11 14:38:13,958 basehttp 13788 2472 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 14:38:13,989 basehttp 13788 7576 "GET /api/getL2Menu/?username=devops01 HTTP/1.1" 200 119
+INFO 2021-08-11 14:38:14,314 basehttp 13788 13172 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 14:38:14,326 basehttp 13788 2432 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+INFO 2021-08-11 14:40:01,906 basehttp 13788 12440 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 14:40:01,922 basehttp 13788 14168 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 14:40:01,935 basehttp 13788 12020 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 1112
+INFO 2021-08-11 14:40:17,401 basehttp 13788 13372 "GET /admin/auth/group/ HTTP/1.1" 200 14814
+INFO 2021-08-11 14:40:17,437 basehttp 13788 13372 "GET /djstatic/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,441 basehttp 13788 13372 "GET /djstatic/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,441 basehttp 13788 14124 "GET /djstatic/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,448 basehttp 13788 6060 "GET /djstatic/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,454 basehttp 13788 13372 "GET /djstatic/admin/js/core.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,457 basehttp 13788 13136 "GET /djstatic/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,458 basehttp 13788 6060 "GET /djstatic/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,459 basehttp 13788 13372 "GET /djstatic/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,459 basehttp 13788 14124 "GET /djstatic/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,465 basehttp 13788 8304 "GET /djstatic/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,472 basehttp 13788 13136 "GET /djstatic/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,472 basehttp 13788 1080 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 14:40:17,475 basehttp 13788 6060 "GET /djstatic/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,477 basehttp 13788 8304 "GET /djstatic/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,484 basehttp 13788 8304 "GET /djstatic/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,484 basehttp 13788 6060 "GET /djstatic/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,519 basehttp 13788 6060 "GET /djstatic/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,521 basehttp 13788 8304 "GET /djstatic/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,521 basehttp 13788 1080 "GET /djstatic/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,525 basehttp 13788 8304 "GET /djstatic/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:17,526 basehttp 13788 6060 "GET /djstatic/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,843 basehttp 13788 6060 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27608
+INFO 2021-08-11 14:40:18,874 basehttp 13788 6060 "GET /djstatic/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,878 basehttp 13788 13136 "GET /djstatic/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,879 basehttp 13788 1080 "GET /djstatic/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,881 basehttp 13788 6060 "GET /djstatic/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,884 basehttp 13788 8304 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 14:40:18,892 basehttp 13788 8304 "GET /djstatic/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,894 basehttp 13788 6060 "GET /djstatic/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,987 basehttp 13788 6060 "GET /djstatic/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,990 basehttp 13788 8304 "GET /djstatic/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2021-08-11 14:40:18,991 basehttp 13788 6060 "GET /djstatic/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+INFO 2021-08-11 14:41:24,644 basehttp 13788 8452 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 14:41:24,667 basehttp 13788 10024 "GET /api/getGroupL2menu/?groupname=%E8%BF%90%E7%BB%B4%E7%BB%84 HTTP/1.1" 200 5
+INFO 2021-08-11 14:41:24,708 basehttp 13788 6548 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 14:41:24,751 basehttp 13788 14180 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 14:41:29,331 basehttp 13788 13900 "POST /api/setGroupObjectPerms/ HTTP/1.1" 201 0
+INFO 2021-08-11 14:41:30,218 basehttp 13788 12900 "PUT /api/groups/6/ HTTP/1.1" 200 63
+INFO 2021-08-11 14:41:30,342 basehttp 13788 13616 "GET /api/getGroups/?page=1&limit=10 HTTP/1.1" 200 9771
+INFO 2021-08-11 14:41:34,242 basehttp 13788 12552 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 14:41:34,295 basehttp 13788 12404 "GET /api/getL2Menu/?username=devops01 HTTP/1.1" 200 247
+INFO 2021-08-11 14:41:34,630 basehttp 13788 11640 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 14:41:34,633 basehttp 13788 10200 "GET /api/getHosts/?page=1&inside_ip=&env=&cloud_user=&limit=10 HTTP/1.1" 200 400
+WARNING 2021-08-11 14:41:36,221 log 13788 13288 Forbidden: /api/getConfig/
+INFO 2021-08-11 14:41:36,229 basehttp 13788 13048 "GET /api/getEnv/ HTTP/1.1" 200 395
+WARNING 2021-08-11 14:41:36,229 basehttp 13788 13288 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 403 49
+INFO 2021-08-11 14:41:36,229 basehttp 13788 11464 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 14:41:58,354 basehttp 13788 6060 "POST /admin/auth/group/6/change/ HTTP/1.1" 302 0
+INFO 2021-08-11 14:41:58,466 basehttp 13788 6060 "GET /admin/auth/group/6/change/ HTTP/1.1" 200 27865
+INFO 2021-08-11 14:41:58,501 basehttp 13788 6060 "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2021-08-11 14:41:58,539 basehttp 13788 6060 "GET /djstatic/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2021-08-11 14:42:02,494 basehttp 13788 13392 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 14:42:02,541 basehttp 13788 13572 "GET /api/getL2Menu/?username=devops01 HTTP/1.1" 200 247
+INFO 2021-08-11 14:42:02,836 basehttp 13788 12388 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 14:42:02,877 basehttp 13788 8496 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 14:42:02,879 basehttp 13788 8488 "GET /api/project-for-config/ HTTP/1.1" 200 942
+WARNING 2021-08-11 14:42:12,054 log 13788 13612 Bad Request: /api/config/
+WARNING 2021-08-11 14:42:12,054 basehttp 13788 13612 "POST /api/config/ HTTP/1.1" 400 75
+INFO 2021-08-11 14:42:17,261 basehttp 13788 12896 "POST /api/config/ HTTP/1.1" 201 93
+INFO 2021-08-11 14:42:17,295 basehttp 13788 5672 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 14:43:39,582 basehttp 13788 13704 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 14:43:39,632 basehttp 13788 10460 "GET /api/getL2Menu/?username=devops01 HTTP/1.1" 200 247
+INFO 2021-08-11 14:43:39,999 basehttp 13788 12532 "GET /api/getEnv/ HTTP/1.1" 200 395
+INFO 2021-08-11 14:43:39,999 basehttp 13788 4792 "GET /api/getConfig/?project=&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 14:43:40,007 basehttp 13788 12424 "GET /api/project-for-config/ HTTP/1.1" 200 942
+INFO 2021-08-11 14:43:45,961 basehttp 13788 10892 "GET /api/getConfig/?project=28&page=1&limit=10 HTTP/1.1" 200 52
+INFO 2021-08-11 14:58:43,558 autoreload 13788 12352 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 14:58:45,234 autoreload 5396 13340 Watching for file changes with StatReloader
+INFO 2021-08-11 15:04:16,772 autoreload 5396 13340 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:04:18,595 autoreload 9768 13880 Watching for file changes with StatReloader
+INFO 2021-08-11 15:04:25,632 basehttp 9768 3688 "GET /api/userObjectPermissionViewSet/ HTTP/1.1" 200 2330
+INFO 2021-08-11 15:04:49,326 autoreload 9768 13880 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:04:51,004 autoreload 12024 8084 Watching for file changes with StatReloader
+INFO 2021-08-11 15:04:53,559 basehttp 12024 13096 "GET /api/userObjectPermissionViewSet/ HTTP/1.1" 200 19135
+WARNING 2021-08-11 15:07:17,322 log 12024 400 Not Found: /api/GroupObjectPermission/
+WARNING 2021-08-11 15:07:17,323 basehttp 12024 400 "GET /api/GroupObjectPermission/ HTTP/1.1" 404 28514
+INFO 2021-08-11 15:07:47,721 autoreload 12024 8084 E:\jfyunwei\jsb\auth_permission\urls.py changed, reloading.
+INFO 2021-08-11 15:07:49,480 autoreload 13624 3444 Watching for file changes with StatReloader
+INFO 2021-08-11 15:07:50,607 basehttp 13624 10872 "GET /api/groupObjectPermission/ HTTP/1.1" 200 2297
+INFO 2021-08-11 15:08:06,107 autoreload 13624 3444 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:08:07,863 autoreload 10092 14240 Watching for file changes with StatReloader
+INFO 2021-08-11 15:08:08,850 basehttp 10092 3508 "GET /api/groupObjectPermission/ HTTP/1.1" 200 8397
+INFO 2021-08-11 15:26:56,190 autoreload 10092 14240 E:\jfyunwei\jsb\auth_permission\views.py changed, reloading.
+INFO 2021-08-11 15:26:57,891 autoreload 13988 14188 Watching for file changes with StatReloader
+WARNING 2021-08-11 15:27:09,860 log 13988 10200 Forbidden: /api/userInfo/
+WARNING 2021-08-11 15:27:09,861 basehttp 13988 10200 "GET /api/userInfo/ HTTP/1.1" 403 49
+INFO 2021-08-11 15:27:56,725 basehttp 13988 13824 "GET /api/userInfo/ HTTP/1.1" 200 4998
+INFO 2021-08-11 15:32:00,797 autoreload 13988 14188 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:32:02,518 autoreload 13104 7228 Watching for file changes with StatReloader
+INFO 2021-08-11 15:32:10,228 basehttp 13104 10888 "GET /api/userInfo/112/ HTTP/1.1" 200 237
+INFO 2021-08-11 15:33:20,601 autoreload 13104 7228 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:33:22,525 autoreload 14296 14104 Watching for file changes with StatReloader
+INFO 2021-08-11 15:33:24,936 basehttp 14296 13080 "GET /api/userInfo/ HTTP/1.1" 200 4998
+INFO 2021-08-11 15:33:42,456 autoreload 14296 14104 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:33:44,334 autoreload 8888 5396 Watching for file changes with StatReloader
+INFO 2021-08-11 15:33:45,108 basehttp 8888 12612 "GET /api/userInfo/ HTTP/1.1" 200 4998
+INFO 2021-08-11 15:34:23,154 autoreload 8888 5396 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:34:24,992 autoreload 12196 4716 Watching for file changes with StatReloader
+INFO 2021-08-11 15:34:25,546 basehttp 12196 11544 "GET /api/userInfo/ HTTP/1.1" 200 6126
+INFO 2021-08-11 15:34:39,501 autoreload 12196 4716 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:34:41,301 autoreload 12880 13348 Watching for file changes with StatReloader
+INFO 2021-08-11 15:34:42,345 basehttp 12880 7548 "GET /api/userInfo/ HTTP/1.1" 200 8157
+INFO 2021-08-11 15:36:18,310 autoreload 12880 13348 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:36:20,009 autoreload 13532 6960 Watching for file changes with StatReloader
+INFO 2021-08-11 15:36:29,773 basehttp 13532 12736 "GET /api/getUserInfo/ HTTP/1.1" 200 10334
+INFO 2021-08-11 15:37:10,604 basehttp 13532 13360 "GET /api/getUserInfo/ HTTP/1.1" 200 10334
+INFO 2021-08-11 15:37:49,862 autoreload 13532 6960 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:37:51,641 autoreload 13992 2956 Watching for file changes with StatReloader
+INFO 2021-08-11 15:37:53,766 basehttp 13992 14216 "GET /api/getUserInfo/ HTTP/1.1" 200 13607
+INFO 2021-08-11 15:42:05,626 autoreload 13992 2956 E:\jfyunwei\jsb\auth_permission\serializers.py changed, reloading.
+INFO 2021-08-11 15:42:07,463 autoreload 14160 7180 Watching for file changes with StatReloader
+INFO 2021-08-11 15:42:12,587 basehttp 14160 12796 "GET /api/getL1Menu/ HTTP/1.1" 200 2257
+INFO 2021-08-11 15:42:12,639 basehttp 14160 14248 "GET /api/getL2Menu/?username=jsb HTTP/1.1" 200 1275
+INFO 2021-08-11 15:42:13,199 basehttp 14160 13380 "GET /api/getUserInfo/?page=1&limit=10 HTTP/1.1" 200 5942
+INFO 2021-08-11 15:42:13,304 basehttp 14160 12684 "GET /api/getGroups/?page=1 HTTP/1.1" 200 10993

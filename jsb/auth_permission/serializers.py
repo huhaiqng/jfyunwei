@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import UserInfo, L1Menu, L2Menu
 from django.contrib.auth.models import Group
+from guardian.models import UserObjectPermission, GroupObjectPermission
 
 
 # 获取单个用户信息
@@ -8,6 +9,7 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
         fields = '__all__'
+        depth = 1
 
 
 class GroupSerializer(serializers.ModelSerializer):
@@ -49,11 +51,10 @@ class UserInfoSerializer(serializers.ModelSerializer):
 
 # 查询用户
 class GetUserInfoSerializer(serializers.ModelSerializer):
-    groups = GroupSerializer(many=True)
-
     class Meta:
         model = UserInfo
         fields = '__all__'
+        depth = 3
 
 
 # 查询用户的主持信息
@@ -63,3 +64,19 @@ class GetUserHostedInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserInfo
         fields = ['username', 'groups', 'hosted', 'hosted_date']
+
+
+# 用户对象权限
+class UserObjectPermissionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserObjectPermission
+        fields = '__all__'
+        depth = 1
+
+
+# 组对象权限
+class GroupObjectPermissionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GroupObjectPermission
+        fields = '__all__'
+        depth = 1

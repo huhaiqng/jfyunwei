@@ -157,6 +157,7 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_PERMISSION_CLASSES': (
         'jsb.permissions.CustomObjectPermissions',
+        # 'rest_framework.permissions.DjangoObjectPermissions',
     ),
     'DEFAULT_FILTER_BACKENDS': (
         'django_filters.rest_framework.DjangoFilterBackend',
